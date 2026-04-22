@@ -1,0 +1,109 @@
+# ── Data Prep ─────────────────────────────────────────────────────────
+data_prep:
+  datasets:
+    - plugin: finance_qa
+      input_json: data/finance_qa/finance_agent_eval_dataset_v2.json
+      lmc_rubric: data/finance_qa/lmc_rubric.yml
+    - plugin: erp_qa
+      input_yaml: "data/erp_qa/lmc_ar_eval_tenant_2_2_gpt_v2 2.yaml"
+      tsv: "data/erp_qa/tsv_ar_eval_tenant_2_2_gpt_v2 2.tsv"
+      lmc_rubric: data/erp_qa/lmc_rubric.yml
+    - plugin: business_brief
+      input_csv: data/business_brief/ground_truth_business_briefs.csv
+      bb_rubric: data/business_brief/rubric_bb_baseline_03_19_2026.json
+  output: data/dataset.yaml # used by inference scripts as input
+
+# ─── Inference ───────────────────────────────────────────────────────────────
+## ── Inference defaults ───────────────────────────────────────────────────────
+inference:
+  shuffle: true        # shuffle questions before inference (--no-shuffle to disable)
+  retry_failed: true   # retry previously failed questions (--no-retry-failed to disable)
+
+## ── Shared ──────────────────────────────────────────────────────────────────
+shared:
+  output_dir: results/
+  run_id: null             # tag for this run; appended to output filenames (null = no suffix)
+  max_workers: 5
+  timeout: 300     # seconds per inference request (applies to both claude and openai)
+  system_instructions: |-
+    You are a finance assistant that handles three types of queries:
+
+    **ERP Q&A** — questions about your organisation's own operational and financial data (e.g. overdue balances, open invoices, vendor payments, accounts receivable, inventory). Use the ERP system via MCP tools to answer these.
+
+    **Finance Q&A** — questions about external companies, markets, or publicly available financial data (e.g. Apple's revenue, ExxonMobil's ESG rating, macroeconomic indicators, industry research). Use web search to answer these.
+
+    **Business Brief** — requests for a structured company analysis (e.g. "Business Brief of Apple Inc."). Produce a comprehensive brief using web search, with all seven sections in this exact order, each as a Heading 2 (##): Company Overview, Financial Health, Lines of Business, Competitive / Peer Analysis, News & Reputation, Sentiment Analysis, Strategic Moves. Every section must be present — do not omit any section even if data is limited. Every section must end with a dedicated 'Sources' block listing 2-4 named, dated sources (e.g. '10-K Annual Report FY2024', 'Company Investor Relations') and attribute key factual claims to specific filings or authoritative sources.
+
+    General rules:
+    - Never ask the user clarifying questions
+    - Always cite your sources: for ERP data state the entity and field queried; for web data include the source URL and date
+    - Anchor all figures to a specific reporting period or date
+    - When parameters are unspecified use sensible defaults: today's date as the as-of date, all available results if no count is given, company USMF for ERP queries if no company is specified
+    - If you cannot find the right data after reasonable attempts, give your best answer based on what you did find and state your assumptions clearly
+
+## ── OpenAI ──────────────────────────────────────────────────────────────────
+openai:
+  model: gpt-5.2
+  max_tool_calls: 20
+
+## ── Anthropic / Claude ──────────────────────────────────────────────────────
+claude:
+  # model: claude-sonnet-4-5
+  model: claude-haiku-4-5
+  # model: claude-opus-4-6
+  max_turns: 15
+
+# ── Evaluation ──────────────────────────────────────────────────────────────
+evaluation:
+  judge_deployment: gpt-5.2
+  reasoning_effort: low  # low | medium | high (for OpenAI reasoning models)
+  threads: 5
+  tag_evaluator_instructions: |
+    Evaluate a financial analysis response against the provided assertions.
+
+    Score each assertion on a scale of 0.0 to 1.0:
+    - 1.0  — the assertion is fully satisfied
+    - 0.75 — mostly satisfied with minor gaps
+    - 0.5  — partially satisfied (roughly half the criterion is met)
+    - 0.25 — attempted but largely not satisfied
+    - 0.0  — clearly not satisfied
+
+    Use intermediate scores when an assertion is partially met — for example, when most
+    but not all required elements are present, or when the evidence partially supports the claim.
+
+    IMPORTANT: If an assertion is clearly not applicable to the query or response,
+    return null for that assertion's score and explain why in the reasoning field.
+    Do NOT return 0 for inapplicable assertions — a score of 0 means the assertion was
+    verified as failed, while null means it could not be meaningfully evaluated.
+
+    Examples of inapplicable assertions:
+    - A recency assertion (e.g. "response uses up-to-date figures") for a question
+      whose answer is inherently timeless.
+    - A citation assertion requiring a specific entity type (e.g. "cites a customer or
+      vendor contract ID") when the query is about data that has no such IDs — for
+      example, aged balance summaries or ledger totals.
+    - A sources assertion when the response is based on structured data rather than
+      web sources.
+  groundedness_evaluator_instructions: |
+    Evaluate whether a financial response is grounded in the provided source content.
+
+    Score each assertion on a scale of 0.0 to 1.0:
+    - 1.0  — all key claims are well-supported by the sources
+    - 0.75 — most claims are supported; minor peripheral details are unsupported
+    - 0.5  — core claims are supported but several secondary claims are not
+    - 0.25 — only a few claims are supported; most are unsupported or unverifiable
+    - 0.0  — no meaningful support found in the sources
+
+    If ANY single source supports a claim in the response, that claim is considered grounded.
+
+    IMPORTANT: If the source content is clearly not the actual page the agent retrieved
+    (e.g. a cookie consent wall, "access denied" page, login screen, or otherwise irrelevant
+    content), return null for every assertion score and explain why in the reasoning field.
+    Do NOT return 0 — a score of 0 means the claim was verified as ungrounded, while null
+    means it was impossible to verify.
+  bb_accuracy_assertions:
+    - "key financial metrics (revenue, net income, earnings per share, market cap) are consistent with the ground truth"
+    - "company overview facts (headquarters, CEO, founding year, employee count, business model) are accurate relative to the ground truth"
+    - "business segment descriptions and revenue breakdowns are consistent with the ground truth"
+    - "competitive landscape, peer set, and market positioning are consistent with the ground truth"
+    - "recent strategic moves, M&A activity, and key news events are consistent with the ground truth"

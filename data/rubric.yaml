@@ -1,0 +1,82 @@
+# Common evaluation rubric — applies to all plugins (erp_qa, finance_qa, business_brief)
+# Plugin-specific rubrics extend these with additional assertions for their source types and formats.
+
+- tag: relevance
+  metric: true
+  assertions:
+  - text: response directly and accurately addresses the user's query without deviating
+      to tangential or irrelevant information
+    level: critical
+  - text: response provides specific, sufficient information that satisfies the user's
+      need — not vague, incomplete, or non-committal
+    level: critical
+
+- tag: groundedness
+  metric: true
+  assertions:
+  - text: the response's key factual claims (financial figures, statistics, named facts)
+      are substantially supported by the sources cited — minor peripheral details or
+      reasonable inferences from cited data are acceptable
+    level: critical
+  - text: the response does not present significant claims as established fact when
+      the cited sources do not state or clearly imply them
+    level: critical
+
+- tag: structure
+  metric: true
+  assertions:
+  - text: 'response presents the most relevant key information first: a concise summary
+      directly answering the question followed by detail only as needed'
+    level: critical
+  - text: response is well-structured and organized (uses clear hierarchy via headings,
+      paragraphs, lists, tables, etc., as appropriate)
+    level: critical
+
+- tag: depth
+  metric: true
+  assertions:
+  - text: response ensures coverage and sufficiently answers the user's query by including
+      all essential information; if data is absent or unavailable, the absence is
+      explicitly acknowledged
+    level: critical
+  - text: 'response is transparent about gaps: if essential information is missing,
+      the user is clearly informed of the gap or uncertainty'
+    level: critical
+  - text: every claim maps to a number, date, or named source; approximate qualifiers
+      are used if precise values are unknown
+    level: critical
+  - text: response avoids U.S.-centric bias when the user asks for global context
+    level: critical
+
+- tag: recency
+  metric: true
+  assertions:
+  - text: response anchors time-sensitive data to specific dates or periods (e.g.,
+      'as of Nov 14', 'FY2024') rather than relative terms like 'currently' or
+      'recently'
+    level: critical
+  - text: response includes the date or reporting period for time-sensitive figures,
+      news, or market data
+    level: critical
+  - text: response aligns the recency of the data with the user's intent (e.g., latest
+      available data for current-state queries vs. historical data for trend analysis)
+    level: critical
+
+- tag: citations
+  metric: true
+  assertions:
+  - text: response cites the sources from which the information was obtained (e.g.,
+      ERP entity references, external URLs, or named documents as appropriate to the
+      query type)
+    level: critical
+
+- tag: clarity
+  metric: true
+  assertions:
+  - text: response defines uncommon or context-specific acronyms and jargon on first
+      use; standard finance and accounting abbreviations (e.g. FY, YoY, EPS, EBITDA,
+      GAAP, CAGR, R&D, 10-K, ERP) need not be defined for a finance professional audience
+    level: critical
+  - text: response uses consistent terminology — the same concept is referred to by
+      the same name throughout
+    level: critical

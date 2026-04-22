@@ -1,0 +1,133 @@
+# Minimal fixture dataset for unit and integration tests.
+# 2-3 entries per plugin (erp_qa, finance_qa, business_brief).
+# Uses fictional data only — no real ERP tenant data.
+
+- query: What is the total outstanding balance on vendor account V-1042?
+  plugin: erp_qa
+  segment: accounts payable
+  scenario: vendor balance lookup
+  tags:
+    - tag: accuracy
+      assertions:
+        - text: response states the outstanding balance for vendor V-1042
+        - text: response includes the currency of the balance
+    - tag: relevance
+      metric: true
+      assertions:
+        - text: response directly and accurately addresses the user's query without deviating to tangential or irrelevant information
+          level: critical
+        - text: response provides specific, sufficient information that satisfies the user's need — not vague, incomplete, or non-committal
+          level: critical
+    - tag: depth
+      metric: true
+      assertions:
+        - text: response ensures coverage and sufficiently answers the user's query by including all essential information; if data is absent or unavailable, the absence is explicitly acknowledged
+          level: critical
+        - text: every claim maps to a number, date, or named source; approximate qualifiers are used if precise values are unknown
+          level: critical
+    - tag: citations
+      metric: true
+      assertions:
+        - text: response cites the ERP data source or record used to retrieve the balance
+          level: critical
+
+- query: List all open purchase orders over $10,000 created in the last 30 days.
+  plugin: erp_qa
+  segment: accounts payable
+  scenario: purchase order query
+  tags:
+    - tag: accuracy
+      assertions:
+        - text: response lists purchase orders with amounts over $10,000 from the last 30 days
+        - text: each listed PO includes the PO number, vendor, amount, and creation date
+    - tag: relevance
+      metric: true
+      assertions:
+        - text: response directly and accurately addresses the user's query without deviating to tangential or irrelevant information
+          level: critical
+    - tag: depth
+      metric: true
+      assertions:
+        - text: response ensures coverage and sufficiently answers the user's query by including all essential information; if data is absent or unavailable, the absence is explicitly acknowledged
+          level: critical
+
+- query: What is the current cash conversion cycle for Contoso Ltd?
+  plugin: finance_qa
+  segment: financial performance & financial health
+  tags:
+    - tag: accuracy
+      assertions:
+        - text: response states the cash conversion cycle for Contoso Ltd
+        - text: response includes the components (DIO, DSO, DPO) or explains the calculation
+    - tag: relevance
+      metric: true
+      assertions:
+        - text: response directly and accurately addresses the user's query without deviating to tangential or irrelevant information
+          level: critical
+        - text: response provides specific, sufficient information that satisfies the user's need — not vague, incomplete, or non-committal
+          level: critical
+    - tag: groundedness
+      metric: true
+      assertions:
+        - text: the response's key factual claims (financial figures, statistics, named facts) are substantially supported by the sources cited
+          level: critical
+    - tag: financialperformance&financialhealth_depth
+      metric: true
+      assertions:
+        - text: response covers revenue, profitability, and working capital metrics relevant to the query
+          level: critical
+    - tag: citations
+      metric: true
+      assertions:
+        - text: response links financial figures to their source documents
+          level: critical
+
+- query: How has Contoso Ltd's revenue trended over the past three fiscal years?
+  plugin: finance_qa
+  segment: financial performance & financial health
+  tags:
+    - tag: accuracy
+      assertions:
+        - text: response provides revenue figures for at least two of the last three fiscal years
+        - text: response describes the trend direction (growth, decline, stable)
+    - tag: relevance
+      metric: true
+      assertions:
+        - text: response directly and accurately addresses the user's query without deviating to tangential or irrelevant information
+          level: critical
+    - tag: recency
+      metric: true
+      assertions:
+        - text: response anchors time-sensitive data to specific dates or periods (e.g., 'FY2024') rather than relative terms like 'currently'
+          level: critical
+    - tag: groundedness
+      metric: true
+      assertions:
+        - text: the response's key factual claims (financial figures, statistics, named facts) are substantially supported by the sources cited
+          level: critical
+
+- query: Business Brief of Acme Corp
+  plugin: business_brief
+  segment: business brief
+  tags:
+    - tag: accuracy
+      assertions:
+        - text: brief covers Acme Corp's core business and key financials
+        - text: brief includes recent news or developments
+    - tag: structure
+      metric: true
+      assertions:
+        - text: response presents the most relevant key information first — a concise summary directly answering the question followed by detail only as needed
+          level: critical
+        - text: response is well-structured and organized (uses clear hierarchy via headings, paragraphs, lists, tables, etc., as appropriate)
+          level: critical
+    - tag: depth
+      metric: true
+      assertions:
+        - text: response ensures coverage and sufficiently answers the user's query by including all essential information; if data is absent or unavailable, the absence is explicitly acknowledged
+          level: critical
+    - tag: groundedness
+      metric: true
+      assertions:
+        - text: the response's key factual claims (financial figures, statistics, named facts) are substantially supported by the sources cited
+          level: critical

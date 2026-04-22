@@ -1,0 +1,57 @@
+{
+  "erp_qa": [
+    {
+      "sequence_index": 0,
+      "tool": "erp_query",
+      "input": {"query": "SELECT * FROM VendorBalances WHERE VendorId = 'V-1042'"},
+      "output": "VendorId: V-1042, VendorName: Fabrikam Inc., OutstandingBalance: 45230.00, Currency: USD, LastPaymentDate: 2026-03-15",
+      "success": true
+    },
+    {
+      "sequence_index": 1,
+      "tool": "erp_query",
+      "input": {"query": "SELECT PurchaseOrderId, VendorName, Amount, CreatedDate FROM PurchaseOrders WHERE Amount > 10000 AND CreatedDate >= '2026-03-22'"},
+      "output": "PO-2241, Fabrikam Inc., 12500.00, 2026-03-25\nPO-2267, Northwind Traders, 18750.00, 2026-04-01\nPO-2298, Contoso Supplies, 22100.00, 2026-04-10",
+      "success": true
+    }
+  ],
+  "finance_qa": [
+    {
+      "sequence_index": 0,
+      "tool": "WebSearch",
+      "input": {"query": "Contoso Ltd cash conversion cycle 2025 annual report"},
+      "output": "Contoso Ltd reported a cash conversion cycle of 42 days in FY2025, down from 51 days in FY2024. DIO: 38 days, DSO: 29 days, DPO: 25 days. Source: Contoso Annual Report FY2025, page 34.",
+      "success": true
+    },
+    {
+      "sequence_index": 1,
+      "tool": "WebFetch",
+      "input": {"url": "https://example-finance-data.com/contoso-annual-report-2025"},
+      "output": "Contoso Ltd FY2025 Annual Report\nRevenue: $4.2B (+8% YoY)\nOperating Income: $680M (+12% YoY)\nFree Cash Flow: $520M\nCash Conversion Cycle: 42 days",
+      "success": true
+    },
+    {
+      "sequence_index": 2,
+      "tool": "WebSearch",
+      "input": {"query": "Contoso Ltd revenue FY2022 FY2023 FY2024 annual report"},
+      "output": "Contoso Ltd revenue history: FY2022 $3.4B, FY2023 $3.7B (+9%), FY2024 $3.9B (+5%). Company is showing consistent growth driven by enterprise software segment.",
+      "success": true
+    }
+  ],
+  "business_brief": [
+    {
+      "sequence_index": 0,
+      "tool": "WebSearch",
+      "input": {"query": "Acme Corp company overview financials 2025"},
+      "output": "Acme Corp is a mid-market industrial manufacturer headquartered in Detroit, MI. FY2024 revenue: $890M. Key products: precision components for automotive and aerospace. Recent news: Acquired MicroParts Ltd in Q1 2025 for $120M.",
+      "success": true
+    },
+    {
+      "sequence_index": 1,
+      "tool": "WebFetch",
+      "input": {"url": "https://example-finance-data.com/acme-corp-profile"},
+      "output": "Acme Corp Profile\nFounded: 1985 | HQ: Detroit, MI\nRevenue FY2024: $890M | Employees: 4,200\nMarket Cap: ~$1.1B\nKey segments: Automotive Components (60%), Aerospace (40%)",
+      "success": true
+    }
+  ]
+}
