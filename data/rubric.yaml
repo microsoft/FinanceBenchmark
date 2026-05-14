@@ -1,0 +1,49 @@
+# Common evaluation rubric — applies to all plugins (erp_qa, finance_qa, business_brief)
+# Plugin-specific rubrics extend these with additional assertions for their source types and formats.
+
+# - tag: citations
+#   metric: true
+#   assertions:
+#   - text: response cites the sources from which the information was obtained (e.g., ERP entity references, external URLs, or named documents as appropriate to the query type)
+#     level: critical
+# - tag: citations
+#   metric: true
+#   assertions:
+
+- tag: clarity
+  metric: true
+  assertions:
+  - text: response defines uncommon or context-specific acronyms and jargon on first use; standard finance and accounting abbreviations (e.g. FY, YoY, EPS, EBITDA, GAAP, CAGR, R&D, 10-K, ERP) need not be defined for a finance professional audience, neither do we need to define abbreviations for entities in the ERP (e.g. customer or vendor IDs) if they are used in a way that makes it clear they are entity references
+    level: critical
+  - text: response uses consistent terminology — the same concept is referred to by the same name throughout
+    level: critical
+
+- tag: groundedness
+  metric: true
+  assertions:
+  - text: the response's key factual claims (financial figures, statistics, named facts) are substantially supported by the sources cited — minor peripheral details or reasonable inferences from cited data are acceptable
+    level: critical
+  - text: the response does not present significant claims as established fact when the cited sources do not state or clearly imply them
+    level: critical
+
+# - tag: recency
+#   metric: true
+#   assertions:
+#   - text: response aligns the recency of the data with the user's intent (e.g., latest available data for current-state queries vs. historical data for trend analysis)
+#     level: critical
+
+- tag: relevance
+  metric: true
+  assertions:
+  - text: response directly and accurately addresses the user's query without deviating to tangential or irrelevant information
+    level: critical
+  - text: response provides specific, sufficient information that satisfies the user's need — not vague, incomplete, or non-committal; if data is genuinely absent or unavailable, clearly communicating the limitation satisfies this assertion
+    level: critical
+
+- tag: structure
+  metric: true
+  assertions:
+  - text: 'response presents the most relevant key information first: a disclaimer about data unavailability (if applicable), then directly answers the question before expanding into detail. The answer-first framing may take any form — a sentence, a short paragraph, a bullet list, or a table header — and should not be penalised for not using a specific format such as bullets. It is acceptable to begin the response with a brief statement like "Perfect!" or "Good!", or similar, before proceeding to answer the question.'
+    level: critical
+  - text: response is well-structured and organized (uses clear hierarchy via headings, paragraphs, lists, tables, etc., as appropriate)
+    level: critical
