@@ -1,0 +1,1001 @@
+CustomerAccount,OrganizationName,CustomerGroupId,CurrencyCode,PaymentTermsId,CreditMax,CreditRating,AddressStreet,AddressCity,AddressState,AddressZipCode,AddressCountryRegionId,PrimaryContactPersonFirstName,PrimaryContactPhone,PrimaryContactEmail,SalesTaxGroup,CustomerHoldStatus
+SYNCUS-0001,A. Datum Corporation,10,USD,COD,25000,Good,6416 Cedar St,Pittsburgh,PA,25269,USA,Maria,412-555-0109,maria@www.adatum.com,No-Tax,Open
+SYNCUS-0002,Adventure Works Cycles,10,USD,COD,100000,Fair,3113 Cherry St,Los Angeles,CA,80607,USA,Rachel,213-555-0149,rachel@www.adventure-works.com,No-Tax,Open
+SYNCUS-0003,Alpine Ski House,30,USD,Net30,250000,Good,1480 Chestnut St,Denver,CO,85397,USA,Angela,303-555-0125,angela@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0004,Blue Yonder Airlines,90,USD,Net45,10000,Good,5061 Madison Ave,Indianapolis,IN,11905,USA,Donna,317-555-0157,donna@www.blueyonderairlines.com,No-Tax,Open
+SYNCUS-0005,City Power & Light,80,USD,Net15,50000,Excellent,2279 Bridge St,Denver,CO,14428,USA,Justin,303-555-0190,justin@www.cpandl.com,No-Tax,Open
+SYNCUS-0006,Coho Vineyard,30,USD,COD,10000,Good,2638 Cedar St,Fresno,CA,73730,USA,Jacob,559-555-0161,jacob@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0007,Coho Winery,20,USD,COD,25000,Excellent,4830 Cedar St,Jacksonville,FL,11395,USA,Jonathan,904-555-0157,jonathan@www.cohowinery.com,No-Tax,Open
+SYNCUS-0008,Coho Vineyard & Winery,20,USD,Net15,10000,Excellent,9460 Second Ave,San Diego,CA,38993,USA,Jack,619-555-0127,jack@www.cohovineyardandwinery.com,No-Tax,Open
+SYNCUS-0009,"Contoso, Ltd.",20,USD,COD,50000,Poor,1233 Pleasant St,Seattle,WA,82054,USA,Mark,206-555-0115,mark@www.contoso.com,No-Tax,Open
+SYNCUS-0010,Contoso Pharmaceuticals,20,USD,Net45,10000,Poor,9167 Park Ave,Houston,TX,61215,USA,David,713-555-0100,david@www.contoso.com,No-Tax,Open
+SYNCUS-0011,Consolidated Messenger,80,USD,Net30,25000,Fair,6447 Broad St,Memphis,TN,63679,USA,Alexander,901-555-0166,alexander@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0012,"Fabrikam, Inc.",30,USD,COD,25000,Poor,4000 Franklin St,Albuquerque,NM,66283,USA,Jacob,505-555-0169,jacob@www.fabrikam.com,No-Tax,Open
+SYNCUS-0013,Fourth Coffee,10,USD,Net30,50000,Good,4150 Spring St,New York,NY,92223,USA,Margaret,212-555-0111,margaret@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0014,Graphic Design Institute,80,USD,Net15,500000,Good,6140 Jefferson St,Minneapolis,MN,42828,USA,Betty,612-555-0132,betty@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0015,Humongous Insurance,90,USD,Net15,250000,Fair,8932 School St,Louisville,KY,69357,USA,Emily,502-555-0152,emily@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0016,"Litware, Inc.",30,USD,Net15,250000,Good,7000 River Rd,Chicago,IL,64700,USA,Joseph,312-555-0115,joseph@www.litwareinc.com,No-Tax,Open
+SYNCUS-0017,Lucerne Publishing,80,USD,Net15,250000,Fair,8299 South St,Kansas City,MO,21348,USA,Patrick,816-555-0182,patrick@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0018,Margie's Travel,30,USD,Net15,50000,Excellent,5186 Grove St,Las Vegas,NV,64832,USA,Patricia,702-555-0184,patricia@www.margiestravel.com,No-Tax,Open
+SYNCUS-0019,Northwind Traders,80,USD,Net45,500000,Excellent,4216 Center St,San Jose,CA,55580,USA,Joseph,408-555-0101,joseph@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0020,"Proseware, Inc.",90,USD,COD,250000,Excellent,7679 Cedar St,Omaha,NE,25846,USA,Jennifer,402-555-0113,jennifer@www.proseware.com,No-Tax,Open
+SYNCUS-0021,School of Fine Art,80,USD,Net45,500000,Fair,9755 Pleasant St,Memphis,TN,24017,USA,Amanda,901-555-0104,amanda@www.fineartschool.net,No-Tax,Open
+SYNCUS-0022,Southridge Video,30,USD,Net15,100000,Good,5009 Grove St,Pittsburgh,PA,52438,USA,Christopher,412-555-0183,christopher@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0023,Tailspin Toys,20,USD,Net45,25000,Excellent,9302 Cedar St,Charlotte,NC,12764,USA,Aaron,704-555-0159,aaron@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0024,Trey Research,30,USD,Net45,500000,Excellent,2991 Jefferson St,Columbus,OH,71354,USA,Jerry,614-555-0182,jerry@www.treyresearch.net,No-Tax,Open
+SYNCUS-0025,The Phone Company,80,USD,Net45,250000,Poor,4112 Summit Ave,Houston,TX,92849,USA,Aaron,713-555-0176,aaron@www.thephone-company.com,No-Tax,Open
+SYNCUS-0026,Wide World Importers,20,USD,Net15,100000,Excellent,7285 Liberty St,Phoenix,AZ,95518,USA,Carol,602-555-0155,carol@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0027,Wingtip Toys,80,USD,COD,50000,Fair,5013 Walnut St,Memphis,TN,10984,USA,Eric,901-555-0115,eric@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0028,Woodgrove Bank,90,USD,Net15,10000,Fair,7046 Second Ave,Pittsburgh,PA,29172,USA,Samantha,412-555-0110,samantha@www.woodgrovebank.com,No-Tax,Open
+SYNCUS-0029,A. Datum South,80,USD,COD,250000,Good,8274 Center St,Louisville,KY,36190,USA,Raymond,502-555-0113,raymond@example.com,No-Tax,Open
+SYNCUS-0030,Adventure Works South,90,USD,Net45,50000,Fair,7920 Elm St,Fort Worth,TX,48146,USA,Dorothy,817-555-0113,dorothy@example.com,No-Tax,Open
+SYNCUS-0031,Alpine Ski House South,10,USD,Net45,500000,Poor,6135 Market St,Boston,MA,81710,USA,Sarah,617-555-0154,sarah@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0032,Blue Yonder South,20,USD,Net30,500000,Excellent,9558 Bridge St,Atlanta,GA,80408,USA,Steven,404-555-0119,steven@example.com,No-Tax,Open
+SYNCUS-0033,City Power & Light South,90,USD,Net30,500000,Excellent,7366 Cedar St,Boston,MA,26504,USA,Brandon,617-555-0119,brandon@www.cpandl.com,No-Tax,Open
+SYNCUS-0034,Coho Vineyard South,80,USD,Net30,100000,Good,5472 Water St,Albuquerque,NM,49398,USA,Samantha,505-555-0118,samantha@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0035,Coho Winery South,30,USD,COD,500000,Poor,5457 Jackson St,Los Angeles,CA,38572,USA,Rebecca,213-555-0198,rebecca@www.cohowinery.com,No-Tax,Open
+SYNCUS-0036,Coho Vineyard & Winery South,10,USD,Net15,250000,Poor,4069 Church St,Milwaukee,WI,97479,USA,Matthew,414-555-0197,matthew@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0037,Contoso South,90,USD,Net30,25000,Poor,3335 River Rd,Miami,FL,29867,USA,Nancy,305-555-0105,nancy@example.com,No-Tax,Open
+SYNCUS-0038,Contoso Pharmaceuticals South,30,USD,Net15,100000,Fair,3114 Madison Ave,Raleigh,NC,16840,USA,Michael,919-555-0161,michael@www.contoso.com,No-Tax,Open
+SYNCUS-0039,Consolidated Messenger South,30,USD,Net15,10000,Good,5367 Lincoln Ave,New York,NY,92619,USA,Brian,212-555-0192,brian@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0040,Fabrikam South,30,USD,Net30,500000,Fair,8841 River Rd,Las Vegas,NV,45678,USA,Sarah,702-555-0115,sarah@example.com,No-Tax,Open
+SYNCUS-0041,Fourth Coffee South,90,USD,Net30,25000,Fair,6807 Summit Ave,Baltimore,MD,79122,USA,James,410-555-0161,james@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0042,Graphic Design Institute South,80,USD,COD,10000,Fair,4257 Walnut St,Minneapolis,MN,86455,USA,Sharon,612-555-0161,sharon@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0043,Humongous Insurance South,80,USD,Net45,100000,Fair,5417 Liberty St,Cleveland,OH,24250,USA,Kimberly,216-555-0159,kimberly@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0044,Litware South,20,USD,Net30,500000,Excellent,5519 Market St,Phoenix,AZ,61743,USA,Brenda,602-555-0175,brenda@example.com,No-Tax,Open
+SYNCUS-0045,Lucerne Publishing South,30,USD,Net30,25000,Good,3980 Lake St,Miami,FL,10699,USA,Amy,305-555-0157,amy@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0046,Margie's Travel South,30,USD,Net30,100000,Poor,8800 Bridge St,Atlanta,GA,28218,USA,Frank,404-555-0134,frank@www.margiestravel.com,No-Tax,Open
+SYNCUS-0047,Northwind Traders South,30,USD,Net30,100000,Fair,5713 Broad St,Memphis,TN,92731,USA,Frank,901-555-0180,frank@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0048,Proseware South,10,USD,Net15,500000,Fair,7820 Grove St,San Francisco,CA,19013,USA,Margaret,415-555-0183,margaret@example.com,No-Tax,Open
+SYNCUS-0049,School of Fine Art South,80,USD,Net30,250000,Poor,4541 Bridge St,Chicago,IL,92921,USA,Rebecca,312-555-0167,rebecca@www.fineartschool.net,No-Tax,Open
+SYNCUS-0050,Southridge Video South,80,USD,COD,500000,Good,7790 Market St,Seattle,WA,19711,USA,Susan,206-555-0141,susan@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0051,Tailspin Toys South,30,USD,Net30,50000,Excellent,7363 Elm St,Raleigh,NC,63126,USA,Stephanie,919-555-0198,stephanie@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0052,Trey Research South,90,USD,Net45,25000,Excellent,7647 Main St,San Francisco,CA,78696,USA,Diane,415-555-0195,diane@www.treyresearch.net,No-Tax,Open
+SYNCUS-0053,The Phone Company South,10,USD,Net30,250000,Fair,8306 Summit Ave,Oklahoma City,OK,24245,USA,Anthony,405-555-0145,anthony@www.thephone-company.com,No-Tax,Open
+SYNCUS-0054,Wide World Importers South,20,USD,Net30,100000,Fair,2103 Walnut St,Miami,FL,43579,USA,Betty,305-555-0106,betty@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0055,Wingtip Toys South,10,USD,Net15,250000,Fair,2402 Main St,Indianapolis,IN,20065,USA,Katherine,317-555-0193,katherine@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0056,Woodgrove South,10,USD,Net30,10000,Excellent,8138 Monroe St,Omaha,NE,88079,USA,Stephen,402-555-0154,stephen@example.com,No-Tax,Open
+SYNCUS-0057,A. Datum East,30,USD,COD,10000,Good,8550 Chestnut St,Denver,CO,61509,USA,Andrew,303-555-0150,andrew@example.com,No-Tax,Open
+SYNCUS-0058,Adventure Works East,20,USD,Net15,25000,Good,9089 Main St,Louisville,KY,69087,USA,Justin,502-555-0149,justin@example.com,No-Tax,Open
+SYNCUS-0059,Alpine Ski House East,20,USD,Net45,25000,Excellent,9272 Madison Ave,Denver,CO,31706,USA,Aaron,303-555-0161,aaron@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0060,Blue Yonder East,30,USD,COD,10000,Fair,1343 Spring St,Dallas,TX,77556,USA,Shirley,214-555-0113,shirley@example.com,No-Tax,Open
+SYNCUS-0061,City Power & Light East,90,USD,Net45,100000,Excellent,7131 Oak St,Las Vegas,NV,14140,USA,Jack,702-555-0146,jack@www.cpandl.com,No-Tax,Open
+SYNCUS-0062,Coho Vineyard East,10,USD,Net15,10000,Good,5172 Grove St,Jacksonville,FL,52705,USA,Brandon,904-555-0123,brandon@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0063,Coho Winery East,20,USD,Net45,10000,Good,4154 Church St,Louisville,KY,21314,USA,James,502-555-0128,james@www.cohowinery.com,No-Tax,Open
+SYNCUS-0064,Coho Vineyard & Winery East,90,USD,Net15,10000,Good,9735 Spring St,San Diego,CA,73636,USA,Samuel,619-555-0119,samuel@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0065,Contoso East,30,USD,Net30,100000,Fair,9288 Lincoln Ave,Austin,TX,97437,USA,Carolyn,512-555-0130,carolyn@example.com,No-Tax,Open
+SYNCUS-0066,Contoso Pharmaceuticals East,20,USD,Net15,500000,Fair,6952 Center St,Philadelphia,PA,84382,USA,Matthew,215-555-0108,matthew@www.contoso.com,No-Tax,Open
+SYNCUS-0067,Consolidated Messenger East,80,USD,Net45,250000,Excellent,6952 Adams St,Sacramento,CA,76912,USA,Sarah,916-555-0111,sarah@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0068,Fabrikam East,10,USD,Net30,250000,Fair,8719 Market St,Tucson,AZ,83071,USA,Margaret,520-555-0134,margaret@example.com,No-Tax,Open
+SYNCUS-0069,Fourth Coffee East,30,USD,Net30,500000,Excellent,5420 Liberty St,Philadelphia,PA,85040,USA,Kenneth,215-555-0110,kenneth@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0070,Graphic Design Institute East,20,USD,COD,10000,Poor,9869 Mill St,Fort Worth,TX,54341,USA,Joshua,817-555-0161,joshua@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0071,Humongous Insurance East,80,USD,Net45,100000,Good,8995 Jackson St,Miami,FL,43577,USA,Stephen,305-555-0188,stephen@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0072,Litware East,80,USD,Net15,250000,Fair,2413 Church St,Kansas City,MO,13193,USA,Stephen,816-555-0163,stephen@example.com,No-Tax,Open
+SYNCUS-0073,Lucerne Publishing East,20,USD,COD,500000,Poor,8478 Washington St,Denver,CO,84791,USA,Angela,303-555-0130,angela@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0074,Margie's Travel East,10,USD,Net30,25000,Poor,6629 Hill St,Fort Worth,TX,12178,USA,Aaron,817-555-0199,aaron@www.margiestravel.com,No-Tax,Open
+SYNCUS-0075,Northwind Traders East,20,USD,Net15,500000,Poor,7667 Bridge St,San Antonio,TX,56423,USA,Margaret,210-555-0115,margaret@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0076,Proseware East,90,USD,Net45,100000,Good,9194 Spring St,Indianapolis,IN,97937,USA,Ryan,317-555-0100,ryan@example.com,No-Tax,Open
+SYNCUS-0077,School of Fine Art East,90,USD,Net15,25000,Good,7944 South St,Fresno,CA,10522,USA,Patrick,559-555-0170,patrick@www.fineartschool.net,No-Tax,Open
+SYNCUS-0078,Southridge Video East,20,USD,Net45,50000,Excellent,9748 Adams St,New York,NY,34460,USA,Catherine,212-555-0157,catherine@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0079,Tailspin Toys East,20,USD,Net30,250000,Good,8772 Spring St,San Diego,CA,15713,USA,Andrew,619-555-0193,andrew@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0080,Trey Research East,20,USD,Net30,250000,Good,3878 Maple St,San Diego,CA,23666,USA,George,619-555-0195,george@www.treyresearch.net,No-Tax,Open
+SYNCUS-0081,The Phone Company East,90,USD,COD,250000,Good,1591 Washington St,Baltimore,MD,87360,USA,Diane,410-555-0171,diane@www.thephone-company.com,No-Tax,Open
+SYNCUS-0082,Wide World Importers East,90,USD,Net15,10000,Good,3508 Washington St,Oklahoma City,OK,85206,USA,George,405-555-0164,george@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0083,Wingtip Toys East,10,USD,Net15,10000,Excellent,4776 Maple St,Cleveland,OH,97064,USA,Frank,216-555-0131,frank@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0084,Woodgrove East,20,USD,Net15,500000,Fair,4649 Spring St,Kansas City,MO,11731,USA,Patrick,816-555-0105,patrick@example.com,No-Tax,Open
+SYNCUS-0085,A. Datum West,10,USD,COD,500000,Good,4262 Market St,Pittsburgh,PA,80840,USA,Shirley,412-555-0167,shirley@example.com,No-Tax,Open
+SYNCUS-0086,Adventure Works West,90,USD,COD,25000,Good,3555 High St,Charlotte,NC,92260,USA,Eric,704-555-0194,eric@example.com,No-Tax,Open
+SYNCUS-0087,Alpine Ski House West,90,USD,Net15,500000,Excellent,5537 Lake St,Philadelphia,PA,30706,USA,Patrick,215-555-0144,patrick@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0088,Blue Yonder West,20,USD,COD,10000,Good,1739 Adams St,Cleveland,OH,74387,USA,Matthew,216-555-0138,matthew@example.com,No-Tax,Open
+SYNCUS-0089,City Power & Light West,80,USD,Net45,100000,Excellent,1366 Church St,Dallas,TX,30879,USA,Janet,214-555-0145,janet@www.cpandl.com,No-Tax,Open
+SYNCUS-0090,Coho Vineyard West,10,USD,Net15,500000,Poor,4804 Hill St,San Francisco,CA,24749,USA,Justin,415-555-0160,justin@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0091,Coho Winery West,80,USD,Net45,250000,Poor,1961 Park Ave,Portland,OR,86625,USA,Donna,503-555-0136,donna@www.cohowinery.com,No-Tax,Open
+SYNCUS-0092,Coho Vineyard & Winery West,20,USD,COD,10000,Good,2140 High St,Los Angeles,CA,22774,USA,Samantha,213-555-0138,samantha@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0093,Contoso West,30,USD,Net15,50000,Poor,9217 School St,Fresno,CA,16325,USA,Kenneth,559-555-0180,kenneth@example.com,No-Tax,Open
+SYNCUS-0094,Contoso Pharmaceuticals West,80,USD,Net45,500000,Good,5723 Spring St,Miami,FL,50267,USA,Edward,305-555-0107,edward@www.contoso.com,No-Tax,Open
+SYNCUS-0095,Consolidated Messenger West,30,USD,Net45,250000,Fair,1720 Chestnut St,Pittsburgh,PA,58467,USA,Betty,412-555-0162,betty@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0096,Fabrikam West,20,USD,COD,100000,Fair,9595 Hill St,Miami,FL,12196,USA,Amy,305-555-0139,amy@example.com,No-Tax,Open
+SYNCUS-0097,Fourth Coffee West,10,USD,Net30,50000,Excellent,3922 Church St,Memphis,TN,48561,USA,Ashley,901-555-0161,ashley@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0098,Graphic Design Institute West,30,USD,Net15,500000,Good,2170 South St,Sacramento,CA,75815,USA,Nancy,916-555-0156,nancy@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0099,Humongous Insurance West,20,USD,Net30,100000,Fair,7130 Monroe St,Sacramento,CA,71381,USA,Brandon,916-555-0188,brandon@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0100,Litware West,10,USD,COD,50000,Fair,9685 Center St,Tucson,AZ,88001,USA,Kenneth,520-555-0100,kenneth@example.com,No-Tax,Open
+SYNCUS-0101,Lucerne Publishing West,90,USD,COD,10000,Fair,1523 Chestnut St,Oklahoma City,OK,67130,USA,Thomas,405-555-0132,thomas@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0102,Margie's Travel West,90,USD,COD,100000,Poor,5290 Elm St,Jacksonville,FL,63881,USA,Daniel,904-555-0101,daniel@www.margiestravel.com,No-Tax,Open
+SYNCUS-0103,Northwind Traders West,10,USD,Net45,250000,Good,4236 Monroe St,Jacksonville,FL,47677,USA,Kenneth,904-555-0116,kenneth@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0104,Proseware West,10,USD,Net30,25000,Good,4285 Washington St,Fort Worth,TX,85821,USA,Gary,817-555-0150,gary@example.com,No-Tax,Open
+SYNCUS-0105,School of Fine Art West,10,USD,COD,100000,Excellent,5562 Cedar St,San Antonio,TX,26903,USA,Michael,210-555-0106,michael@www.fineartschool.net,No-Tax,Open
+SYNCUS-0106,Southridge Video West,90,USD,Net45,50000,Poor,8758 Summit Ave,Fort Worth,TX,29263,USA,Edward,817-555-0154,edward@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0107,Tailspin Toys West,80,USD,COD,250000,Excellent,4640 Liberty St,Houston,TX,22394,USA,Kevin,713-555-0154,kevin@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0108,Trey Research West,80,USD,COD,100000,Poor,9563 Madison Ave,Portland,OR,99010,USA,James,503-555-0187,james@www.treyresearch.net,No-Tax,Open
+SYNCUS-0109,The Phone Company West,80,USD,COD,500000,Excellent,8836 Oak St,Sacramento,CA,84451,USA,Benjamin,916-555-0114,benjamin@www.thephone-company.com,No-Tax,Open
+SYNCUS-0110,Wide World Importers West,10,USD,Net30,10000,Poor,3528 Church St,Louisville,KY,55040,USA,Gregory,502-555-0145,gregory@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0111,Wingtip Toys West,10,USD,COD,10000,Excellent,5376 Walnut St,Sacramento,CA,50557,USA,Sharon,916-555-0112,sharon@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0112,Woodgrove West,20,USD,Net30,50000,Fair,1339 Maple St,Philadelphia,PA,81767,USA,Ryan,215-555-0159,ryan@example.com,No-Tax,Open
+SYNCUS-0113,A. Datum Central,10,USD,Net15,10000,Good,5543 Chestnut St,Denver,CO,26245,USA,Andrew,303-555-0190,andrew@example.com,No-Tax,Open
+SYNCUS-0114,Adventure Works Central,20,USD,COD,50000,Good,4330 Center St,Jacksonville,FL,70750,USA,Sharon,904-555-0118,sharon@example.com,No-Tax,Open
+SYNCUS-0115,Alpine Ski House Central,10,USD,Net30,250000,Poor,9714 Mill St,New York,NY,56742,USA,Carolyn,212-555-0115,carolyn@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0116,Blue Yonder Central,90,USD,Net30,10000,Fair,4040 Pearl St,Baltimore,MD,69756,USA,Michael,410-555-0149,michael@example.com,No-Tax,Open
+SYNCUS-0117,City Power & Light Central,80,USD,COD,250000,Excellent,1964 First Ave,Omaha,NE,13770,USA,Maria,402-555-0138,maria@www.cpandl.com,No-Tax,Open
+SYNCUS-0118,Coho Vineyard Central,20,USD,Net45,10000,Poor,1262 Pleasant St,Charlotte,NC,75238,USA,David,704-555-0138,david@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0119,Coho Winery Central,20,USD,Net30,50000,Excellent,9245 Union St,Indianapolis,IN,63958,USA,Jacob,317-555-0161,jacob@www.cohowinery.com,No-Tax,Open
+SYNCUS-0120,Coho Vineyard & Winery Central,30,USD,Net45,100000,Good,9858 South St,Los Angeles,CA,65056,USA,Catherine,213-555-0197,catherine@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0121,Contoso Central,90,USD,Net15,100000,Good,4084 Franklin St,Los Angeles,CA,79637,USA,Emma,213-555-0102,emma@example.com,No-Tax,Open
+SYNCUS-0122,Contoso Pharmaceuticals Central,80,USD,Net30,10000,Poor,6167 Mill St,Tampa,FL,31269,USA,Timothy,813-555-0142,timothy@www.contoso.com,No-Tax,Open
+SYNCUS-0123,Consolidated Messenger Central,10,USD,Net15,500000,Poor,2878 Church St,San Francisco,CA,61784,USA,Heather,415-555-0110,heather@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0124,Fabrikam Central,90,USD,Net45,25000,Good,1016 Church St,Cleveland,OH,37572,USA,Andrew,216-555-0182,andrew@example.com,No-Tax,Open
+SYNCUS-0125,Fourth Coffee Central,20,USD,Net15,25000,Poor,9658 Bridge St,Baltimore,MD,57448,USA,Sarah,410-555-0138,sarah@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0126,Graphic Design Institute Central,10,USD,Net30,50000,Excellent,6528 Grove St,San Francisco,CA,18223,USA,Katherine,415-555-0172,katherine@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0127,Humongous Insurance Central,80,USD,Net45,500000,Excellent,7964 Broad St,Nashville,TN,79886,USA,Elizabeth,615-555-0147,elizabeth@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0128,Litware Central,80,USD,COD,25000,Good,5130 Adams St,San Francisco,CA,14344,USA,Deborah,415-555-0111,deborah@example.com,No-Tax,Open
+SYNCUS-0129,Lucerne Publishing Central,90,USD,Net45,10000,Excellent,9797 Pearl St,Charlotte,NC,90836,USA,Michael,704-555-0193,michael@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0130,Margie's Travel Central,30,USD,Net45,100000,Excellent,7433 Jefferson St,Portland,OR,69787,USA,Catherine,503-555-0151,catherine@www.margiestravel.com,No-Tax,Open
+SYNCUS-0131,Northwind Traders Central,10,USD,Net45,10000,Good,2751 Chestnut St,San Francisco,CA,35926,USA,Jack,415-555-0189,jack@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0132,Proseware Central,80,USD,COD,50000,Fair,7882 Park Ave,Nashville,TN,37192,USA,Elizabeth,615-555-0175,elizabeth@example.com,No-Tax,Open
+SYNCUS-0133,School of Fine Art Central,80,USD,Net30,500000,Fair,1904 Jackson St,Jacksonville,FL,79084,USA,Cynthia,904-555-0196,cynthia@www.fineartschool.net,No-Tax,Open
+SYNCUS-0134,Southridge Video Central,20,USD,Net30,50000,Good,8026 Water St,Chicago,IL,17189,USA,Larry,312-555-0197,larry@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0135,Tailspin Toys Central,10,USD,Net15,500000,Excellent,8310 High St,Detroit,MI,18330,USA,Gary,313-555-0115,gary@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0136,Trey Research Central,20,USD,Net45,100000,Excellent,3063 Elm St,Nashville,TN,44381,USA,Ashley,615-555-0154,ashley@www.treyresearch.net,No-Tax,Open
+SYNCUS-0137,The Phone Company Central,90,USD,COD,500000,Poor,1711 Adams St,Seattle,WA,36383,USA,Jennifer,206-555-0138,jennifer@www.thephone-company.com,No-Tax,Open
+SYNCUS-0138,Wide World Importers Central,30,USD,COD,25000,Fair,2508 Lincoln Ave,Raleigh,NC,79857,USA,Janet,919-555-0126,janet@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0139,Wingtip Toys Central,80,USD,COD,100000,Poor,3142 Cherry St,Austin,TX,53407,USA,Kenneth,512-555-0168,kenneth@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0140,Woodgrove Central,10,USD,Net45,10000,Excellent,8207 Union St,Los Angeles,CA,20225,USA,Debra,213-555-0115,debra@example.com,No-Tax,Open
+SYNCUS-0141,A. Datum Pacific,20,USD,Net45,50000,Good,7220 Park Ave,Boston,MA,35664,USA,Steven,617-555-0181,steven@example.com,No-Tax,Open
+SYNCUS-0142,Adventure Works Pacific,10,USD,Net45,100000,Fair,7789 First Ave,Baltimore,MD,22879,USA,Jason,410-555-0174,jason@example.com,No-Tax,Open
+SYNCUS-0143,Alpine Ski House Pacific,20,USD,COD,50000,Excellent,5952 Maple St,San Francisco,CA,84053,USA,Stephen,415-555-0160,stephen@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0144,Blue Yonder Pacific,30,USD,Net45,25000,Fair,3438 Bridge St,Los Angeles,CA,39319,USA,Christopher,213-555-0184,christopher@example.com,No-Tax,Open
+SYNCUS-0145,City Power & Light Pacific,90,USD,Net30,250000,Fair,9465 Spring St,Indianapolis,IN,26551,USA,Brian,317-555-0179,brian@www.cpandl.com,No-Tax,Open
+SYNCUS-0146,Coho Vineyard Pacific,30,USD,COD,25000,Poor,9117 Pearl St,Jacksonville,FL,73040,USA,James,904-555-0153,james@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0147,Coho Winery Pacific,10,USD,COD,50000,Poor,8426 Church St,Houston,TX,34897,USA,Carolyn,713-555-0158,carolyn@www.cohowinery.com,No-Tax,Open
+SYNCUS-0148,Coho Vineyard & Winery Pacific,90,USD,Net30,10000,Fair,6748 Cherry St,Raleigh,NC,94444,USA,Jessica,919-555-0186,jessica@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0149,Contoso Pacific,80,USD,Net15,250000,Excellent,1711 Pine St,Seattle,WA,60367,USA,Gregory,206-555-0193,gregory@example.com,No-Tax,Open
+SYNCUS-0150,Contoso Pharmaceuticals Pacific,20,USD,Net45,100000,Poor,3266 Second Ave,Seattle,WA,52367,USA,Carolyn,206-555-0142,carolyn@www.contoso.com,No-Tax,Open
+SYNCUS-0151,Consolidated Messenger Pacific,20,USD,Net45,500000,Fair,5145 Water St,Phoenix,AZ,99372,USA,Dorothy,602-555-0155,dorothy@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0152,Fabrikam Pacific,80,USD,COD,500000,Fair,1601 Market St,Baltimore,MD,57434,USA,Janet,410-555-0110,janet@example.com,No-Tax,Open
+SYNCUS-0153,Fourth Coffee Pacific,90,USD,Net45,25000,Good,5387 Lincoln Ave,Atlanta,GA,98745,USA,Brian,404-555-0141,brian@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0154,Graphic Design Institute Pacific,20,USD,Net30,50000,Excellent,3618 Pine St,Milwaukee,WI,99583,USA,Kathleen,414-555-0101,kathleen@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0155,Humongous Insurance Pacific,30,USD,Net45,250000,Good,4114 Washington St,Seattle,WA,56592,USA,Brian,206-555-0117,brian@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0156,Litware Pacific,10,USD,Net45,250000,Poor,3761 Market St,Fresno,CA,28568,USA,Jessica,559-555-0113,jessica@example.com,No-Tax,Open
+SYNCUS-0157,Lucerne Publishing Pacific,10,USD,Net15,100000,Poor,7946 Market St,New York,NY,49373,USA,Larry,212-555-0159,larry@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0158,Margie's Travel Pacific,30,USD,Net45,500000,Poor,6914 Union St,Las Vegas,NV,23876,USA,Stephen,702-555-0111,stephen@www.margiestravel.com,No-Tax,Open
+SYNCUS-0159,Northwind Traders Pacific,10,USD,Net30,500000,Excellent,8070 River Rd,Las Vegas,NV,28938,USA,Andrew,702-555-0155,andrew@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0160,Proseware Pacific,20,USD,COD,500000,Fair,7615 Water St,Los Angeles,CA,10762,USA,Jason,213-555-0164,jason@example.com,No-Tax,Open
+SYNCUS-0161,School of Fine Art Pacific,80,USD,COD,250000,Poor,9643 Main St,San Diego,CA,47078,USA,Stephen,619-555-0140,stephen@www.fineartschool.net,No-Tax,Open
+SYNCUS-0162,Southridge Video Pacific,90,USD,Net30,500000,Good,4913 Park Ave,Jacksonville,FL,55468,USA,Tyler,904-555-0118,tyler@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0163,Tailspin Toys Pacific,10,USD,Net15,250000,Fair,9030 Park Ave,Portland,OR,22292,USA,Robert,503-555-0125,robert@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0164,Trey Research Pacific,20,USD,Net30,100000,Fair,5642 Adams St,San Jose,CA,48672,USA,Christopher,408-555-0143,christopher@www.treyresearch.net,No-Tax,Open
+SYNCUS-0165,The Phone Company Pacific,90,USD,Net15,10000,Poor,7597 Broad St,Raleigh,NC,47374,USA,Samuel,919-555-0190,samuel@www.thephone-company.com,No-Tax,Open
+SYNCUS-0166,Wide World Importers Pacific,10,USD,Net15,250000,Excellent,1243 South St,Tampa,FL,65668,USA,Mark,813-555-0158,mark@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0167,Wingtip Toys Pacific,10,USD,Net15,10000,Excellent,2671 Main St,Miami,FL,56161,USA,Emily,305-555-0134,emily@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0168,Woodgrove Pacific,20,USD,COD,10000,Fair,1919 Washington St,Columbus,OH,70930,USA,Jonathan,614-555-0177,jonathan@example.com,No-Tax,Open
+SYNCUS-0169,A. Datum Atlantic,90,USD,Net30,250000,Fair,4555 First Ave,Raleigh,NC,88105,USA,Frank,919-555-0100,frank@example.com,No-Tax,Open
+SYNCUS-0170,Adventure Works Atlantic,80,USD,Net45,250000,Excellent,4517 Union St,New York,NY,45240,USA,Brandon,212-555-0154,brandon@example.com,No-Tax,Open
+SYNCUS-0171,Alpine Ski House Atlantic,90,USD,COD,100000,Poor,7026 Bridge St,Baltimore,MD,37235,USA,Debra,410-555-0161,debra@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0172,Blue Yonder Atlantic,90,USD,Net30,500000,Fair,1546 Jackson St,New York,NY,39497,USA,Daniel,212-555-0131,daniel@example.com,No-Tax,Open
+SYNCUS-0173,City Power & Light Atlantic,80,USD,Net15,10000,Fair,6953 Madison Ave,Oklahoma City,OK,25327,USA,Margaret,405-555-0174,margaret@www.cpandl.com,No-Tax,Open
+SYNCUS-0174,Coho Vineyard Atlantic,80,USD,Net15,100000,Poor,1241 Market St,Pittsburgh,PA,73940,USA,Susan,412-555-0176,susan@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0175,Coho Winery Atlantic,90,USD,COD,100000,Fair,8116 Jackson St,Portland,OR,97456,USA,Alexander,503-555-0178,alexander@www.cohowinery.com,No-Tax,Open
+SYNCUS-0176,Coho Vineyard & Winery Atlantic,10,USD,COD,250000,Excellent,5025 Elm St,Memphis,TN,25765,USA,Richard,901-555-0196,richard@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0177,Contoso Atlantic,20,USD,Net30,500000,Fair,6710 Union St,Seattle,WA,78824,USA,Jonathan,206-555-0193,jonathan@example.com,No-Tax,Open
+SYNCUS-0178,Contoso Pharmaceuticals Atlantic,90,USD,Net45,50000,Excellent,2740 Union St,Dallas,TX,56143,USA,Sharon,214-555-0118,sharon@www.contoso.com,No-Tax,Open
+SYNCUS-0179,Consolidated Messenger Atlantic,80,USD,Net15,50000,Poor,5847 Franklin St,San Antonio,TX,47666,USA,Emma,210-555-0195,emma@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0180,Fabrikam Atlantic,90,USD,COD,10000,Excellent,6361 Cherry St,Fresno,CA,30565,USA,Christopher,559-555-0190,christopher@example.com,No-Tax,Open
+SYNCUS-0181,Fourth Coffee Atlantic,90,USD,COD,500000,Excellent,6419 River Rd,Los Angeles,CA,11520,USA,Betty,213-555-0166,betty@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0182,Graphic Design Institute Atlantic,20,USD,Net15,10000,Fair,6758 Jefferson St,Pittsburgh,PA,45020,USA,Andrew,412-555-0135,andrew@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0183,Humongous Insurance Atlantic,30,USD,Net15,250000,Excellent,3938 Lincoln Ave,Portland,OR,36381,USA,Elizabeth,503-555-0171,elizabeth@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0184,Litware Atlantic,20,USD,Net15,250000,Fair,5083 Hill St,Kansas City,MO,40002,USA,Patrick,816-555-0191,patrick@example.com,No-Tax,Open
+SYNCUS-0185,Lucerne Publishing Atlantic,30,USD,Net45,100000,Excellent,2368 Jackson St,Phoenix,AZ,65180,USA,Robert,602-555-0181,robert@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0186,Margie's Travel Atlantic,90,USD,COD,50000,Excellent,5698 Adams St,Columbus,OH,35620,USA,Emily,614-555-0167,emily@www.margiestravel.com,No-Tax,Open
+SYNCUS-0187,Northwind Traders Atlantic,10,USD,COD,100000,Good,8437 Mill St,Jacksonville,FL,11234,USA,Daniel,904-555-0170,daniel@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0188,Proseware Atlantic,30,USD,Net30,250000,Poor,5064 River Rd,Detroit,MI,27114,USA,Christopher,313-555-0125,christopher@example.com,No-Tax,Open
+SYNCUS-0189,School of Fine Art Atlantic,30,USD,Net15,100000,Fair,4102 Cedar St,Minneapolis,MN,40535,USA,Diane,612-555-0169,diane@www.fineartschool.net,No-Tax,Open
+SYNCUS-0190,Southridge Video Atlantic,10,USD,Net30,500000,Poor,1096 Park Ave,Seattle,WA,15714,USA,Raymond,206-555-0189,raymond@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0191,Tailspin Toys Atlantic,80,USD,Net30,100000,Fair,6700 Park Ave,Louisville,KY,40401,USA,Rebecca,502-555-0190,rebecca@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0192,Trey Research Atlantic,20,USD,COD,25000,Good,7139 Broad St,Portland,OR,53518,USA,Jessica,503-555-0187,jessica@www.treyresearch.net,No-Tax,Open
+SYNCUS-0193,The Phone Company Atlantic,20,USD,Net30,10000,Fair,2701 Cedar St,San Antonio,TX,19095,USA,Lisa,210-555-0151,lisa@www.thephone-company.com,No-Tax,Open
+SYNCUS-0194,Wide World Importers Atlantic,80,USD,Net30,25000,Poor,4930 Monroe St,Nashville,TN,45074,USA,Jennifer,615-555-0184,jennifer@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0195,Wingtip Toys Atlantic,10,USD,Net30,10000,Excellent,9111 Jackson St,Denver,CO,82527,USA,Samuel,303-555-0115,samuel@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0196,Woodgrove Atlantic,10,USD,Net15,25000,Fair,9142 Hill St,Nashville,TN,48658,USA,Deborah,615-555-0158,deborah@example.com,No-Tax,Open
+SYNCUS-0197,A. Datum International,10,USD,Net15,10000,Fair,1309 Franklin St,Austin,TX,14730,USA,Betty,512-555-0158,betty@example.com,No-Tax,Open
+SYNCUS-0198,Adventure Works International,80,USD,Net45,500000,Good,4186 Pearl St,Atlanta,GA,29119,USA,Nicholas,404-555-0184,nicholas@example.com,No-Tax,Open
+SYNCUS-0199,Alpine Ski House International,30,USD,Net30,50000,Good,7602 Oak St,San Antonio,TX,86299,USA,Brian,210-555-0167,brian@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0200,Blue Yonder International,30,USD,Net15,100000,Poor,1472 Mill St,Charlotte,NC,79281,USA,Richard,704-555-0123,richard@example.com,No-Tax,Open
+SYNCUS-0201,City Power & Light International,10,USD,COD,250000,Poor,9960 Jefferson St,Pittsburgh,PA,11651,USA,Amanda,412-555-0181,amanda@www.cpandl.com,No-Tax,Open
+SYNCUS-0202,Coho Vineyard International,20,USD,Net15,250000,Fair,6506 High St,Boston,MA,29206,USA,John,617-555-0182,john@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0203,Coho Winery International,10,USD,COD,100000,Good,9005 Church St,Austin,TX,73901,USA,Anna,512-555-0153,anna@www.cohowinery.com,No-Tax,Open
+SYNCUS-0204,Coho Vineyard & Winery International,90,USD,Net15,500000,Good,4290 Cherry St,Milwaukee,WI,47760,USA,Carol,414-555-0118,carol@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0205,Contoso International,90,USD,COD,100000,Excellent,5040 First Ave,Cleveland,OH,16236,USA,Barbara,216-555-0125,barbara@example.com,No-Tax,Open
+SYNCUS-0206,Contoso Pharmaceuticals International,10,USD,Net45,10000,Fair,7152 Church St,Tucson,AZ,32733,USA,Emma,520-555-0124,emma@www.contoso.com,No-Tax,Open
+SYNCUS-0207,Consolidated Messenger International,30,USD,Net45,100000,Good,9380 Broad St,Las Vegas,NV,88454,USA,Benjamin,702-555-0175,benjamin@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0208,Fabrikam International,80,USD,Net15,25000,Excellent,6183 Hill St,Tampa,FL,77330,USA,Rebecca,813-555-0128,rebecca@example.com,No-Tax,Open
+SYNCUS-0209,Fourth Coffee International,20,USD,Net45,10000,Fair,4969 Pleasant St,San Jose,CA,50194,USA,Jacob,408-555-0190,jacob@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0210,Graphic Design Institute International,20,USD,Net15,100000,Fair,4673 Broad St,Seattle,WA,23141,USA,Elizabeth,206-555-0165,elizabeth@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0211,Humongous Insurance International,10,USD,Net15,250000,Poor,5694 Franklin St,Charlotte,NC,77058,USA,Edward,704-555-0192,edward@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0212,Litware International,90,USD,Net45,100000,Excellent,3044 Jefferson St,Houston,TX,11009,USA,Donna,713-555-0148,donna@example.com,No-Tax,Open
+SYNCUS-0213,Lucerne Publishing International,30,USD,Net30,100000,Good,8780 Center St,Las Vegas,NV,40171,USA,Mary,702-555-0130,mary@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0214,Margie's Travel International,20,USD,COD,50000,Excellent,6288 Pleasant St,Phoenix,AZ,61513,USA,Andrew,602-555-0163,andrew@www.margiestravel.com,No-Tax,Open
+SYNCUS-0215,Northwind Traders International,20,USD,COD,100000,Fair,2983 Monroe St,Los Angeles,CA,17100,USA,Linda,213-555-0153,linda@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0216,Proseware International,80,USD,Net45,10000,Poor,7211 Center St,Denver,CO,13221,USA,David,303-555-0138,david@example.com,No-Tax,Open
+SYNCUS-0217,School of Fine Art International,10,USD,COD,500000,Fair,2150 Pleasant St,Austin,TX,94541,USA,Gary,512-555-0111,gary@www.fineartschool.net,No-Tax,Open
+SYNCUS-0218,Southridge Video International,30,USD,Net15,100000,Good,6386 Adams St,Omaha,NE,91951,USA,Patricia,402-555-0142,patricia@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0219,Tailspin Toys International,80,USD,COD,50000,Excellent,2779 Lincoln Ave,Austin,TX,51995,USA,Justin,512-555-0137,justin@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0220,Trey Research International,10,USD,Net15,10000,Fair,6848 Cherry St,Louisville,KY,70893,USA,Diane,502-555-0180,diane@www.treyresearch.net,No-Tax,Open
+SYNCUS-0221,The Phone Company International,80,USD,Net30,500000,Fair,9579 Spring St,Dallas,TX,52824,USA,Jacob,214-555-0134,jacob@www.thephone-company.com,No-Tax,Open
+SYNCUS-0222,Wide World Importers International,30,USD,Net15,100000,Good,5221 Oak St,Tampa,FL,17679,USA,Amy,813-555-0150,amy@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0223,Wingtip Toys International,20,USD,Net15,100000,Fair,1140 Pleasant St,Fort Worth,TX,10326,USA,William,817-555-0112,william@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0224,Woodgrove International,30,USD,Net30,25000,Poor,9592 Franklin St,Phoenix,AZ,96443,USA,Dennis,602-555-0116,dennis@example.com,No-Tax,Open
+SYNCUS-0225,A. Datum Global,80,USD,Net30,100000,Good,4121 Market St,San Jose,CA,34216,USA,Carol,408-555-0179,carol@example.com,No-Tax,Open
+SYNCUS-0226,Adventure Works Global,90,USD,COD,10000,Poor,6779 School St,Seattle,WA,87251,USA,Stephen,206-555-0137,stephen@example.com,No-Tax,Open
+SYNCUS-0227,Alpine Ski House Global,90,USD,COD,500000,Good,6427 Washington St,New York,NY,59202,USA,Melissa,212-555-0187,melissa@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0228,Blue Yonder Global,20,USD,COD,500000,Excellent,1331 Pine St,Albuquerque,NM,94725,USA,Ruth,505-555-0104,ruth@example.com,No-Tax,Open
+SYNCUS-0229,City Power & Light Global,90,USD,Net45,500000,Excellent,5623 Oak St,Detroit,MI,71054,USA,William,313-555-0112,william@www.cpandl.com,No-Tax,Open
+SYNCUS-0230,Coho Vineyard Global,90,USD,COD,10000,Excellent,4947 Second Ave,Tucson,AZ,38014,USA,Edward,520-555-0147,edward@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0231,Coho Winery Global,30,USD,Net45,10000,Fair,9349 Oak St,Phoenix,AZ,69920,USA,Michael,602-555-0136,michael@www.cohowinery.com,No-Tax,Open
+SYNCUS-0232,Coho Vineyard & Winery Global,80,USD,Net30,100000,Poor,4752 Pleasant St,Pittsburgh,PA,87818,USA,Christopher,412-555-0174,christopher@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0233,Contoso Global,20,USD,Net30,25000,Poor,4264 First Ave,Louisville,KY,45800,USA,Joseph,502-555-0127,joseph@example.com,No-Tax,Open
+SYNCUS-0234,Contoso Pharmaceuticals Global,10,USD,COD,250000,Excellent,9997 Jefferson St,Kansas City,MO,79695,USA,Emily,816-555-0147,emily@www.contoso.com,No-Tax,Open
+SYNCUS-0235,Consolidated Messenger Global,30,USD,Net30,250000,Excellent,5845 First Ave,Cleveland,OH,56779,USA,Jessica,216-555-0147,jessica@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0236,Fabrikam Global,90,USD,Net30,50000,Fair,8449 Oak St,Raleigh,NC,28949,USA,Ronald,919-555-0195,ronald@example.com,No-Tax,Open
+SYNCUS-0237,Fourth Coffee Global,10,USD,Net45,100000,Excellent,3110 Water St,Tampa,FL,79149,USA,Jacob,813-555-0151,jacob@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0238,Graphic Design Institute Global,30,USD,Net45,10000,Poor,7214 Grove St,Cleveland,OH,93222,USA,Tyler,216-555-0171,tyler@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0239,Humongous Insurance Global,90,USD,Net30,250000,Fair,8633 Pearl St,Baltimore,MD,67855,USA,John,410-555-0197,john@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0240,Litware Global,90,USD,COD,250000,Good,2735 Summit Ave,Boston,MA,26846,USA,Sharon,617-555-0146,sharon@example.com,No-Tax,Open
+SYNCUS-0241,Lucerne Publishing Global,90,USD,Net30,250000,Excellent,3118 Center St,Albuquerque,NM,83473,USA,Gregory,505-555-0128,gregory@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0242,Margie's Travel Global,80,USD,Net30,10000,Good,4522 Pearl St,Columbus,OH,85617,USA,Dorothy,614-555-0157,dorothy@www.margiestravel.com,No-Tax,Open
+SYNCUS-0243,Northwind Traders Global,20,USD,Net45,10000,Poor,2776 Walnut St,Baltimore,MD,58808,USA,Alexander,410-555-0191,alexander@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0244,Proseware Global,90,USD,COD,500000,Good,7174 River Rd,Albuquerque,NM,44411,USA,James,505-555-0127,james@example.com,No-Tax,Open
+SYNCUS-0245,School of Fine Art Global,90,USD,Net30,50000,Excellent,1048 High St,Raleigh,NC,62957,USA,Catherine,919-555-0111,catherine@www.fineartschool.net,No-Tax,Open
+SYNCUS-0246,Southridge Video Global,80,USD,Net45,500000,Fair,7594 Hill St,San Antonio,TX,58768,USA,Michael,210-555-0187,michael@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0247,Tailspin Toys Global,20,USD,Net30,25000,Poor,1181 Main St,Tampa,FL,70894,USA,Nicholas,813-555-0103,nicholas@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0248,Trey Research Global,10,USD,Net15,500000,Good,2247 Cedar St,Oklahoma City,OK,50874,USA,Thomas,405-555-0159,thomas@www.treyresearch.net,No-Tax,Open
+SYNCUS-0249,The Phone Company Global,80,USD,Net45,10000,Poor,3587 Chestnut St,Milwaukee,WI,96270,USA,Brian,414-555-0103,brian@www.thephone-company.com,No-Tax,Open
+SYNCUS-0250,Wide World Importers Global,20,USD,Net45,25000,Good,7027 South St,Phoenix,AZ,27446,USA,Alexander,602-555-0121,alexander@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0251,Wingtip Toys Global,30,USD,COD,10000,Poor,1517 Park Ave,Houston,TX,59382,USA,Justin,713-555-0107,justin@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0252,Woodgrove Global,80,USD,Net45,100000,Excellent,8458 Pleasant St,Las Vegas,NV,95935,USA,Kathleen,702-555-0100,kathleen@example.com,No-Tax,Open
+SYNCUS-0253,A. Datum USA,80,USD,Net15,10000,Excellent,8828 Monroe St,Pittsburgh,PA,72348,USA,Sandra,412-555-0160,sandra@example.com,No-Tax,Open
+SYNCUS-0254,Adventure Works USA,90,USD,Net45,100000,Excellent,9173 School St,Portland,OR,54475,USA,Diane,503-555-0193,diane@example.com,No-Tax,Open
+SYNCUS-0255,Alpine Ski House USA,80,USD,Net30,100000,Fair,6026 Church St,Minneapolis,MN,22154,USA,Alexander,612-555-0166,alexander@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0256,Blue Yonder USA,80,USD,Net30,50000,Fair,8925 Union St,Denver,CO,61862,USA,Charles,303-555-0165,charles@example.com,No-Tax,Open
+SYNCUS-0257,City Power & Light USA,30,USD,Net15,500000,Excellent,5513 Oak St,Fresno,CA,43980,USA,Tyler,559-555-0192,tyler@www.cpandl.com,No-Tax,Open
+SYNCUS-0258,Coho Vineyard USA,80,USD,COD,25000,Good,8868 Pearl St,San Francisco,CA,77620,USA,Rachel,415-555-0102,rachel@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0259,Coho Winery USA,20,USD,COD,250000,Good,5488 Broad St,Denver,CO,18415,USA,Gary,303-555-0167,gary@www.cohowinery.com,No-Tax,Open
+SYNCUS-0260,Coho Vineyard & Winery USA,30,USD,COD,500000,Fair,5936 Cedar St,Indianapolis,IN,36820,USA,Ruth,317-555-0172,ruth@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0261,Contoso USA,10,USD,COD,500000,Fair,9799 Lincoln Ave,Baltimore,MD,27637,USA,Joseph,410-555-0195,joseph@example.com,No-Tax,Open
+SYNCUS-0262,Contoso Pharmaceuticals USA,20,USD,COD,250000,Excellent,5491 Grove St,San Diego,CA,38196,USA,Sandra,619-555-0188,sandra@www.contoso.com,No-Tax,Open
+SYNCUS-0263,Consolidated Messenger USA,90,USD,Net15,50000,Good,2342 Water St,Indianapolis,IN,17566,USA,Sandra,317-555-0111,sandra@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0264,Fabrikam USA,30,USD,Net45,250000,Poor,2176 Liberty St,Las Vegas,NV,54630,USA,Michael,702-555-0134,michael@example.com,No-Tax,Open
+SYNCUS-0265,Fourth Coffee USA,10,USD,Net15,100000,Poor,6759 Maple St,Houston,TX,17473,USA,Carolyn,713-555-0163,carolyn@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0266,Graphic Design Institute USA,90,USD,COD,500000,Excellent,7529 Cherry St,Sacramento,CA,63951,USA,George,916-555-0177,george@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0267,Humongous Insurance USA,20,USD,Net15,10000,Fair,7359 Lincoln Ave,Minneapolis,MN,85588,USA,Anthony,612-555-0179,anthony@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0268,Litware USA,90,USD,COD,50000,Excellent,4391 Pearl St,Tampa,FL,68032,USA,Pamela,813-555-0122,pamela@example.com,No-Tax,Open
+SYNCUS-0269,Lucerne Publishing USA,10,USD,Net15,500000,Good,8330 Elm St,Kansas City,MO,61076,USA,Nicholas,816-555-0149,nicholas@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0270,Margie's Travel USA,10,USD,Net15,500000,Good,9171 High St,Tampa,FL,65102,USA,Elizabeth,813-555-0191,elizabeth@www.margiestravel.com,No-Tax,Open
+SYNCUS-0271,Northwind Traders USA,90,USD,COD,250000,Poor,7474 Summit Ave,Austin,TX,90920,USA,Lisa,512-555-0103,lisa@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0272,Proseware USA,90,USD,Net30,100000,Excellent,4122 Pine St,Boston,MA,47863,USA,Edward,617-555-0197,edward@example.com,No-Tax,Open
+SYNCUS-0273,School of Fine Art USA,30,USD,COD,10000,Excellent,4700 Park Ave,Jacksonville,FL,65414,USA,Catherine,904-555-0180,catherine@www.fineartschool.net,No-Tax,Open
+SYNCUS-0274,Southridge Video USA,80,USD,COD,500000,Fair,2469 Spring St,Jacksonville,FL,71865,USA,Jerry,904-555-0131,jerry@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0275,Tailspin Toys USA,80,USD,Net30,100000,Poor,9429 River Rd,Boston,MA,55904,USA,James,617-555-0177,james@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0276,Trey Research USA,80,USD,Net30,500000,Excellent,3233 Adams St,Tucson,AZ,82188,USA,Mary,520-555-0169,mary@www.treyresearch.net,No-Tax,Open
+SYNCUS-0277,The Phone Company USA,90,USD,COD,10000,Fair,7221 Pearl St,Boston,MA,38957,USA,Paul,617-555-0137,paul@www.thephone-company.com,No-Tax,Open
+SYNCUS-0278,Wide World Importers USA,80,USD,Net30,100000,Fair,2863 Maple St,Indianapolis,IN,38546,USA,Brenda,317-555-0100,brenda@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0279,Wingtip Toys USA,20,USD,COD,500000,Excellent,7748 Jackson St,Louisville,KY,61923,USA,Samantha,502-555-0143,samantha@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0280,Woodgrove USA,10,USD,Net15,250000,Good,7066 Washington St,Nashville,TN,95685,USA,Sarah,615-555-0187,sarah@example.com,No-Tax,Open
+SYNCUS-0281,A. Datum Americas,80,USD,Net45,250000,Fair,3510 Mill St,Miami,FL,84410,USA,Matthew,305-555-0160,matthew@example.com,No-Tax,Open
+SYNCUS-0282,Adventure Works Americas,20,USD,Net45,10000,Fair,5163 Monroe St,Columbus,OH,19719,USA,Shirley,614-555-0170,shirley@example.com,No-Tax,Open
+SYNCUS-0283,Alpine Ski House Americas,90,USD,COD,250000,Poor,3221 Summit Ave,Omaha,NE,47086,USA,Ruth,402-555-0185,ruth@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0284,Blue Yonder Americas,80,USD,COD,100000,Excellent,3204 Grove St,Austin,TX,74547,USA,Linda,512-555-0129,linda@example.com,No-Tax,Open
+SYNCUS-0285,City Power & Light Americas,10,USD,Net15,25000,Excellent,1119 School St,Kansas City,MO,59693,USA,Stephanie,816-555-0188,stephanie@www.cpandl.com,No-Tax,Open
+SYNCUS-0286,Coho Vineyard Americas,90,USD,Net15,250000,Poor,5693 Cherry St,Boston,MA,95303,USA,Cynthia,617-555-0101,cynthia@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0287,Coho Winery Americas,90,USD,Net15,50000,Poor,7858 Cedar St,Las Vegas,NV,78100,USA,Kevin,702-555-0179,kevin@www.cohowinery.com,No-Tax,Open
+SYNCUS-0288,Coho Vineyard & Winery Americas,20,USD,COD,250000,Excellent,9623 Pleasant St,Atlanta,GA,79430,USA,Maria,404-555-0130,maria@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0289,Contoso Americas,30,USD,COD,500000,Fair,4505 Market St,New York,NY,13718,USA,Carol,212-555-0187,carol@example.com,No-Tax,Open
+SYNCUS-0290,Contoso Pharmaceuticals Americas,80,USD,COD,500000,Good,1136 Second Ave,Boston,MA,53288,USA,Benjamin,617-555-0129,benjamin@www.contoso.com,No-Tax,Open
+SYNCUS-0291,Consolidated Messenger Americas,90,USD,COD,100000,Fair,6947 Walnut St,Louisville,KY,96639,USA,Thomas,502-555-0159,thomas@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0292,Fabrikam Americas,30,USD,COD,100000,Fair,3920 Hill St,Sacramento,CA,70917,USA,Debra,916-555-0149,debra@example.com,No-Tax,Open
+SYNCUS-0293,Fourth Coffee Americas,90,USD,COD,100000,Poor,4520 River Rd,Dallas,TX,37853,USA,Catherine,214-555-0154,catherine@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0294,Graphic Design Institute Americas,80,USD,Net15,10000,Excellent,7818 Water St,San Jose,CA,74803,USA,Kimberly,408-555-0110,kimberly@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0295,Humongous Insurance Americas,90,USD,COD,50000,Fair,5899 Maple St,Sacramento,CA,29104,USA,Amy,916-555-0189,amy@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0296,Litware Americas,30,USD,Net30,10000,Fair,2174 Washington St,Dallas,TX,21551,USA,Angela,214-555-0116,angela@example.com,No-Tax,Open
+SYNCUS-0297,Lucerne Publishing Americas,20,USD,Net15,25000,Excellent,5622 Walnut St,Oklahoma City,OK,33507,USA,Gregory,405-555-0118,gregory@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0298,Margie's Travel Americas,10,USD,COD,500000,Fair,6143 Pine St,Philadelphia,PA,32970,USA,Janet,215-555-0134,janet@www.margiestravel.com,No-Tax,Open
+SYNCUS-0299,Northwind Traders Americas,10,USD,Net45,500000,Poor,8134 Cedar St,Milwaukee,WI,21867,USA,Deborah,414-555-0152,deborah@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0300,Proseware Americas,90,USD,Net30,25000,Poor,1373 Church St,Seattle,WA,42880,USA,Christopher,206-555-0141,christopher@example.com,No-Tax,Open
+SYNCUS-0301,School of Fine Art Americas,90,USD,COD,100000,Excellent,8236 Summit Ave,Seattle,WA,28589,USA,Carolyn,206-555-0174,carolyn@www.fineartschool.net,No-Tax,Open
+SYNCUS-0302,Southridge Video Americas,80,USD,Net45,25000,Good,7896 Cherry St,Atlanta,GA,18106,USA,Dennis,404-555-0106,dennis@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0303,Tailspin Toys Americas,90,USD,COD,10000,Poor,7324 Cedar St,Miami,FL,70622,USA,Amy,305-555-0154,amy@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0304,Trey Research Americas,80,USD,Net15,50000,Poor,8497 Oak St,Cleveland,OH,54930,USA,Nicholas,216-555-0114,nicholas@www.treyresearch.net,No-Tax,Open
+SYNCUS-0305,The Phone Company Americas,90,USD,Net30,500000,Excellent,1808 Walnut St,Los Angeles,CA,66924,USA,Larry,213-555-0157,larry@www.thephone-company.com,No-Tax,Open
+SYNCUS-0306,Wide World Importers Americas,90,USD,Net15,100000,Fair,1717 Spring St,Albuquerque,NM,41457,USA,Mary,505-555-0181,mary@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0307,Wingtip Toys Americas,10,USD,Net45,500000,Fair,6923 Pleasant St,Dallas,TX,68982,USA,Mary,214-555-0136,mary@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0308,Woodgrove Americas,30,USD,COD,25000,Excellent,8498 Lincoln Ave,Minneapolis,MN,62119,USA,Kathleen,612-555-0100,kathleen@example.com,No-Tax,Open
+SYNCUS-0309,A. Datum Europe,10,USD,COD,10000,Good,9801 Grove St,Philadelphia,PA,17435,USA,Daniel,215-555-0127,daniel@example.com,No-Tax,Open
+SYNCUS-0310,Adventure Works Europe,20,USD,Net15,25000,Poor,6292 Second Ave,San Jose,CA,85280,USA,Lisa,408-555-0117,lisa@example.com,No-Tax,Open
+SYNCUS-0311,Alpine Ski House Europe,30,USD,Net45,50000,Good,6851 Summit Ave,Jacksonville,FL,24517,USA,Kathleen,904-555-0129,kathleen@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0312,Blue Yonder Europe,80,USD,COD,50000,Poor,6645 Grove St,San Jose,CA,83115,USA,Gary,408-555-0106,gary@example.com,No-Tax,Open
+SYNCUS-0313,City Power & Light Europe,90,USD,Net30,100000,Poor,2230 Pine St,Raleigh,NC,92974,USA,Patrick,919-555-0116,patrick@www.cpandl.com,No-Tax,Open
+SYNCUS-0314,Coho Vineyard Europe,10,USD,Net15,100000,Poor,5979 High St,San Francisco,CA,21842,USA,Charles,415-555-0143,charles@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0315,Coho Winery Europe,10,USD,Net45,500000,Fair,2568 Park Ave,Atlanta,GA,56917,USA,Deborah,404-555-0142,deborah@www.cohowinery.com,No-Tax,Open
+SYNCUS-0316,Coho Vineyard & Winery Europe,90,USD,Net45,50000,Good,6015 Elm St,Tampa,FL,14824,USA,Diane,813-555-0142,diane@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0317,Contoso Europe,20,USD,Net30,250000,Excellent,8616 Church St,New York,NY,50094,USA,Deborah,212-555-0174,deborah@example.com,No-Tax,Open
+SYNCUS-0318,Contoso Pharmaceuticals Europe,20,USD,Net30,50000,Poor,2518 Monroe St,Indianapolis,IN,82283,USA,George,317-555-0164,george@www.contoso.com,No-Tax,Open
+SYNCUS-0319,Consolidated Messenger Europe,30,USD,Net15,50000,Good,3574 Madison Ave,Cleveland,OH,86252,USA,Emily,216-555-0127,emily@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0320,Fabrikam Europe,80,USD,Net15,100000,Fair,6984 Monroe St,Las Vegas,NV,64669,USA,Scott,702-555-0145,scott@example.com,No-Tax,Open
+SYNCUS-0321,Fourth Coffee Europe,90,USD,COD,50000,Good,3640 Main St,Seattle,WA,99788,USA,Stephen,206-555-0111,stephen@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0322,Graphic Design Institute Europe,30,USD,COD,100000,Good,2878 Water St,Tampa,FL,20810,USA,Gary,813-555-0191,gary@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0323,Humongous Insurance Europe,10,USD,Net30,50000,Poor,1409 Bridge St,Indianapolis,IN,60259,USA,Kevin,317-555-0126,kevin@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0324,Litware Europe,80,USD,Net15,100000,Fair,4819 Madison Ave,Milwaukee,WI,31355,USA,Catherine,414-555-0170,catherine@example.com,No-Tax,Open
+SYNCUS-0325,Lucerne Publishing Europe,10,USD,Net30,50000,Fair,5790 Grove St,Fresno,CA,80157,USA,Gary,559-555-0170,gary@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0326,Margie's Travel Europe,80,USD,COD,10000,Good,8841 Broad St,Los Angeles,CA,23679,USA,Amanda,213-555-0166,amanda@www.margiestravel.com,No-Tax,Open
+SYNCUS-0327,Northwind Traders Europe,10,USD,Net45,500000,Fair,1135 Monroe St,Chicago,IL,94650,USA,Donna,312-555-0154,donna@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0328,Proseware Europe,90,USD,Net45,10000,Fair,1944 Broad St,Austin,TX,52279,USA,Frank,512-555-0162,frank@example.com,No-Tax,Open
+SYNCUS-0329,School of Fine Art Europe,80,USD,Net30,500000,Excellent,4677 Center St,Philadelphia,PA,66025,USA,Barbara,215-555-0194,barbara@www.fineartschool.net,No-Tax,Open
+SYNCUS-0330,Southridge Video Europe,30,USD,Net15,10000,Good,9393 Broad St,Boston,MA,84468,USA,Brandon,617-555-0113,brandon@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0331,Tailspin Toys Europe,90,USD,Net45,10000,Fair,3211 Washington St,Memphis,TN,53198,USA,Rebecca,901-555-0186,rebecca@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0332,Trey Research Europe,90,USD,Net45,500000,Fair,9066 Park Ave,Sacramento,CA,90010,USA,Larry,916-555-0142,larry@www.treyresearch.net,No-Tax,Open
+SYNCUS-0333,The Phone Company Europe,10,USD,Net15,25000,Fair,4434 Pearl St,Raleigh,NC,78546,USA,Joseph,919-555-0157,joseph@www.thephone-company.com,No-Tax,Open
+SYNCUS-0334,Wide World Importers Europe,20,USD,Net30,500000,Excellent,1848 Bridge St,San Francisco,CA,96716,USA,Donna,415-555-0143,donna@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0335,Wingtip Toys Europe,80,USD,COD,50000,Excellent,5474 Franklin St,Charlotte,NC,55763,USA,Samuel,704-555-0145,samuel@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0336,Woodgrove Europe,20,USD,Net30,250000,Excellent,3491 Market St,New York,NY,92016,USA,Christopher,212-555-0174,christopher@example.com,No-Tax,Open
+SYNCUS-0337,A. Datum Asia,30,USD,Net45,500000,Poor,2383 Franklin St,Omaha,NE,46273,USA,Christopher,402-555-0149,christopher@example.com,No-Tax,Open
+SYNCUS-0338,Adventure Works Asia,20,USD,Net15,50000,Fair,7259 Walnut St,Los Angeles,CA,97572,USA,Emily,213-555-0190,emily@example.com,No-Tax,Open
+SYNCUS-0339,Alpine Ski House Asia,20,USD,Net15,500000,Fair,8004 School St,Portland,OR,92517,USA,Jennifer,503-555-0112,jennifer@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0340,Blue Yonder Asia,80,USD,Net30,10000,Poor,9361 Pine St,Albuquerque,NM,81725,USA,Melissa,505-555-0117,melissa@example.com,No-Tax,Open
+SYNCUS-0341,City Power & Light Asia,90,USD,Net45,500000,Excellent,5801 Hill St,Minneapolis,MN,32918,USA,Samuel,612-555-0157,samuel@www.cpandl.com,No-Tax,Open
+SYNCUS-0342,Coho Vineyard Asia,90,USD,COD,10000,Fair,9612 Elm St,San Diego,CA,50070,USA,Jason,619-555-0185,jason@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0343,Coho Winery Asia,10,USD,Net30,100000,Good,3813 Washington St,Raleigh,NC,52777,USA,Deborah,919-555-0127,deborah@www.cohowinery.com,No-Tax,Open
+SYNCUS-0344,Coho Vineyard & Winery Asia,20,USD,Net15,50000,Excellent,9470 High St,Chicago,IL,33520,USA,Debra,312-555-0190,debra@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0345,Contoso Asia,90,USD,COD,10000,Excellent,4801 Madison Ave,Miami,FL,85477,USA,Timothy,305-555-0172,timothy@example.com,No-Tax,Open
+SYNCUS-0346,Contoso Pharmaceuticals Asia,10,USD,Net45,25000,Good,4775 First Ave,Columbus,OH,36111,USA,Heather,614-555-0166,heather@www.contoso.com,No-Tax,Open
+SYNCUS-0347,Consolidated Messenger Asia,10,USD,Net45,50000,Excellent,7019 High St,Jacksonville,FL,62557,USA,Christine,904-555-0181,christine@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0348,Fabrikam Asia,90,USD,COD,500000,Poor,6827 Grove St,Seattle,WA,90854,USA,James,206-555-0177,james@example.com,No-Tax,Open
+SYNCUS-0349,Fourth Coffee Asia,10,USD,Net15,100000,Poor,3564 Mill St,Memphis,TN,60513,USA,Diane,901-555-0197,diane@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0350,Graphic Design Institute Asia,10,USD,Net30,50000,Poor,9724 Second Ave,Fort Worth,TX,53240,USA,Andrew,817-555-0102,andrew@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0351,Humongous Insurance Asia,90,USD,Net30,250000,Poor,3891 Broad St,Los Angeles,CA,34908,USA,Joshua,213-555-0188,joshua@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0352,Litware Asia,20,USD,Net15,10000,Poor,4133 Grove St,Pittsburgh,PA,89651,USA,Catherine,412-555-0106,catherine@example.com,No-Tax,Open
+SYNCUS-0353,Lucerne Publishing Asia,20,USD,Net45,25000,Fair,5675 Oak St,San Diego,CA,67270,USA,Nicholas,619-555-0194,nicholas@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0354,Margie's Travel Asia,20,USD,Net30,250000,Poor,4779 Church St,San Jose,CA,81315,USA,Frank,408-555-0116,frank@www.margiestravel.com,No-Tax,Open
+SYNCUS-0355,Northwind Traders Asia,20,USD,Net45,25000,Poor,2503 Spring St,Fort Worth,TX,56525,USA,Catherine,817-555-0123,catherine@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0356,Proseware Asia,80,USD,Net30,10000,Poor,3425 Church St,Philadelphia,PA,87237,USA,Barbara,215-555-0157,barbara@example.com,No-Tax,Open
+SYNCUS-0357,School of Fine Art Asia,10,USD,Net30,25000,Fair,9384 Park Ave,Columbus,OH,51956,USA,Matthew,614-555-0199,matthew@www.fineartschool.net,No-Tax,Open
+SYNCUS-0358,Southridge Video Asia,10,USD,COD,10000,Fair,1170 Hill St,San Diego,CA,69684,USA,Rebecca,619-555-0170,rebecca@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0359,Tailspin Toys Asia,80,USD,Net45,500000,Fair,7894 Broad St,Kansas City,MO,34956,USA,Edward,816-555-0120,edward@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0360,Trey Research Asia,80,USD,COD,500000,Good,9910 Bridge St,New York,NY,27713,USA,Timothy,212-555-0105,timothy@www.treyresearch.net,No-Tax,Open
+SYNCUS-0361,The Phone Company Asia,90,USD,Net30,50000,Good,2944 Hill St,Los Angeles,CA,43620,USA,Emma,213-555-0160,emma@www.thephone-company.com,No-Tax,Open
+SYNCUS-0362,Wide World Importers Asia,10,USD,COD,50000,Good,5978 Broad St,Detroit,MI,72199,USA,Donna,313-555-0156,donna@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0363,Wingtip Toys Asia,90,USD,Net15,10000,Fair,3585 Broad St,Baltimore,MD,30251,USA,Jack,410-555-0164,jack@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0364,Woodgrove Asia,90,USD,Net30,100000,Poor,9341 South St,San Jose,CA,28275,USA,Dennis,408-555-0152,dennis@example.com,No-Tax,Open
+SYNCUS-0365,A. Datum Headquarters,90,USD,Net15,10000,Poor,6049 Spring St,Tampa,FL,61435,USA,Katherine,813-555-0180,katherine@example.com,No-Tax,Open
+SYNCUS-0366,Adventure Works Headquarters,90,USD,Net15,10000,Good,3266 Spring St,Memphis,TN,65764,USA,Stephanie,901-555-0118,stephanie@example.com,No-Tax,Open
+SYNCUS-0367,Alpine Ski House Headquarters,10,USD,Net30,500000,Good,2891 Chestnut St,Fresno,CA,95766,USA,Stephanie,559-555-0119,stephanie@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0368,Blue Yonder Headquarters,10,USD,Net30,25000,Fair,3035 Lincoln Ave,Houston,TX,64631,USA,Rebecca,713-555-0181,rebecca@example.com,No-Tax,Open
+SYNCUS-0369,City Power & Light Headquarters,30,USD,Net45,10000,Excellent,2852 Main St,San Antonio,TX,11165,USA,Amanda,210-555-0128,amanda@www.cpandl.com,No-Tax,Open
+SYNCUS-0370,Coho Vineyard Headquarters,80,USD,COD,10000,Fair,7577 School St,Columbus,OH,56888,USA,Scott,614-555-0190,scott@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0371,Coho Winery Headquarters,90,USD,Net45,10000,Excellent,6459 South St,Columbus,OH,30563,USA,Nicole,614-555-0132,nicole@www.cohowinery.com,No-Tax,Open
+SYNCUS-0372,Coho Vineyard & Winery Headquarters,80,USD,Net45,25000,Excellent,9876 First Ave,Memphis,TN,49736,USA,Scott,901-555-0125,scott@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0373,Contoso Headquarters,90,USD,Net15,50000,Good,5461 Elm St,Nashville,TN,70202,USA,Carol,615-555-0102,carol@example.com,No-Tax,Open
+SYNCUS-0374,Contoso Pharmaceuticals Headquarters,30,USD,COD,100000,Excellent,5258 Summit Ave,San Francisco,CA,73121,USA,Cynthia,415-555-0109,cynthia@www.contoso.com,No-Tax,Open
+SYNCUS-0375,Consolidated Messenger Headquarters,20,USD,Net15,250000,Poor,7450 Hill St,New York,NY,55282,USA,Steven,212-555-0159,steven@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0376,Fabrikam Headquarters,10,USD,Net15,250000,Good,7327 Hill St,San Francisco,CA,47901,USA,Donna,415-555-0126,donna@example.com,No-Tax,Open
+SYNCUS-0377,Fourth Coffee Headquarters,10,USD,COD,10000,Poor,6227 Pearl St,Albuquerque,NM,88605,USA,Janet,505-555-0145,janet@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0378,Graphic Design Institute Headquarters,30,USD,Net30,25000,Fair,7924 Spring St,Fresno,CA,84167,USA,Diane,559-555-0131,diane@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0379,Humongous Insurance Headquarters,80,USD,Net45,100000,Good,9068 Broad St,Indianapolis,IN,15525,USA,Betty,317-555-0138,betty@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0380,Litware Headquarters,80,USD,COD,100000,Fair,3761 Park Ave,Fresno,CA,83936,USA,Daniel,559-555-0131,daniel@example.com,No-Tax,Open
+SYNCUS-0381,Lucerne Publishing Headquarters,10,USD,Net15,100000,Fair,8794 Elm St,Boston,MA,38829,USA,Justin,617-555-0188,justin@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0382,Margie's Travel Headquarters,20,USD,Net45,250000,Fair,7342 Elm St,Dallas,TX,82161,USA,Nancy,214-555-0114,nancy@www.margiestravel.com,No-Tax,Open
+SYNCUS-0383,Northwind Traders Headquarters,30,USD,Net30,10000,Fair,8819 Elm St,Portland,OR,59707,USA,Charles,503-555-0195,charles@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0384,Proseware Headquarters,10,USD,Net30,25000,Fair,9775 Union St,Portland,OR,63989,USA,Janet,503-555-0114,janet@example.com,No-Tax,Open
+SYNCUS-0385,School of Fine Art Headquarters,30,USD,Net45,100000,Good,9503 Pleasant St,Sacramento,CA,91702,USA,Joshua,916-555-0100,joshua@www.fineartschool.net,No-Tax,Open
+SYNCUS-0386,Southridge Video Headquarters,10,USD,Net15,250000,Good,2523 Pleasant St,Fort Worth,TX,84019,USA,Karen,817-555-0149,karen@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0387,Tailspin Toys Headquarters,30,USD,Net15,100000,Good,1101 Cherry St,Sacramento,CA,18582,USA,Emma,916-555-0159,emma@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0388,Trey Research Headquarters,10,USD,Net45,25000,Good,4222 Cedar St,Tampa,FL,39252,USA,Timothy,813-555-0109,timothy@www.treyresearch.net,No-Tax,Open
+SYNCUS-0389,The Phone Company Headquarters,20,USD,Net15,500000,Fair,6519 Elm St,San Jose,CA,93301,USA,Edward,408-555-0175,edward@www.thephone-company.com,No-Tax,Open
+SYNCUS-0390,Wide World Importers Headquarters,30,USD,Net45,250000,Poor,9247 Park Ave,Milwaukee,WI,20196,USA,Maria,414-555-0188,maria@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0391,Wingtip Toys Headquarters,80,USD,Net45,25000,Good,6024 Elm St,Miami,FL,44949,USA,Benjamin,305-555-0172,benjamin@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0392,Woodgrove Headquarters,10,USD,Net45,100000,Excellent,6611 Monroe St,Philadelphia,PA,56297,USA,Deborah,215-555-0152,deborah@example.com,No-Tax,Open
+SYNCUS-0393,A. Datum Distribution,30,USD,Net30,25000,Poor,4755 Summit Ave,Tampa,FL,84111,USA,Jeffrey,813-555-0128,jeffrey@example.com,No-Tax,Open
+SYNCUS-0394,Adventure Works Distribution,30,USD,Net30,10000,Fair,7894 Franklin St,Albuquerque,NM,39703,USA,Charles,505-555-0138,charles@example.com,No-Tax,Open
+SYNCUS-0395,Alpine Ski House Distribution,80,USD,Net45,100000,Excellent,8304 Lake St,Raleigh,NC,13191,USA,Robert,919-555-0139,robert@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0396,Blue Yonder Distribution,10,USD,COD,100000,Excellent,5970 Oak St,Columbus,OH,47271,USA,James,614-555-0188,james@example.com,No-Tax,Open
+SYNCUS-0397,City Power & Light Distribution,90,USD,Net45,25000,Fair,2306 Franklin St,San Diego,CA,17336,USA,Amy,619-555-0125,amy@www.cpandl.com,No-Tax,Open
+SYNCUS-0398,Coho Vineyard Distribution,30,USD,COD,10000,Fair,5742 Market St,Miami,FL,55975,USA,Maria,305-555-0114,maria@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0399,Coho Winery Distribution,10,USD,Net15,50000,Fair,3927 Pleasant St,Memphis,TN,18769,USA,Jeffrey,901-555-0179,jeffrey@www.cohowinery.com,No-Tax,Open
+SYNCUS-0400,Coho Vineyard & Winery Distribution,20,USD,Net30,250000,Poor,5692 Cedar St,Oklahoma City,OK,33385,USA,Elizabeth,405-555-0101,elizabeth@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0401,Contoso Distribution,30,USD,Net15,250000,Excellent,4285 Park Ave,Albuquerque,NM,11557,USA,Patrick,505-555-0131,patrick@example.com,No-Tax,Open
+SYNCUS-0402,Contoso Pharmaceuticals Distribution,90,USD,Net30,50000,Excellent,1395 Water St,Fort Worth,TX,65613,USA,Larry,817-555-0195,larry@www.contoso.com,No-Tax,Open
+SYNCUS-0403,Consolidated Messenger Distribution,80,USD,Net15,250000,Excellent,1179 Mill St,New York,NY,27016,USA,Janet,212-555-0145,janet@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0404,Fabrikam Distribution,20,USD,Net30,50000,Fair,3280 Washington St,Portland,OR,85795,USA,Tyler,503-555-0187,tyler@example.com,No-Tax,Open
+SYNCUS-0405,Fourth Coffee Distribution,30,USD,COD,250000,Fair,9914 Oak St,Tampa,FL,87125,USA,Janet,813-555-0128,janet@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0406,Graphic Design Institute Distribution,80,USD,COD,25000,Fair,5794 Walnut St,Nashville,TN,21843,USA,Janet,615-555-0165,janet@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0407,Humongous Insurance Distribution,80,USD,Net30,250000,Poor,4793 Cedar St,Miami,FL,69635,USA,Jessica,305-555-0109,jessica@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0408,Litware Distribution,80,USD,Net15,10000,Fair,2690 Second Ave,Cleveland,OH,66589,USA,Betty,216-555-0131,betty@example.com,No-Tax,Open
+SYNCUS-0409,Lucerne Publishing Distribution,20,USD,Net45,10000,Excellent,7426 Jackson St,Indianapolis,IN,11826,USA,Jessica,317-555-0131,jessica@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0410,Margie's Travel Distribution,90,USD,Net45,500000,Fair,6640 Pine St,Columbus,OH,43864,USA,Donald,614-555-0140,donald@www.margiestravel.com,No-Tax,Open
+SYNCUS-0411,Northwind Traders Distribution,80,USD,Net15,250000,Fair,3840 Madison Ave,Minneapolis,MN,71207,USA,Lisa,612-555-0173,lisa@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0412,Proseware Distribution,30,USD,Net45,250000,Excellent,3685 Franklin St,Los Angeles,CA,58953,USA,Dorothy,213-555-0174,dorothy@example.com,No-Tax,Open
+SYNCUS-0413,School of Fine Art Distribution,10,USD,Net30,25000,Poor,1334 Market St,Atlanta,GA,91789,USA,Ruth,404-555-0159,ruth@www.fineartschool.net,No-Tax,Open
+SYNCUS-0414,Southridge Video Distribution,20,USD,COD,10000,Good,2426 Walnut St,Oklahoma City,OK,13694,USA,Diane,405-555-0157,diane@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0415,Tailspin Toys Distribution,30,USD,Net30,100000,Poor,8736 Adams St,Nashville,TN,95755,USA,Pamela,615-555-0163,pamela@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0416,Trey Research Distribution,20,USD,Net30,10000,Excellent,6126 Spring St,Austin,TX,62359,USA,Debra,512-555-0197,debra@www.treyresearch.net,No-Tax,Open
+SYNCUS-0417,The Phone Company Distribution,20,USD,Net30,500000,Good,2167 Hill St,Dallas,TX,16449,USA,Charles,214-555-0154,charles@www.thephone-company.com,No-Tax,Open
+SYNCUS-0418,Wide World Importers Distribution,90,USD,Net30,25000,Fair,9901 Jefferson St,San Francisco,CA,25971,USA,Steven,415-555-0153,steven@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0419,Wingtip Toys Distribution,10,USD,Net45,500000,Fair,7211 River Rd,Kansas City,MO,85258,USA,Elizabeth,816-555-0108,elizabeth@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0420,Woodgrove Distribution,80,USD,Net15,250000,Excellent,1241 Jackson St,Cleveland,OH,64204,USA,Christine,216-555-0152,christine@example.com,No-Tax,Open
+SYNCUS-0421,A. Datum Manufacturing,30,USD,Net15,25000,Poor,9758 Cedar St,Austin,TX,44633,USA,Emily,512-555-0176,emily@example.com,No-Tax,Open
+SYNCUS-0422,Adventure Works Manufacturing,10,USD,Net45,250000,Excellent,8722 South St,Indianapolis,IN,63042,USA,Maria,317-555-0152,maria@example.com,No-Tax,Open
+SYNCUS-0423,Alpine Ski House Manufacturing,20,USD,Net15,500000,Fair,9258 Broad St,Charlotte,NC,60346,USA,William,704-555-0152,william@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0424,Blue Yonder Manufacturing,80,USD,COD,50000,Excellent,4587 Cedar St,Fresno,CA,58806,USA,Dennis,559-555-0111,dennis@example.com,No-Tax,Open
+SYNCUS-0425,City Power & Light Manufacturing,30,USD,Net15,100000,Good,1355 Main St,Pittsburgh,PA,92022,USA,Steven,412-555-0172,steven@www.cpandl.com,No-Tax,Open
+SYNCUS-0426,Coho Vineyard Manufacturing,10,USD,Net15,500000,Fair,2885 River Rd,Chicago,IL,92081,USA,Helen,312-555-0103,helen@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0427,Coho Winery Manufacturing,80,USD,COD,10000,Good,3812 Jackson St,Milwaukee,WI,82947,USA,Patrick,414-555-0117,patrick@www.cohowinery.com,No-Tax,Open
+SYNCUS-0428,Coho Vineyard & Winery Manufacturing,10,USD,Net30,10000,Poor,3002 Bridge St,Denver,CO,75186,USA,Nancy,303-555-0171,nancy@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0429,Contoso Manufacturing,10,USD,Net30,250000,Fair,7447 Broad St,Oklahoma City,OK,28902,USA,Samuel,405-555-0170,samuel@example.com,No-Tax,Open
+SYNCUS-0430,Contoso Pharmaceuticals Manufacturing,30,USD,Net45,500000,Good,2466 Washington St,Fort Worth,TX,22994,USA,Patrick,817-555-0137,patrick@www.contoso.com,No-Tax,Open
+SYNCUS-0431,Consolidated Messenger Manufacturing,80,USD,Net45,50000,Excellent,8754 Jefferson St,Milwaukee,WI,77862,USA,Rachel,414-555-0186,rachel@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0432,Fabrikam Manufacturing,10,USD,Net45,25000,Poor,2655 Madison Ave,Louisville,KY,14735,USA,Benjamin,502-555-0169,benjamin@example.com,No-Tax,Open
+SYNCUS-0433,Fourth Coffee Manufacturing,30,USD,COD,100000,Excellent,2637 Broad St,Portland,OR,37916,USA,Emily,503-555-0145,emily@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0434,Graphic Design Institute Manufacturing,30,USD,Net45,100000,Fair,8127 Park Ave,Miami,FL,31861,USA,Charles,305-555-0107,charles@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0435,Humongous Insurance Manufacturing,20,USD,Net45,100000,Fair,2933 Pearl St,Kansas City,MO,49935,USA,Jonathan,816-555-0141,jonathan@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0436,Litware Manufacturing,90,USD,COD,500000,Excellent,8129 Broad St,Milwaukee,WI,41550,USA,Anna,414-555-0136,anna@example.com,No-Tax,Open
+SYNCUS-0437,Lucerne Publishing Manufacturing,10,USD,Net45,100000,Fair,5481 Madison Ave,Oklahoma City,OK,51645,USA,Rebecca,405-555-0196,rebecca@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0438,Margie's Travel Manufacturing,30,USD,Net30,100000,Fair,2064 Water St,Portland,OR,71095,USA,Richard,503-555-0147,richard@www.margiestravel.com,No-Tax,Open
+SYNCUS-0439,Northwind Traders Manufacturing,30,USD,COD,25000,Fair,7060 Maple St,Atlanta,GA,56553,USA,Jason,404-555-0138,jason@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0440,Proseware Manufacturing,90,USD,COD,500000,Excellent,3163 South St,Sacramento,CA,25243,USA,Justin,916-555-0137,justin@example.com,No-Tax,Open
+SYNCUS-0441,School of Fine Art Manufacturing,80,USD,COD,50000,Excellent,2871 Oak St,Pittsburgh,PA,95316,USA,Amy,412-555-0176,amy@www.fineartschool.net,No-Tax,Open
+SYNCUS-0442,Southridge Video Manufacturing,20,USD,COD,500000,Good,5141 School St,Houston,TX,26972,USA,Emma,713-555-0173,emma@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0443,Tailspin Toys Manufacturing,80,USD,Net15,100000,Poor,4016 Walnut St,Atlanta,GA,60038,USA,Elizabeth,404-555-0181,elizabeth@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0444,Trey Research Manufacturing,30,USD,Net45,50000,Good,1444 High St,Charlotte,NC,85248,USA,Joseph,704-555-0169,joseph@www.treyresearch.net,No-Tax,Open
+SYNCUS-0445,The Phone Company Manufacturing,30,USD,COD,250000,Fair,6587 Maple St,Columbus,OH,92551,USA,William,614-555-0179,william@www.thephone-company.com,No-Tax,Open
+SYNCUS-0446,Wide World Importers Manufacturing,80,USD,Net30,500000,Poor,6717 Bridge St,Charlotte,NC,34585,USA,Justin,704-555-0184,justin@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0447,Wingtip Toys Manufacturing,10,USD,COD,500000,Poor,8024 Market St,Philadelphia,PA,47301,USA,Timothy,215-555-0103,timothy@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0448,Woodgrove Manufacturing,20,USD,Net45,10000,Fair,5715 Pearl St,Houston,TX,50146,USA,Nicole,713-555-0116,nicole@example.com,No-Tax,Open
+SYNCUS-0449,A. Datum Services,90,USD,Net15,250000,Poor,8882 South St,Albuquerque,NM,81722,USA,Benjamin,505-555-0147,benjamin@example.com,No-Tax,Open
+SYNCUS-0450,Adventure Works Services,20,USD,Net45,500000,Poor,7636 Church St,Tampa,FL,82556,USA,Linda,813-555-0154,linda@example.com,No-Tax,Open
+SYNCUS-0451,Alpine Ski House Services,10,USD,COD,500000,Fair,1166 Grove St,Boston,MA,36612,USA,Timothy,617-555-0165,timothy@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0452,Blue Yonder Services,10,USD,Net30,10000,Poor,2268 Adams St,Nashville,TN,36319,USA,Jack,615-555-0181,jack@example.com,No-Tax,Open
+SYNCUS-0453,City Power & Light Services,10,USD,Net15,10000,Excellent,3024 Monroe St,New York,NY,93993,USA,Joshua,212-555-0104,joshua@www.cpandl.com,No-Tax,Open
+SYNCUS-0454,Coho Vineyard Services,10,USD,Net45,250000,Fair,6007 Maple St,Louisville,KY,45485,USA,Raymond,502-555-0137,raymond@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0455,Coho Winery Services,10,USD,Net15,25000,Fair,7878 Lincoln Ave,New York,NY,93440,USA,Pamela,212-555-0117,pamela@www.cohowinery.com,No-Tax,Open
+SYNCUS-0456,Coho Vineyard & Winery Services,30,USD,Net30,10000,Excellent,5046 Hill St,Fort Worth,TX,74425,USA,Tyler,817-555-0112,tyler@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0457,Contoso Services,10,USD,Net30,25000,Poor,1019 Pine St,Indianapolis,IN,53697,USA,David,317-555-0146,david@example.com,No-Tax,Open
+SYNCUS-0458,Contoso Pharmaceuticals Services,90,USD,COD,250000,Good,1244 Elm St,Albuquerque,NM,57804,USA,Jerry,505-555-0126,jerry@www.contoso.com,No-Tax,Open
+SYNCUS-0459,Consolidated Messenger Services,10,USD,Net30,10000,Good,7340 Washington St,Philadelphia,PA,31228,USA,Helen,215-555-0180,helen@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0460,Fabrikam Services,10,USD,Net15,250000,Poor,5846 Broad St,Philadelphia,PA,33955,USA,Kimberly,215-555-0103,kimberly@example.com,No-Tax,Open
+SYNCUS-0461,Fourth Coffee Services,80,USD,Net45,500000,Poor,6658 Monroe St,Jacksonville,FL,15687,USA,Heather,904-555-0113,heather@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0462,Graphic Design Institute Services,20,USD,Net15,25000,Fair,1515 Church St,Los Angeles,CA,44678,USA,Emily,213-555-0163,emily@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0463,Humongous Insurance Services,30,USD,Net45,25000,Fair,6134 Jackson St,Raleigh,NC,38590,USA,Ronald,919-555-0198,ronald@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0464,Litware Services,90,USD,COD,500000,Poor,8165 Church St,Miami,FL,29997,USA,Mark,305-555-0102,mark@example.com,No-Tax,Open
+SYNCUS-0465,Lucerne Publishing Services,20,USD,Net45,10000,Good,5362 South St,Indianapolis,IN,22094,USA,Kevin,317-555-0186,kevin@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0466,Margie's Travel Services,80,USD,Net45,100000,Poor,3326 Liberty St,Las Vegas,NV,64086,USA,Brandon,702-555-0170,brandon@www.margiestravel.com,No-Tax,Open
+SYNCUS-0467,Northwind Traders Services,80,USD,Net30,250000,Excellent,5441 Main St,Austin,TX,35766,USA,Barbara,512-555-0116,barbara@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0468,Proseware Services,10,USD,Net45,50000,Fair,9395 Cherry St,Las Vegas,NV,58415,USA,Ronald,702-555-0183,ronald@example.com,No-Tax,Open
+SYNCUS-0469,School of Fine Art Services,80,USD,Net15,100000,Excellent,9062 Bridge St,Detroit,MI,13937,USA,Jacob,313-555-0140,jacob@www.fineartschool.net,No-Tax,Open
+SYNCUS-0470,Southridge Video Services,10,USD,Net30,10000,Excellent,2432 Franklin St,Detroit,MI,32860,USA,Stephen,313-555-0182,stephen@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0471,Tailspin Toys Services,30,USD,COD,500000,Fair,5986 Liberty St,New York,NY,26331,USA,David,212-555-0193,david@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0472,Trey Research Services,30,USD,Net15,500000,Fair,3962 Summit Ave,Tampa,FL,50482,USA,Jack,813-555-0157,jack@www.treyresearch.net,No-Tax,Open
+SYNCUS-0473,The Phone Company Services,10,USD,Net30,10000,Good,6326 Madison Ave,Philadelphia,PA,29578,USA,Shirley,215-555-0165,shirley@www.thephone-company.com,No-Tax,Open
+SYNCUS-0474,Wide World Importers Services,90,USD,Net45,25000,Fair,8071 Jefferson St,Tucson,AZ,10326,USA,Kenneth,520-555-0131,kenneth@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0475,Wingtip Toys Services,30,USD,Net45,10000,Excellent,6621 Broad St,Tampa,FL,11769,USA,Rebecca,813-555-0177,rebecca@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0476,Woodgrove Services,80,USD,Net15,500000,Good,6582 Maple St,Jacksonville,FL,98521,USA,Ronald,904-555-0174,ronald@example.com,No-Tax,Open
+SYNCUS-0477,A. Datum Retail,20,USD,COD,500000,Fair,4709 Center St,Tucson,AZ,46405,USA,Margaret,520-555-0121,margaret@example.com,No-Tax,Open
+SYNCUS-0478,Adventure Works Retail,90,USD,Net15,25000,Good,9331 Washington St,Chicago,IL,29129,USA,Gary,312-555-0142,gary@example.com,No-Tax,Open
+SYNCUS-0479,Alpine Ski House Retail,20,USD,Net30,100000,Excellent,6458 Lincoln Ave,Omaha,NE,74269,USA,Emma,402-555-0172,emma@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0480,Blue Yonder Retail,30,USD,COD,25000,Good,3792 Monroe St,San Diego,CA,59897,USA,Pamela,619-555-0146,pamela@example.com,No-Tax,Open
+SYNCUS-0481,City Power & Light Retail,90,USD,Net30,100000,Good,9301 Pine St,Milwaukee,WI,59452,USA,Dorothy,414-555-0154,dorothy@www.cpandl.com,No-Tax,Open
+SYNCUS-0482,Coho Vineyard Retail,90,USD,Net45,500000,Fair,4963 First Ave,Louisville,KY,46085,USA,Diane,502-555-0185,diane@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0483,Coho Winery Retail,20,USD,Net15,100000,Excellent,9002 Lincoln Ave,Columbus,OH,18775,USA,Margaret,614-555-0128,margaret@www.cohowinery.com,No-Tax,Open
+SYNCUS-0484,Coho Vineyard & Winery Retail,80,USD,Net15,100000,Good,1289 Cedar St,Houston,TX,28769,USA,Richard,713-555-0176,richard@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0485,Contoso Retail,10,USD,Net15,100000,Good,3669 Water St,Louisville,KY,34998,USA,Laura,502-555-0126,laura@example.com,No-Tax,Open
+SYNCUS-0486,Contoso Pharmaceuticals Retail,80,USD,Net15,25000,Good,3073 Cedar St,Miami,FL,97643,USA,Kevin,305-555-0161,kevin@www.contoso.com,No-Tax,Open
+SYNCUS-0487,Consolidated Messenger Retail,20,USD,Net45,100000,Fair,1157 Adams St,Kansas City,MO,54917,USA,Charles,816-555-0174,charles@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0488,Fabrikam Retail,20,USD,Net15,50000,Fair,5055 Mill St,Kansas City,MO,67355,USA,Frank,816-555-0136,frank@example.com,No-Tax,Open
+SYNCUS-0489,Fourth Coffee Retail,30,USD,Net15,25000,Good,3668 Center St,Fort Worth,TX,29079,USA,Debra,817-555-0182,debra@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0490,Graphic Design Institute Retail,90,USD,Net15,10000,Poor,5004 Pearl St,Miami,FL,61862,USA,Angela,305-555-0144,angela@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0491,Humongous Insurance Retail,90,USD,COD,250000,Excellent,1964 River Rd,Boston,MA,53054,USA,Jennifer,617-555-0148,jennifer@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0492,Litware Retail,10,USD,Net15,250000,Excellent,1697 Park Ave,Baltimore,MD,10619,USA,Helen,410-555-0149,helen@example.com,No-Tax,Open
+SYNCUS-0493,Lucerne Publishing Retail,20,USD,Net30,25000,Good,7784 Jackson St,Miami,FL,47713,USA,Kevin,305-555-0134,kevin@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0494,Margie's Travel Retail,10,USD,COD,500000,Excellent,2709 Hill St,Raleigh,NC,42390,USA,Matthew,919-555-0167,matthew@www.margiestravel.com,No-Tax,Open
+SYNCUS-0495,Northwind Traders Retail,20,USD,Net30,500000,Good,7148 Adams St,Tucson,AZ,59267,USA,George,520-555-0120,george@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0496,Proseware Retail,90,USD,Net45,100000,Fair,7322 Market St,Fresno,CA,54245,USA,Sarah,559-555-0145,sarah@example.com,No-Tax,Open
+SYNCUS-0497,School of Fine Art Retail,90,USD,Net45,100000,Good,3363 Washington St,Charlotte,NC,12934,USA,Lisa,704-555-0190,lisa@www.fineartschool.net,No-Tax,Open
+SYNCUS-0498,Southridge Video Retail,90,USD,COD,10000,Good,9916 Lincoln Ave,Nashville,TN,89308,USA,Jeffrey,615-555-0159,jeffrey@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0499,Tailspin Toys Retail,20,USD,Net45,500000,Poor,3224 Market St,Portland,OR,72277,USA,Emma,503-555-0179,emma@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0500,Trey Research Retail,80,USD,Net15,25000,Good,8425 First Ave,Memphis,TN,67643,USA,Karen,901-555-0146,karen@www.treyresearch.net,No-Tax,Open
+SYNCUS-0501,The Phone Company Retail,30,USD,Net30,100000,Poor,8212 Cedar St,San Diego,CA,12031,USA,Steven,619-555-0184,steven@www.thephone-company.com,No-Tax,Open
+SYNCUS-0502,Wide World Importers Retail,10,USD,Net45,500000,Excellent,6382 Hill St,Pittsburgh,PA,47507,USA,Ashley,412-555-0174,ashley@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0503,Wingtip Toys Retail,10,USD,Net30,100000,Good,9109 Spring St,Pittsburgh,PA,65928,USA,Paul,412-555-0157,paul@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0504,Woodgrove Retail,90,USD,COD,25000,Good,6971 Park Ave,Miami,FL,14995,USA,John,305-555-0158,john@example.com,No-Tax,Open
+SYNCUS-0505,A. Datum Wholesale,20,USD,Net45,250000,Fair,6755 Pleasant St,Louisville,KY,17783,USA,Paul,502-555-0119,paul@example.com,No-Tax,Open
+SYNCUS-0506,Adventure Works Wholesale,30,USD,Net45,25000,Excellent,6239 Walnut St,Jacksonville,FL,92433,USA,Ruth,904-555-0107,ruth@example.com,No-Tax,Open
+SYNCUS-0507,Alpine Ski House Wholesale,90,USD,Net45,10000,Fair,4466 Second Ave,Portland,OR,75933,USA,Dennis,503-555-0167,dennis@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0508,Blue Yonder Wholesale,20,USD,Net45,500000,Poor,4328 Water St,Baltimore,MD,51256,USA,Ashley,410-555-0106,ashley@example.com,No-Tax,Open
+SYNCUS-0509,City Power & Light Wholesale,10,USD,Net45,25000,Fair,5786 Pleasant St,Louisville,KY,79270,USA,Edward,502-555-0157,edward@www.cpandl.com,No-Tax,Open
+SYNCUS-0510,Coho Vineyard Wholesale,30,USD,Net30,50000,Good,4196 Madison Ave,Omaha,NE,25806,USA,Ashley,402-555-0131,ashley@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0511,Coho Winery Wholesale,80,USD,Net45,50000,Good,7745 Pine St,Baltimore,MD,34785,USA,Sarah,410-555-0195,sarah@www.cohowinery.com,No-Tax,Open
+SYNCUS-0512,Coho Vineyard & Winery Wholesale,90,USD,Net30,50000,Good,8167 Park Ave,New York,NY,64943,USA,Justin,212-555-0167,justin@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0513,Contoso Wholesale,90,USD,COD,250000,Excellent,6067 High St,Jacksonville,FL,29395,USA,Tyler,904-555-0196,tyler@example.com,No-Tax,Open
+SYNCUS-0514,Contoso Pharmaceuticals Wholesale,30,USD,COD,10000,Excellent,5480 Mill St,Chicago,IL,98597,USA,Kenneth,312-555-0147,kenneth@www.contoso.com,No-Tax,Open
+SYNCUS-0515,Consolidated Messenger Wholesale,20,USD,Net15,100000,Good,7963 Center St,Nashville,TN,40862,USA,Stephen,615-555-0156,stephen@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0516,Fabrikam Wholesale,30,USD,COD,100000,Excellent,4096 Liberty St,Pittsburgh,PA,47363,USA,Ronald,412-555-0113,ronald@example.com,No-Tax,Open
+SYNCUS-0517,Fourth Coffee Wholesale,90,USD,Net15,100000,Fair,9382 Hill St,Boston,MA,75787,USA,Joseph,617-555-0150,joseph@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0518,Graphic Design Institute Wholesale,20,USD,COD,250000,Excellent,3326 First Ave,Boston,MA,24774,USA,Carol,617-555-0105,carol@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0519,Humongous Insurance Wholesale,30,USD,Net30,100000,Excellent,4000 River Rd,Miami,FL,22455,USA,Patricia,305-555-0157,patricia@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0520,Litware Wholesale,10,USD,Net45,25000,Excellent,9250 High St,Chicago,IL,42071,USA,Robert,312-555-0118,robert@example.com,No-Tax,Open
+SYNCUS-0521,Lucerne Publishing Wholesale,10,USD,Net30,25000,Good,3890 Cherry St,Columbus,OH,53098,USA,Stephen,614-555-0153,stephen@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0522,Margie's Travel Wholesale,80,USD,Net15,50000,Excellent,4715 Grove St,Tampa,FL,21069,USA,Paul,813-555-0191,paul@www.margiestravel.com,No-Tax,Open
+SYNCUS-0523,Northwind Traders Wholesale,80,USD,Net15,25000,Fair,7641 Bridge St,Los Angeles,CA,32701,USA,Patrick,213-555-0153,patrick@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0524,Proseware Wholesale,20,USD,COD,25000,Poor,4170 Chestnut St,Seattle,WA,94200,USA,Deborah,206-555-0136,deborah@example.com,No-Tax,Open
+SYNCUS-0525,School of Fine Art Wholesale,30,USD,Net30,50000,Excellent,4036 Cedar St,New York,NY,15291,USA,Rachel,212-555-0188,rachel@www.fineartschool.net,No-Tax,Open
+SYNCUS-0526,Southridge Video Wholesale,80,USD,Net30,500000,Fair,4872 Lake St,Phoenix,AZ,59124,USA,David,602-555-0133,david@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0527,Tailspin Toys Wholesale,10,USD,Net15,25000,Poor,8481 Chestnut St,Fresno,CA,29191,USA,Jerry,559-555-0151,jerry@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0528,Trey Research Wholesale,90,USD,COD,10000,Excellent,8828 Walnut St,Phoenix,AZ,84051,USA,Jack,602-555-0119,jack@www.treyresearch.net,No-Tax,Open
+SYNCUS-0529,The Phone Company Wholesale,20,USD,Net30,500000,Excellent,1530 Hill St,Omaha,NE,36439,USA,James,402-555-0129,james@www.thephone-company.com,No-Tax,Open
+SYNCUS-0530,Wide World Importers Wholesale,80,USD,Net15,25000,Excellent,9501 Main St,Denver,CO,12507,USA,Jason,303-555-0125,jason@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0531,Wingtip Toys Wholesale,20,USD,Net15,250000,Excellent,1548 South St,Milwaukee,WI,94065,USA,Michelle,414-555-0152,michelle@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0532,Woodgrove Wholesale,10,USD,Net45,100000,Poor,2513 Lake St,Houston,TX,61747,USA,Melissa,713-555-0107,melissa@example.com,No-Tax,Open
+SYNCUS-0533,A. Datum Direct,10,USD,Net30,250000,Fair,4256 Center St,Cleveland,OH,73442,USA,Frank,216-555-0132,frank@example.com,No-Tax,Open
+SYNCUS-0534,Adventure Works Direct,10,USD,COD,10000,Poor,4577 Cedar St,Milwaukee,WI,71253,USA,Brenda,414-555-0172,brenda@example.com,No-Tax,Open
+SYNCUS-0535,Alpine Ski House Direct,10,USD,Net45,50000,Poor,4946 Center St,Memphis,TN,81237,USA,Benjamin,901-555-0116,benjamin@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0536,Blue Yonder Direct,10,USD,COD,500000,Excellent,9735 Pearl St,Tampa,FL,99616,USA,Stephanie,813-555-0139,stephanie@example.com,No-Tax,Open
+SYNCUS-0537,City Power & Light Direct,20,USD,Net15,500000,Fair,4125 Lincoln Ave,Baltimore,MD,21410,USA,Anthony,410-555-0189,anthony@www.cpandl.com,No-Tax,Open
+SYNCUS-0538,Coho Vineyard Direct,80,USD,Net45,250000,Fair,2743 Franklin St,Detroit,MI,75103,USA,Carol,313-555-0177,carol@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0539,Coho Winery Direct,80,USD,Net30,250000,Excellent,1394 Monroe St,Houston,TX,99933,USA,Laura,713-555-0100,laura@www.cohowinery.com,No-Tax,Open
+SYNCUS-0540,Coho Vineyard & Winery Direct,20,USD,Net30,250000,Fair,4273 Bridge St,Omaha,NE,85629,USA,Elizabeth,402-555-0194,elizabeth@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0541,Contoso Direct,30,USD,Net30,10000,Fair,8285 Walnut St,Indianapolis,IN,81734,USA,Patricia,317-555-0134,patricia@example.com,No-Tax,Open
+SYNCUS-0542,Contoso Pharmaceuticals Direct,30,USD,Net15,50000,Excellent,2677 Market St,Baltimore,MD,82792,USA,Larry,410-555-0175,larry@www.contoso.com,No-Tax,Open
+SYNCUS-0543,Consolidated Messenger Direct,30,USD,Net15,500000,Excellent,9684 Cherry St,Charlotte,NC,70615,USA,Jason,704-555-0130,jason@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0544,Fabrikam Direct,90,USD,Net30,500000,Good,7338 Lake St,Omaha,NE,92752,USA,Brian,402-555-0168,brian@example.com,No-Tax,Open
+SYNCUS-0545,Fourth Coffee Direct,20,USD,Net45,50000,Fair,1481 Elm St,Los Angeles,CA,20578,USA,Ruth,213-555-0169,ruth@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0546,Graphic Design Institute Direct,10,USD,Net15,100000,Good,9939 Spring St,Seattle,WA,12052,USA,Kathleen,206-555-0157,kathleen@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0547,Humongous Insurance Direct,30,USD,COD,100000,Poor,9322 High St,San Francisco,CA,17408,USA,Elizabeth,415-555-0187,elizabeth@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0548,Litware Direct,90,USD,COD,100000,Good,6482 Madison Ave,Pittsburgh,PA,50030,USA,Timothy,412-555-0101,timothy@example.com,No-Tax,Open
+SYNCUS-0549,Lucerne Publishing Direct,80,USD,Net15,25000,Excellent,2587 Grove St,Kansas City,MO,69227,USA,Samantha,816-555-0188,samantha@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0550,Margie's Travel Direct,10,USD,COD,500000,Good,7905 Pleasant St,Kansas City,MO,81111,USA,Angela,816-555-0138,angela@www.margiestravel.com,No-Tax,Open
+SYNCUS-0551,Northwind Traders Direct,80,USD,Net15,10000,Fair,8019 Bridge St,Raleigh,NC,44502,USA,Donna,919-555-0119,donna@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0552,Proseware Direct,90,USD,Net45,100000,Excellent,4801 Maple St,Cleveland,OH,26504,USA,Catherine,216-555-0126,catherine@example.com,No-Tax,Open
+SYNCUS-0553,School of Fine Art Direct,80,USD,Net15,25000,Poor,4141 Pearl St,Atlanta,GA,46664,USA,George,404-555-0131,george@www.fineartschool.net,No-Tax,Open
+SYNCUS-0554,Southridge Video Direct,30,USD,Net15,250000,Poor,7896 Oak St,Raleigh,NC,60144,USA,Matthew,919-555-0135,matthew@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0555,Tailspin Toys Direct,90,USD,Net30,500000,Fair,6472 Jackson St,Indianapolis,IN,86553,USA,Debra,317-555-0190,debra@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0556,Trey Research Direct,30,USD,Net15,25000,Poor,9366 Hill St,Minneapolis,MN,94086,USA,Brenda,612-555-0144,brenda@www.treyresearch.net,No-Tax,Open
+SYNCUS-0557,The Phone Company Direct,10,USD,Net15,25000,Fair,3350 Hill St,San Antonio,TX,25929,USA,Tyler,210-555-0118,tyler@www.thephone-company.com,No-Tax,Open
+SYNCUS-0558,Wide World Importers Direct,20,USD,COD,100000,Poor,1456 Lincoln Ave,Indianapolis,IN,78033,USA,Debra,317-555-0160,debra@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0559,Wingtip Toys Direct,20,USD,Net15,500000,Good,6582 Jefferson St,Portland,OR,16792,USA,Donald,503-555-0106,donald@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0560,Woodgrove Direct,80,USD,Net45,25000,Excellent,3019 Cherry St,Denver,CO,48920,USA,Laura,303-555-0136,laura@example.com,No-Tax,Open
+SYNCUS-0561,A. Datum Express,90,USD,Net45,500000,Excellent,9299 Summit Ave,Cleveland,OH,80832,USA,Rebecca,216-555-0111,rebecca@example.com,No-Tax,Open
+SYNCUS-0562,Adventure Works Express,20,USD,COD,100000,Poor,2893 Mill St,Columbus,OH,15432,USA,Jason,614-555-0100,jason@example.com,No-Tax,Open
+SYNCUS-0563,Alpine Ski House Express,30,USD,COD,100000,Fair,6917 Main St,Pittsburgh,PA,70335,USA,Maria,412-555-0115,maria@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0564,Blue Yonder Express,20,USD,Net15,500000,Fair,9630 Pearl St,Tampa,FL,16848,USA,Shirley,813-555-0143,shirley@example.com,No-Tax,Open
+SYNCUS-0565,City Power & Light Express,90,USD,Net15,100000,Excellent,8297 Liberty St,Las Vegas,NV,60101,USA,Sandra,702-555-0105,sandra@www.cpandl.com,No-Tax,Open
+SYNCUS-0566,Coho Vineyard Express,10,USD,Net45,25000,Poor,4143 Market St,Las Vegas,NV,17645,USA,Ruth,702-555-0133,ruth@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0567,Coho Winery Express,90,USD,COD,100000,Poor,4643 Maple St,Omaha,NE,21676,USA,Patrick,402-555-0169,patrick@www.cohowinery.com,No-Tax,Open
+SYNCUS-0568,Coho Vineyard & Winery Express,20,USD,COD,500000,Fair,8628 Mill St,Tampa,FL,26562,USA,Ryan,813-555-0152,ryan@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0569,Contoso Express,20,USD,Net30,10000,Poor,8042 Elm St,Cleveland,OH,56086,USA,Debra,216-555-0178,debra@example.com,No-Tax,Open
+SYNCUS-0570,Contoso Pharmaceuticals Express,80,USD,Net45,500000,Excellent,6522 Market St,San Antonio,TX,96194,USA,Rebecca,210-555-0113,rebecca@www.contoso.com,No-Tax,Open
+SYNCUS-0571,Consolidated Messenger Express,90,USD,Net15,500000,Fair,4202 Church St,Pittsburgh,PA,94716,USA,Patricia,412-555-0113,patricia@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0572,Fabrikam Express,80,USD,Net45,250000,Good,4397 Pleasant St,Los Angeles,CA,82109,USA,William,213-555-0114,william@example.com,No-Tax,Open
+SYNCUS-0573,Fourth Coffee Express,10,USD,Net45,25000,Excellent,6284 Chestnut St,Louisville,KY,51641,USA,Maria,502-555-0164,maria@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0574,Graphic Design Institute Express,10,USD,Net45,250000,Excellent,3378 Liberty St,Memphis,TN,32027,USA,Linda,901-555-0116,linda@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0575,Humongous Insurance Express,10,USD,Net15,250000,Fair,8526 Franklin St,San Antonio,TX,24285,USA,Matthew,210-555-0155,matthew@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0576,Litware Express,20,USD,COD,250000,Fair,4944 Elm St,Sacramento,CA,54195,USA,Nicole,916-555-0129,nicole@example.com,No-Tax,Open
+SYNCUS-0577,Lucerne Publishing Express,30,USD,Net15,250000,Poor,2747 School St,Louisville,KY,95152,USA,Lisa,502-555-0171,lisa@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0578,Margie's Travel Express,30,USD,Net30,25000,Fair,5711 First Ave,Tucson,AZ,86060,USA,Jonathan,520-555-0140,jonathan@www.margiestravel.com,No-Tax,Open
+SYNCUS-0579,Northwind Traders Express,80,USD,Net30,250000,Poor,2326 Water St,San Antonio,TX,27759,USA,Deborah,210-555-0148,deborah@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0580,Proseware Express,10,USD,Net15,250000,Poor,3378 Summit Ave,Baltimore,MD,51955,USA,Steven,410-555-0189,steven@example.com,No-Tax,Open
+SYNCUS-0581,School of Fine Art Express,30,USD,Net30,10000,Excellent,2907 Jackson St,New York,NY,52250,USA,Kenneth,212-555-0197,kenneth@www.fineartschool.net,No-Tax,Open
+SYNCUS-0582,Southridge Video Express,10,USD,COD,25000,Poor,9822 Water St,San Jose,CA,88780,USA,Joseph,408-555-0168,joseph@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0583,Tailspin Toys Express,30,USD,Net15,250000,Poor,3168 Main St,Pittsburgh,PA,19898,USA,Ruth,412-555-0101,ruth@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0584,Trey Research Express,10,USD,COD,100000,Poor,5528 Hill St,Memphis,TN,93289,USA,Ashley,901-555-0112,ashley@www.treyresearch.net,No-Tax,Open
+SYNCUS-0585,The Phone Company Express,20,USD,Net30,500000,Good,4547 Adams St,Los Angeles,CA,77369,USA,Ronald,213-555-0138,ronald@www.thephone-company.com,No-Tax,Open
+SYNCUS-0586,Wide World Importers Express,20,USD,Net45,100000,Good,3328 Jackson St,Memphis,TN,34501,USA,Carol,901-555-0161,carol@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0587,Wingtip Toys Express,20,USD,Net15,10000,Excellent,9570 Monroe St,Tampa,FL,34778,USA,Michelle,813-555-0155,michelle@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0588,Woodgrove Express,80,USD,Net15,50000,Fair,5821 Church St,Raleigh,NC,67044,USA,Stephanie,919-555-0135,stephanie@example.com,No-Tax,Open
+SYNCUS-0589,A. Datum Plus,30,USD,Net30,50000,Fair,5689 Liberty St,Cleveland,OH,75769,USA,Jonathan,216-555-0154,jonathan@example.com,No-Tax,Open
+SYNCUS-0590,Adventure Works Plus,20,USD,Net45,500000,Good,3805 Mill St,Kansas City,MO,33699,USA,Scott,816-555-0185,scott@example.com,No-Tax,Open
+SYNCUS-0591,Alpine Ski House Plus,80,USD,Net30,50000,Good,7196 Chestnut St,Kansas City,MO,59665,USA,William,816-555-0114,william@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0592,Blue Yonder Plus,20,USD,Net45,500000,Poor,1925 Second Ave,Las Vegas,NV,64287,USA,Kimberly,702-555-0172,kimberly@example.com,No-Tax,Open
+SYNCUS-0593,City Power & Light Plus,30,USD,Net15,100000,Excellent,4561 Jefferson St,Raleigh,NC,85330,USA,Stephanie,919-555-0198,stephanie@www.cpandl.com,No-Tax,Open
+SYNCUS-0594,Coho Vineyard Plus,90,USD,Net45,100000,Good,8053 Second Ave,Charlotte,NC,17903,USA,Brian,704-555-0148,brian@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0595,Coho Winery Plus,20,USD,Net30,100000,Poor,2587 Spring St,San Diego,CA,93875,USA,Samantha,619-555-0107,samantha@www.cohowinery.com,No-Tax,Open
+SYNCUS-0596,Coho Vineyard & Winery Plus,30,USD,Net45,25000,Fair,1662 Walnut St,Chicago,IL,65616,USA,Debra,312-555-0115,debra@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0597,Contoso Plus,10,USD,Net15,10000,Excellent,4765 Spring St,Albuquerque,NM,31451,USA,Michael,505-555-0166,michael@example.com,No-Tax,Open
+SYNCUS-0598,Contoso Pharmaceuticals Plus,90,USD,COD,25000,Fair,5059 Summit Ave,San Diego,CA,24513,USA,Shirley,619-555-0112,shirley@www.contoso.com,No-Tax,Open
+SYNCUS-0599,Consolidated Messenger Plus,90,USD,Net45,25000,Fair,2809 Adams St,Nashville,TN,87323,USA,Angela,615-555-0115,angela@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0600,Fabrikam Plus,10,USD,COD,100000,Good,7817 Summit Ave,Cleveland,OH,37250,USA,John,216-555-0172,john@example.com,No-Tax,Open
+SYNCUS-0601,Fourth Coffee Plus,80,USD,Net30,500000,Fair,6698 Madison Ave,Atlanta,GA,36607,USA,Carolyn,404-555-0198,carolyn@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0602,Graphic Design Institute Plus,90,USD,Net15,100000,Excellent,7442 Jefferson St,Atlanta,GA,20167,USA,Tyler,404-555-0189,tyler@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0603,Humongous Insurance Plus,90,USD,Net45,50000,Good,9728 Park Ave,Portland,OR,25388,USA,Stephen,503-555-0120,stephen@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0604,Litware Plus,20,USD,Net45,500000,Excellent,6494 Maple St,Oklahoma City,OK,82336,USA,Amy,405-555-0187,amy@example.com,No-Tax,Open
+SYNCUS-0605,Lucerne Publishing Plus,10,USD,Net45,10000,Fair,1914 Pine St,New York,NY,93146,USA,Samuel,212-555-0135,samuel@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0606,Margie's Travel Plus,20,USD,Net45,10000,Poor,4180 Cherry St,San Diego,CA,20279,USA,Melissa,619-555-0160,melissa@www.margiestravel.com,No-Tax,Open
+SYNCUS-0607,Northwind Traders Plus,20,USD,COD,100000,Excellent,4415 Cherry St,San Antonio,TX,45290,USA,Carol,210-555-0168,carol@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0608,Proseware Plus,90,USD,Net15,100000,Excellent,8529 Broad St,Miami,FL,66497,USA,Carolyn,305-555-0123,carolyn@example.com,No-Tax,Open
+SYNCUS-0609,School of Fine Art Plus,80,USD,COD,100000,Fair,7905 Lake St,San Antonio,TX,19275,USA,Debra,210-555-0174,debra@www.fineartschool.net,No-Tax,Open
+SYNCUS-0610,Southridge Video Plus,80,USD,COD,250000,Poor,1823 Lake St,Detroit,MI,64155,USA,Ryan,313-555-0179,ryan@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0611,Tailspin Toys Plus,30,USD,Net30,50000,Excellent,9642 Maple St,San Antonio,TX,85835,USA,Frank,210-555-0178,frank@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0612,Trey Research Plus,80,USD,Net15,500000,Poor,1417 Broad St,Baltimore,MD,36894,USA,Andrew,410-555-0170,andrew@www.treyresearch.net,No-Tax,Open
+SYNCUS-0613,The Phone Company Plus,20,USD,Net45,500000,Fair,9945 Washington St,Baltimore,MD,53873,USA,Shirley,410-555-0169,shirley@www.thephone-company.com,No-Tax,Open
+SYNCUS-0614,Wide World Importers Plus,20,USD,Net15,500000,Good,7827 Market St,Columbus,OH,27453,USA,Matthew,614-555-0111,matthew@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0615,Wingtip Toys Plus,90,USD,Net30,10000,Good,7774 Franklin St,Austin,TX,70636,USA,Brenda,512-555-0130,brenda@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0616,Woodgrove Plus,30,USD,Net30,50000,Excellent,3951 Jefferson St,San Antonio,TX,83898,USA,Jerry,210-555-0140,jerry@example.com,No-Tax,Open
+SYNCUS-0617,A. Datum Pro,10,USD,Net45,100000,Excellent,2042 Bridge St,Nashville,TN,82630,USA,Patrick,615-555-0174,patrick@example.com,No-Tax,Open
+SYNCUS-0618,Adventure Works Pro,10,USD,Net15,500000,Good,7203 Union St,Los Angeles,CA,59777,USA,Catherine,213-555-0153,catherine@example.com,No-Tax,Open
+SYNCUS-0619,Alpine Ski House Pro,30,USD,COD,100000,Excellent,9250 Jefferson St,Denver,CO,57743,USA,Edward,303-555-0157,edward@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0620,Blue Yonder Pro,20,USD,COD,500000,Excellent,1820 Walnut St,Sacramento,CA,78450,USA,Catherine,916-555-0158,catherine@example.com,No-Tax,Open
+SYNCUS-0621,City Power & Light Pro,80,USD,Net15,500000,Fair,1407 Oak St,Chicago,IL,98854,USA,Larry,312-555-0106,larry@www.cpandl.com,No-Tax,Open
+SYNCUS-0622,Coho Vineyard Pro,30,USD,Net45,100000,Fair,2714 Cedar St,Louisville,KY,61367,USA,William,502-555-0138,william@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0623,Coho Winery Pro,10,USD,COD,25000,Excellent,6814 Cedar St,Albuquerque,NM,30723,USA,Tyler,505-555-0125,tyler@www.cohowinery.com,No-Tax,Open
+SYNCUS-0624,Coho Vineyard & Winery Pro,10,USD,Net15,100000,Good,5618 Franklin St,Seattle,WA,13579,USA,Maria,206-555-0176,maria@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0625,Contoso Pro,20,USD,Net15,10000,Excellent,6220 Summit Ave,Philadelphia,PA,74076,USA,Anna,215-555-0180,anna@example.com,No-Tax,Open
+SYNCUS-0626,Contoso Pharmaceuticals Pro,30,USD,Net45,500000,Poor,5215 Grove St,Dallas,TX,78136,USA,Jonathan,214-555-0105,jonathan@www.contoso.com,No-Tax,Open
+SYNCUS-0627,Consolidated Messenger Pro,20,USD,Net30,50000,Excellent,5864 Adams St,San Antonio,TX,28870,USA,Tyler,210-555-0153,tyler@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0628,Fabrikam Pro,30,USD,Net15,250000,Fair,9706 Hill St,Jacksonville,FL,23712,USA,Dorothy,904-555-0161,dorothy@example.com,No-Tax,Open
+SYNCUS-0629,Fourth Coffee Pro,30,USD,Net30,25000,Good,5174 Pleasant St,Cleveland,OH,82093,USA,Linda,216-555-0157,linda@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0630,Graphic Design Institute Pro,20,USD,Net30,100000,Fair,9333 Elm St,Raleigh,NC,60712,USA,Elizabeth,919-555-0183,elizabeth@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0631,Humongous Insurance Pro,20,USD,Net45,100000,Poor,5223 Union St,Raleigh,NC,43213,USA,Dorothy,919-555-0171,dorothy@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0632,Litware Pro,20,USD,Net15,50000,Poor,8158 Oak St,Omaha,NE,85141,USA,Paul,402-555-0174,paul@example.com,No-Tax,Open
+SYNCUS-0633,Lucerne Publishing Pro,90,USD,Net45,10000,Good,1713 Madison Ave,Indianapolis,IN,70434,USA,Alexander,317-555-0153,alexander@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0634,Margie's Travel Pro,10,USD,Net30,100000,Excellent,2705 Union St,Portland,OR,18503,USA,Michael,503-555-0182,michael@www.margiestravel.com,No-Tax,Open
+SYNCUS-0635,Northwind Traders Pro,30,USD,Net45,500000,Fair,9754 Adams St,Louisville,KY,38553,USA,Debra,502-555-0174,debra@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0636,Proseware Pro,90,USD,Net45,10000,Good,5056 Franklin St,Miami,FL,59551,USA,Donna,305-555-0154,donna@example.com,No-Tax,Open
+SYNCUS-0637,School of Fine Art Pro,10,USD,Net30,25000,Excellent,9101 Washington St,Portland,OR,81068,USA,Lisa,503-555-0104,lisa@www.fineartschool.net,No-Tax,Open
+SYNCUS-0638,Southridge Video Pro,80,USD,Net45,100000,Fair,7983 Market St,Atlanta,GA,34614,USA,Rachel,404-555-0168,rachel@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0639,Tailspin Toys Pro,10,USD,Net15,500000,Excellent,2961 Monroe St,Philadelphia,PA,59227,USA,Jonathan,215-555-0181,jonathan@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0640,Trey Research Pro,10,USD,Net45,100000,Poor,5117 River Rd,Baltimore,MD,97184,USA,Laura,410-555-0104,laura@www.treyresearch.net,No-Tax,Open
+SYNCUS-0641,The Phone Company Pro,90,USD,COD,50000,Poor,1681 Elm St,Phoenix,AZ,22344,USA,Pamela,602-555-0112,pamela@www.thephone-company.com,No-Tax,Open
+SYNCUS-0642,Wide World Importers Pro,80,USD,Net45,100000,Poor,5205 Washington St,New York,NY,30470,USA,Helen,212-555-0136,helen@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0643,Wingtip Toys Pro,30,USD,COD,500000,Good,8286 Mill St,San Francisco,CA,98296,USA,Pamela,415-555-0151,pamela@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0644,Woodgrove Pro,90,USD,COD,50000,Poor,2637 First Ave,Houston,TX,17114,USA,Tyler,713-555-0161,tyler@example.com,No-Tax,Open
+SYNCUS-0645,A. Datum Premium,10,USD,COD,10000,Good,7924 Cherry St,Phoenix,AZ,97262,USA,Nicole,602-555-0183,nicole@example.com,No-Tax,Open
+SYNCUS-0646,Adventure Works Premium,90,USD,Net45,25000,Excellent,9439 Pleasant St,Pittsburgh,PA,29719,USA,Justin,412-555-0191,justin@example.com,No-Tax,Open
+SYNCUS-0647,Alpine Ski House Premium,20,USD,Net30,25000,Fair,3864 Mill St,Cleveland,OH,59083,USA,Rachel,216-555-0148,rachel@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0648,Blue Yonder Premium,90,USD,Net15,250000,Poor,3569 Adams St,Memphis,TN,36849,USA,Scott,901-555-0167,scott@example.com,No-Tax,Open
+SYNCUS-0649,City Power & Light Premium,20,USD,Net30,50000,Fair,4181 Maple St,Atlanta,GA,55766,USA,Carol,404-555-0130,carol@www.cpandl.com,No-Tax,Open
+SYNCUS-0650,Coho Vineyard Premium,90,USD,Net15,250000,Good,6621 Lake St,Louisville,KY,12108,USA,Brenda,502-555-0139,brenda@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0651,Coho Winery Premium,20,USD,COD,50000,Poor,7713 Jefferson St,Portland,OR,40637,USA,Amanda,503-555-0167,amanda@www.cohowinery.com,No-Tax,Open
+SYNCUS-0652,Coho Vineyard & Winery Premium,20,USD,COD,500000,Poor,2677 Cedar St,San Diego,CA,31955,USA,Susan,619-555-0126,susan@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0653,Contoso Premium,20,USD,Net30,50000,Fair,5578 Monroe St,Sacramento,CA,54253,USA,Samuel,916-555-0193,samuel@example.com,No-Tax,Open
+SYNCUS-0654,Contoso Pharmaceuticals Premium,80,USD,COD,25000,Poor,6160 South St,Louisville,KY,35911,USA,Raymond,502-555-0190,raymond@www.contoso.com,No-Tax,Open
+SYNCUS-0655,Consolidated Messenger Premium,90,USD,Net30,10000,Poor,8492 Hill St,Tampa,FL,77352,USA,Patrick,813-555-0179,patrick@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0656,Fabrikam Premium,30,USD,Net30,25000,Fair,7158 Pine St,Chicago,IL,83934,USA,Amanda,312-555-0102,amanda@example.com,No-Tax,Open
+SYNCUS-0657,Fourth Coffee Premium,30,USD,Net45,250000,Fair,1904 High St,New York,NY,66831,USA,Debra,212-555-0198,debra@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0658,Graphic Design Institute Premium,10,USD,COD,10000,Fair,3903 Mill St,Tucson,AZ,20672,USA,Ryan,520-555-0148,ryan@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0659,Humongous Insurance Premium,10,USD,COD,100000,Poor,6975 Liberty St,Raleigh,NC,23308,USA,Ashley,919-555-0136,ashley@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0660,Litware Premium,80,USD,Net30,100000,Fair,4627 Jackson St,Memphis,TN,28194,USA,Stephen,901-555-0158,stephen@example.com,No-Tax,Open
+SYNCUS-0661,Lucerne Publishing Premium,30,USD,Net30,50000,Poor,9571 Chestnut St,Chicago,IL,69834,USA,Gregory,312-555-0190,gregory@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0662,Margie's Travel Premium,30,USD,COD,250000,Fair,5484 Cherry St,Boston,MA,84589,USA,Catherine,617-555-0121,catherine@www.margiestravel.com,No-Tax,Open
+SYNCUS-0663,Northwind Traders Premium,80,USD,COD,50000,Excellent,2666 Cherry St,Denver,CO,45238,USA,Ronald,303-555-0157,ronald@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0664,Proseware Premium,80,USD,COD,10000,Excellent,7233 Center St,Minneapolis,MN,39328,USA,Jack,612-555-0180,jack@example.com,No-Tax,Open
+SYNCUS-0665,School of Fine Art Premium,10,USD,Net15,100000,Excellent,5479 Union St,Denver,CO,15341,USA,Stephen,303-555-0135,stephen@www.fineartschool.net,No-Tax,Open
+SYNCUS-0666,Southridge Video Premium,80,USD,Net15,500000,Poor,8042 Grove St,Houston,TX,90780,USA,Raymond,713-555-0122,raymond@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0667,Tailspin Toys Premium,90,USD,COD,500000,Fair,7285 Oak St,San Diego,CA,97951,USA,Scott,619-555-0122,scott@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0668,Trey Research Premium,80,USD,Net15,25000,Poor,6091 Jackson St,Los Angeles,CA,66682,USA,Ashley,213-555-0196,ashley@www.treyresearch.net,No-Tax,Open
+SYNCUS-0669,The Phone Company Premium,30,USD,Net15,250000,Poor,5143 Market St,Denver,CO,91988,USA,Matthew,303-555-0198,matthew@www.thephone-company.com,No-Tax,Open
+SYNCUS-0670,Wide World Importers Premium,20,USD,Net45,25000,Fair,5843 Oak St,Tucson,AZ,10074,USA,Sandra,520-555-0133,sandra@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0671,Wingtip Toys Premium,30,USD,Net15,50000,Good,3879 Maple St,Oklahoma City,OK,62610,USA,Mary,405-555-0178,mary@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0672,Woodgrove Premium,10,USD,Net45,10000,Fair,7182 Mill St,Charlotte,NC,29197,USA,Barbara,704-555-0185,barbara@example.com,No-Tax,Open
+SYNCUS-0673,A. Datum North,10,USD,Net45,25000,Fair,9991 Second Ave,San Diego,CA,20446,USA,Carolyn,619-555-0187,carolyn@example.com,No-Tax,Open
+SYNCUS-0674,Adventure Works North,10,USD,Net45,500000,Excellent,7975 River Rd,Houston,TX,61709,USA,Helen,713-555-0145,helen@example.com,No-Tax,Open
+SYNCUS-0675,Alpine Ski House North,30,USD,Net15,10000,Excellent,2390 Liberty St,Minneapolis,MN,82475,USA,Margaret,612-555-0163,margaret@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0676,Blue Yonder North,80,USD,Net45,25000,Poor,3406 Union St,Jacksonville,FL,92976,USA,Paul,904-555-0110,paul@example.com,No-Tax,Open
+SYNCUS-0677,City Power & Light North,30,USD,Net15,500000,Fair,2454 Center St,San Antonio,TX,71912,USA,Emily,210-555-0194,emily@www.cpandl.com,No-Tax,Open
+SYNCUS-0678,Coho Vineyard North,20,USD,Net45,50000,Fair,9158 Grove St,Charlotte,NC,26291,USA,Larry,704-555-0106,larry@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0679,Coho Winery North,20,USD,Net45,50000,Excellent,1966 Water St,Austin,TX,38063,USA,Sandra,512-555-0103,sandra@www.cohowinery.com,No-Tax,Open
+SYNCUS-0680,Coho Vineyard & Winery North,80,USD,COD,25000,Excellent,5743 Oak St,Fort Worth,TX,30042,USA,Tyler,817-555-0189,tyler@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0681,Contoso North,30,USD,Net45,50000,Fair,5808 Bridge St,Jacksonville,FL,92168,USA,Janet,904-555-0158,janet@example.com,No-Tax,Open
+SYNCUS-0682,Contoso Pharmaceuticals North,10,USD,Net45,500000,Excellent,4240 Center St,San Antonio,TX,22281,USA,Joshua,210-555-0178,joshua@www.contoso.com,No-Tax,Open
+SYNCUS-0683,Consolidated Messenger North,90,USD,Net45,500000,Good,8302 Franklin St,Charlotte,NC,18781,USA,Shirley,704-555-0130,shirley@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0684,Fabrikam North,20,USD,Net15,500000,Good,3543 Elm St,Phoenix,AZ,19105,USA,Shirley,602-555-0161,shirley@example.com,No-Tax,Open
+SYNCUS-0685,Fourth Coffee North,80,USD,Net45,250000,Excellent,1991 Water St,San Francisco,CA,41124,USA,Aaron,415-555-0153,aaron@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0686,Graphic Design Institute North,30,USD,Net45,10000,Good,2106 Monroe St,Nashville,TN,16066,USA,Kimberly,615-555-0146,kimberly@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0687,Humongous Insurance North,30,USD,Net15,25000,Good,8802 School St,Miami,FL,47196,USA,Susan,305-555-0122,susan@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0688,Litware North,20,USD,COD,10000,Fair,6475 Summit Ave,Boston,MA,99771,USA,Brian,617-555-0147,brian@example.com,No-Tax,Open
+SYNCUS-0689,Lucerne Publishing North,30,USD,COD,500000,Poor,9253 Church St,San Antonio,TX,23154,USA,Benjamin,210-555-0159,benjamin@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0690,Margie's Travel North,30,USD,Net30,250000,Fair,6495 Broad St,Denver,CO,31475,USA,Laura,303-555-0101,laura@www.margiestravel.com,No-Tax,Open
+SYNCUS-0691,Northwind Traders North,20,USD,Net15,50000,Excellent,5861 First Ave,Indianapolis,IN,40269,USA,Rachel,317-555-0174,rachel@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0692,Proseware North,10,USD,Net15,250000,Good,4752 Pleasant St,Nashville,TN,49053,USA,Betty,615-555-0117,betty@example.com,No-Tax,Open
+SYNCUS-0693,School of Fine Art North,80,USD,Net15,25000,Fair,3706 Jackson St,New York,NY,23412,USA,Donna,212-555-0122,donna@www.fineartschool.net,No-Tax,Open
+SYNCUS-0694,Southridge Video North,80,USD,Net30,250000,Poor,7255 Main St,Baltimore,MD,80485,USA,Lisa,410-555-0133,lisa@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0695,Tailspin Toys North,10,USD,Net30,100000,Good,2315 Madison Ave,Denver,CO,73570,USA,James,303-555-0178,james@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0696,Trey Research North,20,USD,Net45,50000,Fair,1880 Pearl St,Nashville,TN,62258,USA,Amanda,615-555-0117,amanda@www.treyresearch.net,No-Tax,Open
+SYNCUS-0697,The Phone Company North,20,USD,Net45,50000,Poor,7634 Adams St,Cleveland,OH,99727,USA,Sharon,216-555-0158,sharon@www.thephone-company.com,No-Tax,Open
+SYNCUS-0698,Wide World Importers North,20,USD,Net30,25000,Excellent,5767 South St,Portland,OR,11093,USA,Jerry,503-555-0186,jerry@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0699,Wingtip Toys North,80,USD,Net15,50000,Good,7289 Adams St,New York,NY,48167,USA,Margaret,212-555-0137,margaret@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0700,Woodgrove North,30,USD,Net45,25000,Good,2830 Lake St,Louisville,KY,28959,USA,Catherine,502-555-0184,catherine@example.com,No-Tax,Open
+SYNCUS-0701,A. Datum South,10,USD,COD,50000,Poor,6080 South St,Indianapolis,IN,72995,USA,Lisa,317-555-0172,lisa@example.com,No-Tax,Open
+SYNCUS-0702,Adventure Works South,20,USD,COD,25000,Poor,6562 Hill St,Sacramento,CA,56397,USA,David,916-555-0119,david@example.com,No-Tax,Open
+SYNCUS-0703,Alpine Ski House South,80,USD,COD,25000,Fair,2276 Mill St,Fresno,CA,45099,USA,Stephen,559-555-0122,stephen@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0704,Blue Yonder South,30,USD,Net30,25000,Poor,1521 Monroe St,Dallas,TX,12160,USA,Lisa,214-555-0128,lisa@example.com,No-Tax,Open
+SYNCUS-0705,City Power & Light South,90,USD,COD,100000,Excellent,4772 Adams St,Atlanta,GA,11027,USA,Tyler,404-555-0199,tyler@www.cpandl.com,No-Tax,Open
+SYNCUS-0706,Coho Vineyard South,20,USD,Net30,100000,Fair,2466 Water St,Sacramento,CA,70439,USA,Pamela,916-555-0164,pamela@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0707,Coho Winery South,20,USD,Net15,50000,Fair,7962 Park Ave,San Jose,CA,27164,USA,James,408-555-0197,james@www.cohowinery.com,No-Tax,Open
+SYNCUS-0708,Coho Vineyard & Winery South,30,USD,Net45,100000,Fair,4883 Summit Ave,San Jose,CA,68145,USA,Kimberly,408-555-0164,kimberly@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0709,Contoso South,90,USD,Net45,100000,Excellent,8324 Pleasant St,Philadelphia,PA,98027,USA,Christine,215-555-0183,christine@example.com,No-Tax,Open
+SYNCUS-0710,Contoso Pharmaceuticals South,10,USD,Net45,25000,Good,7339 Summit Ave,Minneapolis,MN,38593,USA,Ruth,612-555-0137,ruth@www.contoso.com,No-Tax,Open
+SYNCUS-0711,Consolidated Messenger South,10,USD,COD,250000,Poor,4250 River Rd,San Antonio,TX,91024,USA,Sharon,210-555-0174,sharon@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0712,Fabrikam South,10,USD,Net30,25000,Good,4922 Pine St,Columbus,OH,97605,USA,Rachel,614-555-0190,rachel@example.com,No-Tax,Open
+SYNCUS-0713,Fourth Coffee South,20,USD,COD,500000,Excellent,6749 Church St,Portland,OR,16321,USA,Lisa,503-555-0128,lisa@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0714,Graphic Design Institute South,80,USD,COD,500000,Good,4623 Oak St,Portland,OR,26704,USA,Susan,503-555-0128,susan@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0715,Humongous Insurance South,30,USD,Net30,25000,Fair,4954 Center St,Chicago,IL,40495,USA,Aaron,312-555-0129,aaron@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0716,Litware South,10,USD,Net15,50000,Fair,9668 Lincoln Ave,Jacksonville,FL,86341,USA,Heather,904-555-0161,heather@example.com,No-Tax,Open
+SYNCUS-0717,Lucerne Publishing South,20,USD,Net30,10000,Good,5729 Summit Ave,San Diego,CA,13362,USA,Daniel,619-555-0186,daniel@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0718,Margie's Travel South,20,USD,Net45,250000,Fair,7390 Market St,Jacksonville,FL,30388,USA,Jeffrey,904-555-0104,jeffrey@www.margiestravel.com,No-Tax,Open
+SYNCUS-0719,Northwind Traders South,80,USD,Net30,10000,Good,7102 Union St,Los Angeles,CA,54715,USA,Jack,213-555-0140,jack@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0720,Proseware South,90,USD,Net30,100000,Fair,5771 Bridge St,Oklahoma City,OK,96034,USA,Catherine,405-555-0146,catherine@example.com,No-Tax,Open
+SYNCUS-0721,School of Fine Art South,30,USD,COD,500000,Excellent,4536 Church St,Louisville,KY,41933,USA,David,502-555-0188,david@www.fineartschool.net,No-Tax,Open
+SYNCUS-0722,Southridge Video South,10,USD,COD,500000,Good,1993 Jefferson St,Omaha,NE,35703,USA,Diane,402-555-0187,diane@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0723,Tailspin Toys South,90,USD,Net45,25000,Excellent,7576 Oak St,Detroit,MI,69890,USA,Rachel,313-555-0164,rachel@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0724,Trey Research South,80,USD,Net30,25000,Poor,6585 Water St,Kansas City,MO,62471,USA,Tyler,816-555-0123,tyler@www.treyresearch.net,No-Tax,Open
+SYNCUS-0725,The Phone Company South,20,USD,Net15,25000,Excellent,6808 Liberty St,San Diego,CA,59069,USA,Laura,619-555-0106,laura@www.thephone-company.com,No-Tax,Open
+SYNCUS-0726,Wide World Importers South,80,USD,COD,100000,Good,6134 Monroe St,Philadelphia,PA,43753,USA,Ronald,215-555-0103,ronald@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0727,Wingtip Toys South,30,USD,Net15,10000,Poor,1999 Washington St,Philadelphia,PA,23008,USA,Pamela,215-555-0172,pamela@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0728,Woodgrove South,10,USD,Net15,25000,Poor,5300 Hill St,Seattle,WA,46531,USA,Gregory,206-555-0157,gregory@example.com,No-Tax,Open
+SYNCUS-0729,A. Datum East,30,USD,Net15,50000,Poor,9165 Chestnut St,Pittsburgh,PA,86702,USA,Aaron,412-555-0122,aaron@example.com,No-Tax,Open
+SYNCUS-0730,Adventure Works East,10,USD,Net15,250000,Excellent,7527 Hill St,Houston,TX,84467,USA,Anthony,713-555-0120,anthony@example.com,No-Tax,Open
+SYNCUS-0731,Alpine Ski House East,90,USD,Net30,100000,Poor,7558 Madison Ave,Indianapolis,IN,17766,USA,Emily,317-555-0157,emily@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0732,Blue Yonder East,10,USD,Net15,250000,Good,4850 Park Ave,Portland,OR,45542,USA,Samuel,503-555-0155,samuel@example.com,No-Tax,Open
+SYNCUS-0733,City Power & Light East,90,USD,Net15,50000,Fair,9926 Chestnut St,Minneapolis,MN,62550,USA,William,612-555-0158,william@www.cpandl.com,No-Tax,Open
+SYNCUS-0734,Coho Vineyard East,30,USD,Net30,10000,Good,7634 Monroe St,Boston,MA,12648,USA,Jason,617-555-0162,jason@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0735,Coho Winery East,90,USD,Net45,500000,Excellent,2570 Pearl St,New York,NY,19573,USA,Sharon,212-555-0190,sharon@www.cohowinery.com,No-Tax,Open
+SYNCUS-0736,Coho Vineyard & Winery East,30,USD,COD,500000,Fair,7842 Madison Ave,Columbus,OH,23787,USA,Emma,614-555-0177,emma@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0737,Contoso East,90,USD,Net15,25000,Excellent,5016 Summit Ave,Detroit,MI,97012,USA,Laura,313-555-0191,laura@example.com,No-Tax,Open
+SYNCUS-0738,Contoso Pharmaceuticals East,80,USD,Net45,50000,Fair,9174 Walnut St,Milwaukee,WI,88964,USA,Rachel,414-555-0187,rachel@www.contoso.com,No-Tax,Open
+SYNCUS-0739,Consolidated Messenger East,80,USD,COD,100000,Excellent,3988 Main St,Milwaukee,WI,39498,USA,Margaret,414-555-0190,margaret@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0740,Fabrikam East,10,USD,Net15,25000,Good,7694 Union St,San Francisco,CA,46052,USA,Brenda,415-555-0124,brenda@example.com,No-Tax,Open
+SYNCUS-0741,Fourth Coffee East,20,USD,Net30,10000,Good,6119 Park Ave,Atlanta,GA,22987,USA,Elizabeth,404-555-0107,elizabeth@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0742,Graphic Design Institute East,80,USD,Net45,50000,Good,4689 Spring St,Phoenix,AZ,22990,USA,Sarah,602-555-0108,sarah@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0743,Humongous Insurance East,20,USD,Net15,100000,Poor,7256 Madison Ave,Detroit,MI,99643,USA,Diane,313-555-0145,diane@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0744,Litware East,10,USD,Net30,500000,Good,3708 Park Ave,San Francisco,CA,40744,USA,Jason,415-555-0133,jason@example.com,No-Tax,Open
+SYNCUS-0745,Lucerne Publishing East,90,USD,Net30,250000,Poor,4580 Franklin St,Atlanta,GA,62621,USA,Susan,404-555-0101,susan@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0746,Margie's Travel East,10,USD,Net45,250000,Good,4987 Lake St,Austin,TX,84740,USA,Nancy,512-555-0190,nancy@www.margiestravel.com,No-Tax,Open
+SYNCUS-0747,Northwind Traders East,90,USD,Net45,10000,Excellent,8969 Summit Ave,San Antonio,TX,44827,USA,Thomas,210-555-0128,thomas@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0748,Proseware East,20,USD,Net45,10000,Fair,3688 Second Ave,Dallas,TX,69145,USA,Eric,214-555-0132,eric@example.com,No-Tax,Open
+SYNCUS-0749,School of Fine Art East,20,USD,Net30,50000,Poor,6291 Pleasant St,Boston,MA,26396,USA,Anna,617-555-0103,anna@www.fineartschool.net,No-Tax,Open
+SYNCUS-0750,Southridge Video East,20,USD,Net45,100000,Excellent,3208 Lake St,Kansas City,MO,42185,USA,Tyler,816-555-0102,tyler@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0751,Tailspin Toys East,20,USD,Net30,100000,Fair,1759 High St,Jacksonville,FL,32227,USA,Deborah,904-555-0186,deborah@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0752,Trey Research East,30,USD,COD,10000,Poor,1783 Mill St,San Francisco,CA,11948,USA,Tyler,415-555-0135,tyler@www.treyresearch.net,No-Tax,Open
+SYNCUS-0753,The Phone Company East,90,USD,COD,25000,Excellent,1894 Lake St,Raleigh,NC,77119,USA,Heather,919-555-0167,heather@www.thephone-company.com,No-Tax,Open
+SYNCUS-0754,Wide World Importers East,30,USD,Net15,500000,Fair,4074 Mill St,New York,NY,77149,USA,Frank,212-555-0128,frank@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0755,Wingtip Toys East,20,USD,COD,500000,Fair,3131 Second Ave,Philadelphia,PA,69039,USA,Richard,215-555-0159,richard@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0756,Woodgrove East,20,USD,Net30,25000,Good,6617 Hill St,Charlotte,NC,20818,USA,Carol,704-555-0174,carol@example.com,No-Tax,Open
+SYNCUS-0757,A. Datum West,20,USD,COD,100000,Fair,3472 Oak St,Cleveland,OH,84544,USA,Maria,216-555-0104,maria@example.com,No-Tax,Open
+SYNCUS-0758,Adventure Works West,10,USD,Net30,10000,Poor,1425 Lincoln Ave,San Jose,CA,11831,USA,Nicholas,408-555-0133,nicholas@example.com,No-Tax,Open
+SYNCUS-0759,Alpine Ski House West,90,USD,Net30,500000,Good,8802 Pine St,Omaha,NE,66561,USA,Brenda,402-555-0156,brenda@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0760,Blue Yonder West,80,USD,Net15,25000,Fair,3289 Lake St,San Jose,CA,68314,USA,Kenneth,408-555-0154,kenneth@example.com,No-Tax,Open
+SYNCUS-0761,City Power & Light West,30,USD,COD,25000,Good,5558 Adams St,Houston,TX,73185,USA,Angela,713-555-0120,angela@www.cpandl.com,No-Tax,Open
+SYNCUS-0762,Coho Vineyard West,10,USD,COD,500000,Fair,5659 River Rd,Boston,MA,29282,USA,Christine,617-555-0149,christine@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0763,Coho Winery West,80,USD,Net30,250000,Excellent,3278 Monroe St,Jacksonville,FL,83090,USA,Margaret,904-555-0105,margaret@www.cohowinery.com,No-Tax,Open
+SYNCUS-0764,Coho Vineyard & Winery West,30,USD,Net30,250000,Excellent,1939 Walnut St,Phoenix,AZ,10747,USA,Brian,602-555-0103,brian@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0765,Contoso West,30,USD,Net45,100000,Excellent,1953 River Rd,Raleigh,NC,29828,USA,Patricia,919-555-0114,patricia@example.com,No-Tax,Open
+SYNCUS-0766,Contoso Pharmaceuticals West,20,USD,Net45,250000,Good,8396 School St,Raleigh,NC,30577,USA,Shirley,919-555-0199,shirley@www.contoso.com,No-Tax,Open
+SYNCUS-0767,Consolidated Messenger West,30,USD,Net45,50000,Good,4365 River Rd,Jacksonville,FL,24595,USA,Deborah,904-555-0101,deborah@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0768,Fabrikam West,30,USD,Net15,500000,Poor,2524 Liberty St,Fort Worth,TX,93047,USA,Helen,817-555-0121,helen@example.com,No-Tax,Open
+SYNCUS-0769,Fourth Coffee West,20,USD,Net15,50000,Poor,8280 Main St,Sacramento,CA,82270,USA,Debra,916-555-0193,debra@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0770,Graphic Design Institute West,30,USD,Net45,250000,Poor,7605 Pleasant St,Phoenix,AZ,62389,USA,Michael,602-555-0101,michael@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0771,Humongous Insurance West,10,USD,Net45,10000,Good,5427 Market St,Philadelphia,PA,76725,USA,Alexander,215-555-0128,alexander@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0772,Litware West,80,USD,Net45,25000,Good,5042 Pine St,New York,NY,11146,USA,Jason,212-555-0158,jason@example.com,No-Tax,Open
+SYNCUS-0773,Lucerne Publishing West,10,USD,COD,50000,Poor,3781 Pleasant St,Louisville,KY,70736,USA,Richard,502-555-0136,richard@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0774,Margie's Travel West,30,USD,Net45,250000,Poor,3241 Pine St,Denver,CO,87688,USA,Ashley,303-555-0166,ashley@www.margiestravel.com,No-Tax,Open
+SYNCUS-0775,Northwind Traders West,80,USD,COD,25000,Fair,3208 Monroe St,Nashville,TN,45870,USA,William,615-555-0191,william@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0776,Proseware West,90,USD,Net45,50000,Excellent,3854 River Rd,Oklahoma City,OK,11020,USA,Andrew,405-555-0187,andrew@example.com,No-Tax,Open
+SYNCUS-0777,School of Fine Art West,80,USD,COD,500000,Good,1683 Broad St,Milwaukee,WI,62838,USA,Rachel,414-555-0122,rachel@www.fineartschool.net,No-Tax,Open
+SYNCUS-0778,Southridge Video West,90,USD,COD,250000,Good,4514 Market St,Omaha,NE,66371,USA,Helen,402-555-0128,helen@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0779,Tailspin Toys West,80,USD,Net45,25000,Excellent,9277 Monroe St,Nashville,TN,92724,USA,Larry,615-555-0188,larry@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0780,Trey Research West,10,USD,Net15,500000,Poor,2514 Lincoln Ave,Philadelphia,PA,20092,USA,Jacob,215-555-0107,jacob@www.treyresearch.net,No-Tax,Open
+SYNCUS-0781,The Phone Company West,30,USD,Net45,25000,Excellent,2987 Franklin St,Jacksonville,FL,15694,USA,Emma,904-555-0192,emma@www.thephone-company.com,No-Tax,Open
+SYNCUS-0782,Wide World Importers West,80,USD,COD,250000,Good,5631 Jefferson St,Louisville,KY,69352,USA,Christine,502-555-0197,christine@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0783,Wingtip Toys West,30,USD,Net45,250000,Poor,9863 Cherry St,Albuquerque,NM,10813,USA,Karen,505-555-0101,karen@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0784,Woodgrove West,10,USD,COD,10000,Good,2403 Lake St,Las Vegas,NV,16755,USA,Amy,702-555-0134,amy@example.com,No-Tax,Open
+SYNCUS-0785,A. Datum Central,80,USD,Net15,250000,Good,5569 Washington St,Minneapolis,MN,96779,USA,Susan,612-555-0146,susan@example.com,No-Tax,Open
+SYNCUS-0786,Adventure Works Central,80,USD,COD,500000,Excellent,9559 School St,Austin,TX,86074,USA,Edward,512-555-0149,edward@example.com,No-Tax,Open
+SYNCUS-0787,Alpine Ski House Central,80,USD,COD,25000,Excellent,1814 River Rd,San Antonio,TX,26727,USA,Christine,210-555-0134,christine@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0788,Blue Yonder Central,10,USD,Net15,10000,Poor,8120 Walnut St,Omaha,NE,74598,USA,Thomas,402-555-0145,thomas@example.com,No-Tax,Open
+SYNCUS-0789,City Power & Light Central,20,USD,Net30,100000,Good,6189 Elm St,San Diego,CA,34299,USA,Samantha,619-555-0186,samantha@www.cpandl.com,No-Tax,Open
+SYNCUS-0790,Coho Vineyard Central,30,USD,COD,250000,Good,6538 Hill St,Louisville,KY,75238,USA,Cynthia,502-555-0114,cynthia@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0791,Coho Winery Central,20,USD,COD,250000,Poor,3037 Main St,Seattle,WA,12517,USA,Debra,206-555-0138,debra@www.cohowinery.com,No-Tax,Open
+SYNCUS-0792,Coho Vineyard & Winery Central,90,USD,COD,50000,Poor,8932 Mill St,Houston,TX,58877,USA,Kevin,713-555-0136,kevin@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0793,Contoso Central,30,USD,Net30,500000,Good,1797 Park Ave,Albuquerque,NM,93373,USA,Stephanie,505-555-0113,stephanie@example.com,No-Tax,Open
+SYNCUS-0794,Contoso Pharmaceuticals Central,30,USD,Net15,100000,Excellent,2991 Oak St,Las Vegas,NV,71722,USA,Maria,702-555-0139,maria@www.contoso.com,No-Tax,Open
+SYNCUS-0795,Consolidated Messenger Central,30,USD,Net30,25000,Excellent,7317 Monroe St,Kansas City,MO,29078,USA,Ashley,816-555-0112,ashley@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0796,Fabrikam Central,10,USD,COD,100000,Excellent,8098 Hill St,Austin,TX,40487,USA,Ruth,512-555-0108,ruth@example.com,No-Tax,Open
+SYNCUS-0797,Fourth Coffee Central,80,USD,Net45,100000,Good,9733 Maple St,Denver,CO,95233,USA,John,303-555-0109,john@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0798,Graphic Design Institute Central,10,USD,Net15,250000,Fair,5073 Pearl St,Tampa,FL,19336,USA,Eric,813-555-0181,eric@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0799,Humongous Insurance Central,80,USD,COD,50000,Excellent,5083 Pearl St,Fresno,CA,21697,USA,Eric,559-555-0177,eric@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0800,Litware Central,30,USD,COD,500000,Poor,2947 Cherry St,Kansas City,MO,88990,USA,Matthew,816-555-0149,matthew@example.com,No-Tax,Open
+SYNCUS-0801,Lucerne Publishing Central,30,USD,Net15,10000,Poor,5315 Hill St,Nashville,TN,96720,USA,Janet,615-555-0151,janet@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0802,Margie's Travel Central,20,USD,COD,50000,Poor,8918 Union St,Sacramento,CA,60070,USA,Catherine,916-555-0110,catherine@www.margiestravel.com,No-Tax,Open
+SYNCUS-0803,Northwind Traders Central,80,USD,Net30,10000,Excellent,6429 River Rd,Philadelphia,PA,14250,USA,Jeffrey,215-555-0106,jeffrey@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0804,Proseware Central,20,USD,Net15,100000,Poor,6685 Monroe St,Boston,MA,20313,USA,Joseph,617-555-0157,joseph@example.com,No-Tax,Open
+SYNCUS-0805,School of Fine Art Central,10,USD,Net15,500000,Excellent,9523 Liberty St,Sacramento,CA,37494,USA,Carolyn,916-555-0183,carolyn@www.fineartschool.net,No-Tax,Open
+SYNCUS-0806,Southridge Video Central,30,USD,Net45,10000,Poor,9637 Market St,Louisville,KY,72924,USA,Joshua,502-555-0181,joshua@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0807,Tailspin Toys Central,20,USD,Net45,500000,Good,8311 River Rd,Tucson,AZ,58201,USA,Steven,520-555-0162,steven@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0808,Trey Research Central,30,USD,Net45,25000,Poor,4402 Washington St,Houston,TX,37809,USA,Timothy,713-555-0101,timothy@www.treyresearch.net,No-Tax,Open
+SYNCUS-0809,The Phone Company Central,10,USD,COD,100000,Poor,5607 Park Ave,Minneapolis,MN,82707,USA,Emma,612-555-0121,emma@www.thephone-company.com,No-Tax,Open
+SYNCUS-0810,Wide World Importers Central,90,USD,COD,25000,Good,2063 Jackson St,Louisville,KY,35960,USA,Betty,502-555-0156,betty@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0811,Wingtip Toys Central,90,USD,Net15,500000,Good,2214 Water St,Albuquerque,NM,89122,USA,Melissa,505-555-0194,melissa@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0812,Woodgrove Central,90,USD,Net15,100000,Good,3684 Madison Ave,Houston,TX,32754,USA,Kevin,713-555-0189,kevin@example.com,No-Tax,Open
+SYNCUS-0813,A. Datum Pacific,10,USD,Net45,250000,Good,3948 River Rd,Fort Worth,TX,64127,USA,James,817-555-0127,james@example.com,No-Tax,Open
+SYNCUS-0814,Adventure Works Pacific,30,USD,COD,50000,Good,2805 Bridge St,Albuquerque,NM,41840,USA,Nicole,505-555-0132,nicole@example.com,No-Tax,Open
+SYNCUS-0815,Alpine Ski House Pacific,90,USD,Net45,100000,Good,6674 Spring St,San Antonio,TX,28908,USA,Raymond,210-555-0139,raymond@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0816,Blue Yonder Pacific,10,USD,Net15,500000,Good,4025 Second Ave,Raleigh,NC,17284,USA,Stephanie,919-555-0116,stephanie@example.com,No-Tax,Open
+SYNCUS-0817,City Power & Light Pacific,30,USD,Net45,250000,Excellent,6899 Jefferson St,Memphis,TN,22378,USA,Ronald,901-555-0160,ronald@www.cpandl.com,No-Tax,Open
+SYNCUS-0818,Coho Vineyard Pacific,80,USD,COD,250000,Excellent,5391 Park Ave,Fort Worth,TX,24591,USA,Timothy,817-555-0191,timothy@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0819,Coho Winery Pacific,20,USD,Net30,100000,Good,5827 Monroe St,New York,NY,57354,USA,Dennis,212-555-0134,dennis@www.cohowinery.com,No-Tax,Open
+SYNCUS-0820,Coho Vineyard & Winery Pacific,30,USD,Net30,25000,Poor,1843 Elm St,Albuquerque,NM,31991,USA,Helen,505-555-0174,helen@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0821,Contoso Pacific,20,USD,Net15,250000,Fair,6280 Water St,Memphis,TN,68134,USA,Dennis,901-555-0171,dennis@example.com,No-Tax,Open
+SYNCUS-0822,Contoso Pharmaceuticals Pacific,30,USD,COD,10000,Poor,3474 Pleasant St,Fresno,CA,67764,USA,Cynthia,559-555-0188,cynthia@www.contoso.com,No-Tax,Open
+SYNCUS-0823,Consolidated Messenger Pacific,80,USD,Net15,250000,Excellent,1962 Pine St,Cleveland,OH,62745,USA,Gregory,216-555-0190,gregory@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0824,Fabrikam Pacific,10,USD,Net45,500000,Good,1175 Pleasant St,Las Vegas,NV,37139,USA,Larry,702-555-0111,larry@example.com,No-Tax,Open
+SYNCUS-0825,Fourth Coffee Pacific,30,USD,Net30,25000,Poor,6461 Washington St,Seattle,WA,37252,USA,Jason,206-555-0103,jason@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0826,Graphic Design Institute Pacific,10,USD,Net30,25000,Poor,2771 Pearl St,Fort Worth,TX,12788,USA,Frank,817-555-0190,frank@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0827,Humongous Insurance Pacific,30,USD,Net15,250000,Good,1440 School St,San Jose,CA,34565,USA,Amanda,408-555-0136,amanda@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0828,Litware Pacific,80,USD,COD,100000,Excellent,7453 Summit Ave,Oklahoma City,OK,26178,USA,Kathleen,405-555-0101,kathleen@example.com,No-Tax,Open
+SYNCUS-0829,Lucerne Publishing Pacific,10,USD,Net45,100000,Excellent,3588 Jackson St,San Francisco,CA,46689,USA,Carol,415-555-0171,carol@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0830,Margie's Travel Pacific,10,USD,COD,50000,Poor,3676 South St,Detroit,MI,32411,USA,Deborah,313-555-0184,deborah@www.margiestravel.com,No-Tax,Open
+SYNCUS-0831,Northwind Traders Pacific,10,USD,Net45,50000,Fair,3404 Madison Ave,Austin,TX,15244,USA,Nicole,512-555-0130,nicole@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0832,Proseware Pacific,10,USD,Net30,500000,Excellent,6436 Madison Ave,New York,NY,50012,USA,Lisa,212-555-0178,lisa@example.com,No-Tax,Open
+SYNCUS-0833,School of Fine Art Pacific,10,USD,Net45,10000,Excellent,5636 Park Ave,Tampa,FL,64859,USA,Alexander,813-555-0161,alexander@www.fineartschool.net,No-Tax,Open
+SYNCUS-0834,Southridge Video Pacific,10,USD,COD,25000,Good,6270 Madison Ave,Detroit,MI,58083,USA,Timothy,313-555-0144,timothy@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0835,Tailspin Toys Pacific,30,USD,Net45,25000,Good,8386 School St,Kansas City,MO,44735,USA,Catherine,816-555-0118,catherine@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0836,Trey Research Pacific,30,USD,COD,25000,Fair,1166 Pleasant St,Charlotte,NC,58275,USA,Sharon,704-555-0188,sharon@www.treyresearch.net,No-Tax,Open
+SYNCUS-0837,The Phone Company Pacific,80,USD,Net15,50000,Fair,1178 Liberty St,Louisville,KY,11403,USA,Sandra,502-555-0178,sandra@www.thephone-company.com,No-Tax,Open
+SYNCUS-0838,Wide World Importers Pacific,10,USD,Net15,100000,Fair,1683 Second Ave,Dallas,TX,28831,USA,Rebecca,214-555-0102,rebecca@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0839,Wingtip Toys Pacific,10,USD,COD,25000,Poor,8590 Franklin St,Seattle,WA,49008,USA,Kimberly,206-555-0133,kimberly@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0840,Woodgrove Pacific,20,USD,Net45,50000,Poor,1254 Jackson St,Phoenix,AZ,52379,USA,Lisa,602-555-0125,lisa@example.com,No-Tax,Open
+SYNCUS-0841,A. Datum Atlantic,80,USD,Net45,10000,Excellent,1934 Jackson St,Albuquerque,NM,76786,USA,Jack,505-555-0193,jack@example.com,No-Tax,Open
+SYNCUS-0842,Adventure Works Atlantic,80,USD,Net15,100000,Good,8898 Second Ave,Sacramento,CA,35492,USA,Scott,916-555-0133,scott@example.com,No-Tax,Open
+SYNCUS-0843,Alpine Ski House Atlantic,80,USD,Net30,25000,Fair,5610 Madison Ave,Minneapolis,MN,28156,USA,Jerry,612-555-0177,jerry@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0844,Blue Yonder Atlantic,80,USD,Net30,10000,Fair,7810 Chestnut St,Atlanta,GA,58820,USA,Jeffrey,404-555-0191,jeffrey@example.com,No-Tax,Open
+SYNCUS-0845,City Power & Light Atlantic,90,USD,Net30,50000,Poor,7330 Oak St,Minneapolis,MN,36597,USA,Jerry,612-555-0158,jerry@www.cpandl.com,No-Tax,Open
+SYNCUS-0846,Coho Vineyard Atlantic,80,USD,Net30,250000,Fair,2106 Jefferson St,Phoenix,AZ,72617,USA,Frank,602-555-0160,frank@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0847,Coho Winery Atlantic,80,USD,Net30,25000,Fair,3549 Madison Ave,Albuquerque,NM,64335,USA,Nancy,505-555-0152,nancy@www.cohowinery.com,No-Tax,Open
+SYNCUS-0848,Coho Vineyard & Winery Atlantic,10,USD,Net30,100000,Fair,1874 Bridge St,Fresno,CA,82218,USA,Richard,559-555-0148,richard@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0849,Contoso Atlantic,30,USD,Net45,250000,Fair,8993 River Rd,Omaha,NE,51597,USA,Jonathan,402-555-0137,jonathan@example.com,No-Tax,Open
+SYNCUS-0850,Contoso Pharmaceuticals Atlantic,90,USD,COD,10000,Excellent,6766 Madison Ave,Jacksonville,FL,35216,USA,Shirley,904-555-0103,shirley@www.contoso.com,No-Tax,Open
+SYNCUS-0851,Consolidated Messenger Atlantic,80,USD,Net15,10000,Good,7246 Park Ave,Denver,CO,79869,USA,Deborah,303-555-0104,deborah@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0852,Fabrikam Atlantic,20,USD,Net45,500000,Poor,9418 Pearl St,Milwaukee,WI,93598,USA,Katherine,414-555-0119,katherine@example.com,No-Tax,Open
+SYNCUS-0853,Fourth Coffee Atlantic,30,USD,Net45,100000,Fair,4176 Union St,Detroit,MI,92162,USA,Michael,313-555-0153,michael@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0854,Graphic Design Institute Atlantic,10,USD,Net15,10000,Poor,7707 Chestnut St,Las Vegas,NV,31087,USA,Robert,702-555-0130,robert@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0855,Humongous Insurance Atlantic,10,USD,Net30,500000,Excellent,4866 Cedar St,Jacksonville,FL,24674,USA,Barbara,904-555-0196,barbara@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0856,Litware Atlantic,80,USD,COD,100000,Good,4636 Maple St,Houston,TX,37511,USA,Alexander,713-555-0199,alexander@example.com,No-Tax,Open
+SYNCUS-0857,Lucerne Publishing Atlantic,10,USD,Net15,100000,Poor,4451 Chestnut St,Columbus,OH,80322,USA,Karen,614-555-0158,karen@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0858,Margie's Travel Atlantic,20,USD,Net30,250000,Fair,5460 Liberty St,San Francisco,CA,18464,USA,Edward,415-555-0173,edward@www.margiestravel.com,No-Tax,Open
+SYNCUS-0859,Northwind Traders Atlantic,80,USD,Net45,500000,Good,3679 High St,Chicago,IL,38840,USA,Stephanie,312-555-0118,stephanie@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0860,Proseware Atlantic,30,USD,Net45,250000,Fair,7983 Summit Ave,San Jose,CA,81248,USA,Dorothy,408-555-0163,dorothy@example.com,No-Tax,Open
+SYNCUS-0861,School of Fine Art Atlantic,10,USD,COD,100000,Poor,7005 Jackson St,Austin,TX,43499,USA,Nicholas,512-555-0191,nicholas@www.fineartschool.net,No-Tax,Open
+SYNCUS-0862,Southridge Video Atlantic,80,USD,Net45,500000,Fair,9640 Franklin St,Boston,MA,67854,USA,Joshua,617-555-0138,joshua@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0863,Tailspin Toys Atlantic,80,USD,Net45,50000,Excellent,1732 Market St,Dallas,TX,56260,USA,Ruth,214-555-0128,ruth@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0864,Trey Research Atlantic,20,USD,Net45,500000,Poor,9377 Liberty St,Fort Worth,TX,62764,USA,Edward,817-555-0146,edward@www.treyresearch.net,No-Tax,Open
+SYNCUS-0865,The Phone Company Atlantic,30,USD,COD,25000,Excellent,2401 Lincoln Ave,Boston,MA,20325,USA,Tyler,617-555-0196,tyler@www.thephone-company.com,No-Tax,Open
+SYNCUS-0866,Wide World Importers Atlantic,80,USD,Net15,10000,Poor,9585 Main St,San Diego,CA,70975,USA,Angela,619-555-0104,angela@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0867,Wingtip Toys Atlantic,80,USD,COD,25000,Excellent,2680 Church St,Albuquerque,NM,92032,USA,Christopher,505-555-0169,christopher@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0868,Woodgrove Atlantic,10,USD,Net30,500000,Good,6389 Park Ave,Miami,FL,74175,USA,Katherine,305-555-0145,katherine@example.com,No-Tax,Open
+SYNCUS-0869,A. Datum International,80,USD,Net45,100000,Good,7828 Market St,Charlotte,NC,98384,USA,George,704-555-0193,george@example.com,No-Tax,Open
+SYNCUS-0870,Adventure Works International,30,USD,COD,25000,Good,5659 South St,Las Vegas,NV,36474,USA,Eric,702-555-0109,eric@example.com,No-Tax,Open
+SYNCUS-0871,Alpine Ski House International,90,USD,Net30,50000,Excellent,3766 Spring St,Atlanta,GA,80837,USA,Daniel,404-555-0172,daniel@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0872,Blue Yonder International,80,USD,Net45,50000,Good,3972 Jefferson St,Tampa,FL,57507,USA,Joshua,813-555-0146,joshua@example.com,No-Tax,Open
+SYNCUS-0873,City Power & Light International,30,USD,Net30,500000,Excellent,9369 Union St,Sacramento,CA,15795,USA,Timothy,916-555-0100,timothy@www.cpandl.com,No-Tax,Open
+SYNCUS-0874,Coho Vineyard International,30,USD,COD,50000,Excellent,2142 Chestnut St,Fort Worth,TX,56799,USA,Jerry,817-555-0113,jerry@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0875,Coho Winery International,10,USD,Net45,10000,Poor,8910 Park Ave,Philadelphia,PA,16225,USA,Alexander,215-555-0108,alexander@www.cohowinery.com,No-Tax,Open
+SYNCUS-0876,Coho Vineyard & Winery International,90,USD,COD,500000,Excellent,6017 Pleasant St,Jacksonville,FL,93916,USA,David,904-555-0155,david@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0877,Contoso International,90,USD,Net15,25000,Good,1177 Union St,Philadelphia,PA,98318,USA,Jerry,215-555-0142,jerry@example.com,No-Tax,Open
+SYNCUS-0878,Contoso Pharmaceuticals International,20,USD,Net15,500000,Fair,9215 First Ave,Miami,FL,13952,USA,Patrick,305-555-0145,patrick@www.contoso.com,No-Tax,Open
+SYNCUS-0879,Consolidated Messenger International,80,USD,COD,500000,Fair,4740 Maple St,New York,NY,97011,USA,Carolyn,212-555-0139,carolyn@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0880,Fabrikam International,30,USD,COD,500000,Good,5939 Bridge St,Columbus,OH,92932,USA,Joseph,614-555-0142,joseph@example.com,No-Tax,Open
+SYNCUS-0881,Fourth Coffee International,20,USD,Net15,50000,Excellent,7399 Broad St,Phoenix,AZ,78665,USA,William,602-555-0163,william@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0882,Graphic Design Institute International,90,USD,COD,25000,Good,9371 Liberty St,San Diego,CA,12393,USA,Angela,619-555-0118,angela@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0883,Humongous Insurance International,30,USD,Net45,25000,Good,6393 Mill St,Minneapolis,MN,84515,USA,Betty,612-555-0134,betty@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0884,Litware International,10,USD,Net15,25000,Poor,4556 Cherry St,Chicago,IL,91454,USA,Andrew,312-555-0155,andrew@example.com,No-Tax,Open
+SYNCUS-0885,Lucerne Publishing International,80,USD,Net15,25000,Poor,2422 Main St,Atlanta,GA,41851,USA,Carol,404-555-0112,carol@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0886,Margie's Travel International,20,USD,COD,10000,Good,1886 Broad St,Kansas City,MO,18308,USA,Kevin,816-555-0127,kevin@www.margiestravel.com,No-Tax,Open
+SYNCUS-0887,Northwind Traders International,10,USD,Net30,500000,Good,1061 Mill St,Portland,OR,90678,USA,Sharon,503-555-0188,sharon@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0888,Proseware International,10,USD,Net45,250000,Excellent,8027 Summit Ave,Seattle,WA,96064,USA,Andrew,206-555-0159,andrew@example.com,No-Tax,Open
+SYNCUS-0889,School of Fine Art International,30,USD,Net45,500000,Excellent,4967 Main St,Raleigh,NC,28380,USA,Laura,919-555-0126,laura@www.fineartschool.net,No-Tax,Open
+SYNCUS-0890,Southridge Video International,90,USD,Net15,10000,Excellent,8046 Church St,Las Vegas,NV,65251,USA,Karen,702-555-0105,karen@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0891,Tailspin Toys International,20,USD,Net45,100000,Good,1314 School St,Denver,CO,90913,USA,Ronald,303-555-0128,ronald@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0892,Trey Research International,90,USD,Net15,500000,Good,5409 Hill St,Dallas,TX,35207,USA,Catherine,214-555-0175,catherine@www.treyresearch.net,No-Tax,Open
+SYNCUS-0893,The Phone Company International,30,USD,Net30,25000,Poor,4640 Park Ave,Albuquerque,NM,34574,USA,Melissa,505-555-0117,melissa@www.thephone-company.com,No-Tax,Open
+SYNCUS-0894,Wide World Importers International,30,USD,Net45,50000,Excellent,1037 Church St,Sacramento,CA,50472,USA,Amy,916-555-0150,amy@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0895,Wingtip Toys International,20,USD,COD,10000,Fair,8170 High St,Dallas,TX,24919,USA,Pamela,214-555-0131,pamela@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0896,Woodgrove International,20,USD,Net30,25000,Poor,5476 Hill St,Las Vegas,NV,90448,USA,Tyler,702-555-0117,tyler@example.com,No-Tax,Open
+SYNCUS-0897,A. Datum Global,10,USD,Net45,10000,Fair,7945 Pleasant St,San Antonio,TX,90520,USA,Paul,210-555-0123,paul@example.com,No-Tax,Open
+SYNCUS-0898,Adventure Works Global,20,USD,COD,250000,Fair,1144 First Ave,Tampa,FL,73212,USA,Ryan,813-555-0137,ryan@example.com,No-Tax,Open
+SYNCUS-0899,Alpine Ski House Global,90,USD,Net45,250000,Good,6342 First Ave,Tucson,AZ,19241,USA,John,520-555-0150,john@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0900,Blue Yonder Global,30,USD,COD,50000,Good,1591 Lake St,Austin,TX,23365,USA,Mark,512-555-0113,mark@example.com,No-Tax,Open
+SYNCUS-0901,City Power & Light Global,90,USD,Net15,250000,Fair,5042 Maple St,Pittsburgh,PA,83844,USA,Margaret,412-555-0105,margaret@www.cpandl.com,No-Tax,Open
+SYNCUS-0902,Coho Vineyard Global,30,USD,Net15,50000,Fair,7023 Summit Ave,Chicago,IL,58759,USA,David,312-555-0173,david@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0903,Coho Winery Global,80,USD,Net45,10000,Good,4710 Oak St,Philadelphia,PA,55631,USA,Daniel,215-555-0128,daniel@www.cohowinery.com,No-Tax,Open
+SYNCUS-0904,Coho Vineyard & Winery Global,30,USD,COD,250000,Fair,3280 River Rd,Detroit,MI,95999,USA,Sarah,313-555-0155,sarah@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0905,Contoso Global,30,USD,COD,100000,Fair,6666 Lincoln Ave,Detroit,MI,30640,USA,Daniel,313-555-0128,daniel@example.com,No-Tax,Open
+SYNCUS-0906,Contoso Pharmaceuticals Global,20,USD,Net30,10000,Excellent,4992 Lake St,Denver,CO,86108,USA,Jason,303-555-0183,jason@www.contoso.com,No-Tax,Open
+SYNCUS-0907,Consolidated Messenger Global,90,USD,Net45,10000,Poor,5072 Monroe St,Memphis,TN,38115,USA,Dennis,901-555-0146,dennis@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0908,Fabrikam Global,80,USD,Net15,500000,Good,1592 Pleasant St,Raleigh,NC,56646,USA,Eric,919-555-0100,eric@example.com,No-Tax,Open
+SYNCUS-0909,Fourth Coffee Global,10,USD,COD,25000,Fair,3870 Walnut St,Pittsburgh,PA,83202,USA,Gregory,412-555-0163,gregory@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0910,Graphic Design Institute Global,10,USD,Net15,100000,Poor,6390 Elm St,Seattle,WA,15028,USA,Ryan,206-555-0178,ryan@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0911,Humongous Insurance Global,20,USD,Net30,100000,Good,2440 Jefferson St,Louisville,KY,56965,USA,Dennis,502-555-0156,dennis@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0912,Litware Global,20,USD,COD,100000,Poor,1216 Union St,San Antonio,TX,19391,USA,Jessica,210-555-0141,jessica@example.com,No-Tax,Open
+SYNCUS-0913,Lucerne Publishing Global,10,USD,Net45,500000,Good,8956 Summit Ave,Milwaukee,WI,14864,USA,Christine,414-555-0106,christine@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0914,Margie's Travel Global,30,USD,Net15,500000,Good,9871 Maple St,Fort Worth,TX,10336,USA,Amy,817-555-0186,amy@www.margiestravel.com,No-Tax,Open
+SYNCUS-0915,Northwind Traders Global,30,USD,Net30,500000,Fair,9886 Park Ave,Fresno,CA,28835,USA,Joshua,559-555-0159,joshua@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0916,Proseware Global,30,USD,Net45,10000,Poor,9611 Center St,Chicago,IL,14766,USA,Daniel,312-555-0181,daniel@example.com,No-Tax,Open
+SYNCUS-0917,School of Fine Art Global,80,USD,Net30,25000,Excellent,1900 Broad St,Chicago,IL,59655,USA,Ashley,312-555-0102,ashley@www.fineartschool.net,No-Tax,Open
+SYNCUS-0918,Southridge Video Global,10,USD,Net15,50000,Excellent,5054 Walnut St,San Diego,CA,81295,USA,Raymond,619-555-0136,raymond@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0919,Tailspin Toys Global,30,USD,Net15,25000,Good,5367 Madison Ave,Milwaukee,WI,61247,USA,Alexander,414-555-0158,alexander@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0920,Trey Research Global,10,USD,COD,50000,Poor,7556 School St,Kansas City,MO,15341,USA,Sandra,816-555-0131,sandra@www.treyresearch.net,No-Tax,Open
+SYNCUS-0921,The Phone Company Global,10,USD,Net45,25000,Good,8370 Market St,Cleveland,OH,39659,USA,Kathleen,216-555-0124,kathleen@www.thephone-company.com,No-Tax,Open
+SYNCUS-0922,Wide World Importers Global,80,USD,Net15,500000,Good,1853 Cherry St,Columbus,OH,74151,USA,Sarah,614-555-0120,sarah@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0923,Wingtip Toys Global,10,USD,Net15,50000,Poor,6721 Cedar St,Detroit,MI,77899,USA,Shirley,313-555-0154,shirley@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0924,Woodgrove Global,20,USD,Net30,500000,Poor,2110 Jackson St,Milwaukee,WI,90621,USA,Jacob,414-555-0194,jacob@example.com,No-Tax,Open
+SYNCUS-0925,A. Datum USA,10,USD,Net15,100000,Good,7267 Pleasant St,Houston,TX,53066,USA,Jennifer,713-555-0148,jennifer@example.com,No-Tax,Open
+SYNCUS-0926,Adventure Works USA,80,USD,Net45,250000,Excellent,7087 Pine St,New York,NY,44037,USA,Patricia,212-555-0174,patricia@example.com,No-Tax,Open
+SYNCUS-0927,Alpine Ski House USA,20,USD,Net15,500000,Poor,2949 Franklin St,Miami,FL,34840,USA,Jacob,305-555-0121,jacob@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0928,Blue Yonder USA,90,USD,Net15,25000,Poor,1969 Cherry St,Philadelphia,PA,32382,USA,Katherine,215-555-0166,katherine@example.com,No-Tax,Open
+SYNCUS-0929,City Power & Light USA,30,USD,Net30,10000,Good,6494 Adams St,San Diego,CA,93520,USA,Rachel,619-555-0129,rachel@www.cpandl.com,No-Tax,Open
+SYNCUS-0930,Coho Vineyard USA,20,USD,COD,100000,Poor,6999 Broad St,Dallas,TX,47950,USA,Paul,214-555-0119,paul@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0931,Coho Winery USA,20,USD,Net15,10000,Excellent,6639 Walnut St,San Antonio,TX,79354,USA,Matthew,210-555-0195,matthew@www.cohowinery.com,No-Tax,Open
+SYNCUS-0932,Coho Vineyard & Winery USA,80,USD,Net30,25000,Good,4244 Grove St,Minneapolis,MN,86604,USA,Rebecca,612-555-0171,rebecca@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0933,Contoso USA,30,USD,Net30,250000,Poor,8835 Walnut St,Albuquerque,NM,33523,USA,Stephanie,505-555-0170,stephanie@example.com,No-Tax,Open
+SYNCUS-0934,Contoso Pharmaceuticals USA,80,USD,Net15,250000,Good,5201 Madison Ave,Pittsburgh,PA,77505,USA,Jack,412-555-0132,jack@www.contoso.com,No-Tax,Open
+SYNCUS-0935,Consolidated Messenger USA,80,USD,Net15,25000,Poor,7815 Second Ave,Memphis,TN,23776,USA,Katherine,901-555-0138,katherine@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0936,Fabrikam USA,20,USD,COD,50000,Excellent,3616 River Rd,San Francisco,CA,27312,USA,Sandra,415-555-0190,sandra@example.com,No-Tax,Open
+SYNCUS-0937,Fourth Coffee USA,80,USD,Net30,50000,Fair,3674 Main St,San Antonio,TX,27467,USA,Carolyn,210-555-0135,carolyn@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0938,Graphic Design Institute USA,10,USD,COD,250000,Poor,4978 Lake St,Seattle,WA,68613,USA,Sharon,206-555-0176,sharon@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0939,Humongous Insurance USA,90,USD,Net15,100000,Excellent,7958 Lake St,San Antonio,TX,73636,USA,Timothy,210-555-0131,timothy@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0940,Litware USA,30,USD,Net45,500000,Good,1421 Summit Ave,Austin,TX,40843,USA,Justin,512-555-0134,justin@example.com,No-Tax,Open
+SYNCUS-0941,Lucerne Publishing USA,10,USD,Net15,10000,Good,1503 First Ave,Phoenix,AZ,72869,USA,Brian,602-555-0117,brian@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0942,Margie's Travel USA,30,USD,Net15,100000,Poor,2002 River Rd,Baltimore,MD,74306,USA,Sharon,410-555-0108,sharon@www.margiestravel.com,No-Tax,Open
+SYNCUS-0943,Northwind Traders USA,90,USD,COD,250000,Fair,4067 Walnut St,New York,NY,20252,USA,William,212-555-0190,william@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0944,Proseware USA,90,USD,Net15,250000,Poor,5928 Maple St,Detroit,MI,67004,USA,Robert,313-555-0103,robert@example.com,No-Tax,Open
+SYNCUS-0945,School of Fine Art USA,90,USD,Net45,10000,Poor,1232 High St,San Jose,CA,74046,USA,Samantha,408-555-0143,samantha@www.fineartschool.net,No-Tax,Open
+SYNCUS-0946,Southridge Video USA,90,USD,Net45,10000,Fair,8817 Pine St,Minneapolis,MN,13740,USA,Diane,612-555-0113,diane@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0947,Tailspin Toys USA,20,USD,Net15,10000,Poor,8836 Pine St,Columbus,OH,71168,USA,Jonathan,614-555-0153,jonathan@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0948,Trey Research USA,30,USD,Net45,500000,Good,5338 First Ave,Tampa,FL,50104,USA,Patricia,813-555-0163,patricia@www.treyresearch.net,No-Tax,Open
+SYNCUS-0949,The Phone Company USA,90,USD,Net15,25000,Excellent,8647 Main St,Houston,TX,88817,USA,Ronald,713-555-0138,ronald@www.thephone-company.com,No-Tax,Open
+SYNCUS-0950,Wide World Importers USA,90,USD,Net45,50000,Poor,7716 Main St,Milwaukee,WI,33928,USA,Jacob,414-555-0105,jacob@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0951,Wingtip Toys USA,80,USD,COD,50000,Excellent,1457 Cherry St,San Antonio,TX,61876,USA,Christine,210-555-0124,christine@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0952,Woodgrove USA,90,USD,Net15,100000,Poor,1865 Broad St,Fresno,CA,12494,USA,Joseph,559-555-0127,joseph@example.com,No-Tax,Open
+SYNCUS-0953,A. Datum Americas,30,USD,Net15,100000,Excellent,4380 Summit Ave,Philadelphia,PA,43604,USA,Robert,215-555-0132,robert@example.com,No-Tax,Open
+SYNCUS-0954,Adventure Works Americas,30,USD,Net45,250000,Fair,9088 Lake St,Philadelphia,PA,90729,USA,Jacob,215-555-0166,jacob@example.com,No-Tax,Open
+SYNCUS-0955,Alpine Ski House Americas,20,USD,Net45,500000,Poor,2888 River Rd,Austin,TX,84880,USA,Jerry,512-555-0176,jerry@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0956,Blue Yonder Americas,10,USD,Net30,10000,Fair,2010 Lincoln Ave,Fresno,CA,68040,USA,Barbara,559-555-0179,barbara@example.com,No-Tax,Open
+SYNCUS-0957,City Power & Light Americas,80,USD,Net30,50000,Good,2956 Cherry St,San Francisco,CA,92444,USA,Ronald,415-555-0133,ronald@www.cpandl.com,No-Tax,Open
+SYNCUS-0958,Coho Vineyard Americas,80,USD,Net30,50000,Poor,4187 Cedar St,San Francisco,CA,37238,USA,Brenda,415-555-0124,brenda@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0959,Coho Winery Americas,20,USD,Net15,100000,Fair,8182 Market St,Austin,TX,17948,USA,Larry,512-555-0191,larry@www.cohowinery.com,No-Tax,Open
+SYNCUS-0960,Coho Vineyard & Winery Americas,80,USD,COD,10000,Excellent,5858 School St,Las Vegas,NV,15132,USA,William,702-555-0134,william@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0961,Contoso Americas,80,USD,Net15,50000,Good,2542 Main St,Columbus,OH,33138,USA,Debra,614-555-0142,debra@example.com,No-Tax,Open
+SYNCUS-0962,Contoso Pharmaceuticals Americas,80,USD,Net30,250000,Fair,4500 Adams St,Nashville,TN,85208,USA,Brandon,615-555-0160,brandon@www.contoso.com,No-Tax,Open
+SYNCUS-0963,Consolidated Messenger Americas,30,USD,Net15,10000,Poor,1356 Pine St,Boston,MA,72294,USA,Paul,617-555-0132,paul@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0964,Fabrikam Americas,10,USD,Net45,50000,Poor,2040 Pine St,New York,NY,20982,USA,Jason,212-555-0149,jason@example.com,No-Tax,Open
+SYNCUS-0965,Fourth Coffee Americas,80,USD,Net30,50000,Fair,4667 Market St,Minneapolis,MN,62476,USA,Kenneth,612-555-0104,kenneth@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0966,Graphic Design Institute Americas,30,USD,Net45,50000,Excellent,3409 Park Ave,Seattle,WA,74111,USA,Jeffrey,206-555-0140,jeffrey@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0967,Humongous Insurance Americas,20,USD,Net30,500000,Poor,4467 Main St,Fresno,CA,29878,USA,Ryan,559-555-0128,ryan@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0968,Litware Americas,90,USD,Net45,500000,Poor,3195 Pearl St,San Jose,CA,83583,USA,Brandon,408-555-0173,brandon@example.com,No-Tax,Open
+SYNCUS-0969,Lucerne Publishing Americas,20,USD,Net15,100000,Fair,2593 Summit Ave,New York,NY,36180,USA,Barbara,212-555-0104,barbara@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0970,Margie's Travel Americas,30,USD,COD,10000,Excellent,7575 Walnut St,Raleigh,NC,69343,USA,George,919-555-0178,george@www.margiestravel.com,No-Tax,Open
+SYNCUS-0971,Northwind Traders Americas,30,USD,Net30,250000,Fair,7252 School St,Milwaukee,WI,25818,USA,Nicole,414-555-0102,nicole@www.northwindtraders.com,No-Tax,Open
+SYNCUS-0972,Proseware Americas,90,USD,Net45,250000,Poor,3537 Water St,Portland,OR,26249,USA,Helen,503-555-0183,helen@example.com,No-Tax,Open
+SYNCUS-0973,School of Fine Art Americas,10,USD,Net15,50000,Good,4858 Walnut St,Seattle,WA,14220,USA,Alexander,206-555-0131,alexander@www.fineartschool.net,No-Tax,Open
+SYNCUS-0974,Southridge Video Americas,10,USD,COD,50000,Excellent,1595 Jackson St,Boston,MA,95409,USA,Helen,617-555-0183,helen@www.southridgevideo.com,No-Tax,Open
+SYNCUS-0975,Tailspin Toys Americas,80,USD,Net15,25000,Excellent,2996 Franklin St,Minneapolis,MN,91376,USA,Lisa,612-555-0137,lisa@www.tailspintoys.com,No-Tax,Open
+SYNCUS-0976,Trey Research Americas,10,USD,Net15,500000,Poor,5183 Pleasant St,Dallas,TX,76460,USA,Edward,214-555-0178,edward@www.treyresearch.net,No-Tax,Open
+SYNCUS-0977,The Phone Company Americas,90,USD,Net15,250000,Good,6471 Jefferson St,Pittsburgh,PA,23787,USA,Diane,412-555-0161,diane@www.thephone-company.com,No-Tax,Open
+SYNCUS-0978,Wide World Importers Americas,10,USD,Net30,100000,Excellent,4195 Walnut St,Jacksonville,FL,83900,USA,Jennifer,904-555-0127,jennifer@www.wideworldimporters.com,No-Tax,Open
+SYNCUS-0979,Wingtip Toys Americas,80,USD,Net45,250000,Fair,1599 Union St,Omaha,NE,23473,USA,Ruth,402-555-0161,ruth@www.wingtiptoys.com,No-Tax,Open
+SYNCUS-0980,Woodgrove Americas,10,USD,COD,100000,Good,3938 Pleasant St,Philadelphia,PA,69590,USA,Margaret,215-555-0197,margaret@example.com,No-Tax,Open
+SYNCUS-0981,A. Datum Europe,20,USD,Net45,10000,Fair,3031 Summit Ave,Fresno,CA,49716,USA,Nancy,559-555-0107,nancy@example.com,No-Tax,Open
+SYNCUS-0982,Adventure Works Europe,90,USD,Net45,250000,Good,3198 Water St,Detroit,MI,82135,USA,Debra,313-555-0127,debra@example.com,No-Tax,Open
+SYNCUS-0983,Alpine Ski House Europe,10,USD,Net15,50000,Poor,5145 Jackson St,Boston,MA,91073,USA,Melissa,617-555-0119,melissa@www.alpineskihouse.com,No-Tax,Open
+SYNCUS-0984,Blue Yonder Europe,90,USD,Net30,100000,Fair,7415 River Rd,Oklahoma City,OK,77615,USA,George,405-555-0129,george@example.com,No-Tax,Open
+SYNCUS-0985,City Power & Light Europe,30,USD,Net30,250000,Excellent,6871 Park Ave,Portland,OR,98500,USA,Susan,503-555-0191,susan@www.cpandl.com,No-Tax,Open
+SYNCUS-0986,Coho Vineyard Europe,90,USD,Net45,25000,Good,5643 Union St,Pittsburgh,PA,67694,USA,Alexander,412-555-0123,alexander@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0987,Coho Winery Europe,80,USD,COD,500000,Fair,9878 Broad St,Indianapolis,IN,75153,USA,Karen,317-555-0198,karen@www.cohowinery.com,No-Tax,Open
+SYNCUS-0988,Coho Vineyard & Winery Europe,80,USD,Net45,250000,Good,3126 Elm St,Omaha,NE,36690,USA,Rachel,402-555-0178,rachel@www.cohovineyard.com,No-Tax,Open
+SYNCUS-0989,Contoso Europe,90,USD,COD,250000,Poor,4129 Grove St,Indianapolis,IN,13694,USA,William,317-555-0160,william@example.com,No-Tax,Open
+SYNCUS-0990,Contoso Pharmaceuticals Europe,30,USD,COD,50000,Poor,9883 Walnut St,Atlanta,GA,31726,USA,Karen,404-555-0177,karen@www.contoso.com,No-Tax,Open
+SYNCUS-0991,Consolidated Messenger Europe,10,USD,Net15,25000,Good,1637 Park Ave,Albuquerque,NM,84135,USA,Paul,505-555-0191,paul@www.consolidatedmessenger.com,No-Tax,Open
+SYNCUS-0992,Fabrikam Europe,20,USD,Net30,100000,Poor,5736 Park Ave,Atlanta,GA,12694,USA,Jason,404-555-0133,jason@example.com,No-Tax,Open
+SYNCUS-0993,Fourth Coffee Europe,90,USD,COD,50000,Fair,7206 Franklin St,Tucson,AZ,50796,USA,Christine,520-555-0195,christine@www.fourthcoffee.com,No-Tax,Open
+SYNCUS-0994,Graphic Design Institute Europe,20,USD,Net15,25000,Good,2228 Broad St,Raleigh,NC,52907,USA,Mary,919-555-0128,mary@www.graphicdesigninstitute.com,No-Tax,Open
+SYNCUS-0995,Humongous Insurance Europe,80,USD,Net15,100000,Poor,8931 Hill St,Atlanta,GA,19037,USA,Melissa,404-555-0125,melissa@www.humongousinsurance.com,No-Tax,Open
+SYNCUS-0996,Litware Europe,90,USD,Net15,25000,Excellent,7213 Oak St,Atlanta,GA,56155,USA,Rebecca,404-555-0168,rebecca@example.com,No-Tax,Open
+SYNCUS-0997,Lucerne Publishing Europe,20,USD,Net45,100000,Poor,3564 Grove St,Columbus,OH,53024,USA,Andrew,614-555-0165,andrew@www.lucernepublishing.com,No-Tax,Open
+SYNCUS-0998,Margie's Travel Europe,30,USD,Net45,500000,Poor,8006 Pearl St,Milwaukee,WI,17361,USA,Emily,414-555-0152,emily@www.margiestravel.com,No-Tax,Open
+SYNCUS-0999,Northwind Traders Europe,30,USD,Net15,50000,Good,7820 Bridge St,Pittsburgh,PA,28780,USA,Raymond,412-555-0110,raymond@www.northwindtraders.com,No-Tax,Open
+SYNCUS-1000,Proseware Europe,80,USD,Net15,10000,Excellent,3195 Jefferson St,Boston,MA,60118,USA,Ashley,617-555-0184,ashley@example.com,No-Tax,Open

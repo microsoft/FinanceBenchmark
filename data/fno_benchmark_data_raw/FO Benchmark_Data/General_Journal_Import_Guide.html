@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><title>D365 Finance - General Journal Import Guide</title>
+<style>
+body{font-family:Segoe UI;line-height:1.6;padding:20px;background:#f5f5f5}
+.container{max-width:1200px;margin:0 auto;background:#fff;padding:40px;border-radius:8px}
+h1{color:#0078d4;border-bottom:3px solid #0078d4;padding-bottom:15px}
+h2{color:#0078d4;margin-top:35px;border-left:4px solid #0078d4;padding-left:15px}
+.info-box{background:#e7f3ff;border-left:4px solid #0078d4;padding:20px;margin:20px 0}
+.warning-box{background:#fff4e5;border-left:4px solid #ffa500;padding:20px;margin:20px 0}
+.critical-box{background:#fff0f0;border-left:4px solid #d13438;padding:20px;margin:20px 0}
+.success-box{background:#e8f5e9;border-left:4px solid #107c10;padding:20px;margin:20px 0}
+.step{background:#f9f9f9;border:1px solid #ddd;padding:20px;margin:15px 0}
+.step-number{display:inline-block;background:#0078d4;color:#fff;width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;margin-right:10px}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th{background:#0078d4;color:#fff;padding:12px}
+td{padding:12px;border-bottom:1px solid #ddd}
+code{background:#f0f0f0;padding:2px 6px;border-radius:3px}
+</style></head>
+<body><div class=container>
+<h1>D365 Finance - General Journal Import Guide</h1>
+<h2 style=color:#666>AR/AP Journal Import via Excel</h2>
+<div class=info-box><p><b>Purpose:</b> Import AR/AP general journals | <b>Time:</b> 20-30 min | <b>Role:</b> Accounting manager</div>
+<h2>Overview</h2>
+<table><tr><th>Type</th><th>File</th><th>Lines</th></tr>
+<tr><td>AR Journal</td><td>AR_Journal_Import_Updated.xlsx</td><td>3,467</td></tr>
+<tr><td>AP Journal</td><td>AP_Journal_Import_Updated.xlsx</td><td>3,474</td></tr></table>
+<div class=info-box><h3>Account Formats</h3><p>Customers: SYNCUS-0001 to SYNCUS-1000<br>Vendors: SYNVEN-0001 to SYNVEN-1000</div>
+<div class=critical-box><h3>Pre-Requirements</h3>
+<ul><li>Customers imported (SYNCUS)</li><li>Vendors imported (SYNVEN)</li><li>Chart of accounts configured</li><li>Budget control DISABLED</li></ul></div>
+<h2>AR Journal Import</h2>
+<div class=step><span class=step-number>1</span><b>Navigate:</b> <code>GL > Journal entries > General journals</code></div>
+<div class=step><span class=step-number>2</span><b>Create Journal:</b> New > Name: Daily > Save</div>
+<div class=step><span class=step-number>3</span><b>Import:</b> Lines > Import from Excel > Select AR_Journal_Import_Updated.xlsx</div>
+<div class=step><span class=step-number>4</span><b>Verify:</b> 3,467 lines | Customer accounts SYNCUS-xxxx | Balanced</div>
+<div class=step><span class=step-number>5</span><b>Post:</b> Validate > Validate > Post</div>
+<div class=success-box>✅ AR Journal posted: 3,467 transactions</div>
+<h2>AP Journal Import</h2>
+<div class=step><span class=step-number>1</span><b>Create:</b> New journal > Name: Daily</div>
+<div class=step><span class=step-number>2</span><b>Import:</b> Lines > Import from Excel > Select AP_Journal_Import_Updated.xlsx</div>
+<div class=step><span class=step-number>3</span><b>Verify:</b> 3,474 lines | Vendor accounts SYNVEN-xxxx</div>
+<div class=step><span class=step-number>4</span><b>Post:</b> Validate > Post</div>
+<div class=success-box>✅ AP Journal posted: 3,474 transactions</div>
+<h2>Troubleshooting</h2>
+<table><tr><th>Issue</th><th>Solution</th></tr>
+<tr><td>Budget exceeded</td><td>Disable budget control</td></tr>
+<tr><td>Account not found</td><td>Import customers/vendors first</td></tr>
+<tr><td>Unbalanced journal</td><td>Check debits = credits in Excel</td></tr></table>
+<div class=success-box><h3>Checklist</h3>
+<p>□ AR Journal posted (3,467 lines)<br>□ AP Journal posted (3,474 lines)<br>□ Trial balance balanced</div>
+<div style=margin-top:40px;padding-top:20px;border-top:2px solid #ddd;color:#666>
+<p><b>Version:</b> 2.0 | <b>Updated:</b> March 2026 | SYNCUS/SYNVEN</p></div>
+</div></body></html>

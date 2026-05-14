@@ -1,0 +1,148 @@
+# ── Data Prep ─────────────────────────────────────────────────────────
+data_prep:
+  datasets:
+    # - plugin: finance_qa
+    #   timeout: 300
+    #   input_json: data/finance_qa/finance_agent_eval_dataset_v2.json
+    #   lmc_rubric: data/finance_qa/rubric.yml
+    - plugin: erp_qa
+      timeout: 300
+      # input_yaml: data\erp_qa\lmc_ar_eval_enve2794_100_v2.yaml
+      input_yaml: data\erp_qa\lmc_ar_eval_enve2794_150.yaml
+      # input_yaml: data/erp_qa/lmc_ar_eval_enve2794.yaml
+      # tsv: data/erp_qa/tsv_ar_eval_enve2794_fixed.tsv
+      # tsv: data\erp_qa\tsv_ar_eval_enve2794_100_v2.tsv
+      tsv: data\erp_qa\tsv_ar_eval_enve2794_150.tsv
+      lmc_rubric: data/erp_qa/rubric.yml
+    # - plugin: business_brief
+    #   timeout: 300
+    #   input_csv: data/business_brief/ground_truth_business_briefs.csv
+    #   lmc_rubric: data/business_brief/rubric.yml
+    #   # sections_rubric: data/business_brief/sections_rubric.yml
+    #   # accuracy_assertions: data/business_brief/bb_accuracy_assertions.yaml
+    # # - plugin: erp_qa
+    # #   timeout: 60
+    # #   tsv: data/erp_qa/tsv_sc_ww_new_questions.tsv
+    # #   input_yaml: data/erp_qa/lmc_sc_ww_new_questions.yaml
+    # #   lmc_rubric: data/erp_qa/rubric.yml
+  output: data/dataset.yaml # used by inference scripts as input
+
+# ─── Inference ───────────────────────────────────────────────────────────────
+## ── Inference defaults ───────────────────────────────────────────────────────
+inference:
+  shuffle: true        # shuffle questions before inference (--no-shuffle to disable)
+  retry_failed: true   # retry previously failed questions (--no-retry-failed to disable)
+
+## ── Shared ──────────────────────────────────────────────────────────────────
+shared:
+  output_dir: results/
+  run_id: null             # tag for this run; appended to output filenames (null = no suffix)
+  max_workers: 5
+  timeout: 300     # seconds per inference request (applies to both claude and openai)
+  blocked_mcp_tools:  # tools the model must not call (skill management, not relevant to benchmarking)
+    - iq_find_skills
+    - iq_get_skill
+    - iq_write_skill
+  system_instructions: |-
+    You are a finance assistant helping with financial research, analysis, and data questions.
+
+    Depending on the query, check whether the available MCP tools are the appropriate
+    source — use them for questions about your organisation's internal financial data
+    (accounts receivable, payable, invoices, balances, vendor/customer transactions).
+
+    General guidance:
+    - Ground your answers in data you actually retrieved — don't speculate; include references that support your claims (e.g., links to ERP records, or named data providers for external data)
+    - Use data appropriate to the query's timeframe
+    - Structure your response clearly
+    - Define uncommon financial acronyms on first use
+    - Go beyond a surface answer where the query warrants it — provide context, drivers, or caveats that make the response genuinely useful
+    - Never ask clarifying questions — make reasonable assumptions and state them if material
+
+## ── OpenAI ──────────────────────────────────────────────────────────────────
+openai:
+  model: gpt-5.5
+  # model: gpt-5.5
+  max_tool_calls: 20
+  # reasoning_effort: low  # none | minimal | low | medium | high | xhigh (gpt-5 and o-series only)
+
+## ── Anthropic / Claude ──────────────────────────────────────────────────────
+claude:
+  # model: claude-sonnet-4-5
+  # model: claude-haiku-4-5
+  # model: claude-opus-4-6
+  model: claude-opus-4-7
+  max_turns: 20
+  # effort: low    # low | medium | high | xhigh | max — controls thinking budget; "low" cuts latency significantly
+
+# ── Evaluation ──────────────────────────────────────────────────────────────
+evaluation:
+  judge_deployment: gpt-52-2025-12-11
+  judge_client: openai
+  reasoning_effort: low  # low | medium | high (for OpenAI reasoning models)
+  threads: 5
+  tag_evaluator_instructions: |
+    Evaluate a financial analysis response against the provided assertions.
+
+    Score each assertion on a scale of 0.0 to 1.0:
+    - 1.0  — the assertion is fully satisfied
+    - 0.75 — mostly satisfied with minor gaps
+    - 0.5  — partially satisfied (roughly half the criterion is met)
+    - 0.25 — attempted but largely not satisfied
+    - 0.0  — clearly not satisfied
+
+    Use intermediate scores when an assertion is partially met — for example, when most
+    but not all required elements are present, or when the evidence partially supports the claim.
+
+    IMPORTANT: If an assertion is clearly not applicable to the query or response,
+    return null for that assertion's score and explain why in the reasoning field.
+    Do NOT return 0 for inapplicable assertions — a score of 0 means the assertion was
+    verified as failed, while null means it could not be meaningfully evaluated.
+
+    Examples of inapplicable assertions:
+    - A recency assertion (e.g. "response uses up-to-date figures") for a question
+      whose answer is inherently timeless.
+    - A citation assertion requiring a specific entity type (e.g. "cites a customer or
+      vendor contract ID") when the query is about data that has no such IDs — for
+      example, aged balance summaries or ledger totals.
+    - A sources assertion when the response is based on structured data rather than
+      web sources.
+  accuracy_evaluator_instructions: |
+    Important: do not use your own prior knowledge to verify whether specific numerical
+    figures are correct. The response was generated by an agent with access to live data
+    sources (web search, ERP tools) at inference time — it may have figures you cannot
+    independently confirm. Evaluate whether the response *provides* the requested data,
+    not whether you personally believe the number is right. Only penalize a figure if it
+    is clearly implausible (wrong order of magnitude, wrong sign, obviously wrong entity).
+    If you are unsure whether a figure is correct, return null for that assertion rather
+    than a low score.
+
+    Do not penalize under accuracy for missing citations, source URLs, or attribution —
+    citation quality is evaluated separately under the citations tag. Similarly, do not
+    penalize under accuracy for formatting deficiencies (missing tables, structural
+    layout) — those are evaluated under the structure tag. Score accuracy solely on
+    whether the factual content is correct and present.
+
+    Root cause signal: when any assertion scores below 0.75, include in your reasoning
+    a brief note (1–2 sentences) about the likely root cause of the failure — drawing on
+    what the response itself reveals about its data sources, tool outputs, definitions
+    used, limitations encountered, or reasoning process. Do not infer root cause from
+    the magnitude or direction of the error alone; a numerical discrepancy on its own
+    gives no reliable signal about cause. If the response gives no explicit signal about
+    its approach, say so rather than speculating.
+  groundedness_evaluator_instructions: |
+    Evaluate whether a financial response is grounded in the provided source content.
+
+    Score each assertion on a scale of 0.0 to 1.0:
+    - 1.0  — all key claims are well-supported by the sources
+    - 0.75 — most claims are supported; minor peripheral details are unsupported
+    - 0.5  — core claims are supported but several secondary claims are not
+    - 0.25 — only a few claims are supported; most are unsupported or unverifiable
+    - 0.0  — no meaningful support found in the sources
+
+    If ANY single source supports a claim in the response, that claim is considered grounded.
+
+    IMPORTANT: If the source content is clearly not the actual page the agent retrieved
+    (e.g. a cookie consent wall, "access denied" page, login screen, or otherwise irrelevant
+    content), return null for every assertion score and explain why in the reasoning field.
+    Do NOT return 0 — a score of 0 means the claim was verified as ungrounded, while null
+    means it was impossible to verify.

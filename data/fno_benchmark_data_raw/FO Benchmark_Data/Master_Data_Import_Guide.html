@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D365 Finance - Master Data Import Guide</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: #fff; padding: 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-radius: 8px; }
+        h1 { color: #0078d4; border-bottom: 3px solid #0078d4; padding-bottom: 15px; margin-bottom: 30px; font-size: 2.5em; }
+        h2 { color: #0078d4; margin-top: 35px; margin-bottom: 20px; font-size: 1.8em; border-left: 4px solid #0078d4; padding-left: 15px; }
+        h3 { color: #106ebe; margin-top: 25px; margin-bottom: 15px; font-size: 1.3em; }
+        .info-box { background: #e7f3ff; border-left: 4px solid #0078d4; padding: 20px; margin: 20px 0; border-radius: 4px; }
+        .warning-box { background: #fff4e5; border-left: 4px solid #ffa500; padding: 20px; margin: 20px 0; border-radius: 4px; }
+        .critical-box { background: #fff0f0; border-left: 4px solid #d13438; padding: 20px; margin: 20px 0; border-radius: 4px; }
+        .success-box { background: #e8f5e9; border-left: 4px solid #107c10; padding: 20px; margin: 20px 0; border-radius: 4px; }
+        .step { background: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin: 15px 0; border-radius: 5px; }
+        .step-number { display: inline-block; background: #0078d4; color: white; width: 30px; height: 30px; border-radius: 50%; text-align: center; line-height: 30px; margin-right: 10px; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table th { background: #0078d4; color: white; padding: 12px; text-align: left; }
+        table td { padding: 12px; border-bottom: 1px solid #ddd; }
+        code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-family: 'Courier New', monospace; }
+        .mapping-table { background: #f9f9f9; border: 2px solid #0078d4; border-radius: 5px; padding: 15px; margin: 20px 0; }
+        .mapping-table th { background: #106ebe; }
+        ul { margin-left: 20px; margin-top: 10px; }
+        li { margin: 8px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>D365 Finance - Master Data Import Guide</h1>
+        <h2 style="margin-top: 0; color: #666;">Customers & Vendors Import Instructions</h2>
+
+        <div class="info-box">
+            <p><strong>📋 Purpose:</strong> Import customer and vendor master data using DMF</p>
+            <p><strong>⏱️ Time:</strong> 30-45 minutes | <strong>👤 Role:</strong> Data management administrator</p>
+        </div>
+
+        <h2>📊 Master Data Overview</h2>
+        <table>
+            <tr><th>Data Type</th><th>File</th><th>Records</th><th>Entity</th></tr>
+            <tr><td><b>Customers</b></td><td>D365_Customers_DMF_Final.csv</td><td>1,000</td><td>Customers V3</td></tr>
+            <tr><td><b>Vendors</b></td><td>D365_Vendors_DMF_Final.csv</td><td>1,000</td><td>Vendors V2</td></tr>
+        </table>
+
+        <div class="info-box">
+            <h3 style="margin-top: 0;">🔢 Account Formats</h3>
+            <p><b>Customers:</b> SYNCUS-0001 to SYNCUS-1000</p>
+            <p><b>Vendors:</b> SYNVEN-0001 to SYNVEN-1000</p>
+        </div>
+
+        <div class="critical-box">
+            <h3 style="margin-top: 0;">🚫 Pre-Requirements</h3>
+            <p>These must exist before import:</p>
+            <ul>
+                <li>Customer groups: 10, 20, 30, 80, 90</li>
+                <li>Vendor groups: 10, 20, 30, 40, 50</li>
+                <li>Payment terms: Net10, Net15, Net30, Net45, COD</li>
+                <li>Sales tax groups: No-Tax, EXMPT FOR, CA, TX, NY, FL, WA, IL</li>
+                <li>Payment methods: CHECK, ELECTRONIC, CC</li>
+            </ul>
+        </div>
+
+        <h2>👥 Customer Import</h2>
+
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Create Import Project</strong><br>
+            <code>Workspaces > Data management > Import</code><br>
+            Project: Customer Master Data | Format: CSV
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Add Customers V3 Entity</strong><br>
+            Add file > Entity: Customers V3 > Upload: D365_Customers_DMF_Final.csv
+        </div>
+
+        <div class="critical-box">
+            <h3 style="margin-top: 0;">⚠️ CRITICAL: Field Mapping</h3>
+            <p>You MUST adjust these mappings manually:</p>
+        </div>
+
+        <div class="mapping-table">
+            <table>
+                <tr><th>Source (CSV)</th><th>→</th><th>Target (D365)</th></tr>
+                <tr><td><code>CreditMax</code></td><td>→</td><td><code>Credit limit</code></td></tr>
+                <tr><td><code>CurrencyCode</code></td><td>→</td><td><code>SalesCurrencyCode</code></td></tr>
+                <tr><td><code>CustomerHoldStatus</code></td><td>→</td><td><code>CredManAccountStatusId</code></td></tr>
+                <tr><td><code>PaymentTermsId</code></td><td>→</td><td><code>PaymentTerms</code></td></tr>
+                <tr><td><code>PrimaryContactPersonFirstName</code></td><td>→</td><td><code>PersonFirstName</code></td></tr>
+            </table>
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Fix Field Mappings</strong><br>
+            View map > For each row above, select correct target field > Save
+        </div>
+
+        <div class="step">
+            <span class="step-number">4</span>
+            <strong>Import & Verify</strong><br>
+            Import > Wait for Success > View log (1,000 records)<br>
+            <code>AR > Customers > All customers</code> > Filter: SYNCUS
+        </div>
+
+        <div class="success-box">
+            <p>✅ <b>Customers imported:</b> 1,000 (SYNCUS-0001 to SYNCUS-1000)</p>
+        </div>
+
+        <h2>🏢 Vendor Import</h2>
+
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Create Vendor Project</strong><br>
+            <code>Data management > Import</code><br>
+            Project: Vendor Master Data | Format: CSV
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Add Vendors V2</strong><br>
+            Add file > Entity: Vendors V2 > Upload: D365_Vendors_DMF_Final.csv
+        </div>
+
+        <div class="critical-box">
+            <h3 style="margin-top: 0;">⚠️ CRITICAL: Vendor Field Mapping</h3>
+            <p>Similar to customers, vendor field mappings may need manual adjustment:</p>
+        </div>
+
+        <div class="mapping-table">
+            <table>
+                <tr><th>Source (CSV)</th><th>→</th><th>Target (D365)</th></tr>
+                <tr><td><code>AddressState</code></td><td>→</td><td><code>AddressStateId</code></td></tr>
+                <tr><td><code>PaymentMethodName</code></td><td>→</td><td><code>DefaultVendorPaymentMethodName</code></td></tr>
+                <tr><td><code>PaymentTermsId</code></td><td>→</td><td><code>DefaultPaymentTermsName</code></td></tr>
+                <tr><td><code>PrimaryContactEmail</code></td><td>→</td><td><code>PrimaryEmailAddress</code></td></tr>
+                <tr><td><code>PrimaryContactPersonFirstName</code></td><td>→</td><td><code>PersonFirstName</code></td></tr>
+                <tr><td><code>PrimaryContactPhone</code></td><td>→</td><td><code>PrimaryPhoneNumber</code></td></tr>
+                <tr><td><code>SalesTaxGroup</code></td><td>→</td><td><code>SalesTaxGroupCode</code></td></tr>
+                <tr><td><code>VendorHoldStatus</code></td><td>→</td><td><code>OnHoldStatus</code></td></tr>
+            </table>
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Adjust Vendor Field Mapping</strong><br>
+            View map > For each mapping in table above, select correct target field > Save
+        </div>
+
+        <div class="step">
+            <span class="step-number">4</span>
+            <strong>Import & Verify</strong><br>
+            Import > Wait for Success > View log (1,000 records)<br>
+            <code>AP > Vendors > All vendors</code> > Filter: SYNVEN
+        </div>
+
+        <div class="success-box">
+            <p>✅ <b>Vendors imported:</b> 1,000 (SYNVEN-0001 to SYNVEN-1000)</p>
+        </div>
+
+        <h2>❌ Troubleshooting</h2>
+        <table>
+            <tr><th>Issue</th><th>Solution</th></tr>
+            <tr><td>Reference data not found</td><td>Create missing groups/terms first</td></tr>
+            <tr><td>Field mapping incorrect</td><td>Manually adjust per mapping tables above</td></tr>
+            <tr><td>Credit limits not imported</td><td>Map CreditMax to Credit limit (customers)</td></tr>
+            <tr><td>Payment method not set</td><td>Map to DefaultVendorPaymentMethodName (vendors)</td></tr>
+            <tr><td>Currency issues</td><td>Map to SalesCurrencyCode (customers)</td></tr>
+            <tr><td>Contact info missing</td><td>Map PersonFirstName, PrimaryEmailAddress, PrimaryPhoneNumber</td></tr>
+        </table>
+
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #ddd; color: #666;">
+            <p><b>Version:</b> 2.1 | <b>Updated:</b> March 2, 2026 | <b>Formats:</b> SYNCUS / SYNVEN</p>
+            <p style="margin-top: 5px;"><b>Note:</b> Includes field mapping corrections for both Customers V3 and Vendors V2 entities</p>
+        </div>
+    </div>
+</body>
+</html>

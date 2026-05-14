@@ -1,0 +1,1001 @@
+VendorAccountNumber,VendorOrganizationName,VendorGroupId,CurrencyCode,PaymentTermsId,PaymentMethodName,AddressStreet,AddressCity,AddressState,AddressZipCode,AddressCountryRegionId,PrimaryContactPersonFirstName,PrimaryContactPhone,PrimaryContactEmail,SalesTaxGroup,VendorHoldStatus
+SYNVEN-0001,A. Datum Corporation,40,USD,COD,CHECK,5545 Church St,Tucson,AZ,63928,USA,Rachel,520-555-0115,rachel@www.adatum.com,EXMPT FOR,No
+SYNVEN-0002,Adventure Works Cycles,40,USD,Net15,CHECK,1506 Elm St,Atlanta,GA,26654,USA,Michelle,404-555-0124,michelle@www.adventure-works.com,EXMPT FOR,No
+SYNVEN-0003,Alpine Ski House,30,USD,Net15,CHECK,5051 School St,Detroit,MI,41855,USA,Kimberly,313-555-0166,kimberly@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0004,Blue Yonder Airlines,40,USD,Net30,CHECK,1218 Mill St,Memphis,TN,92465,USA,Anna,901-555-0136,anna@www.blueyonderairlines.com,EXMPT FOR,No
+SYNVEN-0005,City Power & Light,50,USD,Net30,CHECK,2055 Walnut St,Milwaukee,WI,66981,USA,Ryan,414-555-0102,ryan@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0006,Coho Vineyard,30,USD,Net30,ELECTRONIC,1193 Jackson St,Portland,OR,90247,USA,Amy,503-555-0136,amy@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0007,Coho Winery,40,USD,Net45,ELECTRONIC,3072 Center St,Baltimore,MD,50489,USA,Jonathan,410-555-0107,jonathan@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0008,Coho Vineyard & Winery,10,USD,Net30,ELECTRONIC,2276 Oak St,Sacramento,CA,66489,USA,Justin,916-555-0102,justin@www.cohovineyardandwinery.com,EXMPT FOR,No
+SYNVEN-0009,"Contoso, Ltd.",10,USD,COD,CHECK,2902 Church St,Phoenix,AZ,19786,USA,Sarah,602-555-0198,sarah@www.contoso.com,EXMPT FOR,No
+SYNVEN-0010,Contoso Pharmaceuticals,30,USD,Net30,CHECK,3971 Madison Ave,Indianapolis,IN,19428,USA,Michael,317-555-0126,michael@www.contoso.com,EXMPT FOR,No
+SYNVEN-0011,Consolidated Messenger,20,USD,COD,ELECTRONIC,6296 Mill St,San Francisco,CA,17619,USA,Christine,415-555-0193,christine@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0012,"Fabrikam, Inc.",10,USD,Net45,ELECTRONIC,6745 Cherry St,Sacramento,CA,44238,USA,Kenneth,916-555-0155,kenneth@www.fabrikam.com,EXMPT FOR,No
+SYNVEN-0013,Fourth Coffee,40,USD,Net30,CHECK,4967 Church St,San Jose,CA,37745,USA,Maria,408-555-0169,maria@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0014,Graphic Design Institute,50,USD,Net30,CHECK,2923 Elm St,Baltimore,MD,80255,USA,Deborah,410-555-0155,deborah@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0015,Humongous Insurance,30,USD,COD,CHECK,9344 Hill St,Charlotte,NC,39281,USA,Jerry,704-555-0120,jerry@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0016,"Litware, Inc.",50,USD,Net15,CHECK,6105 Main St,Pittsburgh,PA,58173,USA,Rebecca,412-555-0132,rebecca@www.litwareinc.com,EXMPT FOR,No
+SYNVEN-0017,Lucerne Publishing,40,USD,Net30,CHECK,3389 Mill St,Chicago,IL,92378,USA,Rachel,312-555-0122,rachel@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0018,Margie's Travel,50,USD,Net45,CHECK,7713 Bridge St,Detroit,MI,40705,USA,Pamela,313-555-0107,pamela@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0019,Northwind Traders,50,USD,Net30,ELECTRONIC,8469 Franklin St,Jacksonville,FL,59630,USA,Andrew,904-555-0118,andrew@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0020,"Proseware, Inc.",40,USD,COD,ELECTRONIC,5355 Oak St,Seattle,WA,21121,USA,Michael,206-555-0155,michael@www.proseware.com,EXMPT FOR,No
+SYNVEN-0021,School of Fine Art,20,USD,Net45,ELECTRONIC,3315 Liberty St,Los Angeles,CA,81396,USA,Jennifer,213-555-0198,jennifer@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0022,Southridge Video,30,USD,COD,ELECTRONIC,9329 Bridge St,Indianapolis,IN,75925,USA,Brandon,317-555-0146,brandon@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0023,Tailspin Toys,30,USD,Net30,CHECK,3693 Broad St,Tucson,AZ,77044,USA,Andrew,520-555-0113,andrew@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0024,Trey Research,20,USD,Net30,ELECTRONIC,3609 Liberty St,Milwaukee,WI,48350,USA,Edward,414-555-0106,edward@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0025,The Phone Company,50,USD,Net30,CHECK,5006 School St,Indianapolis,IN,95600,USA,Cynthia,317-555-0138,cynthia@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0026,Wide World Importers,40,USD,Net15,CHECK,1522 Grove St,Phoenix,AZ,35967,USA,Daniel,602-555-0102,daniel@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0027,Wingtip Toys,30,USD,Net30,CHECK,6021 School St,Philadelphia,PA,79201,USA,Samantha,215-555-0152,samantha@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0028,Woodgrove Bank,10,USD,Net30,CHECK,9055 Oak St,Nashville,TN,24579,USA,Larry,615-555-0143,larry@www.woodgrovebank.com,EXMPT FOR,No
+SYNVEN-0029,A. Datum South,50,USD,Net30,ELECTRONIC,2688 Pine St,Phoenix,AZ,41934,USA,Jessica,602-555-0166,jessica@example.com,EXMPT FOR,No
+SYNVEN-0030,Adventure Works South,30,USD,Net30,ELECTRONIC,9761 Oak St,Las Vegas,NV,82631,USA,Sharon,702-555-0174,sharon@example.com,EXMPT FOR,No
+SYNVEN-0031,Alpine Ski House South,10,USD,Net15,CHECK,1149 Union St,Oklahoma City,OK,43332,USA,Nancy,405-555-0195,nancy@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0032,Blue Yonder South,50,USD,Net30,ELECTRONIC,2402 Mill St,Houston,TX,62806,USA,Patrick,713-555-0140,patrick@example.com,EXMPT FOR,No
+SYNVEN-0033,City Power & Light South,10,USD,Net45,CHECK,2449 Main St,Philadelphia,PA,51338,USA,Kevin,215-555-0159,kevin@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0034,Coho Vineyard South,10,USD,Net45,CHECK,2339 Mill St,Memphis,TN,58614,USA,Pamela,901-555-0168,pamela@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0035,Coho Winery South,50,USD,Net30,ELECTRONIC,9302 Water St,Chicago,IL,96961,USA,Kevin,312-555-0177,kevin@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0036,Coho Vineyard & Winery South,40,USD,Net45,CHECK,8982 Summit Ave,Portland,OR,28072,USA,Scott,503-555-0163,scott@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0037,Contoso South,30,USD,Net15,ELECTRONIC,4967 Water St,Portland,OR,75406,USA,Rebecca,503-555-0196,rebecca@example.com,EXMPT FOR,No
+SYNVEN-0038,Contoso Pharmaceuticals South,30,USD,Net45,CHECK,8875 Oak St,Sacramento,CA,33896,USA,Brian,916-555-0182,brian@www.contoso.com,EXMPT FOR,No
+SYNVEN-0039,Consolidated Messenger South,40,USD,Net15,CHECK,8274 Lincoln Ave,Omaha,NE,55426,USA,Sandra,402-555-0133,sandra@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0040,Fabrikam South,10,USD,Net45,ELECTRONIC,7924 Center St,Dallas,TX,93898,USA,Melissa,214-555-0188,melissa@example.com,EXMPT FOR,No
+SYNVEN-0041,Fourth Coffee South,30,USD,Net45,ELECTRONIC,5392 Second Ave,Jacksonville,FL,92031,USA,Ruth,904-555-0120,ruth@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0042,Graphic Design Institute South,40,USD,Net15,CHECK,2454 Bridge St,Omaha,NE,72832,USA,Jeffrey,402-555-0115,jeffrey@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0043,Humongous Insurance South,30,USD,Net15,ELECTRONIC,5669 Franklin St,San Diego,CA,87898,USA,Larry,619-555-0145,larry@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0044,Litware South,20,USD,COD,ELECTRONIC,2870 School St,Denver,CO,34063,USA,Mary,303-555-0149,mary@example.com,EXMPT FOR,No
+SYNVEN-0045,Lucerne Publishing South,40,USD,Net30,CHECK,9670 Hill St,Memphis,TN,50749,USA,William,901-555-0189,william@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0046,Margie's Travel South,50,USD,Net45,ELECTRONIC,8555 Spring St,Miami,FL,35253,USA,Karen,305-555-0100,karen@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0047,Northwind Traders South,10,USD,Net45,ELECTRONIC,5977 Market St,New York,NY,58132,USA,Benjamin,212-555-0192,benjamin@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0048,Proseware South,30,USD,COD,ELECTRONIC,7701 Adams St,Dallas,TX,20481,USA,Melissa,214-555-0110,melissa@example.com,EXMPT FOR,No
+SYNVEN-0049,School of Fine Art South,50,USD,COD,CHECK,7810 School St,Raleigh,NC,41339,USA,Andrew,919-555-0100,andrew@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0050,Southridge Video South,30,USD,Net45,CHECK,8026 First Ave,Boston,MA,64386,USA,Donna,617-555-0186,donna@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0051,Tailspin Toys South,20,USD,Net30,ELECTRONIC,2377 Main St,Austin,TX,55995,USA,Benjamin,512-555-0186,benjamin@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0052,Trey Research South,40,USD,Net30,ELECTRONIC,9633 High St,Cleveland,OH,98856,USA,Kathleen,216-555-0141,kathleen@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0053,The Phone Company South,40,USD,COD,CHECK,5356 Lake St,Austin,TX,51131,USA,Brandon,512-555-0148,brandon@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0054,Wide World Importers South,30,USD,Net15,CHECK,2703 Franklin St,Pittsburgh,PA,64600,USA,Pamela,412-555-0162,pamela@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0055,Wingtip Toys South,50,USD,Net15,CHECK,1696 School St,Chicago,IL,95877,USA,Brian,312-555-0167,brian@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0056,Woodgrove South,10,USD,COD,ELECTRONIC,1273 Grove St,San Diego,CA,84713,USA,Brandon,619-555-0164,brandon@example.com,EXMPT FOR,No
+SYNVEN-0057,A. Datum East,40,USD,Net30,ELECTRONIC,2918 Market St,Phoenix,AZ,65805,USA,Mary,602-555-0101,mary@example.com,EXMPT FOR,No
+SYNVEN-0058,Adventure Works East,20,USD,Net30,CHECK,3411 River Rd,Atlanta,GA,92485,USA,Steven,404-555-0171,steven@example.com,EXMPT FOR,No
+SYNVEN-0059,Alpine Ski House East,40,USD,Net15,ELECTRONIC,8468 Second Ave,Phoenix,AZ,19230,USA,Amanda,602-555-0122,amanda@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0060,Blue Yonder East,10,USD,Net15,ELECTRONIC,3845 Spring St,Las Vegas,NV,55056,USA,James,702-555-0118,james@example.com,EXMPT FOR,No
+SYNVEN-0061,City Power & Light East,10,USD,Net30,CHECK,9886 Cherry St,Raleigh,NC,16307,USA,Alexander,919-555-0140,alexander@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0062,Coho Vineyard East,30,USD,Net30,CHECK,7777 Oak St,Sacramento,CA,72251,USA,Patricia,916-555-0121,patricia@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0063,Coho Winery East,30,USD,Net45,ELECTRONIC,2167 Madison Ave,Portland,OR,81098,USA,Samantha,503-555-0163,samantha@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0064,Coho Vineyard & Winery East,10,USD,COD,CHECK,4586 Cedar St,Detroit,MI,88612,USA,Ryan,313-555-0107,ryan@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0065,Contoso East,30,USD,Net45,CHECK,2837 Adams St,Portland,OR,58315,USA,Brandon,503-555-0194,brandon@example.com,EXMPT FOR,No
+SYNVEN-0066,Contoso Pharmaceuticals East,40,USD,Net15,CHECK,4953 School St,Minneapolis,MN,31347,USA,Kimberly,612-555-0157,kimberly@www.contoso.com,EXMPT FOR,No
+SYNVEN-0067,Consolidated Messenger East,50,USD,COD,CHECK,2797 Lincoln Ave,Denver,CO,45819,USA,Dennis,303-555-0156,dennis@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0068,Fabrikam East,50,USD,Net15,CHECK,3653 Madison Ave,Seattle,WA,42190,USA,Catherine,206-555-0181,catherine@example.com,EXMPT FOR,No
+SYNVEN-0069,Fourth Coffee East,10,USD,COD,CHECK,4711 Oak St,Memphis,TN,19002,USA,Catherine,901-555-0170,catherine@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0070,Graphic Design Institute East,50,USD,Net30,ELECTRONIC,6585 Spring St,Houston,TX,87925,USA,Aaron,713-555-0178,aaron@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0071,Humongous Insurance East,50,USD,COD,CHECK,4130 Lincoln Ave,Philadelphia,PA,87899,USA,Rachel,215-555-0115,rachel@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0072,Litware East,30,USD,COD,CHECK,3224 Church St,Philadelphia,PA,22125,USA,Kevin,215-555-0195,kevin@example.com,EXMPT FOR,No
+SYNVEN-0073,Lucerne Publishing East,30,USD,Net15,CHECK,7310 Water St,Nashville,TN,80147,USA,Donald,615-555-0144,donald@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0074,Margie's Travel East,10,USD,Net45,CHECK,9032 Adams St,Los Angeles,CA,42746,USA,Thomas,213-555-0116,thomas@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0075,Northwind Traders East,50,USD,Net45,CHECK,2801 Union St,San Francisco,CA,57746,USA,Katherine,415-555-0164,katherine@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0076,Proseware East,50,USD,Net30,ELECTRONIC,3204 Lincoln Ave,San Francisco,CA,18766,USA,Matthew,415-555-0143,matthew@example.com,EXMPT FOR,No
+SYNVEN-0077,School of Fine Art East,10,USD,Net45,CHECK,5162 Walnut St,Cleveland,OH,39445,USA,Jeffrey,216-555-0108,jeffrey@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0078,Southridge Video East,10,USD,Net30,CHECK,1462 Liberty St,Miami,FL,31345,USA,Scott,305-555-0114,scott@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0079,Tailspin Toys East,50,USD,Net15,CHECK,7896 Center St,San Diego,CA,89896,USA,Jeffrey,619-555-0170,jeffrey@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0080,Trey Research East,30,USD,Net45,ELECTRONIC,1401 Washington St,Houston,TX,97743,USA,Rachel,713-555-0157,rachel@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0081,The Phone Company East,40,USD,COD,ELECTRONIC,9229 Center St,Phoenix,AZ,62548,USA,Kimberly,602-555-0103,kimberly@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0082,Wide World Importers East,30,USD,Net45,CHECK,7853 Franklin St,Fresno,CA,94255,USA,David,559-555-0165,david@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0083,Wingtip Toys East,50,USD,Net30,CHECK,8624 Liberty St,Omaha,NE,33422,USA,Brandon,402-555-0153,brandon@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0084,Woodgrove East,20,USD,Net45,CHECK,4197 River Rd,San Antonio,TX,39504,USA,Emma,210-555-0121,emma@example.com,EXMPT FOR,No
+SYNVEN-0085,A. Datum West,50,USD,Net45,ELECTRONIC,4017 Grove St,Seattle,WA,35542,USA,Carol,206-555-0137,carol@example.com,EXMPT FOR,No
+SYNVEN-0086,Adventure Works West,50,USD,Net45,ELECTRONIC,1141 Main St,Phoenix,AZ,86999,USA,Christine,602-555-0130,christine@example.com,EXMPT FOR,No
+SYNVEN-0087,Alpine Ski House West,10,USD,COD,CHECK,4326 Walnut St,San Diego,CA,30320,USA,Karen,619-555-0165,karen@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0088,Blue Yonder West,20,USD,Net15,ELECTRONIC,5779 Elm St,Memphis,TN,95736,USA,Linda,901-555-0196,linda@example.com,EXMPT FOR,No
+SYNVEN-0089,City Power & Light West,30,USD,Net30,CHECK,3247 Park Ave,Nashville,TN,78540,USA,Alexander,615-555-0172,alexander@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0090,Coho Vineyard West,40,USD,Net45,CHECK,1944 Liberty St,Las Vegas,NV,12774,USA,Sarah,702-555-0160,sarah@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0091,Coho Winery West,20,USD,Net45,ELECTRONIC,6562 Lake St,Houston,TX,67612,USA,Melissa,713-555-0106,melissa@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0092,Coho Vineyard & Winery West,10,USD,Net45,CHECK,5061 Franklin St,Minneapolis,MN,45722,USA,Jack,612-555-0153,jack@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0093,Contoso West,30,USD,Net15,CHECK,4780 Pine St,Las Vegas,NV,16157,USA,Sandra,702-555-0109,sandra@example.com,EXMPT FOR,No
+SYNVEN-0094,Contoso Pharmaceuticals West,10,USD,Net45,CHECK,7773 Elm St,Denver,CO,61925,USA,Kenneth,303-555-0109,kenneth@www.contoso.com,EXMPT FOR,No
+SYNVEN-0095,Consolidated Messenger West,10,USD,Net15,CHECK,4177 Chestnut St,Jacksonville,FL,44543,USA,Shirley,904-555-0163,shirley@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0096,Fabrikam West,10,USD,Net15,ELECTRONIC,4123 Cedar St,Sacramento,CA,35829,USA,Samuel,916-555-0114,samuel@example.com,EXMPT FOR,No
+SYNVEN-0097,Fourth Coffee West,40,USD,COD,ELECTRONIC,6424 Union St,Milwaukee,WI,60705,USA,Justin,414-555-0124,justin@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0098,Graphic Design Institute West,20,USD,Net30,ELECTRONIC,9255 Grove St,Columbus,OH,63070,USA,Ruth,614-555-0140,ruth@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0099,Humongous Insurance West,40,USD,Net45,ELECTRONIC,3914 Lake St,Kansas City,MO,91145,USA,Ryan,816-555-0189,ryan@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0100,Litware West,10,USD,COD,ELECTRONIC,9805 Cedar St,Milwaukee,WI,29960,USA,Deborah,414-555-0104,deborah@example.com,EXMPT FOR,No
+SYNVEN-0101,Lucerne Publishing West,20,USD,Net15,CHECK,9150 Jackson St,Minneapolis,MN,62337,USA,Jennifer,612-555-0117,jennifer@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0102,Margie's Travel West,50,USD,Net30,ELECTRONIC,3745 Grove St,Los Angeles,CA,80871,USA,Susan,213-555-0113,susan@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0103,Northwind Traders West,30,USD,Net45,CHECK,3769 River Rd,Charlotte,NC,68870,USA,Benjamin,704-555-0112,benjamin@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0104,Proseware West,30,USD,Net15,ELECTRONIC,3129 Hill St,Sacramento,CA,14216,USA,Heather,916-555-0187,heather@example.com,EXMPT FOR,No
+SYNVEN-0105,School of Fine Art West,10,USD,Net30,CHECK,2803 Hill St,Kansas City,MO,13590,USA,Helen,816-555-0102,helen@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0106,Southridge Video West,20,USD,Net15,ELECTRONIC,7158 Second Ave,New York,NY,92970,USA,Scott,212-555-0184,scott@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0107,Tailspin Toys West,40,USD,Net45,ELECTRONIC,3274 Monroe St,Austin,TX,14593,USA,Andrew,512-555-0133,andrew@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0108,Trey Research West,20,USD,Net45,ELECTRONIC,1558 Mill St,Atlanta,GA,54179,USA,Joshua,404-555-0176,joshua@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0109,The Phone Company West,20,USD,COD,CHECK,6833 Pleasant St,Boston,MA,11806,USA,Stephen,617-555-0120,stephen@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0110,Wide World Importers West,20,USD,COD,CHECK,7673 Monroe St,San Antonio,TX,19063,USA,Gary,210-555-0197,gary@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0111,Wingtip Toys West,10,USD,COD,CHECK,7593 Elm St,Detroit,MI,17851,USA,Diane,313-555-0195,diane@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0112,Woodgrove West,50,USD,Net45,ELECTRONIC,7966 Maple St,Philadelphia,PA,12291,USA,Barbara,215-555-0154,barbara@example.com,EXMPT FOR,No
+SYNVEN-0113,A. Datum Central,10,USD,Net15,CHECK,8910 Washington St,San Antonio,TX,52248,USA,Emily,210-555-0189,emily@example.com,EXMPT FOR,No
+SYNVEN-0114,Adventure Works Central,50,USD,Net15,CHECK,6022 River Rd,Cleveland,OH,77150,USA,Kenneth,216-555-0179,kenneth@example.com,EXMPT FOR,No
+SYNVEN-0115,Alpine Ski House Central,40,USD,Net15,CHECK,5168 Broad St,Atlanta,GA,65576,USA,Sharon,404-555-0192,sharon@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0116,Blue Yonder Central,10,USD,Net30,ELECTRONIC,4426 Jackson St,Tucson,AZ,87426,USA,Kimberly,520-555-0100,kimberly@example.com,EXMPT FOR,No
+SYNVEN-0117,City Power & Light Central,30,USD,Net15,ELECTRONIC,4636 Church St,Chicago,IL,48945,USA,Mary,312-555-0162,mary@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0118,Coho Vineyard Central,10,USD,Net15,CHECK,4278 Adams St,Raleigh,NC,80359,USA,Carolyn,919-555-0106,carolyn@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0119,Coho Winery Central,30,USD,Net15,CHECK,3709 Market St,Charlotte,NC,82820,USA,Margaret,704-555-0133,margaret@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0120,Coho Vineyard & Winery Central,40,USD,Net30,CHECK,6999 Bridge St,Phoenix,AZ,54477,USA,Steven,602-555-0136,steven@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0121,Contoso Central,50,USD,COD,CHECK,6852 Adams St,Kansas City,MO,93155,USA,Laura,816-555-0158,laura@example.com,EXMPT FOR,No
+SYNVEN-0122,Contoso Pharmaceuticals Central,30,USD,COD,CHECK,1223 South St,New York,NY,34134,USA,James,212-555-0134,james@www.contoso.com,EXMPT FOR,No
+SYNVEN-0123,Consolidated Messenger Central,50,USD,Net30,CHECK,6831 Walnut St,Louisville,KY,29846,USA,Margaret,502-555-0104,margaret@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0124,Fabrikam Central,40,USD,COD,CHECK,2769 First Ave,Omaha,NE,45191,USA,Elizabeth,402-555-0185,elizabeth@example.com,EXMPT FOR,No
+SYNVEN-0125,Fourth Coffee Central,30,USD,Net15,ELECTRONIC,7500 Maple St,Fort Worth,TX,37797,USA,Anthony,817-555-0189,anthony@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0126,Graphic Design Institute Central,20,USD,COD,ELECTRONIC,8906 School St,Charlotte,NC,81886,USA,Tyler,704-555-0148,tyler@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0127,Humongous Insurance Central,50,USD,COD,ELECTRONIC,9028 South St,Philadelphia,PA,94891,USA,Jack,215-555-0149,jack@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0128,Litware Central,30,USD,Net30,CHECK,7116 Oak St,Houston,TX,97151,USA,Cynthia,713-555-0125,cynthia@example.com,EXMPT FOR,No
+SYNVEN-0129,Lucerne Publishing Central,20,USD,Net45,CHECK,5954 Cedar St,Seattle,WA,16859,USA,Ruth,206-555-0149,ruth@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0130,Margie's Travel Central,10,USD,Net30,CHECK,1883 Lincoln Ave,Atlanta,GA,86718,USA,William,404-555-0121,william@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0131,Northwind Traders Central,50,USD,Net15,ELECTRONIC,2193 Elm St,Phoenix,AZ,92744,USA,Eric,602-555-0195,eric@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0132,Proseware Central,20,USD,Net45,CHECK,1408 Franklin St,Sacramento,CA,94736,USA,Ruth,916-555-0133,ruth@example.com,EXMPT FOR,No
+SYNVEN-0133,School of Fine Art Central,10,USD,COD,CHECK,9117 Monroe St,Austin,TX,98444,USA,Katherine,512-555-0149,katherine@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0134,Southridge Video Central,50,USD,Net45,ELECTRONIC,9474 Water St,Kansas City,MO,87946,USA,Barbara,816-555-0184,barbara@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0135,Tailspin Toys Central,40,USD,Net45,CHECK,7494 Grove St,Jacksonville,FL,75976,USA,William,904-555-0138,william@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0136,Trey Research Central,50,USD,COD,ELECTRONIC,2829 Jefferson St,Seattle,WA,75100,USA,Carol,206-555-0191,carol@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0137,The Phone Company Central,20,USD,Net30,CHECK,9104 Center St,Tucson,AZ,75464,USA,Linda,520-555-0100,linda@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0138,Wide World Importers Central,10,USD,Net45,ELECTRONIC,6687 Jackson St,Fresno,CA,42628,USA,Deborah,559-555-0163,deborah@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0139,Wingtip Toys Central,20,USD,COD,ELECTRONIC,8676 Franklin St,Indianapolis,IN,64956,USA,Stephen,317-555-0126,stephen@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0140,Woodgrove Central,10,USD,Net30,CHECK,8026 Liberty St,Milwaukee,WI,32789,USA,Barbara,414-555-0123,barbara@example.com,EXMPT FOR,No
+SYNVEN-0141,A. Datum Pacific,40,USD,Net45,ELECTRONIC,1122 Jefferson St,Philadelphia,PA,27203,USA,Kevin,215-555-0193,kevin@example.com,EXMPT FOR,No
+SYNVEN-0142,Adventure Works Pacific,40,USD,Net45,CHECK,2871 Maple St,Jacksonville,FL,26348,USA,Ashley,904-555-0187,ashley@example.com,EXMPT FOR,No
+SYNVEN-0143,Alpine Ski House Pacific,40,USD,COD,ELECTRONIC,7879 Water St,Tampa,FL,66320,USA,Cynthia,813-555-0164,cynthia@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0144,Blue Yonder Pacific,30,USD,Net30,ELECTRONIC,1682 High St,Columbus,OH,88667,USA,Patricia,614-555-0194,patricia@example.com,EXMPT FOR,No
+SYNVEN-0145,City Power & Light Pacific,40,USD,Net30,ELECTRONIC,6774 Liberty St,Columbus,OH,68108,USA,Ashley,614-555-0190,ashley@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0146,Coho Vineyard Pacific,10,USD,Net30,ELECTRONIC,3289 Franklin St,Raleigh,NC,78296,USA,Janet,919-555-0110,janet@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0147,Coho Winery Pacific,50,USD,COD,ELECTRONIC,7271 Grove St,Raleigh,NC,97361,USA,Ashley,919-555-0137,ashley@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0148,Coho Vineyard & Winery Pacific,50,USD,Net45,CHECK,7422 Adams St,Omaha,NE,39309,USA,Rachel,402-555-0172,rachel@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0149,Contoso Pacific,20,USD,Net45,CHECK,2897 Adams St,Seattle,WA,45915,USA,Michael,206-555-0115,michael@example.com,EXMPT FOR,No
+SYNVEN-0150,Contoso Pharmaceuticals Pacific,10,USD,Net15,CHECK,5882 Bridge St,Sacramento,CA,15239,USA,Edward,916-555-0175,edward@www.contoso.com,EXMPT FOR,No
+SYNVEN-0151,Consolidated Messenger Pacific,30,USD,COD,CHECK,3443 Main St,Seattle,WA,67557,USA,Andrew,206-555-0163,andrew@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0152,Fabrikam Pacific,20,USD,Net15,ELECTRONIC,4343 Water St,Louisville,KY,88942,USA,Sandra,502-555-0159,sandra@example.com,EXMPT FOR,No
+SYNVEN-0153,Fourth Coffee Pacific,50,USD,COD,ELECTRONIC,3853 Walnut St,San Francisco,CA,66371,USA,Brian,415-555-0104,brian@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0154,Graphic Design Institute Pacific,20,USD,Net30,CHECK,3817 Union St,Minneapolis,MN,99414,USA,Janet,612-555-0127,janet@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0155,Humongous Insurance Pacific,50,USD,Net15,CHECK,3516 Cedar St,Houston,TX,23297,USA,Andrew,713-555-0143,andrew@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0156,Litware Pacific,30,USD,Net45,CHECK,6360 Summit Ave,Chicago,IL,32356,USA,Mary,312-555-0141,mary@example.com,EXMPT FOR,No
+SYNVEN-0157,Lucerne Publishing Pacific,20,USD,COD,CHECK,4969 Spring St,Nashville,TN,76775,USA,Donald,615-555-0148,donald@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0158,Margie's Travel Pacific,40,USD,Net15,CHECK,7615 Lincoln Ave,Seattle,WA,60001,USA,Edward,206-555-0137,edward@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0159,Northwind Traders Pacific,50,USD,Net45,CHECK,7571 Park Ave,Albuquerque,NM,77063,USA,Nancy,505-555-0164,nancy@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0160,Proseware Pacific,10,USD,COD,ELECTRONIC,7762 Bridge St,Kansas City,MO,91765,USA,Jessica,816-555-0105,jessica@example.com,EXMPT FOR,No
+SYNVEN-0161,School of Fine Art Pacific,30,USD,Net45,ELECTRONIC,5706 Summit Ave,Houston,TX,19943,USA,Scott,713-555-0135,scott@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0162,Southridge Video Pacific,50,USD,Net45,CHECK,8762 Jackson St,Baltimore,MD,86265,USA,Emma,410-555-0103,emma@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0163,Tailspin Toys Pacific,30,USD,Net30,ELECTRONIC,8790 Pine St,Tucson,AZ,86625,USA,Daniel,520-555-0144,daniel@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0164,Trey Research Pacific,50,USD,Net15,ELECTRONIC,6360 Pearl St,Portland,OR,69361,USA,Sandra,503-555-0142,sandra@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0165,The Phone Company Pacific,40,USD,Net15,CHECK,9507 Main St,Tampa,FL,32555,USA,Kathleen,813-555-0105,kathleen@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0166,Wide World Importers Pacific,30,USD,COD,CHECK,8000 First Ave,Memphis,TN,92835,USA,Cynthia,901-555-0150,cynthia@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0167,Wingtip Toys Pacific,10,USD,Net15,ELECTRONIC,6908 Pleasant St,Sacramento,CA,81148,USA,Stephanie,916-555-0116,stephanie@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0168,Woodgrove Pacific,50,USD,COD,ELECTRONIC,2134 Franklin St,Fort Worth,TX,30699,USA,Susan,817-555-0103,susan@example.com,EXMPT FOR,No
+SYNVEN-0169,A. Datum Atlantic,10,USD,Net45,CHECK,7791 Bridge St,Phoenix,AZ,33101,USA,Jacob,602-555-0141,jacob@example.com,EXMPT FOR,No
+SYNVEN-0170,Adventure Works Atlantic,10,USD,Net15,ELECTRONIC,8714 Chestnut St,Jacksonville,FL,92274,USA,Frank,904-555-0163,frank@example.com,EXMPT FOR,No
+SYNVEN-0171,Alpine Ski House Atlantic,20,USD,COD,ELECTRONIC,6261 Cedar St,Baltimore,MD,92881,USA,Richard,410-555-0180,richard@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0172,Blue Yonder Atlantic,20,USD,COD,ELECTRONIC,2079 Madison Ave,Nashville,TN,29067,USA,Ashley,615-555-0189,ashley@example.com,EXMPT FOR,No
+SYNVEN-0173,City Power & Light Atlantic,30,USD,COD,CHECK,3038 Madison Ave,Dallas,TX,49154,USA,Rebecca,214-555-0138,rebecca@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0174,Coho Vineyard Atlantic,40,USD,Net45,ELECTRONIC,6505 Park Ave,Milwaukee,WI,24391,USA,Jonathan,414-555-0109,jonathan@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0175,Coho Winery Atlantic,40,USD,Net45,CHECK,4194 Cedar St,Tucson,AZ,38446,USA,Anna,520-555-0195,anna@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0176,Coho Vineyard & Winery Atlantic,20,USD,Net30,CHECK,5741 Second Ave,San Diego,CA,57339,USA,Nancy,619-555-0190,nancy@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0177,Contoso Atlantic,10,USD,Net45,CHECK,1432 Franklin St,Fort Worth,TX,40672,USA,John,817-555-0138,john@example.com,EXMPT FOR,No
+SYNVEN-0178,Contoso Pharmaceuticals Atlantic,10,USD,Net15,ELECTRONIC,9557 Cedar St,Columbus,OH,61526,USA,Helen,614-555-0157,helen@www.contoso.com,EXMPT FOR,No
+SYNVEN-0179,Consolidated Messenger Atlantic,50,USD,COD,CHECK,4112 Summit Ave,Las Vegas,NV,19989,USA,Larry,702-555-0131,larry@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0180,Fabrikam Atlantic,50,USD,Net15,CHECK,8194 Chestnut St,New York,NY,93007,USA,Andrew,212-555-0105,andrew@example.com,EXMPT FOR,No
+SYNVEN-0181,Fourth Coffee Atlantic,40,USD,Net15,ELECTRONIC,5529 Bridge St,Philadelphia,PA,62009,USA,Stephen,215-555-0150,stephen@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0182,Graphic Design Institute Atlantic,20,USD,Net30,CHECK,8390 Grove St,Columbus,OH,40573,USA,Jack,614-555-0191,jack@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0183,Humongous Insurance Atlantic,30,USD,Net45,CHECK,1817 Pearl St,Baltimore,MD,65833,USA,Dorothy,410-555-0142,dorothy@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0184,Litware Atlantic,30,USD,COD,ELECTRONIC,8412 Union St,Philadelphia,PA,54493,USA,Dennis,215-555-0156,dennis@example.com,EXMPT FOR,No
+SYNVEN-0185,Lucerne Publishing Atlantic,30,USD,Net15,ELECTRONIC,9759 Madison Ave,Baltimore,MD,52999,USA,Patrick,410-555-0137,patrick@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0186,Margie's Travel Atlantic,10,USD,Net30,ELECTRONIC,2882 Mill St,Los Angeles,CA,80448,USA,Ashley,213-555-0150,ashley@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0187,Northwind Traders Atlantic,10,USD,Net45,ELECTRONIC,9257 Pine St,Miami,FL,54890,USA,Deborah,305-555-0100,deborah@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0188,Proseware Atlantic,20,USD,COD,CHECK,7507 Liberty St,Fort Worth,TX,90864,USA,Christine,817-555-0188,christine@example.com,EXMPT FOR,No
+SYNVEN-0189,School of Fine Art Atlantic,50,USD,Net15,CHECK,4076 Bridge St,Charlotte,NC,26851,USA,Kathleen,704-555-0132,kathleen@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0190,Southridge Video Atlantic,30,USD,Net30,CHECK,8111 School St,Indianapolis,IN,74613,USA,Mary,317-555-0186,mary@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0191,Tailspin Toys Atlantic,30,USD,Net30,CHECK,4398 Walnut St,Oklahoma City,OK,90624,USA,Nicole,405-555-0129,nicole@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0192,Trey Research Atlantic,30,USD,Net30,ELECTRONIC,7442 Liberty St,Oklahoma City,OK,26759,USA,Patrick,405-555-0107,patrick@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0193,The Phone Company Atlantic,10,USD,Net15,ELECTRONIC,7955 Pleasant St,Baltimore,MD,28464,USA,Joseph,410-555-0178,joseph@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0194,Wide World Importers Atlantic,40,USD,Net45,ELECTRONIC,1398 Jackson St,Las Vegas,NV,48917,USA,Jerry,702-555-0185,jerry@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0195,Wingtip Toys Atlantic,20,USD,Net30,CHECK,5539 Chestnut St,San Francisco,CA,35336,USA,Ashley,415-555-0178,ashley@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0196,Woodgrove Atlantic,20,USD,COD,CHECK,5720 Madison Ave,Las Vegas,NV,30991,USA,Joshua,702-555-0180,joshua@example.com,EXMPT FOR,No
+SYNVEN-0197,A. Datum International,30,USD,COD,ELECTRONIC,2218 Hill St,Albuquerque,NM,23691,USA,Stephen,505-555-0148,stephen@example.com,EXMPT FOR,No
+SYNVEN-0198,Adventure Works International,40,USD,Net45,CHECK,3980 Grove St,Columbus,OH,65727,USA,Jason,614-555-0152,jason@example.com,EXMPT FOR,No
+SYNVEN-0199,Alpine Ski House International,10,USD,COD,CHECK,3353 Market St,Indianapolis,IN,62102,USA,Raymond,317-555-0100,raymond@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0200,Blue Yonder International,50,USD,COD,ELECTRONIC,9705 Lincoln Ave,Portland,OR,17132,USA,Janet,503-555-0132,janet@example.com,EXMPT FOR,No
+SYNVEN-0201,City Power & Light International,10,USD,COD,CHECK,1573 Adams St,Kansas City,MO,93654,USA,Kimberly,816-555-0117,kimberly@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0202,Coho Vineyard International,10,USD,Net45,CHECK,2522 Jackson St,Las Vegas,NV,95610,USA,Scott,702-555-0160,scott@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0203,Coho Winery International,10,USD,Net30,ELECTRONIC,2652 Grove St,Omaha,NE,64476,USA,Thomas,402-555-0174,thomas@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0204,Coho Vineyard & Winery International,30,USD,COD,ELECTRONIC,5107 Monroe St,Dallas,TX,55738,USA,Melissa,214-555-0170,melissa@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0205,Contoso International,30,USD,Net30,CHECK,4623 Mill St,San Antonio,TX,46062,USA,Tyler,210-555-0158,tyler@example.com,EXMPT FOR,No
+SYNVEN-0206,Contoso Pharmaceuticals International,20,USD,COD,CHECK,4676 Market St,Albuquerque,NM,40188,USA,Karen,505-555-0124,karen@www.contoso.com,EXMPT FOR,No
+SYNVEN-0207,Consolidated Messenger International,30,USD,Net15,CHECK,7699 Maple St,Fort Worth,TX,94384,USA,Betty,817-555-0131,betty@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0208,Fabrikam International,10,USD,Net45,ELECTRONIC,1450 Maple St,Las Vegas,NV,99048,USA,Emily,702-555-0124,emily@example.com,EXMPT FOR,No
+SYNVEN-0209,Fourth Coffee International,10,USD,Net15,ELECTRONIC,9079 Madison Ave,Oklahoma City,OK,44117,USA,Katherine,405-555-0181,katherine@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0210,Graphic Design Institute International,10,USD,COD,CHECK,1173 Pleasant St,Seattle,WA,69086,USA,Jacob,206-555-0163,jacob@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0211,Humongous Insurance International,20,USD,Net15,CHECK,7436 Park Ave,Fort Worth,TX,91454,USA,Timothy,817-555-0105,timothy@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0212,Litware International,10,USD,Net15,CHECK,2568 Chestnut St,Tucson,AZ,63833,USA,Raymond,520-555-0143,raymond@example.com,EXMPT FOR,No
+SYNVEN-0213,Lucerne Publishing International,40,USD,Net15,CHECK,3543 Pearl St,Fresno,CA,37482,USA,Melissa,559-555-0176,melissa@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0214,Margie's Travel International,10,USD,Net30,ELECTRONIC,6183 Elm St,Columbus,OH,47737,USA,Tyler,614-555-0146,tyler@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0215,Northwind Traders International,30,USD,Net15,ELECTRONIC,7315 Mill St,San Diego,CA,56724,USA,Shirley,619-555-0121,shirley@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0216,Proseware International,40,USD,COD,CHECK,6162 Madison Ave,Sacramento,CA,94617,USA,Aaron,916-555-0150,aaron@example.com,EXMPT FOR,No
+SYNVEN-0217,School of Fine Art International,40,USD,COD,CHECK,7762 Jackson St,Phoenix,AZ,19791,USA,Paul,602-555-0105,paul@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0218,Southridge Video International,20,USD,COD,ELECTRONIC,9525 Jefferson St,Las Vegas,NV,73163,USA,Anna,702-555-0129,anna@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0219,Tailspin Toys International,40,USD,Net30,ELECTRONIC,4194 Summit Ave,Charlotte,NC,26855,USA,Anna,704-555-0122,anna@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0220,Trey Research International,40,USD,Net15,CHECK,3166 Broad St,Oklahoma City,OK,31526,USA,Sandra,405-555-0174,sandra@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0221,The Phone Company International,50,USD,Net30,CHECK,1876 Cherry St,Austin,TX,80586,USA,John,512-555-0139,john@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0222,Wide World Importers International,10,USD,COD,ELECTRONIC,2283 Broad St,Denver,CO,13301,USA,Patrick,303-555-0142,patrick@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0223,Wingtip Toys International,30,USD,COD,CHECK,3402 Liberty St,Cleveland,OH,99999,USA,Karen,216-555-0188,karen@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0224,Woodgrove International,10,USD,COD,ELECTRONIC,8836 Monroe St,Baltimore,MD,52175,USA,Maria,410-555-0163,maria@example.com,EXMPT FOR,No
+SYNVEN-0225,A. Datum Global,50,USD,Net15,CHECK,8991 Jefferson St,Phoenix,AZ,89169,USA,Ryan,602-555-0141,ryan@example.com,EXMPT FOR,No
+SYNVEN-0226,Adventure Works Global,10,USD,COD,ELECTRONIC,2947 Adams St,San Antonio,TX,82662,USA,Michael,210-555-0162,michael@example.com,EXMPT FOR,No
+SYNVEN-0227,Alpine Ski House Global,10,USD,Net45,ELECTRONIC,3292 Monroe St,Nashville,TN,21462,USA,Janet,615-555-0173,janet@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0228,Blue Yonder Global,50,USD,COD,ELECTRONIC,5714 Lake St,Oklahoma City,OK,79418,USA,Anna,405-555-0171,anna@example.com,EXMPT FOR,No
+SYNVEN-0229,City Power & Light Global,50,USD,Net15,ELECTRONIC,8933 Jefferson St,Columbus,OH,39712,USA,Jacob,614-555-0173,jacob@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0230,Coho Vineyard Global,30,USD,Net45,CHECK,6369 Spring St,Seattle,WA,97110,USA,Patricia,206-555-0168,patricia@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0231,Coho Winery Global,50,USD,COD,CHECK,5031 Adams St,San Diego,CA,81073,USA,Janet,619-555-0188,janet@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0232,Coho Vineyard & Winery Global,40,USD,Net45,CHECK,2580 Walnut St,Denver,CO,41212,USA,Jessica,303-555-0118,jessica@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0233,Contoso Global,50,USD,Net15,CHECK,8717 Elm St,Dallas,TX,64494,USA,Jacob,214-555-0140,jacob@example.com,EXMPT FOR,No
+SYNVEN-0234,Contoso Pharmaceuticals Global,40,USD,COD,ELECTRONIC,5449 River Rd,Sacramento,CA,41728,USA,Paul,916-555-0102,paul@www.contoso.com,EXMPT FOR,No
+SYNVEN-0235,Consolidated Messenger Global,20,USD,Net45,CHECK,8269 Cedar St,Pittsburgh,PA,75146,USA,Susan,412-555-0161,susan@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0236,Fabrikam Global,20,USD,Net15,CHECK,6084 River Rd,San Diego,CA,32471,USA,Nicole,619-555-0183,nicole@example.com,EXMPT FOR,No
+SYNVEN-0237,Fourth Coffee Global,20,USD,Net45,ELECTRONIC,9762 Monroe St,Dallas,TX,23351,USA,Dorothy,214-555-0188,dorothy@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0238,Graphic Design Institute Global,30,USD,COD,CHECK,1576 Mill St,Fort Worth,TX,45662,USA,Ronald,817-555-0133,ronald@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0239,Humongous Insurance Global,30,USD,Net45,ELECTRONIC,3940 Hill St,Dallas,TX,87602,USA,Richard,214-555-0172,richard@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0240,Litware Global,40,USD,Net15,CHECK,9145 Jefferson St,Oklahoma City,OK,72654,USA,Sandra,405-555-0199,sandra@example.com,EXMPT FOR,No
+SYNVEN-0241,Lucerne Publishing Global,50,USD,Net30,ELECTRONIC,6563 Lake St,Columbus,OH,77350,USA,Lisa,614-555-0113,lisa@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0242,Margie's Travel Global,40,USD,COD,ELECTRONIC,4198 South St,Albuquerque,NM,40664,USA,Rachel,505-555-0107,rachel@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0243,Northwind Traders Global,10,USD,Net15,ELECTRONIC,6514 Mill St,Nashville,TN,38826,USA,Christopher,615-555-0155,christopher@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0244,Proseware Global,40,USD,Net45,ELECTRONIC,9194 High St,Pittsburgh,PA,89729,USA,Rebecca,412-555-0163,rebecca@example.com,EXMPT FOR,No
+SYNVEN-0245,School of Fine Art Global,10,USD,Net30,ELECTRONIC,1757 First Ave,Miami,FL,21684,USA,Emma,305-555-0100,emma@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0246,Southridge Video Global,50,USD,Net30,CHECK,1864 Water St,Sacramento,CA,42927,USA,Angela,916-555-0194,angela@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0247,Tailspin Toys Global,30,USD,COD,CHECK,2722 Lake St,Fort Worth,TX,86374,USA,Jeffrey,817-555-0105,jeffrey@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0248,Trey Research Global,30,USD,Net45,CHECK,2340 Lake St,Portland,OR,49234,USA,Kevin,503-555-0143,kevin@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0249,The Phone Company Global,10,USD,Net30,ELECTRONIC,8860 Mill St,Fresno,CA,94964,USA,Kenneth,559-555-0188,kenneth@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0250,Wide World Importers Global,50,USD,Net30,CHECK,6763 Walnut St,Boston,MA,52047,USA,Angela,617-555-0161,angela@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0251,Wingtip Toys Global,10,USD,COD,ELECTRONIC,4295 Union St,Chicago,IL,41187,USA,Margaret,312-555-0166,margaret@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0252,Woodgrove Global,40,USD,Net15,CHECK,8781 Market St,Columbus,OH,90137,USA,Deborah,614-555-0108,deborah@example.com,EXMPT FOR,No
+SYNVEN-0253,A. Datum USA,40,USD,Net30,CHECK,5540 Summit Ave,Omaha,NE,31762,USA,Patricia,402-555-0129,patricia@example.com,EXMPT FOR,No
+SYNVEN-0254,Adventure Works USA,40,USD,Net45,CHECK,6861 Lincoln Ave,Miami,FL,34956,USA,Helen,305-555-0173,helen@example.com,EXMPT FOR,No
+SYNVEN-0255,Alpine Ski House USA,30,USD,COD,ELECTRONIC,3587 Chestnut St,Miami,FL,27995,USA,Jessica,305-555-0188,jessica@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0256,Blue Yonder USA,50,USD,Net30,CHECK,8307 Adams St,Sacramento,CA,70152,USA,Sharon,916-555-0150,sharon@example.com,EXMPT FOR,No
+SYNVEN-0257,City Power & Light USA,20,USD,Net30,CHECK,7670 Madison Ave,Boston,MA,11327,USA,Michael,617-555-0157,michael@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0258,Coho Vineyard USA,10,USD,Net30,ELECTRONIC,7671 First Ave,Charlotte,NC,44726,USA,Linda,704-555-0122,linda@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0259,Coho Winery USA,30,USD,Net15,CHECK,2076 Monroe St,San Jose,CA,69256,USA,Jacob,408-555-0107,jacob@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0260,Coho Vineyard & Winery USA,10,USD,Net45,CHECK,7548 Cherry St,Sacramento,CA,84047,USA,Justin,916-555-0188,justin@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0261,Contoso USA,20,USD,COD,CHECK,6818 First Ave,Omaha,NE,36411,USA,Cynthia,402-555-0171,cynthia@example.com,EXMPT FOR,No
+SYNVEN-0262,Contoso Pharmaceuticals USA,10,USD,Net15,CHECK,9733 Summit Ave,Fresno,CA,51782,USA,Carol,559-555-0128,carol@www.contoso.com,EXMPT FOR,No
+SYNVEN-0263,Consolidated Messenger USA,30,USD,Net45,CHECK,6468 Broad St,Miami,FL,83623,USA,Paul,305-555-0142,paul@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0264,Fabrikam USA,30,USD,COD,ELECTRONIC,3232 First Ave,Los Angeles,CA,75825,USA,Melissa,213-555-0123,melissa@example.com,EXMPT FOR,No
+SYNVEN-0265,Fourth Coffee USA,20,USD,Net45,ELECTRONIC,4359 Spring St,Milwaukee,WI,42654,USA,Katherine,414-555-0136,katherine@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0266,Graphic Design Institute USA,10,USD,COD,CHECK,4012 Madison Ave,Fresno,CA,92769,USA,Dorothy,559-555-0156,dorothy@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0267,Humongous Insurance USA,50,USD,Net45,CHECK,7197 Monroe St,Albuquerque,NM,27799,USA,Lisa,505-555-0186,lisa@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0268,Litware USA,10,USD,Net45,CHECK,8153 Elm St,Fresno,CA,75713,USA,Helen,559-555-0189,helen@example.com,EXMPT FOR,No
+SYNVEN-0269,Lucerne Publishing USA,20,USD,Net15,CHECK,6791 Broad St,Los Angeles,CA,26867,USA,Linda,213-555-0172,linda@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0270,Margie's Travel USA,50,USD,Net45,CHECK,3325 Second Ave,Nashville,TN,77486,USA,John,615-555-0193,john@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0271,Northwind Traders USA,50,USD,Net30,CHECK,4620 Second Ave,Jacksonville,FL,93309,USA,Gary,904-555-0160,gary@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0272,Proseware USA,10,USD,Net45,CHECK,4258 Cherry St,Fort Worth,TX,56675,USA,Amanda,817-555-0147,amanda@example.com,EXMPT FOR,No
+SYNVEN-0273,School of Fine Art USA,30,USD,COD,ELECTRONIC,2642 Hill St,Raleigh,NC,13371,USA,Michael,919-555-0125,michael@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0274,Southridge Video USA,50,USD,COD,CHECK,8086 Madison Ave,Minneapolis,MN,76514,USA,Paul,612-555-0148,paul@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0275,Tailspin Toys USA,40,USD,Net30,ELECTRONIC,7129 Oak St,Denver,CO,99700,USA,Shirley,303-555-0105,shirley@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0276,Trey Research USA,50,USD,COD,CHECK,6357 Hill St,Kansas City,MO,88326,USA,Patricia,816-555-0194,patricia@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0277,The Phone Company USA,50,USD,Net15,CHECK,8869 Franklin St,Dallas,TX,50549,USA,Michael,214-555-0188,michael@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0278,Wide World Importers USA,30,USD,Net30,CHECK,9594 Lake St,Tampa,FL,49673,USA,Jennifer,813-555-0143,jennifer@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0279,Wingtip Toys USA,50,USD,Net30,ELECTRONIC,3995 Pine St,Philadelphia,PA,32758,USA,Jonathan,215-555-0100,jonathan@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0280,Woodgrove USA,20,USD,Net30,CHECK,3134 Liberty St,Pittsburgh,PA,67129,USA,Margaret,412-555-0136,margaret@example.com,EXMPT FOR,No
+SYNVEN-0281,A. Datum Americas,20,USD,Net30,CHECK,3012 Second Ave,Miami,FL,29317,USA,Larry,305-555-0144,larry@example.com,EXMPT FOR,No
+SYNVEN-0282,Adventure Works Americas,10,USD,Net30,CHECK,7962 Jackson St,Seattle,WA,34132,USA,Brenda,206-555-0114,brenda@example.com,EXMPT FOR,No
+SYNVEN-0283,Alpine Ski House Americas,10,USD,COD,ELECTRONIC,4591 Jefferson St,Omaha,NE,59450,USA,Donald,402-555-0107,donald@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0284,Blue Yonder Americas,10,USD,COD,CHECK,9854 Bridge St,Los Angeles,CA,53568,USA,Susan,213-555-0100,susan@example.com,EXMPT FOR,No
+SYNVEN-0285,City Power & Light Americas,30,USD,Net15,CHECK,7452 Franklin St,San Francisco,CA,16547,USA,Samantha,415-555-0152,samantha@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0286,Coho Vineyard Americas,50,USD,Net15,CHECK,1472 First Ave,Charlotte,NC,38747,USA,Debra,704-555-0157,debra@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0287,Coho Winery Americas,10,USD,Net45,ELECTRONIC,1713 Lincoln Ave,Fort Worth,TX,49834,USA,Frank,817-555-0139,frank@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0288,Coho Vineyard & Winery Americas,40,USD,COD,ELECTRONIC,1412 Pleasant St,San Francisco,CA,10124,USA,Samuel,415-555-0115,samuel@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0289,Contoso Americas,40,USD,Net15,ELECTRONIC,3427 Pleasant St,Los Angeles,CA,97733,USA,George,213-555-0100,george@example.com,EXMPT FOR,No
+SYNVEN-0290,Contoso Pharmaceuticals Americas,10,USD,Net30,ELECTRONIC,4068 Jefferson St,Los Angeles,CA,96226,USA,Kimberly,213-555-0123,kimberly@www.contoso.com,EXMPT FOR,No
+SYNVEN-0291,Consolidated Messenger Americas,10,USD,Net45,CHECK,6278 Center St,Atlanta,GA,63458,USA,Jacob,404-555-0143,jacob@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0292,Fabrikam Americas,50,USD,Net30,CHECK,9688 Lincoln Ave,Charlotte,NC,53089,USA,Charles,704-555-0182,charles@example.com,EXMPT FOR,No
+SYNVEN-0293,Fourth Coffee Americas,50,USD,COD,ELECTRONIC,5346 Maple St,Sacramento,CA,59805,USA,Donna,916-555-0139,donna@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0294,Graphic Design Institute Americas,50,USD,Net15,CHECK,2721 South St,Oklahoma City,OK,40353,USA,Laura,405-555-0164,laura@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0295,Humongous Insurance Americas,30,USD,Net30,CHECK,7510 First Ave,Minneapolis,MN,35292,USA,Steven,612-555-0109,steven@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0296,Litware Americas,20,USD,Net45,CHECK,6750 Jackson St,Nashville,TN,95799,USA,Deborah,615-555-0186,deborah@example.com,EXMPT FOR,No
+SYNVEN-0297,Lucerne Publishing Americas,30,USD,COD,CHECK,1632 Adams St,Denver,CO,94749,USA,Debra,303-555-0194,debra@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0298,Margie's Travel Americas,40,USD,Net15,CHECK,6598 Chestnut St,Sacramento,CA,47284,USA,Jonathan,916-555-0188,jonathan@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0299,Northwind Traders Americas,10,USD,COD,ELECTRONIC,7128 Jefferson St,Chicago,IL,19941,USA,Elizabeth,312-555-0178,elizabeth@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0300,Proseware Americas,10,USD,COD,CHECK,8249 Pleasant St,San Jose,CA,45827,USA,Melissa,408-555-0135,melissa@example.com,EXMPT FOR,No
+SYNVEN-0301,School of Fine Art Americas,30,USD,Net45,CHECK,2783 Park Ave,Nashville,TN,82843,USA,William,615-555-0118,william@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0302,Southridge Video Americas,40,USD,Net30,CHECK,6980 Jackson St,Indianapolis,IN,44265,USA,Mary,317-555-0173,mary@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0303,Tailspin Toys Americas,10,USD,Net15,ELECTRONIC,6541 First Ave,Miami,FL,67635,USA,Ruth,305-555-0190,ruth@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0304,Trey Research Americas,50,USD,Net45,ELECTRONIC,5402 Market St,Dallas,TX,67356,USA,Daniel,214-555-0181,daniel@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0305,The Phone Company Americas,20,USD,Net30,CHECK,2433 Lincoln Ave,Atlanta,GA,32926,USA,Jonathan,404-555-0151,jonathan@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0306,Wide World Importers Americas,30,USD,COD,ELECTRONIC,2809 Elm St,Boston,MA,70276,USA,Laura,617-555-0122,laura@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0307,Wingtip Toys Americas,40,USD,Net45,CHECK,7555 Church St,Las Vegas,NV,92563,USA,Cynthia,702-555-0127,cynthia@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0308,Woodgrove Americas,20,USD,Net30,CHECK,1639 Jackson St,Boston,MA,14686,USA,Ruth,617-555-0134,ruth@example.com,EXMPT FOR,No
+SYNVEN-0309,A. Datum Europe,30,USD,Net30,ELECTRONIC,6488 Monroe St,Charlotte,NC,72546,USA,Justin,704-555-0162,justin@example.com,EXMPT FOR,No
+SYNVEN-0310,Adventure Works Europe,20,USD,COD,ELECTRONIC,1566 Hill St,Philadelphia,PA,59373,USA,Carol,215-555-0185,carol@example.com,EXMPT FOR,No
+SYNVEN-0311,Alpine Ski House Europe,50,USD,Net45,CHECK,6162 Walnut St,Pittsburgh,PA,71614,USA,Timothy,412-555-0135,timothy@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0312,Blue Yonder Europe,10,USD,Net45,ELECTRONIC,5594 Walnut St,Tampa,FL,22115,USA,Samantha,813-555-0119,samantha@example.com,EXMPT FOR,No
+SYNVEN-0313,City Power & Light Europe,10,USD,Net45,CHECK,5233 Lincoln Ave,Tucson,AZ,68939,USA,Maria,520-555-0110,maria@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0314,Coho Vineyard Europe,40,USD,Net15,CHECK,8845 Oak St,Minneapolis,MN,44462,USA,Donna,612-555-0126,donna@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0315,Coho Winery Europe,30,USD,Net30,ELECTRONIC,3706 Pearl St,Indianapolis,IN,40649,USA,Kenneth,317-555-0126,kenneth@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0316,Coho Vineyard & Winery Europe,10,USD,Net15,ELECTRONIC,6496 Second Ave,Portland,OR,94835,USA,Debra,503-555-0113,debra@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0317,Contoso Europe,10,USD,Net45,CHECK,8105 River Rd,Louisville,KY,13710,USA,Jacob,502-555-0139,jacob@example.com,EXMPT FOR,No
+SYNVEN-0318,Contoso Pharmaceuticals Europe,10,USD,Net45,CHECK,1095 Center St,San Francisco,CA,19437,USA,Joshua,415-555-0104,joshua@www.contoso.com,EXMPT FOR,No
+SYNVEN-0319,Consolidated Messenger Europe,40,USD,Net45,ELECTRONIC,1249 Summit Ave,Jacksonville,FL,13821,USA,Robert,904-555-0145,robert@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0320,Fabrikam Europe,40,USD,Net15,CHECK,1078 Water St,Phoenix,AZ,25843,USA,Christine,602-555-0117,christine@example.com,EXMPT FOR,No
+SYNVEN-0321,Fourth Coffee Europe,50,USD,COD,ELECTRONIC,6680 Pleasant St,San Jose,CA,78959,USA,Barbara,408-555-0135,barbara@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0322,Graphic Design Institute Europe,30,USD,Net15,ELECTRONIC,6049 Center St,New York,NY,11563,USA,Donald,212-555-0144,donald@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0323,Humongous Insurance Europe,10,USD,Net15,ELECTRONIC,5728 Park Ave,Boston,MA,89132,USA,Mary,617-555-0188,mary@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0324,Litware Europe,40,USD,Net15,ELECTRONIC,3351 First Ave,Chicago,IL,76368,USA,James,312-555-0117,james@example.com,EXMPT FOR,No
+SYNVEN-0325,Lucerne Publishing Europe,10,USD,Net30,CHECK,7211 High St,Louisville,KY,81473,USA,Rachel,502-555-0165,rachel@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0326,Margie's Travel Europe,50,USD,Net15,ELECTRONIC,5633 Center St,San Diego,CA,76413,USA,Maria,619-555-0155,maria@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0327,Northwind Traders Europe,20,USD,Net30,CHECK,5028 Jackson St,Indianapolis,IN,58924,USA,Diane,317-555-0117,diane@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0328,Proseware Europe,40,USD,COD,CHECK,7230 Cherry St,Tampa,FL,45456,USA,Charles,813-555-0126,charles@example.com,EXMPT FOR,No
+SYNVEN-0329,School of Fine Art Europe,30,USD,Net45,CHECK,8395 Union St,Portland,OR,68368,USA,Deborah,503-555-0183,deborah@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0330,Southridge Video Europe,30,USD,Net45,ELECTRONIC,5530 Walnut St,Raleigh,NC,61441,USA,Jennifer,919-555-0119,jennifer@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0331,Tailspin Toys Europe,50,USD,Net45,CHECK,2028 School St,Cleveland,OH,95412,USA,Rebecca,216-555-0117,rebecca@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0332,Trey Research Europe,10,USD,COD,CHECK,7482 Second Ave,Austin,TX,24422,USA,Patrick,512-555-0150,patrick@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0333,The Phone Company Europe,20,USD,Net15,ELECTRONIC,3054 Pleasant St,Fort Worth,TX,27121,USA,Richard,817-555-0173,richard@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0334,Wide World Importers Europe,50,USD,COD,ELECTRONIC,7292 Center St,Albuquerque,NM,37118,USA,Matthew,505-555-0135,matthew@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0335,Wingtip Toys Europe,10,USD,Net15,ELECTRONIC,5444 Park Ave,Tucson,AZ,64896,USA,Debra,520-555-0157,debra@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0336,Woodgrove Europe,10,USD,Net15,CHECK,5499 Broad St,Fort Worth,TX,80523,USA,Larry,817-555-0149,larry@example.com,EXMPT FOR,No
+SYNVEN-0337,A. Datum Asia,50,USD,Net15,CHECK,5105 Park Ave,Baltimore,MD,15307,USA,Kathleen,410-555-0107,kathleen@example.com,EXMPT FOR,No
+SYNVEN-0338,Adventure Works Asia,50,USD,COD,CHECK,8499 First Ave,Sacramento,CA,21952,USA,Patricia,916-555-0140,patricia@example.com,EXMPT FOR,No
+SYNVEN-0339,Alpine Ski House Asia,40,USD,Net30,CHECK,6294 Market St,Miami,FL,18593,USA,Joseph,305-555-0177,joseph@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0340,Blue Yonder Asia,50,USD,COD,CHECK,2929 Lake St,Nashville,TN,58908,USA,Jason,615-555-0194,jason@example.com,EXMPT FOR,No
+SYNVEN-0341,City Power & Light Asia,30,USD,Net15,CHECK,3583 Market St,Sacramento,CA,85340,USA,Kevin,916-555-0190,kevin@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0342,Coho Vineyard Asia,30,USD,Net30,CHECK,5719 Jefferson St,New York,NY,65540,USA,Samuel,212-555-0191,samuel@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0343,Coho Winery Asia,30,USD,COD,CHECK,5499 Jefferson St,Memphis,TN,19315,USA,Nancy,901-555-0102,nancy@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0344,Coho Vineyard & Winery Asia,40,USD,Net30,CHECK,1375 Spring St,Baltimore,MD,80203,USA,Jeffrey,410-555-0195,jeffrey@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0345,Contoso Asia,30,USD,Net45,CHECK,9410 Chestnut St,Omaha,NE,73373,USA,Michael,402-555-0151,michael@example.com,EXMPT FOR,No
+SYNVEN-0346,Contoso Pharmaceuticals Asia,30,USD,Net30,CHECK,2951 Pleasant St,Milwaukee,WI,16689,USA,Sarah,414-555-0179,sarah@www.contoso.com,EXMPT FOR,No
+SYNVEN-0347,Consolidated Messenger Asia,30,USD,COD,CHECK,1613 High St,Jacksonville,FL,38774,USA,Barbara,904-555-0170,barbara@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0348,Fabrikam Asia,30,USD,COD,CHECK,2963 Spring St,Kansas City,MO,59168,USA,Joshua,816-555-0118,joshua@example.com,EXMPT FOR,No
+SYNVEN-0349,Fourth Coffee Asia,10,USD,COD,ELECTRONIC,1321 Oak St,Memphis,TN,16998,USA,George,901-555-0118,george@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0350,Graphic Design Institute Asia,50,USD,Net15,ELECTRONIC,6792 Water St,Sacramento,CA,32365,USA,Jack,916-555-0124,jack@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0351,Humongous Insurance Asia,40,USD,COD,CHECK,4314 Chestnut St,Tucson,AZ,45653,USA,Jennifer,520-555-0141,jennifer@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0352,Litware Asia,20,USD,Net45,ELECTRONIC,8233 Park Ave,Miami,FL,76730,USA,Samuel,305-555-0144,samuel@example.com,EXMPT FOR,No
+SYNVEN-0353,Lucerne Publishing Asia,30,USD,Net15,CHECK,8129 Pleasant St,Dallas,TX,91559,USA,Dennis,214-555-0166,dennis@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0354,Margie's Travel Asia,10,USD,Net45,CHECK,4699 Summit Ave,Sacramento,CA,55304,USA,Scott,916-555-0154,scott@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0355,Northwind Traders Asia,50,USD,Net30,ELECTRONIC,6328 Washington St,Kansas City,MO,62260,USA,Anna,816-555-0138,anna@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0356,Proseware Asia,50,USD,Net30,CHECK,6082 Pine St,Charlotte,NC,55341,USA,Aaron,704-555-0150,aaron@example.com,EXMPT FOR,No
+SYNVEN-0357,School of Fine Art Asia,10,USD,COD,CHECK,2282 First Ave,Detroit,MI,44185,USA,Amanda,313-555-0192,amanda@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0358,Southridge Video Asia,30,USD,COD,CHECK,1644 Pine St,Tampa,FL,79635,USA,Rebecca,813-555-0138,rebecca@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0359,Tailspin Toys Asia,10,USD,COD,CHECK,6083 Monroe St,Miami,FL,46441,USA,Anna,305-555-0118,anna@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0360,Trey Research Asia,30,USD,COD,ELECTRONIC,6074 Madison Ave,Fort Worth,TX,94182,USA,Susan,817-555-0143,susan@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0361,The Phone Company Asia,10,USD,Net15,CHECK,5605 Lake St,Jacksonville,FL,66320,USA,Andrew,904-555-0144,andrew@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0362,Wide World Importers Asia,40,USD,Net30,ELECTRONIC,6855 Elm St,Nashville,TN,97886,USA,Anthony,615-555-0178,anthony@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0363,Wingtip Toys Asia,20,USD,COD,CHECK,8054 Franklin St,Raleigh,NC,94911,USA,Nancy,919-555-0144,nancy@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0364,Woodgrove Asia,40,USD,Net15,ELECTRONIC,4304 Lincoln Ave,Seattle,WA,87672,USA,Margaret,206-555-0110,margaret@example.com,EXMPT FOR,No
+SYNVEN-0365,A. Datum Headquarters,40,USD,COD,CHECK,8274 Market St,New York,NY,26157,USA,Sarah,212-555-0191,sarah@example.com,EXMPT FOR,No
+SYNVEN-0366,Adventure Works Headquarters,40,USD,Net15,CHECK,1204 Market St,Chicago,IL,53425,USA,Deborah,312-555-0123,deborah@example.com,EXMPT FOR,No
+SYNVEN-0367,Alpine Ski House Headquarters,10,USD,Net30,ELECTRONIC,5485 Lincoln Ave,Charlotte,NC,94666,USA,Richard,704-555-0147,richard@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0368,Blue Yonder Headquarters,10,USD,Net30,ELECTRONIC,5815 Broad St,Columbus,OH,58491,USA,Robert,614-555-0168,robert@example.com,EXMPT FOR,No
+SYNVEN-0369,City Power & Light Headquarters,20,USD,COD,CHECK,2813 Park Ave,Indianapolis,IN,86276,USA,Samuel,317-555-0120,samuel@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0370,Coho Vineyard Headquarters,20,USD,Net30,ELECTRONIC,3791 Adams St,Houston,TX,45220,USA,Richard,713-555-0119,richard@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0371,Coho Winery Headquarters,50,USD,Net15,CHECK,2761 Maple St,Nashville,TN,44581,USA,Elizabeth,615-555-0126,elizabeth@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0372,Coho Vineyard & Winery Headquarters,50,USD,Net45,CHECK,3308 Mill St,New York,NY,23328,USA,John,212-555-0135,john@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0373,Contoso Headquarters,30,USD,Net45,ELECTRONIC,4902 Center St,Indianapolis,IN,78880,USA,Heather,317-555-0152,heather@example.com,EXMPT FOR,No
+SYNVEN-0374,Contoso Pharmaceuticals Headquarters,50,USD,COD,ELECTRONIC,4548 Hill St,Louisville,KY,13647,USA,Jennifer,502-555-0116,jennifer@www.contoso.com,EXMPT FOR,No
+SYNVEN-0375,Consolidated Messenger Headquarters,40,USD,COD,CHECK,6301 Market St,Fresno,CA,31431,USA,Donna,559-555-0125,donna@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0376,Fabrikam Headquarters,30,USD,Net45,ELECTRONIC,6037 Park Ave,Nashville,TN,99617,USA,Scott,615-555-0185,scott@example.com,EXMPT FOR,No
+SYNVEN-0377,Fourth Coffee Headquarters,30,USD,COD,ELECTRONIC,8173 First Ave,Portland,OR,64160,USA,Brian,503-555-0162,brian@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0378,Graphic Design Institute Headquarters,20,USD,Net30,CHECK,5395 Cherry St,Detroit,MI,27584,USA,Barbara,313-555-0157,barbara@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0379,Humongous Insurance Headquarters,10,USD,Net15,ELECTRONIC,3463 Center St,San Diego,CA,88475,USA,Alexander,619-555-0138,alexander@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0380,Litware Headquarters,10,USD,Net15,ELECTRONIC,5413 Broad St,Raleigh,NC,61673,USA,Heather,919-555-0101,heather@example.com,EXMPT FOR,No
+SYNVEN-0381,Lucerne Publishing Headquarters,40,USD,Net45,ELECTRONIC,6401 Pine St,Philadelphia,PA,17989,USA,Melissa,215-555-0111,melissa@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0382,Margie's Travel Headquarters,30,USD,Net15,CHECK,9849 Main St,Miami,FL,86117,USA,Nicole,305-555-0103,nicole@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0383,Northwind Traders Headquarters,40,USD,Net45,ELECTRONIC,2397 Elm St,Fort Worth,TX,89781,USA,Emma,817-555-0107,emma@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0384,Proseware Headquarters,40,USD,COD,ELECTRONIC,3618 Cedar St,Detroit,MI,20351,USA,Gregory,313-555-0100,gregory@example.com,EXMPT FOR,No
+SYNVEN-0385,School of Fine Art Headquarters,20,USD,Net15,CHECK,5882 Summit Ave,Sacramento,CA,65423,USA,Michael,916-555-0129,michael@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0386,Southridge Video Headquarters,30,USD,COD,CHECK,8464 Walnut St,Raleigh,NC,69224,USA,Rebecca,919-555-0122,rebecca@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0387,Tailspin Toys Headquarters,10,USD,COD,ELECTRONIC,4744 Hill St,Houston,TX,41426,USA,Dorothy,713-555-0139,dorothy@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0388,Trey Research Headquarters,20,USD,Net45,ELECTRONIC,8824 Cedar St,Los Angeles,CA,61227,USA,Mark,213-555-0169,mark@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0389,The Phone Company Headquarters,50,USD,Net45,CHECK,3257 Cherry St,Dallas,TX,56317,USA,Richard,214-555-0157,richard@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0390,Wide World Importers Headquarters,20,USD,Net45,ELECTRONIC,8148 Center St,Memphis,TN,30745,USA,Sarah,901-555-0108,sarah@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0391,Wingtip Toys Headquarters,50,USD,Net45,CHECK,4573 Maple St,Austin,TX,41151,USA,Timothy,512-555-0184,timothy@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0392,Woodgrove Headquarters,10,USD,Net30,CHECK,8649 Franklin St,Chicago,IL,22573,USA,Steven,312-555-0151,steven@example.com,EXMPT FOR,No
+SYNVEN-0393,A. Datum Distribution,40,USD,Net15,ELECTRONIC,6304 Washington St,Jacksonville,FL,50048,USA,Rachel,904-555-0105,rachel@example.com,EXMPT FOR,No
+SYNVEN-0394,Adventure Works Distribution,20,USD,COD,CHECK,2619 Water St,Boston,MA,34517,USA,Deborah,617-555-0165,deborah@example.com,EXMPT FOR,No
+SYNVEN-0395,Alpine Ski House Distribution,50,USD,Net45,CHECK,2774 Liberty St,Portland,OR,77608,USA,Ryan,503-555-0165,ryan@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0396,Blue Yonder Distribution,10,USD,Net45,CHECK,3720 Lincoln Ave,Tampa,FL,23704,USA,Karen,813-555-0197,karen@example.com,EXMPT FOR,No
+SYNVEN-0397,City Power & Light Distribution,10,USD,COD,CHECK,6234 Mill St,Phoenix,AZ,31981,USA,Andrew,602-555-0125,andrew@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0398,Coho Vineyard Distribution,50,USD,Net45,CHECK,4814 Washington St,Columbus,OH,24418,USA,Patrick,614-555-0166,patrick@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0399,Coho Winery Distribution,30,USD,Net45,CHECK,1360 Union St,Sacramento,CA,62068,USA,Scott,916-555-0137,scott@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0400,Coho Vineyard & Winery Distribution,40,USD,Net45,CHECK,2046 Oak St,San Jose,CA,74448,USA,William,408-555-0126,william@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0401,Contoso Distribution,20,USD,Net30,CHECK,5359 Pearl St,Nashville,TN,27403,USA,Catherine,615-555-0144,catherine@example.com,EXMPT FOR,No
+SYNVEN-0402,Contoso Pharmaceuticals Distribution,30,USD,Net45,ELECTRONIC,9872 Summit Ave,Cleveland,OH,35174,USA,Brian,216-555-0105,brian@www.contoso.com,EXMPT FOR,No
+SYNVEN-0403,Consolidated Messenger Distribution,20,USD,Net30,ELECTRONIC,2139 Market St,Philadelphia,PA,92303,USA,Jessica,215-555-0106,jessica@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0404,Fabrikam Distribution,20,USD,Net30,CHECK,1090 Hill St,Dallas,TX,60007,USA,James,214-555-0162,james@example.com,EXMPT FOR,No
+SYNVEN-0405,Fourth Coffee Distribution,10,USD,Net30,CHECK,4460 Pine St,Oklahoma City,OK,15240,USA,Gary,405-555-0115,gary@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0406,Graphic Design Institute Distribution,20,USD,Net15,ELECTRONIC,1928 Cherry St,San Diego,CA,86199,USA,Anna,619-555-0120,anna@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0407,Humongous Insurance Distribution,10,USD,Net45,CHECK,9224 First Ave,Pittsburgh,PA,79528,USA,Jeffrey,412-555-0147,jeffrey@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0408,Litware Distribution,20,USD,Net45,CHECK,5899 Madison Ave,Seattle,WA,67998,USA,Larry,206-555-0104,larry@example.com,EXMPT FOR,No
+SYNVEN-0409,Lucerne Publishing Distribution,30,USD,Net30,CHECK,8210 River Rd,Chicago,IL,34947,USA,Helen,312-555-0172,helen@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0410,Margie's Travel Distribution,50,USD,Net45,ELECTRONIC,6020 Grove St,Denver,CO,69733,USA,Laura,303-555-0167,laura@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0411,Northwind Traders Distribution,30,USD,Net30,ELECTRONIC,7630 Oak St,Memphis,TN,45107,USA,Richard,901-555-0192,richard@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0412,Proseware Distribution,30,USD,COD,ELECTRONIC,8493 High St,Seattle,WA,20068,USA,Karen,206-555-0195,karen@example.com,EXMPT FOR,No
+SYNVEN-0413,School of Fine Art Distribution,10,USD,Net45,ELECTRONIC,2776 Elm St,Seattle,WA,77261,USA,Steven,206-555-0103,steven@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0414,Southridge Video Distribution,50,USD,Net30,ELECTRONIC,2616 Pearl St,Jacksonville,FL,22726,USA,Melissa,904-555-0195,melissa@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0415,Tailspin Toys Distribution,10,USD,Net30,ELECTRONIC,6048 Oak St,Austin,TX,90383,USA,Dorothy,512-555-0188,dorothy@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0416,Trey Research Distribution,50,USD,Net45,ELECTRONIC,8102 Mill St,Oklahoma City,OK,72106,USA,Carol,405-555-0100,carol@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0417,The Phone Company Distribution,10,USD,Net15,ELECTRONIC,3659 Broad St,Charlotte,NC,70044,USA,Anthony,704-555-0147,anthony@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0418,Wide World Importers Distribution,40,USD,Net30,CHECK,7779 Center St,Pittsburgh,PA,10658,USA,Jonathan,412-555-0174,jonathan@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0419,Wingtip Toys Distribution,40,USD,COD,ELECTRONIC,2373 High St,Austin,TX,67885,USA,Cynthia,512-555-0170,cynthia@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0420,Woodgrove Distribution,50,USD,COD,CHECK,2320 Broad St,Cleveland,OH,69001,USA,Emma,216-555-0176,emma@example.com,EXMPT FOR,No
+SYNVEN-0421,A. Datum Manufacturing,40,USD,Net30,ELECTRONIC,8303 Cherry St,Nashville,TN,37096,USA,Betty,615-555-0105,betty@example.com,EXMPT FOR,No
+SYNVEN-0422,Adventure Works Manufacturing,30,USD,COD,CHECK,6149 Walnut St,Austin,TX,58786,USA,Mary,512-555-0140,mary@example.com,EXMPT FOR,No
+SYNVEN-0423,Alpine Ski House Manufacturing,40,USD,COD,CHECK,5413 Adams St,Seattle,WA,10377,USA,Jennifer,206-555-0160,jennifer@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0424,Blue Yonder Manufacturing,50,USD,Net30,ELECTRONIC,8463 Madison Ave,Louisville,KY,18298,USA,Kevin,502-555-0175,kevin@example.com,EXMPT FOR,No
+SYNVEN-0425,City Power & Light Manufacturing,20,USD,COD,ELECTRONIC,9331 Maple St,Detroit,MI,47554,USA,Ryan,313-555-0176,ryan@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0426,Coho Vineyard Manufacturing,20,USD,Net45,CHECK,7494 Hill St,San Antonio,TX,32319,USA,Carolyn,210-555-0163,carolyn@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0427,Coho Winery Manufacturing,30,USD,COD,CHECK,4186 Main St,Boston,MA,25053,USA,Donna,617-555-0199,donna@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0428,Coho Vineyard & Winery Manufacturing,10,USD,Net30,CHECK,9011 Washington St,Atlanta,GA,78961,USA,Rebecca,404-555-0142,rebecca@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0429,Contoso Manufacturing,40,USD,Net30,CHECK,9360 Oak St,Atlanta,GA,49284,USA,Stephen,404-555-0172,stephen@example.com,EXMPT FOR,No
+SYNVEN-0430,Contoso Pharmaceuticals Manufacturing,40,USD,COD,CHECK,6701 High St,Philadelphia,PA,71069,USA,Karen,215-555-0183,karen@www.contoso.com,EXMPT FOR,No
+SYNVEN-0431,Consolidated Messenger Manufacturing,40,USD,Net30,CHECK,3479 Center St,San Francisco,CA,40560,USA,Catherine,415-555-0158,catherine@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0432,Fabrikam Manufacturing,10,USD,Net15,ELECTRONIC,7391 Main St,Fresno,CA,38769,USA,Timothy,559-555-0170,timothy@example.com,EXMPT FOR,No
+SYNVEN-0433,Fourth Coffee Manufacturing,10,USD,Net45,ELECTRONIC,3100 Lake St,San Diego,CA,34219,USA,Lisa,619-555-0141,lisa@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0434,Graphic Design Institute Manufacturing,40,USD,Net45,ELECTRONIC,6022 Second Ave,Dallas,TX,45531,USA,Melissa,214-555-0116,melissa@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0435,Humongous Insurance Manufacturing,20,USD,Net15,CHECK,7815 Spring St,San Antonio,TX,37222,USA,Elizabeth,210-555-0121,elizabeth@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0436,Litware Manufacturing,30,USD,Net30,CHECK,5060 First Ave,New York,NY,57954,USA,Michael,212-555-0146,michael@example.com,EXMPT FOR,No
+SYNVEN-0437,Lucerne Publishing Manufacturing,30,USD,COD,ELECTRONIC,7361 Chestnut St,Las Vegas,NV,56705,USA,Joshua,702-555-0106,joshua@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0438,Margie's Travel Manufacturing,40,USD,Net30,ELECTRONIC,1559 Lincoln Ave,Houston,TX,13343,USA,Joseph,713-555-0194,joseph@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0439,Northwind Traders Manufacturing,30,USD,Net15,ELECTRONIC,5106 Elm St,Dallas,TX,99974,USA,Timothy,214-555-0124,timothy@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0440,Proseware Manufacturing,20,USD,Net30,ELECTRONIC,7253 Pine St,Nashville,TN,83822,USA,Emily,615-555-0193,emily@example.com,EXMPT FOR,No
+SYNVEN-0441,School of Fine Art Manufacturing,30,USD,Net15,ELECTRONIC,5355 Chestnut St,Pittsburgh,PA,95528,USA,Amy,412-555-0194,amy@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0442,Southridge Video Manufacturing,30,USD,Net30,ELECTRONIC,3515 Union St,Fort Worth,TX,12256,USA,Shirley,817-555-0155,shirley@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0443,Tailspin Toys Manufacturing,20,USD,Net15,ELECTRONIC,9216 School St,Tampa,FL,79922,USA,David,813-555-0130,david@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0444,Trey Research Manufacturing,40,USD,Net15,CHECK,7887 Walnut St,San Jose,CA,56126,USA,Mary,408-555-0117,mary@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0445,The Phone Company Manufacturing,40,USD,COD,CHECK,2481 Water St,Indianapolis,IN,80913,USA,Susan,317-555-0123,susan@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0446,Wide World Importers Manufacturing,50,USD,COD,ELECTRONIC,5653 Park Ave,Minneapolis,MN,89091,USA,Patrick,612-555-0167,patrick@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0447,Wingtip Toys Manufacturing,10,USD,Net15,CHECK,9099 Grove St,Cleveland,OH,48523,USA,Susan,216-555-0194,susan@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0448,Woodgrove Manufacturing,50,USD,COD,ELECTRONIC,3199 First Ave,Austin,TX,39590,USA,Patrick,512-555-0164,patrick@example.com,EXMPT FOR,No
+SYNVEN-0449,A. Datum Services,30,USD,Net30,ELECTRONIC,1490 Chestnut St,Minneapolis,MN,22693,USA,Nicholas,612-555-0132,nicholas@example.com,EXMPT FOR,No
+SYNVEN-0450,Adventure Works Services,10,USD,Net45,CHECK,6175 Market St,Jacksonville,FL,86303,USA,Jack,904-555-0165,jack@example.com,EXMPT FOR,No
+SYNVEN-0451,Alpine Ski House Services,30,USD,COD,ELECTRONIC,6912 Pine St,Boston,MA,15543,USA,Nicholas,617-555-0193,nicholas@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0452,Blue Yonder Services,30,USD,Net30,CHECK,4848 Union St,Omaha,NE,73443,USA,Larry,402-555-0120,larry@example.com,EXMPT FOR,No
+SYNVEN-0453,City Power & Light Services,20,USD,Net15,CHECK,2791 Second Ave,Philadelphia,PA,22488,USA,Brandon,215-555-0107,brandon@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0454,Coho Vineyard Services,20,USD,Net45,ELECTRONIC,5264 Adams St,Raleigh,NC,55731,USA,Stephen,919-555-0175,stephen@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0455,Coho Winery Services,30,USD,Net45,ELECTRONIC,8845 Market St,San Diego,CA,41096,USA,Joshua,619-555-0117,joshua@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0456,Coho Vineyard & Winery Services,20,USD,COD,ELECTRONIC,1693 Center St,Minneapolis,MN,65558,USA,Cynthia,612-555-0175,cynthia@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0457,Contoso Services,20,USD,Net45,ELECTRONIC,8312 South St,Houston,TX,42237,USA,Alexander,713-555-0188,alexander@example.com,EXMPT FOR,No
+SYNVEN-0458,Contoso Pharmaceuticals Services,20,USD,Net45,ELECTRONIC,7641 Pleasant St,Minneapolis,MN,66420,USA,Nicholas,612-555-0106,nicholas@www.contoso.com,EXMPT FOR,No
+SYNVEN-0459,Consolidated Messenger Services,10,USD,Net30,ELECTRONIC,2483 Pine St,Indianapolis,IN,10097,USA,Linda,317-555-0180,linda@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0460,Fabrikam Services,20,USD,Net30,ELECTRONIC,4149 South St,Cleveland,OH,28294,USA,Jacob,216-555-0142,jacob@example.com,EXMPT FOR,No
+SYNVEN-0461,Fourth Coffee Services,20,USD,Net15,CHECK,4439 Church St,Las Vegas,NV,80848,USA,Andrew,702-555-0183,andrew@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0462,Graphic Design Institute Services,30,USD,Net45,CHECK,4651 Cherry St,Tampa,FL,39672,USA,Nicholas,813-555-0110,nicholas@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0463,Humongous Insurance Services,20,USD,Net30,CHECK,8938 Mill St,Charlotte,NC,81962,USA,Nicholas,704-555-0184,nicholas@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0464,Litware Services,40,USD,Net30,CHECK,2617 Center St,Fresno,CA,11661,USA,Carolyn,559-555-0178,carolyn@example.com,EXMPT FOR,No
+SYNVEN-0465,Lucerne Publishing Services,10,USD,Net30,CHECK,1359 Walnut St,Austin,TX,94745,USA,Sharon,512-555-0115,sharon@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0466,Margie's Travel Services,30,USD,COD,CHECK,1705 Park Ave,Phoenix,AZ,88076,USA,Ruth,602-555-0160,ruth@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0467,Northwind Traders Services,50,USD,Net15,ELECTRONIC,7829 High St,San Antonio,TX,74679,USA,Carol,210-555-0122,carol@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0468,Proseware Services,30,USD,Net30,ELECTRONIC,1996 School St,Columbus,OH,77367,USA,Catherine,614-555-0132,catherine@example.com,EXMPT FOR,No
+SYNVEN-0469,School of Fine Art Services,30,USD,COD,ELECTRONIC,7090 Cherry St,Phoenix,AZ,27270,USA,Donald,602-555-0152,donald@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0470,Southridge Video Services,20,USD,Net15,ELECTRONIC,7695 South St,San Jose,CA,38430,USA,Jason,408-555-0154,jason@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0471,Tailspin Toys Services,40,USD,Net30,ELECTRONIC,4896 Market St,Las Vegas,NV,50672,USA,Ronald,702-555-0172,ronald@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0472,Trey Research Services,10,USD,Net45,CHECK,7286 School St,Fort Worth,TX,16864,USA,Sharon,817-555-0185,sharon@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0473,The Phone Company Services,20,USD,Net30,ELECTRONIC,4572 Oak St,Indianapolis,IN,86382,USA,Elizabeth,317-555-0102,elizabeth@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0474,Wide World Importers Services,30,USD,Net45,ELECTRONIC,5467 Grove St,Cleveland,OH,73637,USA,Gregory,216-555-0147,gregory@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0475,Wingtip Toys Services,20,USD,Net15,ELECTRONIC,2176 Second Ave,Memphis,TN,16546,USA,Debra,901-555-0125,debra@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0476,Woodgrove Services,50,USD,Net30,ELECTRONIC,5461 Center St,Memphis,TN,53891,USA,Jerry,901-555-0173,jerry@example.com,EXMPT FOR,No
+SYNVEN-0477,A. Datum Retail,10,USD,Net45,ELECTRONIC,1705 Liberty St,Los Angeles,CA,54076,USA,Jason,213-555-0174,jason@example.com,EXMPT FOR,No
+SYNVEN-0478,Adventure Works Retail,10,USD,Net45,ELECTRONIC,5841 Maple St,Seattle,WA,13529,USA,Charles,206-555-0173,charles@example.com,EXMPT FOR,No
+SYNVEN-0479,Alpine Ski House Retail,10,USD,COD,CHECK,4136 Mill St,Miami,FL,96367,USA,Nancy,305-555-0146,nancy@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0480,Blue Yonder Retail,30,USD,Net30,ELECTRONIC,1547 Cedar St,Detroit,MI,47226,USA,Justin,313-555-0180,justin@example.com,EXMPT FOR,No
+SYNVEN-0481,City Power & Light Retail,50,USD,COD,CHECK,8491 Spring St,Fort Worth,TX,46250,USA,Daniel,817-555-0168,daniel@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0482,Coho Vineyard Retail,50,USD,Net15,CHECK,6325 River Rd,Milwaukee,WI,40130,USA,Timothy,414-555-0162,timothy@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0483,Coho Winery Retail,50,USD,Net15,ELECTRONIC,7355 High St,Philadelphia,PA,76601,USA,Laura,215-555-0101,laura@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0484,Coho Vineyard & Winery Retail,10,USD,Net45,ELECTRONIC,3341 Hill St,Kansas City,MO,22347,USA,Helen,816-555-0107,helen@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0485,Contoso Retail,40,USD,Net15,ELECTRONIC,9022 First Ave,Seattle,WA,44085,USA,Frank,206-555-0155,frank@example.com,EXMPT FOR,No
+SYNVEN-0486,Contoso Pharmaceuticals Retail,50,USD,Net30,CHECK,8326 First Ave,Milwaukee,WI,34166,USA,Catherine,414-555-0120,catherine@www.contoso.com,EXMPT FOR,No
+SYNVEN-0487,Consolidated Messenger Retail,20,USD,Net45,CHECK,8170 Lincoln Ave,Philadelphia,PA,37743,USA,Stephanie,215-555-0140,stephanie@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0488,Fabrikam Retail,40,USD,COD,CHECK,7148 River Rd,Boston,MA,13546,USA,Ruth,617-555-0136,ruth@example.com,EXMPT FOR,No
+SYNVEN-0489,Fourth Coffee Retail,40,USD,Net45,ELECTRONIC,4386 Washington St,Columbus,OH,69873,USA,Sarah,614-555-0171,sarah@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0490,Graphic Design Institute Retail,10,USD,Net30,ELECTRONIC,2937 Liberty St,Fresno,CA,34891,USA,Sarah,559-555-0158,sarah@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0491,Humongous Insurance Retail,10,USD,Net45,CHECK,3886 Mill St,Las Vegas,NV,23580,USA,Deborah,702-555-0124,deborah@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0492,Litware Retail,40,USD,Net30,CHECK,9162 South St,Kansas City,MO,87810,USA,Scott,816-555-0113,scott@example.com,EXMPT FOR,No
+SYNVEN-0493,Lucerne Publishing Retail,20,USD,Net15,ELECTRONIC,6041 Pine St,San Diego,CA,47816,USA,Rebecca,619-555-0123,rebecca@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0494,Margie's Travel Retail,10,USD,COD,CHECK,6941 Liberty St,Dallas,TX,93010,USA,John,214-555-0158,john@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0495,Northwind Traders Retail,20,USD,Net30,CHECK,2705 First Ave,Charlotte,NC,93322,USA,Edward,704-555-0174,edward@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0496,Proseware Retail,20,USD,Net45,CHECK,4258 Jackson St,Denver,CO,98916,USA,Ryan,303-555-0125,ryan@example.com,EXMPT FOR,No
+SYNVEN-0497,School of Fine Art Retail,40,USD,Net30,CHECK,3827 Pine St,Oklahoma City,OK,49570,USA,Barbara,405-555-0130,barbara@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0498,Southridge Video Retail,40,USD,Net15,CHECK,8579 Market St,Raleigh,NC,68212,USA,Cynthia,919-555-0146,cynthia@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0499,Tailspin Toys Retail,40,USD,Net45,ELECTRONIC,9269 Grove St,Columbus,OH,52895,USA,Pamela,614-555-0117,pamela@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0500,Trey Research Retail,10,USD,COD,CHECK,3947 School St,Jacksonville,FL,71517,USA,Dorothy,904-555-0136,dorothy@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0501,The Phone Company Retail,30,USD,COD,ELECTRONIC,3189 Cedar St,Chicago,IL,18508,USA,Jason,312-555-0182,jason@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0502,Wide World Importers Retail,20,USD,COD,ELECTRONIC,6896 Adams St,Tampa,FL,19481,USA,Jonathan,813-555-0137,jonathan@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0503,Wingtip Toys Retail,10,USD,COD,CHECK,5390 Pine St,Columbus,OH,29423,USA,Jonathan,614-555-0153,jonathan@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0504,Woodgrove Retail,50,USD,Net30,ELECTRONIC,4503 Church St,Phoenix,AZ,43523,USA,Sandra,602-555-0154,sandra@example.com,EXMPT FOR,No
+SYNVEN-0505,A. Datum Wholesale,10,USD,Net45,ELECTRONIC,1170 Adams St,Raleigh,NC,79367,USA,Susan,919-555-0119,susan@example.com,EXMPT FOR,No
+SYNVEN-0506,Adventure Works Wholesale,40,USD,Net30,CHECK,5504 Cedar St,Louisville,KY,76738,USA,Kenneth,502-555-0165,kenneth@example.com,EXMPT FOR,No
+SYNVEN-0507,Alpine Ski House Wholesale,50,USD,Net15,ELECTRONIC,3366 Lake St,Tucson,AZ,18517,USA,Melissa,520-555-0126,melissa@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0508,Blue Yonder Wholesale,30,USD,COD,CHECK,8550 Church St,New York,NY,99701,USA,Jacob,212-555-0134,jacob@example.com,EXMPT FOR,No
+SYNVEN-0509,City Power & Light Wholesale,40,USD,Net30,CHECK,3373 Main St,Atlanta,GA,64595,USA,Stephen,404-555-0118,stephen@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0510,Coho Vineyard Wholesale,40,USD,Net15,ELECTRONIC,1522 Park Ave,Omaha,NE,42205,USA,Elizabeth,402-555-0161,elizabeth@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0511,Coho Winery Wholesale,20,USD,COD,ELECTRONIC,5079 Market St,Detroit,MI,70012,USA,Sandra,313-555-0113,sandra@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0512,Coho Vineyard & Winery Wholesale,30,USD,Net30,ELECTRONIC,1239 Cherry St,Las Vegas,NV,10002,USA,Samantha,702-555-0120,samantha@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0513,Contoso Wholesale,50,USD,Net45,ELECTRONIC,1790 Lake St,Tucson,AZ,46651,USA,Joshua,520-555-0127,joshua@example.com,EXMPT FOR,No
+SYNVEN-0514,Contoso Pharmaceuticals Wholesale,20,USD,Net45,CHECK,6982 Broad St,Atlanta,GA,54388,USA,Kimberly,404-555-0185,kimberly@www.contoso.com,EXMPT FOR,No
+SYNVEN-0515,Consolidated Messenger Wholesale,50,USD,Net30,ELECTRONIC,6892 Market St,Las Vegas,NV,71824,USA,Aaron,702-555-0184,aaron@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0516,Fabrikam Wholesale,10,USD,Net30,CHECK,2540 Mill St,Seattle,WA,35484,USA,Timothy,206-555-0159,timothy@example.com,EXMPT FOR,No
+SYNVEN-0517,Fourth Coffee Wholesale,50,USD,COD,ELECTRONIC,1545 Park Ave,Louisville,KY,17255,USA,Benjamin,502-555-0162,benjamin@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0518,Graphic Design Institute Wholesale,50,USD,Net30,CHECK,7418 South St,Nashville,TN,37050,USA,Ashley,615-555-0187,ashley@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0519,Humongous Insurance Wholesale,50,USD,Net30,ELECTRONIC,7301 Water St,Indianapolis,IN,34010,USA,Diane,317-555-0193,diane@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0520,Litware Wholesale,20,USD,Net30,CHECK,6668 First Ave,Memphis,TN,40308,USA,Rebecca,901-555-0119,rebecca@example.com,EXMPT FOR,No
+SYNVEN-0521,Lucerne Publishing Wholesale,10,USD,Net45,CHECK,2820 Washington St,San Diego,CA,54128,USA,Betty,619-555-0149,betty@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0522,Margie's Travel Wholesale,50,USD,COD,CHECK,4775 School St,Tampa,FL,33713,USA,James,813-555-0137,james@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0523,Northwind Traders Wholesale,10,USD,Net15,ELECTRONIC,6090 Water St,Atlanta,GA,78560,USA,Pamela,404-555-0160,pamela@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0524,Proseware Wholesale,10,USD,Net15,ELECTRONIC,2577 Church St,Raleigh,NC,83480,USA,Nicholas,919-555-0168,nicholas@example.com,EXMPT FOR,No
+SYNVEN-0525,School of Fine Art Wholesale,10,USD,Net45,CHECK,4739 First Ave,Fort Worth,TX,85604,USA,Tyler,817-555-0196,tyler@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0526,Southridge Video Wholesale,20,USD,Net30,ELECTRONIC,4912 Main St,New York,NY,87575,USA,Angela,212-555-0177,angela@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0527,Tailspin Toys Wholesale,20,USD,Net45,CHECK,3126 Cherry St,Cleveland,OH,91295,USA,Brandon,216-555-0156,brandon@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0528,Trey Research Wholesale,40,USD,Net30,ELECTRONIC,1464 Cherry St,Louisville,KY,77332,USA,Alexander,502-555-0191,alexander@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0529,The Phone Company Wholesale,10,USD,Net15,CHECK,8019 Broad St,Louisville,KY,16739,USA,Thomas,502-555-0161,thomas@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0530,Wide World Importers Wholesale,50,USD,Net30,CHECK,5691 Lake St,Sacramento,CA,58841,USA,Susan,916-555-0172,susan@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0531,Wingtip Toys Wholesale,40,USD,COD,ELECTRONIC,1741 Bridge St,Fort Worth,TX,31084,USA,Emily,817-555-0189,emily@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0532,Woodgrove Wholesale,30,USD,Net15,CHECK,5442 Church St,Pittsburgh,PA,67863,USA,Joshua,412-555-0148,joshua@example.com,EXMPT FOR,No
+SYNVEN-0533,A. Datum Direct,20,USD,COD,CHECK,2663 Liberty St,Tampa,FL,55030,USA,Ronald,813-555-0130,ronald@example.com,EXMPT FOR,No
+SYNVEN-0534,Adventure Works Direct,40,USD,Net30,ELECTRONIC,4016 Water St,Portland,OR,72345,USA,Katherine,503-555-0116,katherine@example.com,EXMPT FOR,No
+SYNVEN-0535,Alpine Ski House Direct,10,USD,Net45,ELECTRONIC,4829 South St,Las Vegas,NV,30646,USA,George,702-555-0167,george@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0536,Blue Yonder Direct,30,USD,Net45,CHECK,9332 Bridge St,Portland,OR,82275,USA,Mary,503-555-0187,mary@example.com,EXMPT FOR,No
+SYNVEN-0537,City Power & Light Direct,30,USD,Net45,ELECTRONIC,2754 Pleasant St,Philadelphia,PA,71630,USA,Diane,215-555-0121,diane@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0538,Coho Vineyard Direct,40,USD,Net30,CHECK,5332 School St,Memphis,TN,78930,USA,Joshua,901-555-0151,joshua@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0539,Coho Winery Direct,20,USD,Net45,ELECTRONIC,7177 Park Ave,Baltimore,MD,91932,USA,Sharon,410-555-0166,sharon@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0540,Coho Vineyard & Winery Direct,30,USD,Net45,CHECK,7730 Summit Ave,Tucson,AZ,56647,USA,Debra,520-555-0125,debra@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0541,Contoso Direct,10,USD,Net15,CHECK,5436 Cedar St,Chicago,IL,78879,USA,Maria,312-555-0109,maria@example.com,EXMPT FOR,No
+SYNVEN-0542,Contoso Pharmaceuticals Direct,50,USD,Net45,CHECK,6373 Cedar St,Sacramento,CA,16477,USA,Edward,916-555-0104,edward@www.contoso.com,EXMPT FOR,No
+SYNVEN-0543,Consolidated Messenger Direct,50,USD,Net15,CHECK,6640 Main St,Austin,TX,31037,USA,James,512-555-0141,james@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0544,Fabrikam Direct,50,USD,Net15,ELECTRONIC,4155 Elm St,Raleigh,NC,62909,USA,Barbara,919-555-0123,barbara@example.com,EXMPT FOR,No
+SYNVEN-0545,Fourth Coffee Direct,50,USD,Net15,CHECK,2932 Mill St,Boston,MA,66275,USA,Sandra,617-555-0170,sandra@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0546,Graphic Design Institute Direct,30,USD,Net30,ELECTRONIC,9909 Franklin St,Philadelphia,PA,29918,USA,Nicholas,215-555-0148,nicholas@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0547,Humongous Insurance Direct,50,USD,Net15,ELECTRONIC,9173 Spring St,Columbus,OH,36686,USA,Ronald,614-555-0154,ronald@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0548,Litware Direct,20,USD,Net15,CHECK,1392 Cedar St,Houston,TX,27949,USA,Nicholas,713-555-0186,nicholas@example.com,EXMPT FOR,No
+SYNVEN-0549,Lucerne Publishing Direct,10,USD,Net15,CHECK,4343 Madison Ave,Nashville,TN,42644,USA,Ryan,615-555-0198,ryan@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0550,Margie's Travel Direct,50,USD,Net30,ELECTRONIC,7476 Hill St,Raleigh,NC,93691,USA,Patricia,919-555-0196,patricia@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0551,Northwind Traders Direct,50,USD,Net30,ELECTRONIC,1783 Elm St,Jacksonville,FL,80763,USA,Maria,904-555-0143,maria@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0552,Proseware Direct,30,USD,Net45,ELECTRONIC,7831 Oak St,Fort Worth,TX,91749,USA,Sandra,817-555-0128,sandra@example.com,EXMPT FOR,No
+SYNVEN-0553,School of Fine Art Direct,10,USD,Net45,CHECK,3151 Park Ave,Dallas,TX,58437,USA,Gary,214-555-0160,gary@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0554,Southridge Video Direct,10,USD,COD,ELECTRONIC,3638 High St,Phoenix,AZ,46105,USA,Brenda,602-555-0194,brenda@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0555,Tailspin Toys Direct,50,USD,Net15,ELECTRONIC,2595 Chestnut St,Tampa,FL,13001,USA,Donna,813-555-0134,donna@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0556,Trey Research Direct,30,USD,COD,ELECTRONIC,8239 Pearl St,Memphis,TN,76817,USA,John,901-555-0192,john@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0557,The Phone Company Direct,50,USD,Net45,ELECTRONIC,9784 Spring St,Indianapolis,IN,76950,USA,Sarah,317-555-0185,sarah@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0558,Wide World Importers Direct,40,USD,Net30,CHECK,9201 School St,Phoenix,AZ,47401,USA,Charles,602-555-0186,charles@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0559,Wingtip Toys Direct,20,USD,Net30,CHECK,1439 Bridge St,Phoenix,AZ,67263,USA,Michelle,602-555-0105,michelle@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0560,Woodgrove Direct,40,USD,Net45,ELECTRONIC,5881 Church St,Boston,MA,27432,USA,Margaret,617-555-0185,margaret@example.com,EXMPT FOR,No
+SYNVEN-0561,A. Datum Express,40,USD,Net45,ELECTRONIC,9918 Oak St,Portland,OR,33403,USA,Nicholas,503-555-0160,nicholas@example.com,EXMPT FOR,No
+SYNVEN-0562,Adventure Works Express,50,USD,Net30,CHECK,4060 Pearl St,Boston,MA,44588,USA,Carol,617-555-0115,carol@example.com,EXMPT FOR,No
+SYNVEN-0563,Alpine Ski House Express,20,USD,COD,ELECTRONIC,5078 Broad St,Austin,TX,23561,USA,Robert,512-555-0149,robert@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0564,Blue Yonder Express,30,USD,Net30,CHECK,5495 Summit Ave,Austin,TX,57010,USA,Jeffrey,512-555-0179,jeffrey@example.com,EXMPT FOR,No
+SYNVEN-0565,City Power & Light Express,40,USD,Net30,ELECTRONIC,1375 First Ave,Denver,CO,60478,USA,Brian,303-555-0137,brian@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0566,Coho Vineyard Express,20,USD,Net15,ELECTRONIC,4820 Church St,Fort Worth,TX,10050,USA,Jason,817-555-0184,jason@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0567,Coho Winery Express,40,USD,Net30,ELECTRONIC,2685 High St,Chicago,IL,66214,USA,Kimberly,312-555-0138,kimberly@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0568,Coho Vineyard & Winery Express,20,USD,Net45,ELECTRONIC,8747 Pleasant St,Tampa,FL,90166,USA,Cynthia,813-555-0142,cynthia@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0569,Contoso Express,40,USD,Net45,CHECK,7983 Jackson St,Austin,TX,41144,USA,Jason,512-555-0177,jason@example.com,EXMPT FOR,No
+SYNVEN-0570,Contoso Pharmaceuticals Express,50,USD,Net30,CHECK,8498 Pleasant St,Pittsburgh,PA,12112,USA,Alexander,412-555-0160,alexander@www.contoso.com,EXMPT FOR,No
+SYNVEN-0571,Consolidated Messenger Express,20,USD,Net15,ELECTRONIC,6081 Oak St,San Antonio,TX,72121,USA,Jacob,210-555-0104,jacob@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0572,Fabrikam Express,20,USD,Net30,ELECTRONIC,7252 Pearl St,Omaha,NE,17062,USA,Emma,402-555-0110,emma@example.com,EXMPT FOR,No
+SYNVEN-0573,Fourth Coffee Express,20,USD,Net15,ELECTRONIC,8859 Church St,Charlotte,NC,35884,USA,Susan,704-555-0175,susan@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0574,Graphic Design Institute Express,10,USD,Net30,CHECK,4186 Franklin St,Jacksonville,FL,27535,USA,Janet,904-555-0126,janet@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0575,Humongous Insurance Express,50,USD,Net45,CHECK,6681 Jefferson St,Dallas,TX,14569,USA,John,214-555-0198,john@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0576,Litware Express,50,USD,COD,CHECK,3742 High St,San Diego,CA,96483,USA,Nicholas,619-555-0159,nicholas@example.com,EXMPT FOR,No
+SYNVEN-0577,Lucerne Publishing Express,50,USD,Net15,ELECTRONIC,3636 Water St,San Francisco,CA,72781,USA,Emily,415-555-0148,emily@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0578,Margie's Travel Express,10,USD,Net15,CHECK,2591 River Rd,Sacramento,CA,67535,USA,George,916-555-0170,george@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0579,Northwind Traders Express,40,USD,Net45,ELECTRONIC,1514 Union St,Nashville,TN,64518,USA,Ronald,615-555-0149,ronald@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0580,Proseware Express,20,USD,Net15,ELECTRONIC,5740 Union St,New York,NY,94031,USA,Stephanie,212-555-0125,stephanie@example.com,EXMPT FOR,No
+SYNVEN-0581,School of Fine Art Express,10,USD,COD,CHECK,1952 Cedar St,Boston,MA,14052,USA,Barbara,617-555-0185,barbara@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0582,Southridge Video Express,20,USD,Net15,CHECK,1909 Grove St,San Jose,CA,89055,USA,Emily,408-555-0164,emily@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0583,Tailspin Toys Express,10,USD,Net30,ELECTRONIC,6933 Summit Ave,Milwaukee,WI,64972,USA,Karen,414-555-0117,karen@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0584,Trey Research Express,20,USD,Net45,CHECK,9603 Pleasant St,Chicago,IL,24709,USA,Carol,312-555-0134,carol@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0585,The Phone Company Express,20,USD,COD,CHECK,3961 Washington St,Pittsburgh,PA,37002,USA,Katherine,412-555-0154,katherine@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0586,Wide World Importers Express,50,USD,Net45,ELECTRONIC,8262 Monroe St,Miami,FL,88296,USA,Karen,305-555-0174,karen@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0587,Wingtip Toys Express,30,USD,COD,ELECTRONIC,9969 Monroe St,San Antonio,TX,60816,USA,Robert,210-555-0126,robert@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0588,Woodgrove Express,30,USD,COD,CHECK,1578 Chestnut St,Houston,TX,96095,USA,Donna,713-555-0173,donna@example.com,EXMPT FOR,No
+SYNVEN-0589,A. Datum Plus,30,USD,Net15,ELECTRONIC,1972 First Ave,Houston,TX,73558,USA,Charles,713-555-0101,charles@example.com,EXMPT FOR,No
+SYNVEN-0590,Adventure Works Plus,50,USD,Net15,ELECTRONIC,4088 Church St,Dallas,TX,48432,USA,Patrick,214-555-0138,patrick@example.com,EXMPT FOR,No
+SYNVEN-0591,Alpine Ski House Plus,30,USD,Net45,CHECK,8487 Franklin St,Houston,TX,20495,USA,Eric,713-555-0160,eric@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0592,Blue Yonder Plus,30,USD,Net30,CHECK,3437 Park Ave,Tucson,AZ,67965,USA,Jonathan,520-555-0164,jonathan@example.com,EXMPT FOR,No
+SYNVEN-0593,City Power & Light Plus,40,USD,Net45,ELECTRONIC,3510 Cedar St,Indianapolis,IN,77587,USA,Elizabeth,317-555-0152,elizabeth@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0594,Coho Vineyard Plus,10,USD,COD,CHECK,8950 Jackson St,Tucson,AZ,66015,USA,Diane,520-555-0188,diane@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0595,Coho Winery Plus,30,USD,Net15,CHECK,7694 Lake St,Charlotte,NC,24562,USA,Charles,704-555-0141,charles@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0596,Coho Vineyard & Winery Plus,30,USD,COD,ELECTRONIC,7934 First Ave,Milwaukee,WI,31058,USA,James,414-555-0172,james@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0597,Contoso Plus,10,USD,Net15,ELECTRONIC,3663 Park Ave,San Jose,CA,61889,USA,Michelle,408-555-0185,michelle@example.com,EXMPT FOR,No
+SYNVEN-0598,Contoso Pharmaceuticals Plus,50,USD,Net30,ELECTRONIC,2826 Church St,San Francisco,CA,48892,USA,Ronald,415-555-0110,ronald@www.contoso.com,EXMPT FOR,No
+SYNVEN-0599,Consolidated Messenger Plus,30,USD,Net30,ELECTRONIC,9962 Cedar St,Columbus,OH,18433,USA,Alexander,614-555-0114,alexander@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0600,Fabrikam Plus,30,USD,Net45,ELECTRONIC,3000 Liberty St,Miami,FL,69223,USA,Jerry,305-555-0112,jerry@example.com,EXMPT FOR,No
+SYNVEN-0601,Fourth Coffee Plus,20,USD,Net45,ELECTRONIC,8436 South St,Fort Worth,TX,94924,USA,Sarah,817-555-0160,sarah@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0602,Graphic Design Institute Plus,20,USD,Net30,ELECTRONIC,5673 Madison Ave,Portland,OR,20164,USA,Richard,503-555-0168,richard@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0603,Humongous Insurance Plus,20,USD,Net15,CHECK,4952 Lake St,Phoenix,AZ,34117,USA,Frank,602-555-0145,frank@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0604,Litware Plus,30,USD,COD,ELECTRONIC,8949 Market St,Las Vegas,NV,34146,USA,Linda,702-555-0171,linda@example.com,EXMPT FOR,No
+SYNVEN-0605,Lucerne Publishing Plus,30,USD,Net45,CHECK,9120 Pleasant St,Las Vegas,NV,92436,USA,Kenneth,702-555-0152,kenneth@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0606,Margie's Travel Plus,40,USD,Net30,CHECK,6259 Washington St,Sacramento,CA,67607,USA,Melissa,916-555-0193,melissa@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0607,Northwind Traders Plus,10,USD,Net15,ELECTRONIC,2627 Church St,Milwaukee,WI,97203,USA,Brian,414-555-0163,brian@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0608,Proseware Plus,20,USD,COD,CHECK,7238 Oak St,Philadelphia,PA,42639,USA,Anthony,215-555-0184,anthony@example.com,EXMPT FOR,No
+SYNVEN-0609,School of Fine Art Plus,10,USD,Net45,CHECK,3898 Broad St,Louisville,KY,77166,USA,Sarah,502-555-0134,sarah@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0610,Southridge Video Plus,30,USD,Net15,CHECK,1770 Walnut St,Tucson,AZ,59605,USA,Amy,520-555-0155,amy@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0611,Tailspin Toys Plus,10,USD,Net15,ELECTRONIC,7526 Jefferson St,Kansas City,MO,32843,USA,James,816-555-0166,james@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0612,Trey Research Plus,30,USD,Net45,CHECK,9752 Liberty St,Albuquerque,NM,48918,USA,Michelle,505-555-0186,michelle@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0613,The Phone Company Plus,40,USD,Net30,ELECTRONIC,1191 Center St,Atlanta,GA,53855,USA,Jeffrey,404-555-0134,jeffrey@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0614,Wide World Importers Plus,40,USD,Net45,ELECTRONIC,2144 Elm St,San Diego,CA,19424,USA,Dennis,619-555-0134,dennis@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0615,Wingtip Toys Plus,20,USD,Net30,ELECTRONIC,4685 Summit Ave,Columbus,OH,99609,USA,Frank,614-555-0149,frank@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0616,Woodgrove Plus,30,USD,Net30,CHECK,5619 Broad St,Minneapolis,MN,48410,USA,Kathleen,612-555-0136,kathleen@example.com,EXMPT FOR,No
+SYNVEN-0617,A. Datum Pro,40,USD,Net30,CHECK,1812 High St,Boston,MA,80940,USA,Helen,617-555-0165,helen@example.com,EXMPT FOR,No
+SYNVEN-0618,Adventure Works Pro,50,USD,Net30,ELECTRONIC,8048 Oak St,Austin,TX,60602,USA,Brian,512-555-0175,brian@example.com,EXMPT FOR,No
+SYNVEN-0619,Alpine Ski House Pro,10,USD,Net45,ELECTRONIC,9268 Church St,San Jose,CA,30464,USA,Rachel,408-555-0190,rachel@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0620,Blue Yonder Pro,30,USD,Net15,ELECTRONIC,5408 Chestnut St,Nashville,TN,50460,USA,Larry,615-555-0167,larry@example.com,EXMPT FOR,No
+SYNVEN-0621,City Power & Light Pro,10,USD,Net45,CHECK,5291 Oak St,Austin,TX,56518,USA,Shirley,512-555-0136,shirley@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0622,Coho Vineyard Pro,40,USD,COD,CHECK,8961 Main St,San Jose,CA,57613,USA,David,408-555-0111,david@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0623,Coho Winery Pro,20,USD,Net15,CHECK,4555 Bridge St,Milwaukee,WI,99061,USA,Emma,414-555-0160,emma@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0624,Coho Vineyard & Winery Pro,50,USD,Net15,ELECTRONIC,6561 Oak St,Charlotte,NC,37584,USA,Thomas,704-555-0130,thomas@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0625,Contoso Pro,40,USD,Net45,CHECK,2097 School St,Baltimore,MD,87569,USA,Gregory,410-555-0132,gregory@example.com,EXMPT FOR,No
+SYNVEN-0626,Contoso Pharmaceuticals Pro,50,USD,Net15,ELECTRONIC,3533 Walnut St,Sacramento,CA,86827,USA,Christopher,916-555-0154,christopher@www.contoso.com,EXMPT FOR,No
+SYNVEN-0627,Consolidated Messenger Pro,10,USD,Net15,CHECK,9295 Pearl St,Indianapolis,IN,54378,USA,Benjamin,317-555-0101,benjamin@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0628,Fabrikam Pro,10,USD,Net30,ELECTRONIC,9771 Liberty St,San Antonio,TX,52905,USA,Patricia,210-555-0164,patricia@example.com,EXMPT FOR,No
+SYNVEN-0629,Fourth Coffee Pro,30,USD,COD,CHECK,8171 Liberty St,Pittsburgh,PA,77886,USA,Emma,412-555-0100,emma@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0630,Graphic Design Institute Pro,30,USD,Net15,CHECK,7556 Second Ave,Louisville,KY,90943,USA,Emma,502-555-0136,emma@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0631,Humongous Insurance Pro,50,USD,Net45,ELECTRONIC,4914 Union St,Dallas,TX,35515,USA,Larry,214-555-0191,larry@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0632,Litware Pro,30,USD,Net15,ELECTRONIC,8355 Water St,Miami,FL,80445,USA,Sharon,305-555-0198,sharon@example.com,EXMPT FOR,No
+SYNVEN-0633,Lucerne Publishing Pro,30,USD,Net30,CHECK,7281 High St,Fort Worth,TX,24984,USA,Michelle,817-555-0195,michelle@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0634,Margie's Travel Pro,20,USD,Net15,ELECTRONIC,2457 Liberty St,Atlanta,GA,25350,USA,Justin,404-555-0175,justin@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0635,Northwind Traders Pro,30,USD,Net15,ELECTRONIC,8008 Mill St,Detroit,MI,58278,USA,Thomas,313-555-0154,thomas@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0636,Proseware Pro,10,USD,COD,CHECK,4816 Jefferson St,Jacksonville,FL,21802,USA,Brian,904-555-0197,brian@example.com,EXMPT FOR,No
+SYNVEN-0637,School of Fine Art Pro,20,USD,Net45,ELECTRONIC,9279 River Rd,Houston,TX,62130,USA,Eric,713-555-0156,eric@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0638,Southridge Video Pro,40,USD,Net15,CHECK,1527 Market St,Fresno,CA,22228,USA,Eric,559-555-0185,eric@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0639,Tailspin Toys Pro,50,USD,Net30,ELECTRONIC,6753 Market St,Portland,OR,78017,USA,Angela,503-555-0161,angela@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0640,Trey Research Pro,30,USD,Net15,ELECTRONIC,2644 Market St,Jacksonville,FL,26526,USA,Jason,904-555-0181,jason@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0641,The Phone Company Pro,30,USD,COD,CHECK,3955 Bridge St,Phoenix,AZ,80862,USA,Gregory,602-555-0128,gregory@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0642,Wide World Importers Pro,40,USD,COD,ELECTRONIC,2094 Jefferson St,Tucson,AZ,40828,USA,Jerry,520-555-0144,jerry@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0643,Wingtip Toys Pro,10,USD,Net15,ELECTRONIC,5512 Jackson St,Dallas,TX,41729,USA,Christopher,214-555-0107,christopher@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0644,Woodgrove Pro,30,USD,Net15,ELECTRONIC,2939 Hill St,Atlanta,GA,73197,USA,Brenda,404-555-0177,brenda@example.com,EXMPT FOR,No
+SYNVEN-0645,A. Datum Premium,10,USD,Net15,CHECK,7316 Oak St,Chicago,IL,12054,USA,Timothy,312-555-0104,timothy@example.com,EXMPT FOR,No
+SYNVEN-0646,Adventure Works Premium,10,USD,Net30,CHECK,6892 Pine St,Atlanta,GA,48265,USA,Benjamin,404-555-0123,benjamin@example.com,EXMPT FOR,No
+SYNVEN-0647,Alpine Ski House Premium,30,USD,Net45,ELECTRONIC,1504 Water St,Detroit,MI,16610,USA,Timothy,313-555-0160,timothy@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0648,Blue Yonder Premium,20,USD,Net15,CHECK,4126 Chestnut St,Baltimore,MD,22097,USA,Brenda,410-555-0102,brenda@example.com,EXMPT FOR,No
+SYNVEN-0649,City Power & Light Premium,40,USD,COD,CHECK,2649 Summit Ave,Chicago,IL,73204,USA,George,312-555-0164,george@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0650,Coho Vineyard Premium,30,USD,Net15,ELECTRONIC,4636 Union St,Tampa,FL,31286,USA,Amy,813-555-0132,amy@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0651,Coho Winery Premium,20,USD,COD,CHECK,1818 Jackson St,Los Angeles,CA,85715,USA,Patricia,213-555-0141,patricia@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0652,Coho Vineyard & Winery Premium,40,USD,COD,ELECTRONIC,5071 Second Ave,Detroit,MI,70568,USA,Sandra,313-555-0168,sandra@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0653,Contoso Premium,10,USD,Net15,CHECK,4789 Adams St,Pittsburgh,PA,21392,USA,Barbara,412-555-0163,barbara@example.com,EXMPT FOR,No
+SYNVEN-0654,Contoso Pharmaceuticals Premium,40,USD,Net45,CHECK,2801 Grove St,Baltimore,MD,43776,USA,James,410-555-0129,james@www.contoso.com,EXMPT FOR,No
+SYNVEN-0655,Consolidated Messenger Premium,10,USD,COD,ELECTRONIC,2282 Second Ave,Houston,TX,75364,USA,Linda,713-555-0107,linda@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0656,Fabrikam Premium,40,USD,COD,CHECK,7108 Walnut St,Atlanta,GA,34901,USA,Joseph,404-555-0103,joseph@example.com,EXMPT FOR,No
+SYNVEN-0657,Fourth Coffee Premium,10,USD,Net15,CHECK,6678 Walnut St,Chicago,IL,58186,USA,Rachel,312-555-0182,rachel@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0658,Graphic Design Institute Premium,10,USD,Net15,CHECK,3889 Chestnut St,Oklahoma City,OK,24634,USA,Gary,405-555-0155,gary@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0659,Humongous Insurance Premium,50,USD,Net30,ELECTRONIC,6846 Pearl St,Charlotte,NC,43933,USA,Debra,704-555-0120,debra@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0660,Litware Premium,20,USD,COD,ELECTRONIC,2624 Hill St,Minneapolis,MN,38243,USA,Barbara,612-555-0134,barbara@example.com,EXMPT FOR,No
+SYNVEN-0661,Lucerne Publishing Premium,30,USD,COD,CHECK,9964 Washington St,Dallas,TX,69450,USA,Elizabeth,214-555-0122,elizabeth@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0662,Margie's Travel Premium,40,USD,Net45,CHECK,9278 Washington St,Columbus,OH,57573,USA,Patricia,614-555-0149,patricia@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0663,Northwind Traders Premium,10,USD,Net15,ELECTRONIC,8516 Market St,Denver,CO,42902,USA,Timothy,303-555-0129,timothy@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0664,Proseware Premium,40,USD,Net45,ELECTRONIC,4358 Summit Ave,Tampa,FL,23825,USA,Gary,813-555-0104,gary@example.com,EXMPT FOR,No
+SYNVEN-0665,School of Fine Art Premium,40,USD,COD,CHECK,2936 Cedar St,Louisville,KY,92738,USA,Charles,502-555-0157,charles@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0666,Southridge Video Premium,50,USD,Net45,CHECK,5462 Pearl St,Baltimore,MD,17614,USA,Sarah,410-555-0161,sarah@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0667,Tailspin Toys Premium,30,USD,Net45,CHECK,4920 Elm St,Austin,TX,14523,USA,Charles,512-555-0138,charles@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0668,Trey Research Premium,20,USD,COD,CHECK,5511 Adams St,Sacramento,CA,29855,USA,Eric,916-555-0162,eric@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0669,The Phone Company Premium,40,USD,Net15,CHECK,3595 Maple St,Jacksonville,FL,48918,USA,Matthew,904-555-0106,matthew@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0670,Wide World Importers Premium,40,USD,Net15,CHECK,9428 Bridge St,Nashville,TN,72059,USA,Betty,615-555-0111,betty@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0671,Wingtip Toys Premium,10,USD,Net15,ELECTRONIC,4320 Lincoln Ave,Albuquerque,NM,75015,USA,Sandra,505-555-0193,sandra@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0672,Woodgrove Premium,20,USD,COD,ELECTRONIC,7888 Lake St,Baltimore,MD,18458,USA,Matthew,410-555-0171,matthew@example.com,EXMPT FOR,No
+SYNVEN-0673,A. Datum North,50,USD,COD,ELECTRONIC,9392 Water St,Austin,TX,61906,USA,George,512-555-0108,george@example.com,EXMPT FOR,No
+SYNVEN-0674,Adventure Works North,10,USD,COD,CHECK,9841 Market St,Las Vegas,NV,91941,USA,Jessica,702-555-0152,jessica@example.com,EXMPT FOR,No
+SYNVEN-0675,Alpine Ski House North,50,USD,Net15,CHECK,5872 Liberty St,Portland,OR,33373,USA,Larry,503-555-0145,larry@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0676,Blue Yonder North,40,USD,COD,ELECTRONIC,4059 Bridge St,Baltimore,MD,56202,USA,Sarah,410-555-0155,sarah@example.com,EXMPT FOR,No
+SYNVEN-0677,City Power & Light North,20,USD,COD,CHECK,8271 Franklin St,Austin,TX,52817,USA,Aaron,512-555-0181,aaron@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0678,Coho Vineyard North,20,USD,Net15,ELECTRONIC,7149 Second Ave,Jacksonville,FL,76517,USA,Laura,904-555-0103,laura@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0679,Coho Winery North,30,USD,Net15,CHECK,8700 School St,Fresno,CA,85784,USA,Alexander,559-555-0190,alexander@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0680,Coho Vineyard & Winery North,50,USD,Net45,ELECTRONIC,3727 Lincoln Ave,Albuquerque,NM,71390,USA,Susan,505-555-0187,susan@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0681,Contoso North,20,USD,Net45,CHECK,1383 Broad St,Cleveland,OH,15002,USA,Frank,216-555-0163,frank@example.com,EXMPT FOR,No
+SYNVEN-0682,Contoso Pharmaceuticals North,30,USD,Net15,ELECTRONIC,3083 Broad St,Tucson,AZ,75351,USA,Linda,520-555-0119,linda@www.contoso.com,EXMPT FOR,No
+SYNVEN-0683,Consolidated Messenger North,40,USD,COD,CHECK,5252 Pine St,San Jose,CA,49470,USA,Amanda,408-555-0139,amanda@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0684,Fabrikam North,20,USD,COD,ELECTRONIC,7142 First Ave,Philadelphia,PA,14508,USA,Joshua,215-555-0161,joshua@example.com,EXMPT FOR,No
+SYNVEN-0685,Fourth Coffee North,10,USD,Net15,ELECTRONIC,1096 High St,Tampa,FL,57212,USA,Shirley,813-555-0182,shirley@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0686,Graphic Design Institute North,50,USD,Net45,ELECTRONIC,1772 South St,Milwaukee,WI,95213,USA,Donald,414-555-0157,donald@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0687,Humongous Insurance North,10,USD,Net30,ELECTRONIC,2954 Broad St,Memphis,TN,31347,USA,Joseph,901-555-0142,joseph@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0688,Litware North,40,USD,COD,ELECTRONIC,1142 Franklin St,Portland,OR,28333,USA,Katherine,503-555-0109,katherine@example.com,EXMPT FOR,No
+SYNVEN-0689,Lucerne Publishing North,30,USD,Net30,CHECK,6989 Main St,Minneapolis,MN,69676,USA,Stephanie,612-555-0138,stephanie@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0690,Margie's Travel North,40,USD,Net30,ELECTRONIC,8029 Broad St,Tampa,FL,46259,USA,Carolyn,813-555-0126,carolyn@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0691,Northwind Traders North,50,USD,Net30,CHECK,2155 Adams St,Kansas City,MO,75617,USA,Patrick,816-555-0184,patrick@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0692,Proseware North,50,USD,COD,ELECTRONIC,3537 Union St,New York,NY,58282,USA,Jason,212-555-0185,jason@example.com,EXMPT FOR,No
+SYNVEN-0693,School of Fine Art North,50,USD,COD,CHECK,1139 Franklin St,Kansas City,MO,26887,USA,George,816-555-0128,george@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0694,Southridge Video North,10,USD,Net45,CHECK,9683 Elm St,Memphis,TN,17160,USA,Kimberly,901-555-0125,kimberly@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0695,Tailspin Toys North,40,USD,Net45,CHECK,8046 Hill St,Louisville,KY,69210,USA,Donald,502-555-0124,donald@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0696,Trey Research North,10,USD,Net45,CHECK,3527 Jefferson St,Albuquerque,NM,10861,USA,Stephanie,505-555-0155,stephanie@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0697,The Phone Company North,10,USD,Net45,CHECK,5450 Maple St,Baltimore,MD,13137,USA,Cynthia,410-555-0147,cynthia@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0698,Wide World Importers North,20,USD,Net15,CHECK,6694 High St,Milwaukee,WI,71808,USA,Stephen,414-555-0190,stephen@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0699,Wingtip Toys North,40,USD,Net45,CHECK,6795 Water St,San Francisco,CA,17757,USA,Samantha,415-555-0165,samantha@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0700,Woodgrove North,50,USD,Net15,ELECTRONIC,4201 Church St,Phoenix,AZ,63618,USA,Katherine,602-555-0128,katherine@example.com,EXMPT FOR,No
+SYNVEN-0701,A. Datum South,10,USD,COD,ELECTRONIC,3712 Park Ave,Albuquerque,NM,20007,USA,Laura,505-555-0101,laura@example.com,EXMPT FOR,No
+SYNVEN-0702,Adventure Works South,30,USD,Net15,CHECK,1120 Elm St,Houston,TX,46996,USA,Robert,713-555-0125,robert@example.com,EXMPT FOR,No
+SYNVEN-0703,Alpine Ski House South,50,USD,Net45,ELECTRONIC,2783 Grove St,Indianapolis,IN,77770,USA,Angela,317-555-0103,angela@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0704,Blue Yonder South,10,USD,Net45,CHECK,1556 Main St,Charlotte,NC,54161,USA,Helen,704-555-0103,helen@example.com,EXMPT FOR,No
+SYNVEN-0705,City Power & Light South,50,USD,Net45,ELECTRONIC,5203 Oak St,Chicago,IL,33024,USA,Elizabeth,312-555-0149,elizabeth@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0706,Coho Vineyard South,20,USD,Net30,ELECTRONIC,3166 Adams St,Louisville,KY,62280,USA,Ashley,502-555-0184,ashley@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0707,Coho Winery South,30,USD,Net45,CHECK,6406 South St,Chicago,IL,28437,USA,Pamela,312-555-0118,pamela@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0708,Coho Vineyard & Winery South,20,USD,COD,CHECK,3019 River Rd,Boston,MA,84264,USA,Anna,617-555-0166,anna@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0709,Contoso South,40,USD,Net45,CHECK,7709 Main St,Indianapolis,IN,44383,USA,Janet,317-555-0136,janet@example.com,EXMPT FOR,No
+SYNVEN-0710,Contoso Pharmaceuticals South,50,USD,Net15,ELECTRONIC,3281 School St,Milwaukee,WI,62309,USA,Mary,414-555-0158,mary@www.contoso.com,EXMPT FOR,No
+SYNVEN-0711,Consolidated Messenger South,50,USD,Net45,ELECTRONIC,2785 Liberty St,Houston,TX,56211,USA,George,713-555-0162,george@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0712,Fabrikam South,50,USD,Net45,ELECTRONIC,2313 Market St,Portland,OR,65822,USA,Anthony,503-555-0162,anthony@example.com,EXMPT FOR,No
+SYNVEN-0713,Fourth Coffee South,30,USD,Net45,CHECK,9924 Park Ave,Seattle,WA,49011,USA,Betty,206-555-0137,betty@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0714,Graphic Design Institute South,10,USD,Net30,CHECK,6799 Market St,Baltimore,MD,85673,USA,Rachel,410-555-0178,rachel@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0715,Humongous Insurance South,40,USD,Net45,ELECTRONIC,7765 Pine St,Atlanta,GA,18225,USA,Stephanie,404-555-0147,stephanie@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0716,Litware South,40,USD,Net30,ELECTRONIC,6238 Lake St,Minneapolis,MN,51838,USA,Kathleen,612-555-0104,kathleen@example.com,EXMPT FOR,No
+SYNVEN-0717,Lucerne Publishing South,20,USD,Net45,CHECK,3178 Madison Ave,Seattle,WA,29234,USA,Sarah,206-555-0169,sarah@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0718,Margie's Travel South,40,USD,COD,CHECK,3222 School St,Charlotte,NC,14016,USA,Jerry,704-555-0167,jerry@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0719,Northwind Traders South,40,USD,Net45,CHECK,5032 First Ave,Chicago,IL,59992,USA,Lisa,312-555-0187,lisa@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0720,Proseware South,50,USD,Net30,CHECK,2097 School St,New York,NY,27588,USA,Debra,212-555-0175,debra@example.com,EXMPT FOR,No
+SYNVEN-0721,School of Fine Art South,30,USD,Net30,CHECK,2529 Lake St,Sacramento,CA,93355,USA,Ashley,916-555-0163,ashley@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0722,Southridge Video South,10,USD,Net45,ELECTRONIC,7951 Spring St,Las Vegas,NV,27149,USA,Sharon,702-555-0110,sharon@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0723,Tailspin Toys South,30,USD,Net15,ELECTRONIC,3073 Church St,Charlotte,NC,81120,USA,Shirley,704-555-0158,shirley@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0724,Trey Research South,10,USD,COD,CHECK,8456 Church St,Houston,TX,96652,USA,Jason,713-555-0129,jason@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0725,The Phone Company South,40,USD,COD,ELECTRONIC,1979 Center St,Seattle,WA,75752,USA,Jonathan,206-555-0112,jonathan@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0726,Wide World Importers South,30,USD,Net45,CHECK,3758 Oak St,Louisville,KY,95679,USA,Jeffrey,502-555-0146,jeffrey@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0727,Wingtip Toys South,40,USD,Net45,ELECTRONIC,9976 Hill St,Phoenix,AZ,34316,USA,Ashley,602-555-0187,ashley@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0728,Woodgrove South,10,USD,COD,CHECK,8218 First Ave,San Francisco,CA,13406,USA,Jacob,415-555-0146,jacob@example.com,EXMPT FOR,No
+SYNVEN-0729,A. Datum East,10,USD,Net30,ELECTRONIC,5807 Church St,Tucson,AZ,20543,USA,Christopher,520-555-0152,christopher@example.com,EXMPT FOR,No
+SYNVEN-0730,Adventure Works East,40,USD,COD,CHECK,4417 Church St,Columbus,OH,20723,USA,Melissa,614-555-0128,melissa@example.com,EXMPT FOR,No
+SYNVEN-0731,Alpine Ski House East,10,USD,COD,CHECK,9598 Spring St,Minneapolis,MN,50814,USA,Aaron,612-555-0130,aaron@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0732,Blue Yonder East,50,USD,Net15,ELECTRONIC,7804 Jackson St,Jacksonville,FL,39177,USA,Daniel,904-555-0136,daniel@example.com,EXMPT FOR,No
+SYNVEN-0733,City Power & Light East,20,USD,Net15,CHECK,8373 Washington St,Chicago,IL,24649,USA,Steven,312-555-0139,steven@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0734,Coho Vineyard East,40,USD,Net30,CHECK,1164 Park Ave,San Jose,CA,42696,USA,Raymond,408-555-0181,raymond@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0735,Coho Winery East,30,USD,COD,CHECK,5181 Oak St,Fresno,CA,13132,USA,Jacob,559-555-0137,jacob@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0736,Coho Vineyard & Winery East,30,USD,Net30,CHECK,8643 Oak St,Seattle,WA,65672,USA,James,206-555-0199,james@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0737,Contoso East,40,USD,Net45,CHECK,5861 Grove St,Dallas,TX,76710,USA,Mary,214-555-0179,mary@example.com,EXMPT FOR,No
+SYNVEN-0738,Contoso Pharmaceuticals East,20,USD,COD,CHECK,7809 Liberty St,Kansas City,MO,89124,USA,Emma,816-555-0104,emma@www.contoso.com,EXMPT FOR,No
+SYNVEN-0739,Consolidated Messenger East,50,USD,Net15,ELECTRONIC,1207 Park Ave,Memphis,TN,24690,USA,Anna,901-555-0102,anna@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0740,Fabrikam East,20,USD,Net30,ELECTRONIC,2396 Water St,Milwaukee,WI,37455,USA,Laura,414-555-0154,laura@example.com,EXMPT FOR,No
+SYNVEN-0741,Fourth Coffee East,30,USD,Net45,ELECTRONIC,4193 River Rd,Indianapolis,IN,72205,USA,Catherine,317-555-0108,catherine@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0742,Graphic Design Institute East,20,USD,Net15,CHECK,7573 Jefferson St,Philadelphia,PA,89363,USA,Dennis,215-555-0105,dennis@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0743,Humongous Insurance East,50,USD,Net45,ELECTRONIC,1600 Elm St,New York,NY,35939,USA,Daniel,212-555-0116,daniel@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0744,Litware East,30,USD,Net30,CHECK,5569 Pleasant St,Las Vegas,NV,87912,USA,Alexander,702-555-0161,alexander@example.com,EXMPT FOR,No
+SYNVEN-0745,Lucerne Publishing East,20,USD,Net45,ELECTRONIC,7871 Broad St,San Jose,CA,72173,USA,Donald,408-555-0155,donald@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0746,Margie's Travel East,20,USD,COD,CHECK,4529 Oak St,Louisville,KY,69965,USA,Shirley,502-555-0185,shirley@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0747,Northwind Traders East,30,USD,COD,CHECK,2025 Hill St,Los Angeles,CA,42006,USA,Anthony,213-555-0108,anthony@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0748,Proseware East,30,USD,Net15,CHECK,5016 Water St,Philadelphia,PA,42796,USA,Betty,215-555-0194,betty@example.com,EXMPT FOR,No
+SYNVEN-0749,School of Fine Art East,20,USD,Net15,ELECTRONIC,3057 Grove St,Tucson,AZ,97027,USA,Amanda,520-555-0172,amanda@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0750,Southridge Video East,20,USD,Net30,ELECTRONIC,7293 Liberty St,Charlotte,NC,37779,USA,Alexander,704-555-0145,alexander@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0751,Tailspin Toys East,30,USD,Net15,ELECTRONIC,3010 School St,Philadelphia,PA,82959,USA,Benjamin,215-555-0106,benjamin@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0752,Trey Research East,20,USD,Net45,CHECK,5949 Maple St,Pittsburgh,PA,17902,USA,Timothy,412-555-0180,timothy@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0753,The Phone Company East,50,USD,Net45,ELECTRONIC,7531 Walnut St,Omaha,NE,39613,USA,Diane,402-555-0166,diane@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0754,Wide World Importers East,50,USD,Net45,ELECTRONIC,9183 Cherry St,Chicago,IL,42949,USA,Jack,312-555-0117,jack@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0755,Wingtip Toys East,20,USD,Net30,ELECTRONIC,3828 Pearl St,Phoenix,AZ,26901,USA,Angela,602-555-0180,angela@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0756,Woodgrove East,10,USD,Net30,ELECTRONIC,5629 Walnut St,Columbus,OH,78619,USA,Jonathan,614-555-0129,jonathan@example.com,EXMPT FOR,No
+SYNVEN-0757,A. Datum West,10,USD,Net30,ELECTRONIC,8550 Monroe St,Portland,OR,60029,USA,Elizabeth,503-555-0110,elizabeth@example.com,EXMPT FOR,No
+SYNVEN-0758,Adventure Works West,50,USD,Net15,CHECK,8762 Second Ave,Pittsburgh,PA,27303,USA,Samuel,412-555-0136,samuel@example.com,EXMPT FOR,No
+SYNVEN-0759,Alpine Ski House West,20,USD,Net30,CHECK,6699 Pine St,Boston,MA,13931,USA,Steven,617-555-0186,steven@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0760,Blue Yonder West,40,USD,COD,ELECTRONIC,1001 Chestnut St,Louisville,KY,58415,USA,Edward,502-555-0196,edward@example.com,EXMPT FOR,No
+SYNVEN-0761,City Power & Light West,20,USD,COD,ELECTRONIC,5777 Union St,Albuquerque,NM,11881,USA,Shirley,505-555-0102,shirley@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0762,Coho Vineyard West,50,USD,Net30,ELECTRONIC,6794 First Ave,Memphis,TN,49032,USA,Angela,901-555-0144,angela@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0763,Coho Winery West,20,USD,Net30,ELECTRONIC,6653 Cherry St,San Antonio,TX,74406,USA,Gregory,210-555-0125,gregory@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0764,Coho Vineyard & Winery West,10,USD,Net45,CHECK,7914 Spring St,Charlotte,NC,86261,USA,Janet,704-555-0123,janet@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0765,Contoso West,10,USD,Net45,ELECTRONIC,8778 Bridge St,Milwaukee,WI,75087,USA,Joseph,414-555-0170,joseph@example.com,EXMPT FOR,No
+SYNVEN-0766,Contoso Pharmaceuticals West,50,USD,COD,CHECK,9292 Franklin St,Austin,TX,27177,USA,Daniel,512-555-0165,daniel@www.contoso.com,EXMPT FOR,No
+SYNVEN-0767,Consolidated Messenger West,40,USD,Net15,ELECTRONIC,8562 Jefferson St,Tucson,AZ,72996,USA,Emma,520-555-0172,emma@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0768,Fabrikam West,40,USD,Net45,CHECK,3154 Park Ave,Sacramento,CA,49753,USA,Charles,916-555-0136,charles@example.com,EXMPT FOR,No
+SYNVEN-0769,Fourth Coffee West,40,USD,Net15,ELECTRONIC,6883 Park Ave,Kansas City,MO,41254,USA,Ashley,816-555-0194,ashley@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0770,Graphic Design Institute West,40,USD,Net30,ELECTRONIC,4264 Lincoln Ave,Seattle,WA,25636,USA,Nicholas,206-555-0143,nicholas@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0771,Humongous Insurance West,10,USD,Net30,CHECK,9551 South St,Raleigh,NC,25681,USA,Deborah,919-555-0164,deborah@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0772,Litware West,40,USD,Net45,ELECTRONIC,2800 Madison Ave,Seattle,WA,51205,USA,Mark,206-555-0195,mark@example.com,EXMPT FOR,No
+SYNVEN-0773,Lucerne Publishing West,30,USD,Net15,CHECK,3317 Park Ave,Boston,MA,18071,USA,Christine,617-555-0193,christine@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0774,Margie's Travel West,50,USD,Net30,CHECK,8393 Union St,Sacramento,CA,43703,USA,George,916-555-0184,george@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0775,Northwind Traders West,20,USD,Net45,CHECK,8403 River Rd,Charlotte,NC,61676,USA,Sandra,704-555-0183,sandra@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0776,Proseware West,40,USD,Net45,ELECTRONIC,6855 Monroe St,Baltimore,MD,40943,USA,Michael,410-555-0148,michael@example.com,EXMPT FOR,No
+SYNVEN-0777,School of Fine Art West,20,USD,COD,CHECK,5438 Summit Ave,Houston,TX,22755,USA,Christopher,713-555-0188,christopher@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0778,Southridge Video West,40,USD,Net45,CHECK,6989 Oak St,Cleveland,OH,93192,USA,Anna,216-555-0160,anna@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0779,Tailspin Toys West,30,USD,Net30,ELECTRONIC,5795 Adams St,Houston,TX,24321,USA,Janet,713-555-0142,janet@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0780,Trey Research West,10,USD,Net45,CHECK,1626 Water St,Raleigh,NC,27520,USA,Joshua,919-555-0125,joshua@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0781,The Phone Company West,20,USD,COD,CHECK,8032 Broad St,Columbus,OH,73745,USA,Diane,614-555-0136,diane@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0782,Wide World Importers West,20,USD,Net45,CHECK,1134 Center St,Albuquerque,NM,14130,USA,Carolyn,505-555-0182,carolyn@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0783,Wingtip Toys West,30,USD,Net45,CHECK,2843 Park Ave,San Diego,CA,32535,USA,Carol,619-555-0173,carol@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0784,Woodgrove West,50,USD,Net45,ELECTRONIC,9954 Cedar St,Oklahoma City,OK,53378,USA,Donna,405-555-0158,donna@example.com,EXMPT FOR,No
+SYNVEN-0785,A. Datum Central,50,USD,Net15,CHECK,9320 Pine St,Charlotte,NC,87649,USA,Betty,704-555-0155,betty@example.com,EXMPT FOR,No
+SYNVEN-0786,Adventure Works Central,10,USD,Net15,ELECTRONIC,4136 South St,Memphis,TN,16305,USA,Raymond,901-555-0151,raymond@example.com,EXMPT FOR,No
+SYNVEN-0787,Alpine Ski House Central,30,USD,Net15,ELECTRONIC,3830 Jefferson St,Chicago,IL,31972,USA,Aaron,312-555-0168,aaron@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0788,Blue Yonder Central,10,USD,Net45,CHECK,6616 Spring St,Chicago,IL,72703,USA,John,312-555-0185,john@example.com,EXMPT FOR,No
+SYNVEN-0789,City Power & Light Central,30,USD,Net15,ELECTRONIC,6721 Washington St,San Jose,CA,37222,USA,Sandra,408-555-0108,sandra@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0790,Coho Vineyard Central,10,USD,Net15,ELECTRONIC,5382 Park Ave,Houston,TX,30468,USA,Edward,713-555-0192,edward@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0791,Coho Winery Central,40,USD,Net15,ELECTRONIC,7025 Adams St,Baltimore,MD,47179,USA,Jonathan,410-555-0117,jonathan@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0792,Coho Vineyard & Winery Central,20,USD,Net15,CHECK,6644 Oak St,Baltimore,MD,39511,USA,Amy,410-555-0172,amy@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0793,Contoso Central,50,USD,Net15,CHECK,5661 Chestnut St,San Antonio,TX,51255,USA,Dorothy,210-555-0144,dorothy@example.com,EXMPT FOR,No
+SYNVEN-0794,Contoso Pharmaceuticals Central,30,USD,COD,CHECK,7977 High St,Oklahoma City,OK,12819,USA,Edward,405-555-0146,edward@www.contoso.com,EXMPT FOR,No
+SYNVEN-0795,Consolidated Messenger Central,50,USD,Net30,CHECK,7882 Hill St,Las Vegas,NV,22319,USA,Anna,702-555-0173,anna@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0796,Fabrikam Central,50,USD,Net30,CHECK,4415 Franklin St,Denver,CO,59016,USA,Jessica,303-555-0186,jessica@example.com,EXMPT FOR,No
+SYNVEN-0797,Fourth Coffee Central,10,USD,Net15,ELECTRONIC,9335 Water St,San Francisco,CA,23599,USA,Linda,415-555-0197,linda@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0798,Graphic Design Institute Central,20,USD,Net15,CHECK,3607 Monroe St,Fresno,CA,15752,USA,Deborah,559-555-0181,deborah@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0799,Humongous Insurance Central,30,USD,Net15,ELECTRONIC,1582 Lincoln Ave,Tucson,AZ,82720,USA,Stephanie,520-555-0110,stephanie@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0800,Litware Central,30,USD,COD,ELECTRONIC,8256 Church St,Omaha,NE,88791,USA,Patricia,402-555-0118,patricia@example.com,EXMPT FOR,No
+SYNVEN-0801,Lucerne Publishing Central,50,USD,COD,ELECTRONIC,5607 Hill St,San Antonio,TX,57824,USA,Jack,210-555-0107,jack@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0802,Margie's Travel Central,50,USD,Net45,CHECK,4713 Pleasant St,Las Vegas,NV,19482,USA,Benjamin,702-555-0186,benjamin@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0803,Northwind Traders Central,30,USD,Net45,ELECTRONIC,5139 River Rd,Tampa,FL,17589,USA,Matthew,813-555-0101,matthew@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0804,Proseware Central,40,USD,Net45,ELECTRONIC,8351 Pearl St,Cleveland,OH,82196,USA,Sarah,216-555-0183,sarah@example.com,EXMPT FOR,No
+SYNVEN-0805,School of Fine Art Central,50,USD,Net45,CHECK,8871 Second Ave,San Diego,CA,42584,USA,Donna,619-555-0196,donna@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0806,Southridge Video Central,10,USD,Net30,ELECTRONIC,3243 Mill St,Milwaukee,WI,65126,USA,Brenda,414-555-0144,brenda@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0807,Tailspin Toys Central,40,USD,COD,ELECTRONIC,1585 Washington St,Nashville,TN,84998,USA,Michael,615-555-0162,michael@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0808,Trey Research Central,40,USD,Net30,CHECK,1735 School St,Nashville,TN,27983,USA,Dorothy,615-555-0143,dorothy@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0809,The Phone Company Central,50,USD,COD,ELECTRONIC,3362 Church St,Tucson,AZ,66081,USA,William,520-555-0132,william@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0810,Wide World Importers Central,50,USD,Net30,ELECTRONIC,6356 Church St,Atlanta,GA,12402,USA,Richard,404-555-0194,richard@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0811,Wingtip Toys Central,10,USD,Net45,ELECTRONIC,7102 Main St,Fort Worth,TX,16681,USA,Richard,817-555-0196,richard@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0812,Woodgrove Central,40,USD,Net45,ELECTRONIC,4341 Market St,Albuquerque,NM,19553,USA,Emma,505-555-0146,emma@example.com,EXMPT FOR,No
+SYNVEN-0813,A. Datum Pacific,40,USD,Net30,CHECK,8877 Water St,Nashville,TN,91929,USA,Pamela,615-555-0177,pamela@example.com,EXMPT FOR,No
+SYNVEN-0814,Adventure Works Pacific,40,USD,Net45,CHECK,1572 Grove St,Phoenix,AZ,83712,USA,Emily,602-555-0122,emily@example.com,EXMPT FOR,No
+SYNVEN-0815,Alpine Ski House Pacific,20,USD,Net30,ELECTRONIC,3189 Water St,Pittsburgh,PA,97561,USA,Larry,412-555-0109,larry@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0816,Blue Yonder Pacific,50,USD,COD,CHECK,7188 Second Ave,San Antonio,TX,83122,USA,Elizabeth,210-555-0135,elizabeth@example.com,EXMPT FOR,No
+SYNVEN-0817,City Power & Light Pacific,30,USD,COD,ELECTRONIC,4846 Monroe St,Raleigh,NC,34932,USA,Brandon,919-555-0119,brandon@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0818,Coho Vineyard Pacific,40,USD,COD,ELECTRONIC,7142 Franklin St,Jacksonville,FL,77235,USA,Ruth,904-555-0110,ruth@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0819,Coho Winery Pacific,30,USD,Net45,ELECTRONIC,5141 Summit Ave,Memphis,TN,14052,USA,Robert,901-555-0154,robert@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0820,Coho Vineyard & Winery Pacific,40,USD,COD,ELECTRONIC,3113 Walnut St,Tucson,AZ,53814,USA,Michael,520-555-0108,michael@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0821,Contoso Pacific,50,USD,Net45,ELECTRONIC,8602 Main St,Albuquerque,NM,45074,USA,Shirley,505-555-0184,shirley@example.com,EXMPT FOR,No
+SYNVEN-0822,Contoso Pharmaceuticals Pacific,30,USD,Net45,CHECK,8169 Spring St,Boston,MA,31423,USA,Joshua,617-555-0175,joshua@www.contoso.com,EXMPT FOR,No
+SYNVEN-0823,Consolidated Messenger Pacific,40,USD,COD,CHECK,4416 Cedar St,Los Angeles,CA,41594,USA,Rachel,213-555-0179,rachel@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0824,Fabrikam Pacific,50,USD,Net30,CHECK,3471 Market St,Albuquerque,NM,99993,USA,Sharon,505-555-0113,sharon@example.com,EXMPT FOR,No
+SYNVEN-0825,Fourth Coffee Pacific,10,USD,Net45,CHECK,7003 Second Ave,Houston,TX,90323,USA,Sandra,713-555-0196,sandra@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0826,Graphic Design Institute Pacific,10,USD,Net30,CHECK,5502 Cedar St,Dallas,TX,56835,USA,Jack,214-555-0173,jack@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0827,Humongous Insurance Pacific,30,USD,Net45,CHECK,4283 Second Ave,Phoenix,AZ,14635,USA,Laura,602-555-0114,laura@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0828,Litware Pacific,20,USD,COD,CHECK,4666 Mill St,Baltimore,MD,77738,USA,Gary,410-555-0184,gary@example.com,EXMPT FOR,No
+SYNVEN-0829,Lucerne Publishing Pacific,50,USD,Net45,ELECTRONIC,8892 Main St,Milwaukee,WI,75001,USA,Elizabeth,414-555-0125,elizabeth@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0830,Margie's Travel Pacific,40,USD,Net45,ELECTRONIC,7686 Grove St,Portland,OR,12438,USA,Timothy,503-555-0163,timothy@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0831,Northwind Traders Pacific,10,USD,Net30,CHECK,9449 Summit Ave,Raleigh,NC,99200,USA,Benjamin,919-555-0196,benjamin@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0832,Proseware Pacific,50,USD,COD,CHECK,3006 Madison Ave,Las Vegas,NV,21403,USA,Aaron,702-555-0102,aaron@example.com,EXMPT FOR,No
+SYNVEN-0833,School of Fine Art Pacific,20,USD,Net15,ELECTRONIC,8401 River Rd,Columbus,OH,63859,USA,Susan,614-555-0176,susan@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0834,Southridge Video Pacific,20,USD,COD,CHECK,3932 Hill St,Seattle,WA,93537,USA,James,206-555-0170,james@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0835,Tailspin Toys Pacific,50,USD,Net15,ELECTRONIC,3731 Mill St,Nashville,TN,49553,USA,Stephen,615-555-0188,stephen@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0836,Trey Research Pacific,50,USD,Net45,CHECK,2074 Water St,Atlanta,GA,78415,USA,Alexander,404-555-0144,alexander@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0837,The Phone Company Pacific,20,USD,Net15,ELECTRONIC,4200 Broad St,Miami,FL,94299,USA,Frank,305-555-0152,frank@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0838,Wide World Importers Pacific,40,USD,COD,ELECTRONIC,4317 Adams St,Los Angeles,CA,42138,USA,Robert,213-555-0126,robert@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0839,Wingtip Toys Pacific,20,USD,Net15,CHECK,2439 Monroe St,Indianapolis,IN,88549,USA,Amy,317-555-0156,amy@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0840,Woodgrove Pacific,40,USD,COD,CHECK,8722 Park Ave,Denver,CO,43388,USA,Christopher,303-555-0168,christopher@example.com,EXMPT FOR,No
+SYNVEN-0841,A. Datum Atlantic,30,USD,Net45,ELECTRONIC,9427 Pleasant St,Dallas,TX,21445,USA,Carolyn,214-555-0106,carolyn@example.com,EXMPT FOR,No
+SYNVEN-0842,Adventure Works Atlantic,30,USD,Net45,ELECTRONIC,7309 Franklin St,Omaha,NE,55982,USA,Robert,402-555-0147,robert@example.com,EXMPT FOR,No
+SYNVEN-0843,Alpine Ski House Atlantic,50,USD,Net15,ELECTRONIC,4242 Pleasant St,Las Vegas,NV,83620,USA,Heather,702-555-0155,heather@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0844,Blue Yonder Atlantic,10,USD,Net30,CHECK,1396 Broad St,Fort Worth,TX,57316,USA,Eric,817-555-0102,eric@example.com,EXMPT FOR,No
+SYNVEN-0845,City Power & Light Atlantic,50,USD,Net30,ELECTRONIC,6335 Grove St,Cleveland,OH,77866,USA,Christopher,216-555-0198,christopher@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0846,Coho Vineyard Atlantic,20,USD,Net45,ELECTRONIC,8306 Grove St,Kansas City,MO,20939,USA,Frank,816-555-0171,frank@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0847,Coho Winery Atlantic,30,USD,Net30,CHECK,1221 Summit Ave,Chicago,IL,46469,USA,Maria,312-555-0116,maria@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0848,Coho Vineyard & Winery Atlantic,40,USD,Net30,CHECK,5967 Chestnut St,Memphis,TN,19855,USA,Sandra,901-555-0194,sandra@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0849,Contoso Atlantic,30,USD,Net15,CHECK,2510 Market St,Phoenix,AZ,72976,USA,David,602-555-0135,david@example.com,EXMPT FOR,No
+SYNVEN-0850,Contoso Pharmaceuticals Atlantic,30,USD,Net30,CHECK,5381 Pleasant St,Portland,OR,86854,USA,Carol,503-555-0104,carol@www.contoso.com,EXMPT FOR,No
+SYNVEN-0851,Consolidated Messenger Atlantic,20,USD,Net45,ELECTRONIC,7092 Adams St,Los Angeles,CA,10374,USA,Jerry,213-555-0105,jerry@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0852,Fabrikam Atlantic,50,USD,Net15,ELECTRONIC,5489 South St,Phoenix,AZ,25611,USA,Emily,602-555-0166,emily@example.com,EXMPT FOR,No
+SYNVEN-0853,Fourth Coffee Atlantic,20,USD,Net15,CHECK,9762 Spring St,Pittsburgh,PA,90979,USA,Eric,412-555-0119,eric@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0854,Graphic Design Institute Atlantic,40,USD,Net45,CHECK,9438 Lincoln Ave,Baltimore,MD,22166,USA,Sandra,410-555-0154,sandra@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0855,Humongous Insurance Atlantic,10,USD,Net45,ELECTRONIC,8267 Park Ave,Tucson,AZ,39660,USA,Stephen,520-555-0149,stephen@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0856,Litware Atlantic,10,USD,Net15,ELECTRONIC,5651 Pearl St,Boston,MA,31489,USA,Ruth,617-555-0154,ruth@example.com,EXMPT FOR,No
+SYNVEN-0857,Lucerne Publishing Atlantic,10,USD,Net30,ELECTRONIC,1951 Monroe St,San Jose,CA,72333,USA,Ryan,408-555-0127,ryan@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0858,Margie's Travel Atlantic,20,USD,COD,ELECTRONIC,2734 Monroe St,Minneapolis,MN,95301,USA,Maria,612-555-0139,maria@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0859,Northwind Traders Atlantic,50,USD,Net15,ELECTRONIC,1241 Spring St,Nashville,TN,62466,USA,Linda,615-555-0117,linda@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0860,Proseware Atlantic,10,USD,Net45,ELECTRONIC,9007 Center St,Chicago,IL,79415,USA,Emma,312-555-0184,emma@example.com,EXMPT FOR,No
+SYNVEN-0861,School of Fine Art Atlantic,20,USD,Net45,ELECTRONIC,8386 Pleasant St,Miami,FL,49726,USA,Jerry,305-555-0130,jerry@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0862,Southridge Video Atlantic,50,USD,COD,ELECTRONIC,6343 Cherry St,New York,NY,25408,USA,Richard,212-555-0152,richard@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0863,Tailspin Toys Atlantic,50,USD,Net45,ELECTRONIC,6399 Center St,Memphis,TN,79057,USA,Melissa,901-555-0110,melissa@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0864,Trey Research Atlantic,10,USD,COD,ELECTRONIC,9180 Monroe St,Detroit,MI,97773,USA,Stephanie,313-555-0174,stephanie@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0865,The Phone Company Atlantic,20,USD,Net30,CHECK,2091 Church St,San Jose,CA,87474,USA,Kathleen,408-555-0128,kathleen@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0866,Wide World Importers Atlantic,30,USD,Net45,CHECK,1773 Pleasant St,New York,NY,62878,USA,Emma,212-555-0162,emma@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0867,Wingtip Toys Atlantic,10,USD,Net15,ELECTRONIC,9419 Pearl St,San Jose,CA,84971,USA,George,408-555-0176,george@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0868,Woodgrove Atlantic,50,USD,COD,CHECK,5270 Chestnut St,Philadelphia,PA,80895,USA,Ashley,215-555-0116,ashley@example.com,EXMPT FOR,No
+SYNVEN-0869,A. Datum International,50,USD,Net15,ELECTRONIC,9173 Main St,Oklahoma City,OK,11298,USA,Carol,405-555-0144,carol@example.com,EXMPT FOR,No
+SYNVEN-0870,Adventure Works International,10,USD,Net30,ELECTRONIC,2230 Grove St,Atlanta,GA,28313,USA,Joshua,404-555-0190,joshua@example.com,EXMPT FOR,No
+SYNVEN-0871,Alpine Ski House International,10,USD,COD,CHECK,4525 High St,Memphis,TN,10405,USA,Jason,901-555-0138,jason@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0872,Blue Yonder International,40,USD,Net30,CHECK,1651 Spring St,Columbus,OH,80517,USA,Robert,614-555-0182,robert@example.com,EXMPT FOR,No
+SYNVEN-0873,City Power & Light International,20,USD,Net30,CHECK,7915 Pearl St,Sacramento,CA,65108,USA,Amanda,916-555-0156,amanda@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0874,Coho Vineyard International,40,USD,Net30,ELECTRONIC,1032 Water St,Minneapolis,MN,16719,USA,Deborah,612-555-0167,deborah@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0875,Coho Winery International,50,USD,Net45,ELECTRONIC,3713 Cedar St,San Diego,CA,13400,USA,Ruth,619-555-0199,ruth@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0876,Coho Vineyard & Winery International,30,USD,COD,ELECTRONIC,2913 South St,Omaha,NE,26108,USA,George,402-555-0194,george@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0877,Contoso International,20,USD,Net15,ELECTRONIC,8055 Second Ave,Fort Worth,TX,91532,USA,Andrew,817-555-0192,andrew@example.com,EXMPT FOR,No
+SYNVEN-0878,Contoso Pharmaceuticals International,20,USD,COD,ELECTRONIC,3518 Broad St,Albuquerque,NM,20578,USA,Michael,505-555-0136,michael@www.contoso.com,EXMPT FOR,No
+SYNVEN-0879,Consolidated Messenger International,10,USD,COD,CHECK,1300 Oak St,Fresno,CA,11730,USA,William,559-555-0138,william@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0880,Fabrikam International,40,USD,Net15,ELECTRONIC,3876 Water St,San Diego,CA,59993,USA,Stephen,619-555-0162,stephen@example.com,EXMPT FOR,No
+SYNVEN-0881,Fourth Coffee International,30,USD,COD,ELECTRONIC,2710 First Ave,Pittsburgh,PA,96136,USA,Robert,412-555-0187,robert@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0882,Graphic Design Institute International,10,USD,COD,CHECK,7164 Hill St,Tampa,FL,93380,USA,Dorothy,813-555-0110,dorothy@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0883,Humongous Insurance International,40,USD,Net15,ELECTRONIC,1606 Jackson St,New York,NY,46151,USA,Carol,212-555-0197,carol@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0884,Litware International,40,USD,Net45,CHECK,3043 Liberty St,San Jose,CA,88224,USA,Carol,408-555-0194,carol@example.com,EXMPT FOR,No
+SYNVEN-0885,Lucerne Publishing International,20,USD,Net30,CHECK,9483 Bridge St,Oklahoma City,OK,66111,USA,Stephen,405-555-0161,stephen@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0886,Margie's Travel International,30,USD,Net30,CHECK,1378 Walnut St,Phoenix,AZ,83687,USA,Daniel,602-555-0110,daniel@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0887,Northwind Traders International,40,USD,Net45,CHECK,2728 Pleasant St,Louisville,KY,11731,USA,Sarah,502-555-0181,sarah@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0888,Proseware International,40,USD,Net45,CHECK,4960 Washington St,Pittsburgh,PA,76981,USA,Christine,412-555-0163,christine@example.com,EXMPT FOR,No
+SYNVEN-0889,School of Fine Art International,40,USD,Net30,ELECTRONIC,6311 Maple St,Fort Worth,TX,25287,USA,Donna,817-555-0145,donna@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0890,Southridge Video International,30,USD,Net45,CHECK,9309 Maple St,Miami,FL,13471,USA,Justin,305-555-0135,justin@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0891,Tailspin Toys International,20,USD,Net15,ELECTRONIC,3263 Park Ave,San Francisco,CA,22010,USA,Diane,415-555-0159,diane@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0892,Trey Research International,10,USD,COD,CHECK,8835 Elm St,Albuquerque,NM,27490,USA,Stephanie,505-555-0113,stephanie@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0893,The Phone Company International,10,USD,Net15,CHECK,4186 Jackson St,San Jose,CA,48625,USA,Jacob,408-555-0138,jacob@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0894,Wide World Importers International,20,USD,Net30,ELECTRONIC,9883 Cedar St,Seattle,WA,44693,USA,Ronald,206-555-0168,ronald@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0895,Wingtip Toys International,20,USD,Net30,ELECTRONIC,9527 Franklin St,Sacramento,CA,98555,USA,Janet,916-555-0184,janet@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0896,Woodgrove International,10,USD,Net30,CHECK,1983 Maple St,Chicago,IL,58250,USA,Christopher,312-555-0153,christopher@example.com,EXMPT FOR,No
+SYNVEN-0897,A. Datum Global,40,USD,Net15,CHECK,3241 Park Ave,San Jose,CA,67082,USA,Thomas,408-555-0127,thomas@example.com,EXMPT FOR,No
+SYNVEN-0898,Adventure Works Global,10,USD,Net15,ELECTRONIC,7560 Chestnut St,Jacksonville,FL,58558,USA,Amanda,904-555-0102,amanda@example.com,EXMPT FOR,No
+SYNVEN-0899,Alpine Ski House Global,40,USD,Net15,CHECK,6506 Broad St,Raleigh,NC,93339,USA,Margaret,919-555-0104,margaret@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0900,Blue Yonder Global,40,USD,Net15,CHECK,6893 First Ave,Tampa,FL,17750,USA,Dennis,813-555-0109,dennis@example.com,EXMPT FOR,No
+SYNVEN-0901,City Power & Light Global,40,USD,Net15,ELECTRONIC,7739 Cedar St,Kansas City,MO,21299,USA,Stephanie,816-555-0192,stephanie@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0902,Coho Vineyard Global,30,USD,Net30,CHECK,7549 Cherry St,Los Angeles,CA,20693,USA,Deborah,213-555-0132,deborah@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0903,Coho Winery Global,30,USD,COD,ELECTRONIC,1449 Jackson St,Kansas City,MO,96857,USA,Patrick,816-555-0151,patrick@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0904,Coho Vineyard & Winery Global,40,USD,COD,ELECTRONIC,8872 Adams St,Raleigh,NC,70844,USA,Joshua,919-555-0177,joshua@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0905,Contoso Global,30,USD,Net45,ELECTRONIC,6562 Lake St,San Antonio,TX,87512,USA,Stephen,210-555-0191,stephen@example.com,EXMPT FOR,No
+SYNVEN-0906,Contoso Pharmaceuticals Global,40,USD,Net15,CHECK,7790 South St,Denver,CO,89322,USA,Dorothy,303-555-0104,dorothy@www.contoso.com,EXMPT FOR,No
+SYNVEN-0907,Consolidated Messenger Global,20,USD,Net45,ELECTRONIC,9250 Mill St,Louisville,KY,51256,USA,Emma,502-555-0157,emma@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0908,Fabrikam Global,40,USD,Net45,ELECTRONIC,2678 Cherry St,Raleigh,NC,48246,USA,Diane,919-555-0140,diane@example.com,EXMPT FOR,No
+SYNVEN-0909,Fourth Coffee Global,20,USD,Net30,ELECTRONIC,1506 Summit Ave,Seattle,WA,24296,USA,Thomas,206-555-0173,thomas@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0910,Graphic Design Institute Global,10,USD,Net15,CHECK,4510 Jackson St,Columbus,OH,75762,USA,Samuel,614-555-0183,samuel@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0911,Humongous Insurance Global,20,USD,Net15,CHECK,5138 Union St,San Jose,CA,19539,USA,Sharon,408-555-0187,sharon@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0912,Litware Global,50,USD,Net30,ELECTRONIC,6039 Washington St,Fresno,CA,57910,USA,Mark,559-555-0109,mark@example.com,EXMPT FOR,No
+SYNVEN-0913,Lucerne Publishing Global,50,USD,Net30,CHECK,4148 Lake St,Minneapolis,MN,17487,USA,Samuel,612-555-0155,samuel@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0914,Margie's Travel Global,50,USD,Net45,CHECK,9754 Monroe St,Omaha,NE,44553,USA,Diane,402-555-0137,diane@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0915,Northwind Traders Global,30,USD,COD,ELECTRONIC,7887 Madison Ave,Detroit,MI,12407,USA,Susan,313-555-0105,susan@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0916,Proseware Global,40,USD,COD,CHECK,1261 Elm St,Cleveland,OH,60126,USA,Brian,216-555-0116,brian@example.com,EXMPT FOR,No
+SYNVEN-0917,School of Fine Art Global,30,USD,Net15,ELECTRONIC,2305 Center St,Kansas City,MO,22048,USA,James,816-555-0177,james@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0918,Southridge Video Global,50,USD,Net15,ELECTRONIC,5505 Adams St,Jacksonville,FL,52906,USA,Charles,904-555-0194,charles@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0919,Tailspin Toys Global,10,USD,Net45,CHECK,9529 Walnut St,Memphis,TN,80584,USA,George,901-555-0105,george@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0920,Trey Research Global,40,USD,Net45,CHECK,2405 Grove St,Boston,MA,10978,USA,George,617-555-0113,george@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0921,The Phone Company Global,10,USD,Net45,ELECTRONIC,7841 Water St,Jacksonville,FL,61057,USA,Paul,904-555-0119,paul@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0922,Wide World Importers Global,20,USD,Net15,CHECK,6456 Monroe St,Memphis,TN,54215,USA,Samantha,901-555-0178,samantha@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0923,Wingtip Toys Global,40,USD,Net45,CHECK,3391 Maple St,Jacksonville,FL,63725,USA,Carolyn,904-555-0120,carolyn@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0924,Woodgrove Global,20,USD,Net15,ELECTRONIC,7529 Spring St,Seattle,WA,59727,USA,Ryan,206-555-0140,ryan@example.com,EXMPT FOR,No
+SYNVEN-0925,A. Datum USA,20,USD,Net15,ELECTRONIC,3536 Walnut St,Philadelphia,PA,49216,USA,Sarah,215-555-0134,sarah@example.com,EXMPT FOR,No
+SYNVEN-0926,Adventure Works USA,20,USD,Net15,CHECK,2547 Jackson St,Boston,MA,18943,USA,John,617-555-0134,john@example.com,EXMPT FOR,No
+SYNVEN-0927,Alpine Ski House USA,40,USD,Net15,CHECK,7276 Broad St,Raleigh,NC,68358,USA,Scott,919-555-0175,scott@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0928,Blue Yonder USA,40,USD,Net30,CHECK,6771 Liberty St,Nashville,TN,26653,USA,Lisa,615-555-0138,lisa@example.com,EXMPT FOR,No
+SYNVEN-0929,City Power & Light USA,20,USD,Net30,ELECTRONIC,3688 Pleasant St,Fresno,CA,77071,USA,Timothy,559-555-0127,timothy@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0930,Coho Vineyard USA,20,USD,Net15,ELECTRONIC,1855 Oak St,Fort Worth,TX,90057,USA,Margaret,817-555-0109,margaret@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0931,Coho Winery USA,40,USD,Net15,ELECTRONIC,7021 Cedar St,Columbus,OH,98358,USA,Larry,614-555-0189,larry@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0932,Coho Vineyard & Winery USA,10,USD,Net15,ELECTRONIC,6058 Franklin St,Sacramento,CA,67862,USA,Brian,916-555-0164,brian@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0933,Contoso USA,50,USD,Net15,CHECK,2273 Main St,Fort Worth,TX,20271,USA,Heather,817-555-0153,heather@example.com,EXMPT FOR,No
+SYNVEN-0934,Contoso Pharmaceuticals USA,10,USD,COD,CHECK,5744 Hill St,Kansas City,MO,83890,USA,Nicholas,816-555-0132,nicholas@www.contoso.com,EXMPT FOR,No
+SYNVEN-0935,Consolidated Messenger USA,30,USD,COD,ELECTRONIC,4619 Walnut St,Indianapolis,IN,78645,USA,Ronald,317-555-0171,ronald@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0936,Fabrikam USA,10,USD,Net45,ELECTRONIC,6876 Market St,Fresno,CA,74261,USA,Andrew,559-555-0145,andrew@example.com,EXMPT FOR,No
+SYNVEN-0937,Fourth Coffee USA,20,USD,Net45,CHECK,2813 Grove St,Houston,TX,96973,USA,Debra,713-555-0186,debra@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0938,Graphic Design Institute USA,40,USD,Net15,CHECK,6482 Summit Ave,Las Vegas,NV,57525,USA,Stephanie,702-555-0176,stephanie@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0939,Humongous Insurance USA,20,USD,Net15,CHECK,9182 Jackson St,Memphis,TN,36084,USA,Heather,901-555-0174,heather@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0940,Litware USA,50,USD,Net30,CHECK,7415 Union St,Atlanta,GA,18831,USA,Debra,404-555-0144,debra@example.com,EXMPT FOR,No
+SYNVEN-0941,Lucerne Publishing USA,30,USD,COD,CHECK,9086 Adams St,Fort Worth,TX,36511,USA,Linda,817-555-0104,linda@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0942,Margie's Travel USA,40,USD,Net15,CHECK,9633 First Ave,Cleveland,OH,53967,USA,Betty,216-555-0111,betty@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0943,Northwind Traders USA,30,USD,Net30,CHECK,3371 Market St,Indianapolis,IN,76185,USA,Maria,317-555-0141,maria@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0944,Proseware USA,20,USD,COD,ELECTRONIC,3357 Adams St,Miami,FL,66685,USA,Brian,305-555-0104,brian@example.com,EXMPT FOR,No
+SYNVEN-0945,School of Fine Art USA,50,USD,Net30,ELECTRONIC,9982 Adams St,Columbus,OH,43666,USA,Amy,614-555-0181,amy@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0946,Southridge Video USA,10,USD,COD,ELECTRONIC,5173 Walnut St,Memphis,TN,19468,USA,Carol,901-555-0116,carol@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0947,Tailspin Toys USA,30,USD,Net45,ELECTRONIC,4804 Bridge St,San Francisco,CA,83382,USA,Rebecca,415-555-0182,rebecca@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0948,Trey Research USA,10,USD,Net30,ELECTRONIC,6338 Second Ave,Nashville,TN,36015,USA,Donald,615-555-0181,donald@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0949,The Phone Company USA,20,USD,Net15,CHECK,4554 Lake St,Fresno,CA,62336,USA,Diane,559-555-0146,diane@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0950,Wide World Importers USA,10,USD,Net45,ELECTRONIC,5451 Cedar St,Tampa,FL,90337,USA,Eric,813-555-0195,eric@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0951,Wingtip Toys USA,40,USD,Net15,ELECTRONIC,5694 Jefferson St,Milwaukee,WI,25184,USA,Katherine,414-555-0133,katherine@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0952,Woodgrove USA,30,USD,Net30,ELECTRONIC,3729 Grove St,Miami,FL,77354,USA,Emma,305-555-0108,emma@example.com,EXMPT FOR,No
+SYNVEN-0953,A. Datum Americas,20,USD,Net15,CHECK,7781 Bridge St,Denver,CO,93376,USA,Lisa,303-555-0120,lisa@example.com,EXMPT FOR,No
+SYNVEN-0954,Adventure Works Americas,40,USD,Net15,ELECTRONIC,9755 Franklin St,Atlanta,GA,18452,USA,Nancy,404-555-0145,nancy@example.com,EXMPT FOR,No
+SYNVEN-0955,Alpine Ski House Americas,10,USD,Net30,ELECTRONIC,7015 Washington St,New York,NY,58953,USA,Susan,212-555-0118,susan@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0956,Blue Yonder Americas,40,USD,COD,CHECK,1713 South St,Detroit,MI,49429,USA,Edward,313-555-0107,edward@example.com,EXMPT FOR,No
+SYNVEN-0957,City Power & Light Americas,20,USD,Net30,ELECTRONIC,6861 Second Ave,Albuquerque,NM,36887,USA,Nicholas,505-555-0123,nicholas@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0958,Coho Vineyard Americas,10,USD,Net30,CHECK,5501 Broad St,San Francisco,CA,38821,USA,Patrick,415-555-0187,patrick@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0959,Coho Winery Americas,50,USD,Net15,ELECTRONIC,8832 Spring St,San Diego,CA,53398,USA,Jennifer,619-555-0147,jennifer@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0960,Coho Vineyard & Winery Americas,40,USD,COD,ELECTRONIC,5843 High St,Kansas City,MO,89785,USA,Mary,816-555-0108,mary@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0961,Contoso Americas,30,USD,COD,CHECK,4660 Adams St,Albuquerque,NM,97408,USA,Debra,505-555-0191,debra@example.com,EXMPT FOR,No
+SYNVEN-0962,Contoso Pharmaceuticals Americas,50,USD,Net30,CHECK,1011 Liberty St,Memphis,TN,64921,USA,John,901-555-0158,john@www.contoso.com,EXMPT FOR,No
+SYNVEN-0963,Consolidated Messenger Americas,20,USD,Net30,ELECTRONIC,5075 Broad St,New York,NY,57256,USA,Patricia,212-555-0151,patricia@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0964,Fabrikam Americas,30,USD,Net30,ELECTRONIC,1848 River Rd,Albuquerque,NM,26552,USA,Gregory,505-555-0113,gregory@example.com,EXMPT FOR,No
+SYNVEN-0965,Fourth Coffee Americas,10,USD,Net30,CHECK,9795 Franklin St,San Diego,CA,16092,USA,Deborah,619-555-0122,deborah@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0966,Graphic Design Institute Americas,40,USD,Net15,CHECK,4631 First Ave,San Francisco,CA,14897,USA,Diane,415-555-0120,diane@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0967,Humongous Insurance Americas,30,USD,Net30,ELECTRONIC,9492 Center St,Nashville,TN,23655,USA,Gregory,615-555-0188,gregory@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0968,Litware Americas,30,USD,Net15,CHECK,5661 Water St,Fort Worth,TX,30431,USA,Nancy,817-555-0113,nancy@example.com,EXMPT FOR,No
+SYNVEN-0969,Lucerne Publishing Americas,30,USD,Net45,CHECK,1201 Broad St,Los Angeles,CA,30628,USA,Betty,213-555-0173,betty@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0970,Margie's Travel Americas,40,USD,Net15,ELECTRONIC,9366 Center St,Omaha,NE,46946,USA,Elizabeth,402-555-0175,elizabeth@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0971,Northwind Traders Americas,20,USD,Net30,ELECTRONIC,9365 Bridge St,Atlanta,GA,50729,USA,Sharon,404-555-0171,sharon@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-0972,Proseware Americas,20,USD,Net15,CHECK,3908 Second Ave,Fresno,CA,14355,USA,Jessica,559-555-0157,jessica@example.com,EXMPT FOR,No
+SYNVEN-0973,School of Fine Art Americas,50,USD,Net45,CHECK,6870 Pine St,Milwaukee,WI,86327,USA,Joshua,414-555-0118,joshua@www.fineartschool.net,EXMPT FOR,No
+SYNVEN-0974,Southridge Video Americas,30,USD,Net15,ELECTRONIC,7525 Liberty St,Atlanta,GA,42552,USA,James,404-555-0142,james@www.southridgevideo.com,EXMPT FOR,No
+SYNVEN-0975,Tailspin Toys Americas,30,USD,Net45,CHECK,6178 Pearl St,Denver,CO,92228,USA,Samuel,303-555-0119,samuel@www.tailspintoys.com,EXMPT FOR,No
+SYNVEN-0976,Trey Research Americas,20,USD,Net15,ELECTRONIC,7468 Bridge St,San Jose,CA,22145,USA,Helen,408-555-0127,helen@www.treyresearch.net,EXMPT FOR,No
+SYNVEN-0977,The Phone Company Americas,10,USD,Net15,CHECK,3277 First Ave,Jacksonville,FL,92088,USA,Christine,904-555-0104,christine@www.thephone-company.com,EXMPT FOR,No
+SYNVEN-0978,Wide World Importers Americas,40,USD,COD,CHECK,7552 South St,Nashville,TN,48618,USA,Nicole,615-555-0107,nicole@www.wideworldimporters.com,EXMPT FOR,No
+SYNVEN-0979,Wingtip Toys Americas,30,USD,Net45,CHECK,1506 Grove St,Dallas,TX,56460,USA,Raymond,214-555-0151,raymond@www.wingtiptoys.com,EXMPT FOR,No
+SYNVEN-0980,Woodgrove Americas,10,USD,Net15,CHECK,8498 Summit Ave,San Diego,CA,91169,USA,Dennis,619-555-0186,dennis@example.com,EXMPT FOR,No
+SYNVEN-0981,A. Datum Europe,30,USD,Net30,ELECTRONIC,2379 Grove St,Las Vegas,NV,31904,USA,Laura,702-555-0185,laura@example.com,EXMPT FOR,No
+SYNVEN-0982,Adventure Works Europe,40,USD,Net15,ELECTRONIC,4087 Cherry St,Boston,MA,83952,USA,Carolyn,617-555-0156,carolyn@example.com,EXMPT FOR,No
+SYNVEN-0983,Alpine Ski House Europe,10,USD,Net15,ELECTRONIC,8158 Church St,San Jose,CA,53842,USA,Joshua,408-555-0182,joshua@www.alpineskihouse.com,EXMPT FOR,No
+SYNVEN-0984,Blue Yonder Europe,30,USD,Net15,CHECK,9833 Broad St,Boston,MA,73931,USA,Frank,617-555-0197,frank@example.com,EXMPT FOR,No
+SYNVEN-0985,City Power & Light Europe,40,USD,Net30,CHECK,2625 Jefferson St,Memphis,TN,75360,USA,Mark,901-555-0117,mark@www.cpandl.com,EXMPT FOR,No
+SYNVEN-0986,Coho Vineyard Europe,10,USD,COD,CHECK,8390 Jefferson St,Boston,MA,75524,USA,Daniel,617-555-0190,daniel@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0987,Coho Winery Europe,30,USD,Net45,CHECK,2521 Cedar St,Fort Worth,TX,33736,USA,Susan,817-555-0161,susan@www.cohowinery.com,EXMPT FOR,No
+SYNVEN-0988,Coho Vineyard & Winery Europe,50,USD,COD,CHECK,8100 Main St,Philadelphia,PA,37471,USA,Betty,215-555-0160,betty@www.cohovineyard.com,EXMPT FOR,No
+SYNVEN-0989,Contoso Europe,10,USD,Net15,CHECK,7845 Lake St,Pittsburgh,PA,26871,USA,Mark,412-555-0167,mark@example.com,EXMPT FOR,No
+SYNVEN-0990,Contoso Pharmaceuticals Europe,10,USD,COD,ELECTRONIC,4476 Mill St,Jacksonville,FL,82966,USA,Rebecca,904-555-0153,rebecca@www.contoso.com,EXMPT FOR,No
+SYNVEN-0991,Consolidated Messenger Europe,20,USD,Net45,ELECTRONIC,3862 Franklin St,San Francisco,CA,97473,USA,Paul,415-555-0103,paul@www.consolidatedmessenger.com,EXMPT FOR,No
+SYNVEN-0992,Fabrikam Europe,40,USD,Net45,CHECK,6873 Summit Ave,Miami,FL,45905,USA,Aaron,305-555-0197,aaron@example.com,EXMPT FOR,No
+SYNVEN-0993,Fourth Coffee Europe,40,USD,COD,ELECTRONIC,5885 Chestnut St,Louisville,KY,46520,USA,Carol,502-555-0188,carol@www.fourthcoffee.com,EXMPT FOR,No
+SYNVEN-0994,Graphic Design Institute Europe,10,USD,Net30,CHECK,2003 Monroe St,Cleveland,OH,18352,USA,Aaron,216-555-0182,aaron@www.graphicdesigninstitute.com,EXMPT FOR,No
+SYNVEN-0995,Humongous Insurance Europe,30,USD,Net30,CHECK,8610 Pine St,Raleigh,NC,57139,USA,Mark,919-555-0109,mark@www.humongousinsurance.com,EXMPT FOR,No
+SYNVEN-0996,Litware Europe,30,USD,Net30,CHECK,8515 Elm St,Charlotte,NC,56465,USA,Charles,704-555-0121,charles@example.com,EXMPT FOR,No
+SYNVEN-0997,Lucerne Publishing Europe,20,USD,Net45,CHECK,9344 Spring St,Miami,FL,48895,USA,Michael,305-555-0108,michael@www.lucernepublishing.com,EXMPT FOR,No
+SYNVEN-0998,Margie's Travel Europe,30,USD,COD,ELECTRONIC,2491 Lincoln Ave,Denver,CO,83178,USA,Karen,303-555-0171,karen@www.margiestravel.com,EXMPT FOR,No
+SYNVEN-0999,Northwind Traders Europe,20,USD,Net45,ELECTRONIC,9954 Pearl St,Detroit,MI,23286,USA,Daniel,313-555-0189,daniel@www.northwindtraders.com,EXMPT FOR,No
+SYNVEN-1000,Proseware Europe,10,USD,COD,CHECK,4025 Walnut St,Miami,FL,16433,USA,Frank,305-555-0160,frank@example.com,EXMPT FOR,No
