@@ -5,7 +5,7 @@ requires-python = ">=3.11"
 dependencies = [
     "dspy>=2.5",
     "pyyaml>=6.0",
-    "python-dotenv>=1.0",
+    "python-dotenv>=1.2.2",
     "tqdm>=4.0",
     "openai>=1.0",
     "azure-identity>=1.15",
