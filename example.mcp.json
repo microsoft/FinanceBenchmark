@@ -1,0 +1,15 @@
+{
+	"mcpServers": {
+		"erp-mcp": {
+			"url": "<url>",
+			"type": "http",
+			"headers": {
+				"Authorization": "Bearer ${ERP_MCP_TOKEN}"
+			}
+		},
+		"erp-mcp-sqlite": {
+			"url": "http://localhost:8001",
+			"type": "http"
+		}
+	}
+}
