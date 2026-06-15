@@ -15,7 +15,7 @@ shared:
   max_workers: 5
   timeout: 300     # seconds per inference request (applies to both claude and openai)
   mcp_config_file: .mcp.json
-  mcp_server_label: erp-mcp-preprod-old
+  mcp_server_label: mcp-server-label
   blocked_mcp_tools:  # tools the model must not call (skill management, not relevant to benchmarking)
     - iq_find_skills
     - iq_get_skill
