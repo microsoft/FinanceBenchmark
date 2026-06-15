@@ -27,8 +27,13 @@ from scripts.inference.result_schema import InferenceResult, make_error_result
 def get_config(cfg: dict) -> dict:
     """Extract OpenAI-specific settings from the parsed config.yaml dict."""
     root = Path(__file__).parent.parent.parent
-    mcp_config = json.loads((root / cfg["shared"]["mcp_config_file"]).read_text(encoding="utf-8"))
-    mcp_server_url = mcp_config["mcpServers"][cfg["shared"]["mcp_server_label"]]["url"]
+    mcp_config_file = root / cfg["shared"]["mcp_config_file"]
+    if os.path.exists(mcp_config_file):
+        mcp_config = json.loads((mcp_config_file).read_text(encoding="utf-8"))
+        mcp_server_url = mcp_config["mcpServers"][cfg["shared"]["mcp_server_label"]]["url"]
+    else:
+        print(f"MCP config file '{mcp_config_file}' not found, proceeding without MCP server URL.")
+        mcp_server_url = None
     return {
         "model":             cfg["openai"]["model"],
         "max_tool_calls":    cfg["openai"]["max_tool_calls"],
@@ -58,6 +63,18 @@ def make_process_fn(provider_cfg: dict, shared_cfg: dict):
     blocked_mcp_tools   = set(provider_cfg["blocked_mcp_tools"])
     system_instructions = shared_cfg["system_instructions"]
 
+    tools = [{"type": "web_search_preview"}]
+
+    if mcp_server_url is not None:
+        tools += {
+            "type": "mcp",
+            "server_label": "erp",
+            "server_url": mcp_server_url,
+            "require_approval": "never",
+            "headers": {
+                "Authorization": f"Bearer {os.getenv('ERP_MCP_TOKEN')}"
+            }}
+    
     client = AsyncOpenAI()
 
     async def process_question(
@@ -76,18 +93,7 @@ def make_process_fn(provider_cfg: dict, shared_cfg: dict):
                     instructions=system_instructions,
                     timeout=row_timeout,
                     max_tool_calls=max_tool_calls,
-                    tools=[
-                        {
-                            "type": "mcp",
-                            "server_label": "erp",
-                            "server_url": mcp_server_url,
-                            "require_approval": "never",
-                            "headers": {
-                                "Authorization": f"Bearer {os.getenv('ERP_MCP_TOKEN')}"
-                            },
-                        },
-                        {"type": "web_search_preview"},
-                    ],
+                    tools=tools,
                     input=question,
                 )
                 if reasoning_effort:

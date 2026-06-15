@@ -60,13 +60,17 @@ def make_process_fn(provider_cfg: dict, shared_cfg: dict):
     # Build a filtered MCP config containing only the selected server.
     # The subprocess runs from a temp directory so it can't auto-discover the
     # project's .mcp.json (which would load all servers regardless of --mcp-config).
-    with open(mcp_config_file) as _f:
-        _full_mcp = json.load(_f)
-    _servers = _full_mcp.get("mcpServers", {})
-    if mcp_server_label and mcp_server_label in _servers:
-        _filtered = {"mcpServers": {mcp_server_label: _servers[mcp_server_label]}}
+    if os.path.isfile(mcp_config_file):
+        with open(mcp_config_file) as _f:
+            _full_mcp = json.load(_f)
+        _servers = _full_mcp.get("mcpServers", {})
+        if mcp_server_label and mcp_server_label in _servers:
+            _filtered = {"mcpServers": {mcp_server_label: _servers[mcp_server_label]}}
+        else:
+            _filtered = _full_mcp
     else:
-        _filtered = _full_mcp
+        print(f"WARNING: MCP config file '{mcp_config_file}' not found — no servers will be available.")
+        _filtered = {"mcpServers": {}}
     _tmp = tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False)
     json.dump(_filtered, _tmp)
     _tmp.close()

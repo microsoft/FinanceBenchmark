@@ -39,22 +39,6 @@ def _load_env(path: str = ".env") -> dict[str, str]:
     return env
 
 
-_cfg = yaml.safe_load(open(Path(__file__).parent / "config.yaml", encoding="utf-8"))
-_mcp_config = json.loads((Path(__file__).parent / _cfg["shared"]["mcp_config_file"]).read_text(encoding="utf-8"))
-_mcp_url = _mcp_config["mcpServers"][_cfg["shared"]["mcp_server_label"]].get("url")
-_resource_candidate = _mcp_url.rstrip("/").removesuffix("/mcp") if _mcp_url else None
-# localhost servers don't use Azure auth — treat as no-token-needed
-RESOURCE = (
-    _resource_candidate
-    if _resource_candidate and not _resource_candidate.startswith(("http://localhost", "http://127.0.0.1"))
-    else None
-)
-ENV_FILE = ".env"
-
-# Well-known Azure CLI client ID (public, widely used for user auth flows)
-_AZ_CLI_CLIENT_ID = "04b07795-8ddb-461a-bbee-02f9e1bf7b46"
-
-
 def refresh_token() -> str:
     """Fetch a fresh ERP MCP bearer token and persist it.
 
@@ -163,4 +147,19 @@ def main():
 
 
 if __name__ == "__main__":
+    _cfg = yaml.safe_load(open(Path(__file__).parent / "config.yaml", encoding="utf-8"))
+    _mcp_config = json.loads((Path(__file__).parent / _cfg["shared"]["mcp_config_file"]).read_text(encoding="utf-8"))
+    _mcp_url = _mcp_config["mcpServers"][_cfg["shared"]["mcp_server_label"]].get("url")
+    _resource_candidate = _mcp_url.rstrip("/").removesuffix("/mcp") if _mcp_url else None
+    # localhost servers don't use Azure auth — treat as no-token-needed
+    RESOURCE = (
+        _resource_candidate
+        if _resource_candidate and not _resource_candidate.startswith(("http://localhost", "http://127.0.0.1"))
+        else None
+    )
+    ENV_FILE = ".env"
+
+    # Well-known Azure CLI client ID (public, widely used for user auth flows)
+    _AZ_CLI_CLIENT_ID = "04b07795-8ddb-461a-bbee-02f9e1bf7b46"
+
     main()
